@@ -37,10 +37,11 @@ def help2md(helpstr):
 
         if l and re.search('^\w', l): 
             section = l.strip().lower()
-            if section not in ['name', 'data', 'file']: md.append(f'## {l.title()}')
+            if section not in ['name', 'data', 'file', 'version']: md.append(f'## {l.title()}')
             continue
         
-        if section in ['file', 'data']: continue
+        if section == 'description' and '[[quarto_pydoc:ignore]]' in l: return ''
+        if section in ['file', 'data', 'version']: continue
 
         if l and re.search('^    \w', l):
             if section == 'name': md.append(f'# {l.strip()}')
@@ -63,5 +64,6 @@ def gen_md(lib:str, # the name of the python library
     for modname in get_modules(import_module(lib)):  
         helpstr = gethelp(modname)
         md = help2md(helpstr)
+        if md == '': continue
         submod = modname.split('.')[-1]
         (Path(dest_dir)/f'{submod}.md').mk_write(md)
