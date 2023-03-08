@@ -27,7 +27,7 @@ class MarkdownDoc(TextDoc):
 
     def _bold_first_line(self, text):
         lines = text.splitlines()
-        if lines: lines[0] = f'<strong>{lines[0].strip()}</strong>'
+        if lines: lines[0] = f'<strong>{lines[0].strip()}</strong>\n'
         return '\n'.join(lines)
     
     def title_format(self, text): return f'## {text.title()}\n'
@@ -55,7 +55,6 @@ class MarkdownDoc(TextDoc):
         
         This method overrides pydoc.Doc.document in the standard library
         """
-        if name.startswith('_'): return ''
         args = (object, name) + args
         try:
             if inspect.ismodule(object): return self.docmodule(*args)
@@ -74,7 +73,7 @@ class MarkdownDoc(TextDoc):
         return self.title_format(title) + '\n' + clean_contents + '\n\n'
 
 # %% ../nbs/00_core.ipynb 9
-def render_quarto_md(thing, forceload=0):
+def render_quarto_md(thing, title=None, forceload=0):
     """Render text documentation, given an object or a path to an object."""
     renderer = MarkdownDoc()
     object, name = resolve(thing, forceload)
@@ -98,15 +97,16 @@ def render_quarto_md(thing, forceload=0):
             object = type(object)
             desc += ' object'
     
+    doc_title = title if title else name
     desc_top = ' '.join(desc.splitlines()[:2])
     frontmatter=f'---\ntitle: {name}\ndescription: "{desc_top}"\n---\n\n'
     return frontmatter + renderer.document(object, name)
 
 # %% ../nbs/00_core.ipynb 10
-def gethelp(modname:str)->str:
+def gethelp(modname:str, title:str=None)->str:
     "Get the help string for a module in a markdown format."
     sym = __import__(modname, fromlist=[''])
-    return render_quarto_md(sym)
+    return render_quarto_md(sym, title=title)
 
 # %% ../nbs/00_core.ipynb 15
 @call_parse
@@ -114,6 +114,7 @@ def gen_md(lib:str, # the name of the python library
            dest_dir:str # the destination directory the markdown files will be rendered into
           ) -> None:
     "Generate Quarto Markdown API docs"
-    for modname in get_modules(import_module(lib)):  
-        md = gethelp(modname)
-        (Path(dest_dir)/f'{modname}.qmd').mk_write(md)
+    for modname in get_modules(import_module(lib)): 
+        submod = modname.split('.')[-1]
+        md = gethelp(modname=modname, title=submod)
+        (Path(dest_dir)/f'{submod}.qmd').mk_write(md)

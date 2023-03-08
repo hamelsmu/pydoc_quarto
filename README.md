@@ -17,7 +17,7 @@ pip install pydoc_quarto
 
     usage: pydoc_quarto [-h] lib dest_dir
 
-    Generate Markdown API docs
+    Generate Quarto Markdown API docs
 
     positional arguments:
       lib         the name of the python library
@@ -35,8 +35,7 @@ This will generate markdown files for the `requests` library:
 !ls _test_dir/
 ```
 
-    requests.adapters.qmd     requests.cookies.qmd      requests.packages.qmd
-    requests.api.qmd          requests.exceptions.qmd   requests.sessions.qmd
-    requests.auth.qmd         requests.help.qmd         requests.status_codes.qmd
-    requests.certs.qmd        requests.hooks.qmd        requests.structures.qmd
-    requests.compat.qmd       requests.models.qmd       requests.utils.qmd
+    adapters.qmd     compat.qmd       hooks.qmd        status_codes.qmd
+    api.qmd          cookies.qmd      models.qmd       structures.qmd
+    auth.qmd         exceptions.qmd   packages.qmd     utils.qmd
+    certs.qmd        help.qmd         sessions.qmd
