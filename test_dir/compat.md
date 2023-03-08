@@ -1,5 +1,0 @@
-
-# requests.compat
-
-## Description
-    
