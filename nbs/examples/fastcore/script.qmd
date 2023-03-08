@@ -1,0 +1,99 @@
+---
+title: "script"
+description: "module fastcore.script in fastcore"
+---
+
+## Classes
+
+    builtins.object
+        Param
+    
+    
+### Param
+    
+<strong>class Param(builtins.object)</strong>
+    
+     |  Param(help='', type=None, opt=True, action=None, nargs=None, const=None, choices=None, required=None, default=None)
+     |  
+     |  A parameter in a function used in `anno_parser` or `call_parse`
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### Param.__init__
+     |  
+     |  __init__(self, help='', type=None, opt=True, action=None, nargs=None, const=None, choices=None, required=None, default=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### Param.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### Param.set_default
+     |  
+     |  set_default(self, d)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties defined here:
+     |  
+     |  kwargs
+     |  
+     |  pre
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+## Functions
+
+    
+### anno_parser
+    
+<strong>anno_parser(func, prog: str = None)</strong>
+    
+        Look at params (annotated with `Param`) in func and return an `ArgumentParser`
+    
+### args_from_prog
+    
+<strong>args_from_prog(func, prog)</strong>
+    
+        Extract args from `prog`
+    
+### bool_arg
+    
+<strong>bool_arg(v)</strong>
+    
+        Use as `type` for `Param` to get `bool` behavior
+    
+### call_parse
+    
+<strong>call_parse(func=None, nested=False)</strong>
+    
+        Decorator to create a simple CLI from `func` using `anno_parser`
+    
+### clean_type_str
+    
+<strong>clean_type_str(x: str)</strong>
+    
+        # %% ../nbs/08_script.ipynb 18
+    
+### store_false
+    
+<strong>store_false()</strong>
+    
+        Placeholder to pass to `Param` for `store_false` action
+    
+### store_true
+    
+<strong>store_true()</strong>
+    
+        Placeholder to pass to `Param` for `store_true` action
+

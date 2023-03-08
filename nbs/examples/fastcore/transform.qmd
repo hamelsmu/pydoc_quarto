@@ -1,0 +1,477 @@
+---
+title: "transform"
+description: "module fastcore.transform in fastcore"
+---
+
+## Classes
+
+    builtins.object
+        Func
+        Pipeline
+        Transform
+            DisplayedTransform
+            InplaceTransform
+            ItemTransform
+    
+    
+### DisplayedTransform
+    
+<strong>class DisplayedTransform(Transform)</strong>
+    
+     |  DisplayedTransform(self, enc=None, dec=None, split_idx=None, order=None)
+     |  
+     |  A transform with a `__repr__` that shows its attrs
+     |  
+     |  Method resolution order:
+     |      DisplayedTransform
+     |      Transform
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  decodes = 
+     |  encodes = 
+     |  setups = 
+     |  ----------------------------------------------------------------------
+     |  Readonly properties defined here:
+     |  
+     |  name
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __signature__ = <Signature (self, enc=None, dec=None, split_idx=None, ...
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Transform:
+     |  
+     |  
+#### Transform.__call__
+     |  
+     |  __call__(self, x, **kwargs)
+     |      Call self as a function.
+     |  
+     |  
+#### Transform.__init__
+     |  
+     |  __init__(self, enc=None, dec=None, split_idx=None, order=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### Transform.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### Transform.decode
+     |  
+     |  decode(self, x, **kwargs)
+     |      Delegate to <code>decodes</code> to undo transform
+     |  
+     |  
+#### Transform.setup
+     |  
+     |  setup(self, items=None, train_setup=False)
+     |      Delegate to <code>setups</code> to set up transform
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Transform:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from Transform:
+     |  
+     |  init_enc = None
+     |  
+     |  order = 0
+     |  
+     |  split_idx = None
+     |  
+     |  train_setup = None
+    
+### Func
+    
+<strong>class Func(builtins.object)</strong>
+    
+     |  Func(name, *args, **kwargs)
+     |  
+     |  Basic wrapper around a `name` with `args` and `kwargs` to call on a given type
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### Func.__call__
+     |  
+     |  __call__(self, t)
+     |      Call self as a function.
+     |  
+     |  
+#### Func.__init__
+     |  
+     |  __init__(self, name, *args, **kwargs)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### Func.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+### InplaceTransform
+    
+<strong>class InplaceTransform(Transform)</strong>
+    
+     |  InplaceTransform(self, enc=None, dec=None, split_idx=None, order=None)
+     |  
+     |  A `Transform` that modifies in-place and just returns whatever it's passed
+     |  
+     |  Method resolution order:
+     |      InplaceTransform
+     |      Transform
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  decodes = 
+     |  encodes = 
+     |  setups = 
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __signature__ = <Signature (self, enc=None, dec=None, split_idx=None, ...
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Transform:
+     |  
+     |  
+#### Transform.__call__
+     |  
+     |  __call__(self, x, **kwargs)
+     |      Call self as a function.
+     |  
+     |  
+#### Transform.__init__
+     |  
+     |  __init__(self, enc=None, dec=None, split_idx=None, order=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### Transform.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### Transform.decode
+     |  
+     |  decode(self, x, **kwargs)
+     |      Delegate to <code>decodes</code> to undo transform
+     |  
+     |  
+#### Transform.setup
+     |  
+     |  setup(self, items=None, train_setup=False)
+     |      Delegate to <code>setups</code> to set up transform
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from Transform:
+     |  
+     |  name
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Transform:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from Transform:
+     |  
+     |  init_enc = None
+     |  
+     |  order = 0
+     |  
+     |  split_idx = None
+     |  
+     |  train_setup = None
+    
+### ItemTransform
+    
+<strong>class ItemTransform(Transform)</strong>
+    
+     |  ItemTransform(self, enc=None, dec=None, split_idx=None, order=None)
+     |  
+     |  A transform that always take tuples as items
+     |  
+     |  Method resolution order:
+     |      ItemTransform
+     |      Transform
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### ItemTransform.__call__
+     |  
+     |  __call__(self, x, **kwargs)
+     |      Call self as a function.
+     |  
+     |  
+#### ItemTransform.decode
+     |  
+     |  decode(self, x, **kwargs)
+     |      Delegate to <code>decodes</code> to undo transform
+     |  
+     |  decodes = 
+     |  encodes = 
+     |  setups = 
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __signature__ = <Signature (self, enc=None, dec=None, split_idx=None, ...
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from Transform:
+     |  
+     |  
+#### Transform.__init__
+     |  
+     |  __init__(self, enc=None, dec=None, split_idx=None, order=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### Transform.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### Transform.setup
+     |  
+     |  setup(self, items=None, train_setup=False)
+     |      Delegate to <code>setups</code> to set up transform
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from Transform:
+     |  
+     |  name
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from Transform:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from Transform:
+     |  
+     |  init_enc = None
+     |  
+     |  order = 0
+     |  
+     |  split_idx = None
+     |  
+     |  train_setup = None
+    
+### Pipeline
+    
+<strong>class Pipeline(builtins.object)</strong>
+    
+     |  Pipeline(funcs=None, split_idx=None)
+     |  
+     |  A pipeline of composed (for encode/decode) transforms, setup with types
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### Pipeline.__call__
+     |  
+     |  __call__(self, o)
+     |      Call self as a function.
+     |  
+     |  
+#### Pipeline.__dir__
+     |  
+     |  __dir__(self)
+     |      Default dir() implementation.
+     |  
+     |  
+#### Pipeline.__getattr__
+     |  
+     |  __getattr__(self, k)
+     |  
+     |  
+#### Pipeline.__getitem__
+     |  
+     |  __getitem__(self, i)
+     |  
+     |  
+#### Pipeline.__init__
+     |  
+     |  __init__(self, funcs=None, split_idx=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### Pipeline.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### Pipeline.__setstate__
+     |  
+     |  __setstate__(self, data)
+     |  
+     |  
+#### Pipeline.add
+     |  
+     |  add(self, ts, items=None, train_setup=False)
+     |  
+     |  
+#### Pipeline.decode
+     |  
+     |  decode(self, o, full=True)
+     |  
+     |  
+#### Pipeline.setup
+     |  
+     |  setup(self, items=None, train_setup=False)
+     |  
+     |  
+#### Pipeline.show
+     |  
+     |  show(self, o, ctx=None, **kwargs)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+### Transform
+    
+<strong>class Transform(builtins.object)</strong>
+    
+     |  Transform(self, enc=None, dec=None, split_idx=None, order=None)
+     |  
+     |  Delegates (`__call__`,`decode`,`setup`) to (<code>encodes</code>,<code>decodes</code>,<code>setups</code>) if `split_idx` matches
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### Transform.__call__
+     |  
+     |  __call__(self, x, **kwargs)
+     |      Call self as a function.
+     |  
+     |  
+#### Transform.__init__
+     |  
+     |  __init__(self, enc=None, dec=None, split_idx=None, order=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### Transform.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### Transform.decode
+     |  
+     |  decode(self, x, **kwargs)
+     |      Delegate to <code>decodes</code> to undo transform
+     |  
+     |  decodes = 
+     |  encodes = 
+     |  
+#### Transform.setup
+     |  
+     |  setup(self, items=None, train_setup=False)
+     |      Delegate to <code>setups</code> to set up transform
+     |  
+     |  setups = 
+     |  ----------------------------------------------------------------------
+     |  Readonly properties defined here:
+     |  
+     |  name
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __signature__ = <Signature (self, enc=None, dec=None, split_idx=None, ...
+     |  
+     |  init_enc = None
+     |  
+     |  order = 0
+     |  
+     |  split_idx = None
+     |  
+     |  train_setup = None
+
+## Functions
+
+    
+### compose_tfms
+    
+<strong>compose_tfms(x, tfms, is_enc=True, reverse=False, **kwargs)</strong>
+    
+        Apply all `func_nm` attribute of `tfms` on `x`, maybe in `reverse` order
+    
+### gather_attr_names
+    
+<strong>gather_attr_names(o, nm)</strong>
+    
+        Used in __dir__ to collect all attrs `k` from `self.{nm}`
+    
+### gather_attrs
+    
+<strong>gather_attrs(o, k, nm)</strong>
+    
+        Used in __getattr__ to collect all attrs `k` from `self.{nm}`
+    
+### get_func
+    
+<strong>get_func(t, name, *args, **kwargs)</strong>
+    
+        Get the `t.name` (potentially partial-ized with `args` and `kwargs`) or `noop` if not defined
+    
+### mk_transform
+    
+<strong>mk_transform(f)</strong>
+    
+        Convert function `f` to `Transform` if it isn't already one
+

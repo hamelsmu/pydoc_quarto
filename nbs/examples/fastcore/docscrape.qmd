@@ -1,0 +1,347 @@
+---
+title: "docscrape"
+description: "module fastcore.docscrape in fastcore"
+---
+
+## Classes
+
+    builtins.tuple(builtins.object)
+        Parameter
+    collections.abc.Mapping(collections.abc.Collection)
+        NumpyDocString
+    
+    
+### NumpyDocString
+    
+<strong>class NumpyDocString(collections.abc.Mapping)</strong>
+    
+     |  NumpyDocString(docstring, config=None)
+     |  
+     |  Parses a numpydoc string to an abstract representation
+     |  
+     |  Method resolution order:
+     |      NumpyDocString
+     |      collections.abc.Mapping
+     |      collections.abc.Collection
+     |      collections.abc.Sized
+     |      collections.abc.Iterable
+     |      collections.abc.Container
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### NumpyDocString.__getitem__
+     |  
+     |  __getitem__(self, key)
+     |  
+     |  
+#### NumpyDocString.__init__
+     |  
+     |  __init__(self, docstring, config=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### NumpyDocString.__iter__
+     |  
+     |  __iter__(self)
+     |  
+     |  
+#### NumpyDocString.__len__
+     |  
+     |  __len__(self)
+     |  
+     |  
+#### NumpyDocString.__setitem__
+     |  
+     |  __setitem__(self, key, val)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __abstractmethods__ = frozenset()
+     |  
+     |  sections = {'Extended': [], 'Parameters': [], 'Returns': [], 'Summary'...
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from collections.abc.Mapping:
+     |  
+     |  
+#### Mapping.__contains__
+     |  
+     |  __contains__(self, key)
+     |  
+     |  
+#### Mapping.__eq__
+     |  
+     |  __eq__(self, other)
+     |      Return self==value.
+     |  
+     |  
+#### Mapping.get
+     |  
+     |  get(self, key, default=None)
+     |      D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None.
+     |  
+     |  
+#### Mapping.items
+     |  
+     |  items(self)
+     |      D.items() -> a set-like object providing a view on D's items
+     |  
+     |  
+#### Mapping.keys
+     |  
+     |  keys(self)
+     |      D.keys() -> a set-like object providing a view on D's keys
+     |  
+     |  
+#### Mapping.values
+     |  
+     |  values(self)
+     |      D.values() -> an object providing a view on D's values
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from collections.abc.Mapping:
+     |  
+     |  __hash__ = None
+     |  
+     |  __reversed__ = None
+     |  
+     |  ----------------------------------------------------------------------
+     |  Class methods inherited from collections.abc.Collection:
+     |  
+     |  
+#### Collection.__subclasshook__
+     |  
+     |  __subclasshook__(C) from abc.ABCMeta
+     |      Abstract classes can override this to customize issubclass().
+     |      
+     |      This is invoked early on by abc.ABCMeta.__subclasscheck__().
+     |      It should return True, False or NotImplemented.  If it returns
+     |      NotImplemented, the normal algorithm is used.  Otherwise, it
+     |      overrides the normal algorithm (and the outcome is cached).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Class methods inherited from collections.abc.Iterable:
+     |  
+     |  
+#### GenericAlias
+     |  
+     |  __class_getitem__ = GenericAlias(...) from abc.ABCMeta
+     |      Represent a PEP 585 generic type
+     |      
+     |      E.g. for t = list[int], t.__origin__ is list and t.__args__ is (int,).
+    
+### Parameter
+    
+<strong>class Parameter(builtins.tuple)</strong>
+    
+     |  Parameter(name, type, desc)
+     |  
+     |  Parameter(name, type, desc)
+     |  
+     |  Method resolution order:
+     |      Parameter
+     |      builtins.tuple
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### Parameter.__getnewargs__
+     |  
+     |  __getnewargs__(self)
+     |      Return self as a plain tuple.  Used by copy and pickle.
+     |  
+     |  
+#### Parameter.__repr__
+     |  
+     |  __repr__(self)
+     |      Return a nicely formatted representation string
+     |  
+     |  
+#### Parameter._asdict
+     |  
+     |  _asdict(self)
+     |      Return a new dict which maps field names to their values.
+     |  
+     |  
+#### Parameter._replace
+     |  
+     |  _replace(self, /, **kwds)
+     |      Return a new Parameter object replacing specified fields with new values
+     |  
+     |  ----------------------------------------------------------------------
+     |  Class methods defined here:
+     |  
+     |  
+#### Parameter._make
+     |  
+     |  _make(iterable) from builtins.type
+     |      Make a new Parameter object from a sequence or iterable
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  
+#### Parameter.__new__
+     |  
+     |  __new__(_cls, name, type, desc)
+     |      Create new instance of Parameter(name, type, desc)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  name
+     |      Alias for field number 0
+     |  
+     |  type
+     |      Alias for field number 1
+     |  
+     |  desc
+     |      Alias for field number 2
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __match_args__ = ('name', 'type', 'desc')
+     |  
+     |  _field_defaults = {}
+     |  
+     |  _fields = ('name', 'type', 'desc')
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.tuple:
+     |  
+     |  
+#### tuple.__add__
+     |  
+     |  __add__(self, value, /)
+     |      Return self+value.
+     |  
+     |  
+#### tuple.__contains__
+     |  
+     |  __contains__(self, key, /)
+     |      Return key in self.
+     |  
+     |  
+#### tuple.__eq__
+     |  
+     |  __eq__(self, value, /)
+     |      Return self==value.
+     |  
+     |  
+#### tuple.__ge__
+     |  
+     |  __ge__(self, value, /)
+     |      Return self>=value.
+     |  
+     |  
+#### tuple.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### tuple.__getitem__
+     |  
+     |  __getitem__(self, key, /)
+     |      Return self[key].
+     |  
+     |  
+#### tuple.__gt__
+     |  
+     |  __gt__(self, value, /)
+     |      Return self>value.
+     |  
+     |  
+#### tuple.__hash__
+     |  
+     |  __hash__(self, /)
+     |      Return hash(self).
+     |  
+     |  
+#### tuple.__iter__
+     |  
+     |  __iter__(self, /)
+     |      Implement iter(self).
+     |  
+     |  
+#### tuple.__le__
+     |  
+     |  __le__(self, value, /)
+     |      Return self<=value.
+     |  
+     |  
+#### tuple.__len__
+     |  
+     |  __len__(self, /)
+     |      Return len(self).
+     |  
+     |  
+#### tuple.__lt__
+     |  
+     |  __lt__(self, value, /)
+     |      Return self<value.
+     |  
+     |  
+#### tuple.__mul__
+     |  
+     |  __mul__(self, value, /)
+     |      Return self*value.
+     |  
+     |  
+#### tuple.__ne__
+     |  
+     |  __ne__(self, value, /)
+     |      Return self!=value.
+     |  
+     |  
+#### tuple.__rmul__
+     |  
+     |  __rmul__(self, value, /)
+     |      Return value*self.
+     |  
+     |  
+#### tuple.count
+     |  
+     |  count(self, value, /)
+     |      Return number of occurrences of value.
+     |  
+     |  
+#### tuple.index
+     |  
+     |  index(self, value, start=0, stop=9223372036854775807, /)
+     |      Return first index of value.
+     |      
+     |      Raises ValueError if the value is not present.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Class methods inherited from builtins.tuple:
+     |  
+     |  
+#### Parameter.__class_getitem__
+     |  
+     |  __class_getitem__(...) from builtins.type
+     |      See PEP 585
+
+## Functions
+
+    
+### dedent_lines
+    
+<strong>dedent_lines(lines, split=True)</strong>
+    
+        Deindent a list of lines maximally
+

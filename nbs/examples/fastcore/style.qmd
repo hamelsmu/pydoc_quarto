@@ -1,0 +1,100 @@
+---
+title: "style"
+description: "module fastcore.style in fastcore"
+---
+
+## Classes
+
+    builtins.object
+        Style
+        StyleCode
+    
+    
+### Style
+    
+<strong>class Style(builtins.object)</strong>
+    
+     |  Style(codes=None)
+     |  
+     |  A minimal terminal text styler.
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### Style.__call__
+     |  
+     |  __call__(self, obj)
+     |      Call self as a function.
+     |  
+     |  
+#### Style.__dir__
+     |  
+     |  __dir__(self)
+     |      Default dir() implementation.
+     |  
+     |  
+#### Style.__getattr__
+     |  
+     |  __getattr__(self, k)
+     |  
+     |  
+#### Style.__init__
+     |  
+     |  __init__(self, codes=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### Style.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+### StyleCode
+    
+<strong>class StyleCode(builtins.object)</strong>
+    
+     |  StyleCode(name, code, typ)
+     |  
+     |  An escape sequence for styling terminal text.
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### StyleCode.__init__
+     |  
+     |  __init__(self, name, code, typ)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### StyleCode.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+## Functions
+
+    
+### demo
+    
+<strong>demo()</strong>
+    
+        Demonstrate all available styles and their codes.
+

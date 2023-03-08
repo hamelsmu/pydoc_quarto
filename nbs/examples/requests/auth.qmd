@@ -1,0 +1,232 @@
+---
+title: "auth"
+description: "module requests.auth in requests"
+---
+
+## Description
+
+    requests.auth
+    ~~~~~~~~~~~~~
+    
+    This module contains the authentication handlers for Requests.
+
+## Classes
+
+    builtins.object
+        AuthBase
+            HTTPBasicAuth
+                HTTPProxyAuth
+            HTTPDigestAuth
+    
+    
+### AuthBase
+    
+<strong>class AuthBase(builtins.object)</strong>
+    
+     |  Base class that all auth implementations derive from
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### AuthBase.__call__
+     |  
+     |  __call__(self, r)
+     |      Call self as a function.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+### HTTPBasicAuth
+    
+<strong>class HTTPBasicAuth(AuthBase)</strong>
+    
+     |  HTTPBasicAuth(username, password)
+     |  
+     |  Attaches HTTP Basic Authentication to the given Request object.
+     |  
+     |  Method resolution order:
+     |      HTTPBasicAuth
+     |      AuthBase
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### HTTPBasicAuth.__call__
+     |  
+     |  __call__(self, r)
+     |      Call self as a function.
+     |  
+     |  
+#### HTTPBasicAuth.__eq__
+     |  
+     |  __eq__(self, other)
+     |      Return self==value.
+     |  
+     |  
+#### HTTPBasicAuth.__init__
+     |  
+     |  __init__(self, username, password)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### HTTPBasicAuth.__ne__
+     |  
+     |  __ne__(self, other)
+     |      Return self!=value.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __hash__ = None
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from AuthBase:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+### HTTPDigestAuth
+    
+<strong>class HTTPDigestAuth(AuthBase)</strong>
+    
+     |  HTTPDigestAuth(username, password)
+     |  
+     |  Attaches HTTP Digest Authentication to the given Request object.
+     |  
+     |  Method resolution order:
+     |      HTTPDigestAuth
+     |      AuthBase
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### HTTPDigestAuth.__call__
+     |  
+     |  __call__(self, r)
+     |      Call self as a function.
+     |  
+     |  
+#### HTTPDigestAuth.__eq__
+     |  
+     |  __eq__(self, other)
+     |      Return self==value.
+     |  
+     |  
+#### HTTPDigestAuth.__init__
+     |  
+     |  __init__(self, username, password)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### HTTPDigestAuth.__ne__
+     |  
+     |  __ne__(self, other)
+     |      Return self!=value.
+     |  
+     |  
+#### HTTPDigestAuth.build_digest_header
+     |  
+     |  build_digest_header(self, method, url)
+     |      :rtype: str
+     |  
+     |  
+#### HTTPDigestAuth.handle_401
+     |  
+     |  handle_401(self, r, **kwargs)
+     |      Takes the given response and tries digest-auth, if needed.
+     |      
+     |      :rtype: requests.Response
+     |  
+     |  
+#### HTTPDigestAuth.handle_redirect
+     |  
+     |  handle_redirect(self, r, **kwargs)
+     |      Reset num_401_calls counter on redirects.
+     |  
+     |  
+#### HTTPDigestAuth.init_per_thread_state
+     |  
+     |  init_per_thread_state(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __hash__ = None
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from AuthBase:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+### HTTPProxyAuth
+    
+<strong>class HTTPProxyAuth(HTTPBasicAuth)</strong>
+    
+     |  HTTPProxyAuth(username, password)
+     |  
+     |  Attaches HTTP Proxy Authentication to a given Request object.
+     |  
+     |  Method resolution order:
+     |      HTTPProxyAuth
+     |      HTTPBasicAuth
+     |      AuthBase
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### HTTPProxyAuth.__call__
+     |  
+     |  __call__(self, r)
+     |      Call self as a function.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from HTTPBasicAuth:
+     |  
+     |  
+#### HTTPBasicAuth.__eq__
+     |  
+     |  __eq__(self, other)
+     |      Return self==value.
+     |  
+     |  
+#### HTTPBasicAuth.__init__
+     |  
+     |  __init__(self, username, password)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### HTTPBasicAuth.__ne__
+     |  
+     |  __ne__(self, other)
+     |      Return self!=value.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes inherited from HTTPBasicAuth:
+     |  
+     |  __hash__ = None
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from AuthBase:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+

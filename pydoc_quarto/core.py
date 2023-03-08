@@ -99,7 +99,7 @@ def render_quarto_md(thing, title=None, forceload=0):
     
     doc_title = title if title else name
     desc_top = ' '.join(desc.splitlines()[:2])
-    frontmatter=f'---\ntitle: {name}\ndescription: "{desc_top}"\n---\n\n'
+    frontmatter=f'---\ntitle: "{doc_title}"\ndescription: "{desc_top}"\n---\n\n'
     return frontmatter + renderer.document(object, name)
 
 # %% ../nbs/00_core.ipynb 10

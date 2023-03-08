@@ -1,0 +1,126 @@
+---
+title: "imports"
+description: "module fastcore.imports in fastcore"
+---
+
+## Functions
+
+    
+### all_equal
+    
+<strong>all_equal(a, b)</strong>
+    
+        Compares whether `a` and `b` are the same length and have the same contents
+    
+### any_is_instance
+    
+<strong>any_is_instance(t, *args)</strong>
+    
+    
+### array_equal
+    
+<strong>array_equal(a, b)</strong>
+    
+    
+### df_equal
+    
+<strong>df_equal(a, b)</strong>
+    
+    
+### equals
+    
+<strong>equals(a, b)</strong>
+    
+        Compares `a` and `b` for equality; supports sublists, tensors and arrays too
+    
+### in_colab
+    
+<strong>in_colab()</strong>
+    
+        Check if the code is running in Google Colaboratory
+    
+### in_ipython
+    
+<strong>in_ipython()</strong>
+    
+        Check if code is running in some kind of IPython environment
+    
+### in_jupyter
+    
+<strong>in_jupyter()</strong>
+    
+        Check if the code is running in a jupyter notebook
+    
+### in_notebook
+    
+<strong>in_notebook()</strong>
+    
+        Check if the code is running in a jupyter notebook
+    
+### ipython_shell
+    
+<strong>ipython_shell()</strong>
+    
+        Same as `get_ipython` but returns `False` if not in IPython
+    
+### is_coll
+    
+<strong>is_coll(o)</strong>
+    
+        Test whether `o` is a collection (i.e. has a usable `len`)
+    
+### is_iter
+    
+<strong>is_iter(o)</strong>
+    
+        Test whether `o` can be used in a `for` loop
+    
+### isinstance_str
+    
+<strong>isinstance_str(x, cls_name)</strong>
+    
+        Like `isinstance`, except takes a type name instead of a type
+    
+### noop
+    
+<strong>noop(x=None, *args, **kwargs)</strong>
+    
+        Do nothing
+    
+### noops
+    
+<strong>noops(self, x=None, *args, **kwargs)</strong>
+    
+        Do nothing (method)
+    
+### reduce
+    
+<strong>reduce(...)</strong>
+    
+        reduce(function, iterable[, initial]) -> value
+        
+        Apply a function of two arguments cumulatively to the items of a sequence
+        or iterable, from left to right, so as to reduce the iterable to a single
+        value.  For example, reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) calculates
+        ((((1+2)+3)+4)+5).  If initial is present, it is placed before the items
+        of the iterable in the calculation, and serves as a default when the
+        iterable is empty.
+    
+### remove_prefix
+    
+<strong>remove_prefix(text, prefix)</strong>
+    
+        Temporary until py39 is a prereq
+    
+### remove_suffix
+    
+<strong>remove_suffix(text, suffix)</strong>
+    
+        Temporary until py39 is a prereq
+    
+### warn
+    
+<strong>warn(message, category=None, stacklevel=1, source=None)</strong>
+    
+        Issue a warning, or maybe ignore it or raise an exception.
+

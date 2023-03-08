@@ -1,0 +1,162 @@
+---
+title: "shutil"
+description: "module fastcore.shutil in fastcore"
+---
+
+## Functions
+
+    
+### chown
+    
+<strong>chown(path, user=None, group=None)</strong>
+    
+        Change owner user and group of the given path.
+        
+        user and group can be the uid/gid or the user/group names, and in that case,
+        they are converted to their respective uid/gid.
+    
+### copy
+    
+<strong>copy(src, dst, *, follow_symlinks=True)</strong>
+    
+        Copy data and mode bits ("cp src dst"). Return the file's destination.
+        
+        The destination may be a directory.
+        
+        If follow_symlinks is false, symlinks won't be followed. This
+        resembles GNU's "cp -P src dst".
+        
+        If source and destination are the same file, a SameFileError will be
+        raised.
+    
+### copy2
+    
+<strong>copy2(src, dst, *, follow_symlinks=True)</strong>
+    
+        Copy data and metadata. Return the file's destination.
+        
+        Metadata is copied with copystat(). Please see the copystat function
+        for more information.
+        
+        The destination may be a directory.
+        
+        If follow_symlinks is false, symlinks won't be followed. This
+        resembles GNU's "cp -P src dst".
+    
+### copymode
+    
+<strong>copymode(src, dst, *, follow_symlinks=True)</strong>
+    
+        Copy mode bits from src to dst.
+        
+        If follow_symlinks is not set, symlinks aren't followed if and only
+        if both `src` and `dst` are symlinks.  If `lchmod` isn't available
+        (e.g. Linux) this method does nothing.
+    
+### copystat
+    
+<strong>copystat(src, dst, *, follow_symlinks=True)</strong>
+    
+        Copy file metadata
+        
+        Copy the permission bits, last access time, last modification time, and
+        flags from `src` to `dst`. On Linux, copystat() also copies the "extended
+        attributes" where possible. The file contents, owner, and group are
+        unaffected. `src` and `dst` are path-like objects or path names given as
+        strings.
+        
+        If the optional flag `follow_symlinks` is not set, symlinks aren't
+        followed if and only if both `src` and `dst` are symlinks.
+    
+### copytree
+    
+<strong>copytree(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x1007cadd0>, ignore_dangling_symlinks=False, dirs_exist_ok=False)</strong>
+    
+        Recursively copy a directory tree and return the destination directory.
+        
+        If exception(s) occur, an Error is raised with a list of reasons.
+        
+        If the optional symlinks flag is true, symbolic links in the
+        source tree result in symbolic links in the destination tree; if
+        it is false, the contents of the files pointed to by symbolic
+        links are copied. If the file pointed by the symlink doesn't
+        exist, an exception will be added in the list of errors raised in
+        an Error exception at the end of the copy process.
+        
+        You can set the optional ignore_dangling_symlinks flag to true if you
+        want to silence this exception. Notice that this has no effect on
+        platforms that don't support os.symlink.
+        
+        The optional ignore argument is a callable. If given, it
+        is called with the `src` parameter, which is the directory
+        being visited by copytree(), and `names` which is the list of
+        `src` contents, as returned by os.listdir():
+        
+            callable(src, names) -> ignored_names
+        
+        Since copytree() is called recursively, the callable will be
+        called once for each directory that is copied. It returns a
+        list of names relative to the `src` directory that should
+        not be copied.
+        
+        The optional copy_function argument is a callable that will be used
+        to copy each file. It will be called with the source path and the
+        destination path as arguments. By default, copy2() is used, but any
+        function that supports the same signature (like copy()) can be used.
+        
+        If dirs_exist_ok is false (the default) and `dst` already exists, a
+        `FileExistsError` is raised. If `dirs_exist_ok` is true, the copying
+        operation will continue if it encounters existing directories, and files
+        within the `dst` tree will be overwritten by corresponding files from the
+        `src` tree.
+    
+### disk_usage
+    
+<strong>disk_usage(path)</strong>
+    
+        Return disk usage statistics about the given path.
+        
+        Returned value is a named tuple with attributes 'total', 'used' and
+        'free', which are the amount of total, used and free space, in bytes.
+    
+### move
+    
+<strong>move(src, dst, copy_function=<function copy2 at 0x1007cadd0>)</strong>
+    
+        Recursively move a file or directory to another location. This is
+        similar to the Unix "mv" command. Return the file or directory's
+        destination.
+        
+        If the destination is a directory or a symlink to a directory, the source
+        is moved inside the directory. The destination path must not already
+        exist.
+        
+        If the destination already exists but is not a directory, it may be
+        overwritten depending on os.rename() semantics.
+        
+        If the destination is on our current filesystem, then rename() is used.
+        Otherwise, src is copied to the destination and then removed. Symlinks are
+        recreated under the new name if os.rename() fails because of cross
+        filesystem renames.
+        
+        The optional `copy_function` argument is a callable that will be used
+        to copy the source or it will be delegated to `copytree`.
+        By default, copy2() is used, but any function that supports the same
+        signature (like copy()) can be used.
+        
+        A lot more could be done here...  A look at a mv.c shows a lot of
+        the issues this implementation glosses over.
+    
+### rmtree
+    
+<strong>rmtree(path, ignore_errors=False, onerror=None)</strong>
+    
+        Recursively delete a directory tree.
+        
+        If ignore_errors is set, errors are ignored; otherwise, if onerror
+        is set, it is called to handle the error with arguments (func,
+        path, exc_info) where func is platform and implementation dependent;
+        path is the argument to that function that caused it to fail; and
+        exc_info is a tuple returned by sys.exc_info().  If ignore_errors
+        is false and onerror is None, an exception is raised.
+

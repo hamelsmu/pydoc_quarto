@@ -1,0 +1,275 @@
+---
+title: "parallel"
+description: "module fastcore.parallel in fastcore"
+---
+
+## Classes
+
+    concurrent.futures.process.ProcessPoolExecutor(concurrent.futures._base.Executor)
+        ProcessPoolExecutor
+    concurrent.futures.thread.ThreadPoolExecutor(concurrent.futures._base.Executor)
+        ThreadPoolExecutor
+    
+    
+### ProcessPoolExecutor
+    
+<strong>class ProcessPoolExecutor(concurrent.futures.process.ProcessPoolExecutor)</strong>
+    
+     |  ProcessPoolExecutor(max_workers=10, on_exc=<built-in function print>, pause=0, *, mp_context=None, initializer=None, initargs=())
+     |  
+     |  Same as Python's ProcessPoolExecutor, except can pass `max_workers==0` for serial execution
+     |  
+     |  Method resolution order:
+     |      ProcessPoolExecutor
+     |      concurrent.futures.process.ProcessPoolExecutor
+     |      concurrent.futures._base.Executor
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### ProcessPoolExecutor.__init__
+     |  
+     |  __init__(self, max_workers=10, on_exc=<built-in function print>, pause=0, *, mp_context=None, initializer=None, initargs=())
+     |      Initializes a new ProcessPoolExecutor instance.
+     |      
+     |      Args:
+     |          max_workers: The maximum number of processes that can be used to
+     |              execute the given calls. If None or not given then as many
+     |              worker processes will be created as the machine has processors.
+     |          mp_context: A multiprocessing context to launch the workers. This
+     |              object should provide SimpleQueue, Queue and Process.
+     |          initializer: A callable used to initialize worker processes.
+     |          initargs: A tuple of arguments to pass to the initializer.
+     |  
+     |  
+#### ProcessPoolExecutor.map
+     |  
+     |  map(self, f, items, *args, timeout=None, chunksize=1, **kwargs)
+     |      Returns an iterator equivalent to map(fn, iter).
+     |      
+     |      Args:
+     |          fn: A callable that will take as many arguments as there are
+     |              passed iterables.
+     |          timeout: The maximum number of seconds to wait. If None, then there
+     |              is no limit on the wait time.
+     |          chunksize: If greater than one, the iterables will be chopped into
+     |              chunks of size chunksize and submitted to the process pool.
+     |              If set to one, the items in the list will be sent one at a time.
+     |      
+     |      Returns:
+     |          An iterator equivalent to: map(func, *iterables) but the calls may
+     |          be evaluated out-of-order.
+     |      
+     |      Raises:
+     |          TimeoutError: If the entire result iterator could not be generated
+     |              before the given timeout.
+     |          Exception: If fn(*args) raises for any values.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from concurrent.futures.process.ProcessPoolExecutor:
+     |  
+     |  
+#### ProcessPoolExecutor.shutdown
+     |  
+     |  shutdown(self, wait=True, *, cancel_futures=False)
+     |      Clean-up the resources associated with the Executor.
+     |      
+     |      It is safe to call this method several times. Otherwise, no other
+     |      methods can be called after this one.
+     |      
+     |      Args:
+     |          wait: If True then shutdown will not return until all running
+     |              futures have finished executing and the resources used by the
+     |              executor have been reclaimed.
+     |          cancel_futures: If True then shutdown will cancel all pending
+     |              futures. Futures that are completed or running will not be
+     |              cancelled.
+     |  
+     |  
+#### ProcessPoolExecutor.submit
+     |  
+     |  submit(self, fn, /, *args, **kwargs)
+     |      Submits a callable to be executed with the given arguments.
+     |      
+     |      Schedules the callable to be executed as fn(*args, **kwargs) and returns
+     |      a Future instance representing the execution of the callable.
+     |      
+     |      Returns:
+     |          A Future representing the given call.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from concurrent.futures._base.Executor:
+     |  
+     |  
+#### Executor.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### Executor.__exit__
+     |  
+     |  __exit__(self, exc_type, exc_val, exc_tb)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from concurrent.futures._base.Executor:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+### ThreadPoolExecutor
+    
+<strong>class ThreadPoolExecutor(concurrent.futures.thread.ThreadPoolExecutor)</strong>
+    
+     |  ThreadPoolExecutor(max_workers=10, on_exc=<built-in function print>, pause=0, **kwargs)
+     |  
+     |  Same as Python's ThreadPoolExecutor, except can pass `max_workers==0` for serial execution
+     |  
+     |  Method resolution order:
+     |      ThreadPoolExecutor
+     |      concurrent.futures.thread.ThreadPoolExecutor
+     |      concurrent.futures._base.Executor
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### ThreadPoolExecutor.__init__
+     |  
+     |  __init__(self, max_workers=10, on_exc=<built-in function print>, pause=0, **kwargs)
+     |      Initializes a new ThreadPoolExecutor instance.
+     |      
+     |      Args:
+     |          max_workers: The maximum number of threads that can be used to
+     |              execute the given calls.
+     |          thread_name_prefix: An optional name prefix to give our threads.
+     |          initializer: A callable used to initialize worker threads.
+     |          initargs: A tuple of arguments to pass to the initializer.
+     |  
+     |  
+#### ThreadPoolExecutor.map
+     |  
+     |  map(self, f, items, *args, timeout=None, chunksize=1, **kwargs)
+     |      Returns an iterator equivalent to map(fn, iter).
+     |      
+     |      Args:
+     |          fn: A callable that will take as many arguments as there are
+     |              passed iterables.
+     |          timeout: The maximum number of seconds to wait. If None, then there
+     |              is no limit on the wait time.
+     |          chunksize: The size of the chunks the iterable will be broken into
+     |              before being passed to a child process. This argument is only
+     |              used by ProcessPoolExecutor; it is ignored by
+     |              ThreadPoolExecutor.
+     |      
+     |      Returns:
+     |          An iterator equivalent to: map(func, *iterables) but the calls may
+     |          be evaluated out-of-order.
+     |      
+     |      Raises:
+     |          TimeoutError: If the entire result iterator could not be generated
+     |              before the given timeout.
+     |          Exception: If fn(*args) raises for any values.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from concurrent.futures.thread.ThreadPoolExecutor:
+     |  
+     |  
+#### ThreadPoolExecutor.shutdown
+     |  
+     |  shutdown(self, wait=True, *, cancel_futures=False)
+     |      Clean-up the resources associated with the Executor.
+     |      
+     |      It is safe to call this method several times. Otherwise, no other
+     |      methods can be called after this one.
+     |      
+     |      Args:
+     |          wait: If True then shutdown will not return until all running
+     |              futures have finished executing and the resources used by the
+     |              executor have been reclaimed.
+     |          cancel_futures: If True then shutdown will cancel all pending
+     |              futures. Futures that are completed or running will not be
+     |              cancelled.
+     |  
+     |  
+#### ThreadPoolExecutor.submit
+     |  
+     |  submit(self, fn, /, *args, **kwargs)
+     |      Submits a callable to be executed with the given arguments.
+     |      
+     |      Schedules the callable to be executed as fn(*args, **kwargs) and returns
+     |      a Future instance representing the execution of the callable.
+     |      
+     |      Returns:
+     |          A Future representing the given call.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from concurrent.futures._base.Executor:
+     |  
+     |  
+#### Executor.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### Executor.__exit__
+     |  
+     |  __exit__(self, exc_type, exc_val, exc_tb)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from concurrent.futures._base.Executor:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+## Functions
+
+    
+### add_one
+    
+<strong>add_one(x, a=1)</strong>
+    
+        # %% ../nbs/03a_parallel.ipynb 16
+    
+### parallel
+    
+<strong>parallel(f, items, *args, n_workers=10, total=None, progress=None, pause=0, method=None, threadpool=False, timeout=None, chunksize=1, **kwargs)</strong>
+    
+        Applies `func` in parallel to `items`, using `n_workers`
+    
+### parallel_gen
+    
+<strong>parallel_gen(cls, items, n_workers=10, **kwargs)</strong>
+    
+        Instantiate `cls` in `n_workers` procs & call each on a subset of `items` in parallel.
+    
+### parallelable
+    
+<strong>parallelable(param_name, num_workers, f=None)</strong>
+    
+        # %% ../nbs/03a_parallel.ipynb 9
+    
+### run_procs
+    
+<strong>run_procs(f, f_done, args)</strong>
+    
+        Call `f` for each item in `args` in parallel, yielding `f_done`
+    
+### startthread
+    
+<strong>startthread(f)</strong>
+    
+        Like `threaded`, but start thread immediately
+    
+### threaded
+    
+<strong>threaded(f)</strong>
+    
+        Run `f` in a thread, and returns the thread
+

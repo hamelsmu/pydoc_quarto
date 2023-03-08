@@ -1,0 +1,175 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_core.ipynb
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/all.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/basics.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/dispatch.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/docments.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/docscrape.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/foundation.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/imports.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/meta.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/nb_imports.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/net.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/parallel.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/script.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/shutil.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/style.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/test.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/transform.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/utils.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/xdg.qmd
+      - section: examples
+        contents:
+          - section: fastcore
+            contents:
+              - examples/fastcore/xtras.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/adapters.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/api.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/auth.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/certs.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/compat.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/cookies.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/exceptions.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/help.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/hooks.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/models.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/packages.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/sessions.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/status_codes.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/structures.qmd
+      - section: examples
+        contents:
+          - section: requests
+            contents:
+              - examples/requests/utils.qmd

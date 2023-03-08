@@ -1,0 +1,6406 @@
+---
+title: "net"
+description: "module fastcore.net in fastcore"
+---
+
+## Classes
+
+    urllib.error.HTTPError(urllib.error.URLError, urllib.response.addinfourl)
+        HTTP4xxClientError
+            HTTP400BadRequestError
+            HTTP401UnauthorizedError
+            HTTP402PaymentRequiredError
+            HTTP403ForbiddenError
+            HTTP404NotFoundError
+            HTTP405MethodNotAllowedError
+            HTTP406NotAcceptableError
+            HTTP407ProxyAuthRequiredError
+            HTTP408RequestTimeoutError
+            HTTP409ConflictError
+            HTTP410GoneError
+            HTTP411LengthRequiredError
+            HTTP412PreconditionFailedError
+            HTTP413PayloadTooLargeError
+            HTTP414URITooLongError
+            HTTP415UnsupportedMediaTypeError
+            HTTP416RangeNotSatisfiableError
+            HTTP417ExpectationFailedError
+            HTTP418AmAteapotError
+            HTTP421MisdirectedRequestError
+            HTTP422UnprocessableEntityError
+            HTTP423LockedError
+            HTTP424FailedDependencyError
+            HTTP425TooEarlyError
+            HTTP426UpgradeRequiredError
+            HTTP428PreconditionRequiredError
+            HTTP429TooManyRequestsError
+            HTTP431HeaderFieldsTooLargeError
+            HTTP451LegalReasonsError
+        HTTP5xxServerError
+    
+    
+### HTTP400BadRequestError
+    
+<strong>class HTTP400BadRequestError(HTTP4xxClientError)</strong>
+    
+     |  HTTP400BadRequestError(url, hdrs, fp, msg='Bad Request', code=400)
+     |  
+     |  Method resolution order:
+     |      HTTP400BadRequestError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Bad Request', code=400)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP401UnauthorizedError
+    
+<strong>class HTTP401UnauthorizedError(HTTP4xxClientError)</strong>
+    
+     |  HTTP401UnauthorizedError(url, hdrs, fp, msg='Unauthorized', code=401)
+     |  
+     |  Method resolution order:
+     |      HTTP401UnauthorizedError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Unauthorized', code=401)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP402PaymentRequiredError
+    
+<strong>class HTTP402PaymentRequiredError(HTTP4xxClientError)</strong>
+    
+     |  HTTP402PaymentRequiredError(url, hdrs, fp, msg='Payment Required', code=402)
+     |  
+     |  Method resolution order:
+     |      HTTP402PaymentRequiredError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Payment Required', code=402)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP403ForbiddenError
+    
+<strong>class HTTP403ForbiddenError(HTTP4xxClientError)</strong>
+    
+     |  HTTP403ForbiddenError(url, hdrs, fp, msg='Forbidden', code=403)
+     |  
+     |  Method resolution order:
+     |      HTTP403ForbiddenError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Forbidden', code=403)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP404NotFoundError
+    
+<strong>class HTTP404NotFoundError(HTTP4xxClientError)</strong>
+    
+     |  HTTP404NotFoundError(url, hdrs, fp, msg='Not Found', code=404)
+     |  
+     |  Method resolution order:
+     |      HTTP404NotFoundError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Not Found', code=404)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP405MethodNotAllowedError
+    
+<strong>class HTTP405MethodNotAllowedError(HTTP4xxClientError)</strong>
+    
+     |  HTTP405MethodNotAllowedError(url, hdrs, fp, msg='Method Not Allowed', code=405)
+     |  
+     |  Method resolution order:
+     |      HTTP405MethodNotAllowedError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Method Not Allowed', code=405)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP406NotAcceptableError
+    
+<strong>class HTTP406NotAcceptableError(HTTP4xxClientError)</strong>
+    
+     |  HTTP406NotAcceptableError(url, hdrs, fp, msg='Not Acceptable', code=406)
+     |  
+     |  Method resolution order:
+     |      HTTP406NotAcceptableError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Not Acceptable', code=406)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP407ProxyAuthRequiredError
+    
+<strong>class HTTP407ProxyAuthRequiredError(HTTP4xxClientError)</strong>
+    
+     |  HTTP407ProxyAuthRequiredError(url, hdrs, fp, msg='Proxy Auth Required', code=407)
+     |  
+     |  Method resolution order:
+     |      HTTP407ProxyAuthRequiredError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Proxy Auth Required', code=407)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP408RequestTimeoutError
+    
+<strong>class HTTP408RequestTimeoutError(HTTP4xxClientError)</strong>
+    
+     |  HTTP408RequestTimeoutError(url, hdrs, fp, msg='Request Timeout', code=408)
+     |  
+     |  Method resolution order:
+     |      HTTP408RequestTimeoutError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Request Timeout', code=408)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP409ConflictError
+    
+<strong>class HTTP409ConflictError(HTTP4xxClientError)</strong>
+    
+     |  HTTP409ConflictError(url, hdrs, fp, msg='Conflict', code=409)
+     |  
+     |  Method resolution order:
+     |      HTTP409ConflictError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Conflict', code=409)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP410GoneError
+    
+<strong>class HTTP410GoneError(HTTP4xxClientError)</strong>
+    
+     |  HTTP410GoneError(url, hdrs, fp, msg='Gone', code=410)
+     |  
+     |  Method resolution order:
+     |      HTTP410GoneError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Gone', code=410)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP411LengthRequiredError
+    
+<strong>class HTTP411LengthRequiredError(HTTP4xxClientError)</strong>
+    
+     |  HTTP411LengthRequiredError(url, hdrs, fp, msg='Length Required', code=411)
+     |  
+     |  Method resolution order:
+     |      HTTP411LengthRequiredError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Length Required', code=411)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP412PreconditionFailedError
+    
+<strong>class HTTP412PreconditionFailedError(HTTP4xxClientError)</strong>
+    
+     |  HTTP412PreconditionFailedError(url, hdrs, fp, msg='Precondition Failed', code=412)
+     |  
+     |  Method resolution order:
+     |      HTTP412PreconditionFailedError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Precondition Failed', code=412)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP413PayloadTooLargeError
+    
+<strong>class HTTP413PayloadTooLargeError(HTTP4xxClientError)</strong>
+    
+     |  HTTP413PayloadTooLargeError(url, hdrs, fp, msg='Payload Too Large', code=413)
+     |  
+     |  Method resolution order:
+     |      HTTP413PayloadTooLargeError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Payload Too Large', code=413)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP414URITooLongError
+    
+<strong>class HTTP414URITooLongError(HTTP4xxClientError)</strong>
+    
+     |  HTTP414URITooLongError(url, hdrs, fp, msg='URI Too Long', code=414)
+     |  
+     |  Method resolution order:
+     |      HTTP414URITooLongError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='URI Too Long', code=414)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP415UnsupportedMediaTypeError
+    
+<strong>class HTTP415UnsupportedMediaTypeError(HTTP4xxClientError)</strong>
+    
+     |  HTTP415UnsupportedMediaTypeError(url, hdrs, fp, msg='Unsupported Media Type', code=415)
+     |  
+     |  Method resolution order:
+     |      HTTP415UnsupportedMediaTypeError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Unsupported Media Type', code=415)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP416RangeNotSatisfiableError
+    
+<strong>class HTTP416RangeNotSatisfiableError(HTTP4xxClientError)</strong>
+    
+     |  HTTP416RangeNotSatisfiableError(url, hdrs, fp, msg='Range Not Satisfiable', code=416)
+     |  
+     |  Method resolution order:
+     |      HTTP416RangeNotSatisfiableError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Range Not Satisfiable', code=416)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP417ExpectationFailedError
+    
+<strong>class HTTP417ExpectationFailedError(HTTP4xxClientError)</strong>
+    
+     |  HTTP417ExpectationFailedError(url, hdrs, fp, msg='Expectation Failed', code=417)
+     |  
+     |  Method resolution order:
+     |      HTTP417ExpectationFailedError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Expectation Failed', code=417)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP418AmAteapotError
+    
+<strong>class HTTP418AmAteapotError(HTTP4xxClientError)</strong>
+    
+     |  HTTP418AmAteapotError(url, hdrs, fp, msg='Am A teapot', code=418)
+     |  
+     |  Method resolution order:
+     |      HTTP418AmAteapotError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Am A teapot', code=418)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP421MisdirectedRequestError
+    
+<strong>class HTTP421MisdirectedRequestError(HTTP4xxClientError)</strong>
+    
+     |  HTTP421MisdirectedRequestError(url, hdrs, fp, msg='Misdirected Request', code=421)
+     |  
+     |  Method resolution order:
+     |      HTTP421MisdirectedRequestError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Misdirected Request', code=421)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP422UnprocessableEntityError
+    
+<strong>class HTTP422UnprocessableEntityError(HTTP4xxClientError)</strong>
+    
+     |  HTTP422UnprocessableEntityError(url, hdrs, fp, msg='Unprocessable Entity', code=422)
+     |  
+     |  Method resolution order:
+     |      HTTP422UnprocessableEntityError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Unprocessable Entity', code=422)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP423LockedError
+    
+<strong>class HTTP423LockedError(HTTP4xxClientError)</strong>
+    
+     |  HTTP423LockedError(url, hdrs, fp, msg='Locked', code=423)
+     |  
+     |  Method resolution order:
+     |      HTTP423LockedError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Locked', code=423)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP424FailedDependencyError
+    
+<strong>class HTTP424FailedDependencyError(HTTP4xxClientError)</strong>
+    
+     |  HTTP424FailedDependencyError(url, hdrs, fp, msg='Failed Dependency', code=424)
+     |  
+     |  Method resolution order:
+     |      HTTP424FailedDependencyError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Failed Dependency', code=424)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP425TooEarlyError
+    
+<strong>class HTTP425TooEarlyError(HTTP4xxClientError)</strong>
+    
+     |  HTTP425TooEarlyError(url, hdrs, fp, msg='Too Early', code=425)
+     |  
+     |  Method resolution order:
+     |      HTTP425TooEarlyError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Too Early', code=425)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP426UpgradeRequiredError
+    
+<strong>class HTTP426UpgradeRequiredError(HTTP4xxClientError)</strong>
+    
+     |  HTTP426UpgradeRequiredError(url, hdrs, fp, msg='Upgrade Required', code=426)
+     |  
+     |  Method resolution order:
+     |      HTTP426UpgradeRequiredError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Upgrade Required', code=426)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP428PreconditionRequiredError
+    
+<strong>class HTTP428PreconditionRequiredError(HTTP4xxClientError)</strong>
+    
+     |  HTTP428PreconditionRequiredError(url, hdrs, fp, msg='Precondition Required', code=428)
+     |  
+     |  Method resolution order:
+     |      HTTP428PreconditionRequiredError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Precondition Required', code=428)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP429TooManyRequestsError
+    
+<strong>class HTTP429TooManyRequestsError(HTTP4xxClientError)</strong>
+    
+     |  HTTP429TooManyRequestsError(url, hdrs, fp, msg='Too Many Requests', code=429)
+     |  
+     |  Method resolution order:
+     |      HTTP429TooManyRequestsError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Too Many Requests', code=429)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP431HeaderFieldsTooLargeError
+    
+<strong>class HTTP431HeaderFieldsTooLargeError(HTTP4xxClientError)</strong>
+    
+     |  HTTP431HeaderFieldsTooLargeError(url, hdrs, fp, msg='Header Fields Too Large', code=431)
+     |  
+     |  Method resolution order:
+     |      HTTP431HeaderFieldsTooLargeError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Header Fields Too Large', code=431)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP451LegalReasonsError
+    
+<strong>class HTTP451LegalReasonsError(HTTP4xxClientError)</strong>
+    
+     |  HTTP451LegalReasonsError(url, hdrs, fp, msg='Legal Reasons', code=451)
+     |  
+     |  Method resolution order:
+     |      HTTP451LegalReasonsError
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+### __init__
+     |  
+<strong>__init__ = _init(self, url, hdrs, fp, msg='Legal Reasons', code=451)</strong>
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP4xxClientError
+    
+<strong>class HTTP4xxClientError(urllib.error.HTTPError)</strong>
+    
+     |  HTTP4xxClientError(url, code, msg, hdrs, fp)
+     |  
+     |  Base class for client exceptions (code 4xx) from `url*` functions
+     |  
+     |  Method resolution order:
+     |      HTTP4xxClientError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__init__
+     |  
+     |  __init__(self, url, code, msg, hdrs, fp)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+    
+### HTTP5xxServerError
+    
+<strong>class HTTP5xxServerError(urllib.error.HTTPError)</strong>
+    
+     |  HTTP5xxServerError(url, code, msg, hdrs, fp)
+     |  
+     |  Base class for server exceptions (code 5xx) from `url*` functions
+     |  
+     |  Method resolution order:
+     |      HTTP5xxServerError
+     |      urllib.error.HTTPError
+     |      urllib.error.URLError
+     |      builtins.OSError
+     |      builtins.Exception
+     |      builtins.BaseException
+     |      urllib.response.addinfourl
+     |      urllib.response.addinfo
+     |      urllib.response.addbase
+     |      tempfile._TemporaryFileWrapper
+     |      builtins.object
+     |  
+     |  Methods inherited from urllib.error.HTTPError:
+     |  
+     |  
+#### HTTPError.__init__
+     |  
+     |  __init__(self, url, code, msg, hdrs, fp)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### HTTPError.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### HTTPError.__str__
+     |  
+     |  __str__(self)
+     |      Return str(self).
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.error.HTTPError:
+     |  
+     |  reason
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.HTTPError:
+     |  
+     |  headers
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from urllib.error.URLError:
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__reduce__
+     |  
+     |  __reduce__(...)
+     |      Helper for pickle.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods inherited from builtins.OSError:
+     |  
+     |  
+#### OSError.__new__
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.OSError:
+     |  
+     |  characters_written
+     |  
+     |  errno
+     |      POSIX exception code
+     |  
+     |  filename
+     |      exception filename
+     |  
+     |  filename2
+     |      second exception filename
+     |  
+     |  strerror
+     |      exception strerror
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from builtins.BaseException:
+     |  
+     |  
+#### BaseException.__delattr__
+     |  
+     |  __delattr__(self, name, /)
+     |      Implement delattr(self, name).
+     |  
+     |  
+#### BaseException.__getattribute__
+     |  
+     |  __getattribute__(self, name, /)
+     |      Return getattr(self, name).
+     |  
+     |  
+#### BaseException.__setattr__
+     |  
+     |  __setattr__(self, name, value, /)
+     |      Implement setattr(self, name, value).
+     |  
+     |  
+#### BaseException.__setstate__
+     |  
+     |  __setstate__(...)
+     |  
+     |  
+#### BaseException.with_traceback
+     |  
+     |  with_traceback(...)
+     |      Exception.with_traceback(tb) --
+     |      set self.__traceback__ to tb and return self.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from builtins.BaseException:
+     |  
+     |  __cause__
+     |      exception cause
+     |  
+     |  __context__
+     |      exception context
+     |  
+     |  __dict__
+     |  
+     |  __suppress_context__
+     |  
+     |  __traceback__
+     |  
+     |  args
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfourl:
+     |  
+     |  
+#### addinfourl.getcode
+     |  
+     |  getcode(self)
+     |  
+     |  
+#### addinfourl.geturl
+     |  
+     |  geturl(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Readonly properties inherited from urllib.response.addinfourl:
+     |  
+     |  status
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addinfo:
+     |  
+     |  
+#### addinfo.info
+     |  
+     |  info(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from urllib.response.addbase:
+     |  
+     |  
+#### addbase.__enter__
+     |  
+     |  __enter__(self)
+     |  
+     |  
+#### addbase.__exit__
+     |  
+     |  __exit__(self, type, value, traceback)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from tempfile._TemporaryFileWrapper:
+     |  
+     |  
+#### _TemporaryFileWrapper.__getattr__
+     |  
+     |  __getattr__(self, name)
+     |  
+     |  
+#### _TemporaryFileWrapper.__iter__
+     |  
+     |  __iter__(self)
+     |      # iter() doesn't use __getattr__ to find the __iter__ method
+     |  
+     |  
+#### _TemporaryFileWrapper.close
+     |  
+     |  close(self)
+     |      Close the temporary file, possibly deleting it.
+
+## Functions
+
+    
+### do_request
+    
+<strong>do_request(url, post=False, headers=None, **data)</strong>
+    
+        Call GET or json-encoded POST on `url`, depending on `post`
+    
+### start_client
+    
+<strong>start_client(port, host=None, dgram=False)</strong>
+    
+        Create a `socket` client on `port`, with optional `host`, of type `dgram`
+    
+### start_server
+    
+<strong>start_server(port, host=None, dgram=False, reuse_addr=True, n_queue=None)</strong>
+    
+        Create a `socket` server on `port`, with optional `host`, of type `dgram`
+    
+### urlcheck
+    
+<strong>urlcheck(url, headers=None, timeout=10)</strong>
+    
+        # %% ../nbs/03b_net.ipynb 23
+    
+### urlclean
+    
+<strong>urlclean(url)</strong>
+    
+        Remove fragment, params, and querystring from `url` if present
+    
+### urldest
+    
+<strong>urldest(url, dest=None)</strong>
+    
+        # %% ../nbs/03b_net.ipynb 27
+    
+### urljson
+    
+<strong>urljson(url, data=None, timeout=None)</strong>
+    
+        Retrieve `url` and decode json
+    
+### urlopen
+    
+<strong>urlopen(url, data=None, headers=None, timeout=None, **kwargs)</strong>
+    
+        Like `urllib.request.urlopen`, but first `urlwrap` the `url`, and encode `data`
+    
+### urlopener
+    
+<strong>urlopener()</strong>
+    
+        # %% ../nbs/03b_net.ipynb 14
+    
+### urlquote
+    
+<strong>urlquote(url)</strong>
+    
+        Update url's path with `urllib.parse.quote`
+    
+### urlread
+    
+<strong>urlread(url, data=None, headers=None, decode=True, return_json=False, return_headers=False, timeout=None, **kwargs)</strong>
+    
+        Retrieve `url`, using `data` dict or `kwargs` to `POST` if present
+    
+### urlrequest
+    
+<strong>urlrequest(url, verb, headers=None, route=None, query=None, data=None, json_data=True)</strong>
+    
+        `Request` for `url` with optional route params replaced by `route`, plus `query` string, and post `data`
+    
+### urlretrieve
+    
+<strong>urlretrieve(url, filename=None, reporthook=None, data=None, headers=None, timeout=None)</strong>
+    
+        Same as `urllib.request.urlretrieve` but also works with `Request` objects
+    
+### urlsave
+    
+<strong>urlsave(url, dest=None, reporthook=None, headers=None, timeout=None)</strong>
+    
+        Retrieve `url` and save based on its name
+    
+### urlsend
+    
+<strong>urlsend(url, verb, headers=None, route=None, query=None, data=None, json_data=True, return_json=True, return_headers=False, debug=None)</strong>
+    
+        Send request with `urlrequest`, converting result to json if `return_json`
+    
+### urlvalid
+    
+<strong>urlvalid(x)</strong>
+    
+        Test if `x` is a valid URL
+    
+### urlwrap
+    
+<strong>urlwrap(url, data=None, headers=None)</strong>
+    
+        Wrap `url` in a urllib `Request` with `urlquote`
+

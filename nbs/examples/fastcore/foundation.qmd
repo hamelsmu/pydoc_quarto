@@ -1,0 +1,511 @@
+---
+title: "foundation"
+description: "module fastcore.foundation in fastcore"
+---
+
+## Classes
+
+    builtins.object
+        CollBase
+            L(fastcore.basics.GetAttr, CollBase)
+        Config
+    fastcore.basics.GetAttr(builtins.object)
+        L(fastcore.basics.GetAttr, CollBase)
+    
+    
+### CollBase
+    
+<strong>class CollBase(builtins.object)</strong>
+    
+     |  CollBase(items)
+     |  
+     |  Base class for composing a list of `items`
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### CollBase.__delitem__
+     |  
+     |  __delitem__(self, i)
+     |  
+     |  
+#### CollBase.__getitem__
+     |  
+     |  __getitem__(self, k)
+     |  
+     |  
+#### CollBase.__init__
+     |  
+     |  __init__(self, items)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### CollBase.__iter__
+     |  
+     |  __iter__(self)
+     |  
+     |  
+#### CollBase.__len__
+     |  
+     |  __len__(self)
+     |  
+     |  
+#### CollBase.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### CollBase.__setitem__
+     |  
+     |  __setitem__(self, k, v)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+### Config
+    
+<strong>class Config(builtins.object)</strong>
+    
+     |  Config(cfg_path, cfg_name, create=None, save=True, extra_files=None, types=None)
+     |  
+     |  Reading and writing `ConfigParser` ini files
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### Config.__contains__
+     |  
+     |  __contains__(self, k)
+     |  
+     |  
+#### Config.__getattr__
+     |  
+     |  __getattr__(self, k)
+     |  
+     |  
+#### Config.__getitem__
+     |  
+     |  __getitem__(self, k)
+     |  
+     |  
+#### Config.__init__
+     |  
+     |  __init__(self, cfg_path, cfg_name, create=None, save=True, extra_files=None, types=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### Config.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### Config.__setitem__
+     |  
+     |  __setitem__(self, k, v)
+     |  
+     |  
+#### Config.get
+     |  
+     |  get(self, k, default=None)
+     |  
+     |  
+#### Config.path
+     |  
+     |  path(self, k, default=None)
+     |  
+     |  
+#### Config.save
+     |  
+     |  save(self)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+### L
+    
+<strong>class L(fastcore.basics.GetAttr, CollBase)</strong>
+    
+     |  L(items=None, *rest, use_list=False, match=None)
+     |  
+     |  Behaves like a list of `items` but can also index with list of indices or masks
+     |  
+     |  Method resolution order:
+     |      L
+     |      fastcore.basics.GetAttr
+     |      CollBase
+     |      builtins.object
+     |  
+     |  Methods defined here:
+     |  
+     |  
+#### L.__add__
+     |  
+     |  __add__(a, b)
+     |  
+     |  
+#### L.__addi__
+     |  
+     |  __addi__(a, b)
+     |  
+     |  
+#### L.__contains__
+     |  
+     |  __contains__(self, b)
+     |  
+     |  
+#### L.__eq__
+     |  
+     |  __eq__(self, b)
+     |      Return self==value.
+     |  
+     |  
+#### L.__getitem__
+     |  
+     |  __getitem__(self, idx)
+     |      Retrieve `idx` (can be list of indices, or mask, or int) items
+     |  
+     |  
+#### L.__init__
+     |  
+     |  __init__(self, items=None, *rest, use_list=False, match=None)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  
+#### L.__invert__
+     |  
+     |  __invert__(self)
+     |  
+     |  
+#### L.__iter__
+     |  
+     |  __iter__(self)
+     |  
+     |  
+#### L.__mul__
+     |  
+     |  __mul__(a, b)
+     |  
+     |  
+#### L.__radd__
+     |  
+     |  __radd__(a, b)
+     |  
+     |  
+#### L.__repr__
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |  
+     |  
+#### L.__reversed__
+     |  
+     |  __reversed__(self)
+     |  
+     |  
+#### L.__setitem__
+     |  
+     |  __setitem__(self, idx, o)
+     |      Set `idx` (can be list of indices, or mask, or int) items to `o` (which is broadcast if not iterable)
+     |  
+     |  
+#### L.argfirst
+     |  
+     |  argfirst(self, f, negate=False)
+     |      Return index of first matching item
+     |  
+     |  
+#### L.argwhere
+     |  
+     |  argwhere(self, f, negate=False, **kwargs)
+     |      Like `filter`, but return indices for matching items
+     |  
+     |  
+#### L.attrgot
+     |  
+     |  attrgot(self, k, default=None)
+     |      Create new `L` with attr `k` (or value `k` for dicts) of all `items`.
+     |  
+     |  
+#### L.concat
+     |  
+     |  concat(self)
+     |      Concatenate all elements of list
+     |  
+     |  
+#### L.copy
+     |  
+     |  copy(self)
+     |      Same as `list.copy`, but returns an `L`
+     |  
+     |  
+#### L.cycle
+     |  
+     |  cycle(self)
+     |      Same as `itertools.cycle`
+     |  
+     |  
+#### L.enumerate
+     |  
+     |  enumerate(self)
+     |      Same as `enumerate`
+     |  
+     |  
+#### L.filter
+     |  
+     |  filter(self, f=<function noop at 0x100d15480>, negate=False, **kwargs)
+     |      Create new `L` filtered by predicate `f`, passing `args` and `kwargs` to `f`
+     |  
+     |  
+#### L.itemgot
+     |  
+     |  itemgot(self, *idxs)
+     |      Create new `L` with item `idx` of all `items`
+     |  
+     |  
+#### L.map
+     |  
+     |  map(self, f, *args, **kwargs)
+     |      Create new `L` with `f` applied to all `items`, passing `args` and `kwargs` to `f`
+     |  
+     |  
+#### L.map_dict
+     |  
+     |  map_dict(self, f=<function noop at 0x100d15480>, *args, **kwargs)
+     |      Like `map`, but creates a dict from `items` to function results
+     |  
+     |  
+#### L.map_first
+     |  
+     |  map_first(self, f=<function noop at 0x100d15480>, g=<function noop at 0x100d15480>, *args, **kwargs)
+     |      First element of `map_filter`
+     |  
+     |  
+#### L.map_zip
+     |  
+     |  map_zip(self, f, *args, cycled=False, **kwargs)
+     |      Combine `zip` and `starmap`
+     |  
+     |  
+#### L.map_zipwith
+     |  
+     |  map_zipwith(self, f, *rest, cycled=False, **kwargs)
+     |      Combine `zipwith` and `starmap`
+     |  
+     |  
+#### L.product
+     |  
+     |  product(self)
+     |      Product of the items
+     |  
+     |  
+#### L.reduce
+     |  
+     |  reduce(self, f, initial=None)
+     |      Wrapper for `functools.reduce`
+     |  
+     |  
+#### L.renumerate
+     |  
+     |  renumerate(self)
+     |      Same as `renumerate`
+     |  
+     |  
+#### L.setattrs
+     |  
+     |  setattrs(self, attr, val)
+     |      Call `setattr` on all items
+     |  
+     |  
+#### L.shuffle
+     |  
+     |  shuffle(self)
+     |      Same as `random.shuffle`, but not inplace
+     |  
+     |  
+#### L.sorted
+     |  
+     |  sorted(self, key=None, reverse=False)
+     |      New `L` sorted by `key`. If key is str use `attrgetter`; if int use `itemgetter`
+     |  
+     |  
+#### L.starmap
+     |  
+     |  starmap(self, f, *args, **kwargs)
+     |      Like `map`, but use `itertools.starmap`
+     |  
+     |  
+#### L.sum
+     |  
+     |  sum(self)
+     |      Sum of the items
+     |  
+     |  
+#### L.unique
+     |  
+     |  unique(self, sort=False, bidir=False, start=None)
+     |      Unique items, in stable order
+     |  
+     |  
+#### L.val2idx
+     |  
+     |  val2idx(self)
+     |      Dict from value to index
+     |  
+     |  
+#### L.zip
+     |  
+     |  zip(self, cycled=False)
+     |      Create new `L` with `zip(*items)`
+     |  
+     |  
+#### L.zipwith
+     |  
+     |  zipwith(self, *rest, cycled=False)
+     |      Create new `L` with `self` zip with each of `*rest`
+     |  
+     |  ----------------------------------------------------------------------
+     |  Class methods defined here:
+     |  
+     |  
+#### L.range
+     |  
+     |  range(a, b=None, step=None) from _L_Meta
+     |      Class Method: Same as `range`, but returns `L`. Can pass collection for `a`, to use `len(a)`
+     |  
+     |  
+#### L.split
+     |  
+     |  split(s, sep=None, maxsplit=-1) from _L_Meta
+     |      Class Method: Same as `str.split`, but returns an `L`
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  __hash__ = None
+     |  
+     |  __signature__ = <Signature (items=None, *rest, use_list=False, match=N...
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from fastcore.basics.GetAttr:
+     |  
+     |  
+#### GetAttr.__dir__
+     |  
+     |  __dir__(self)
+     |      Default dir() implementation.
+     |  
+     |  
+#### GetAttr.__getattr__
+     |  
+     |  __getattr__(self, k)
+     |  
+     |  
+#### GetAttr.__setstate__
+     |  
+     |  __setstate__(self, data)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors inherited from fastcore.basics.GetAttr:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+     |  
+     |  ----------------------------------------------------------------------
+     |  Methods inherited from CollBase:
+     |  
+     |  
+#### CollBase.__delitem__
+     |  
+     |  __delitem__(self, i)
+     |  
+     |  
+#### CollBase.__len__
+     |  
+     |  __len__(self)
+
+## Functions
+
+    
+### add_docs
+    
+<strong>add_docs(cls, cls_doc=None, **docs)</strong>
+    
+        Copy values from `docs` to `cls` docstrings, and confirm all public methods are documented
+    
+### coll_repr
+    
+<strong>coll_repr(c, max_n=10)</strong>
+    
+        String repr of up to `max_n` items of (possibly lazy) collection `c`
+    
+### cycle
+    
+<strong>cycle(o)</strong>
+    
+        Like `itertools.cycle` except creates list of `None`s if `o` is empty
+    
+### docs
+    
+<strong>docs(cls)</strong>
+    
+        Decorator version of `add_docs`, using `_docs` dict
+    
+### is_bool
+    
+<strong>is_bool(x)</strong>
+    
+        Check whether `x` is a bool or None
+    
+### is_indexer
+    
+<strong>is_indexer(idx)</strong>
+    
+        Test whether `idx` will index a single item in a list
+    
+### mask2idxs
+    
+<strong>mask2idxs(mask)</strong>
+    
+        Convert bool mask or index list to index `L`
+    
+### read_config_file
+    
+<strong>read_config_file(file, **kwargs)</strong>
+    
+        # %% ../nbs/02_foundation.ipynb 130
+    
+### save_config_file
+    
+<strong>save_config_file(file, d, **kwargs)</strong>
+    
+        Write settings dict to a new config file, or overwrite the existing one.
+    
+### working_directory
+    
+<strong>working_directory(path)</strong>
+    
+        Change working directory to `path` and return to previous on exit.
+    
+### zip_cycle
+    
+<strong>zip_cycle(x, *args)</strong>
+    
+        Like `itertools.zip_longest` but `cycle`s through elements of all but first argument
+

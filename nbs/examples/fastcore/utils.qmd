@@ -1,0 +1,27 @@
+---
+title: "utils"
+description: "module fastcore.utils in fastcore"
+---
+
+## Functions
+
+    
+### reduce
+    
+<strong>reduce(...)</strong>
+    
+        reduce(function, iterable[, initial]) -> value
+        
+        Apply a function of two arguments cumulatively to the items of a sequence
+        or iterable, from left to right, so as to reduce the iterable to a single
+        value.  For example, reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) calculates
+        ((((1+2)+3)+4)+5).  If initial is present, it is placed before the items
+        of the iterable in the calculation, and serves as a default when the
+        iterable is empty.
+    
+### warn
+    
+<strong>warn(message, category=None, stacklevel=1, source=None)</strong>
+    
+        Issue a warning, or maybe ignore it or raise an exception.
+
