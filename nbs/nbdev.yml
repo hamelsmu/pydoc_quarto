@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "pydoc_quarto"
+  site-url: "https://hamelsmu.github.io/pydoc_quarto"
+  description: "Generate minimal reference API docs from a python library in the form of markdown files that can be rendered in Quarto."
+  repo-branch: main
+  repo-url: "https://github.com/hamelsmu/pydoc_quarto"
