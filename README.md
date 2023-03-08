@@ -35,6 +35,8 @@ This will generate markdown files for the `requests` library:
 !ls _test_dir/
 ```
 
-    adapters.md     certs.md        exceptions.md   models.md       status_codes.md
-    api.md          compat.md       help.md         packages.md     structures.md
-    auth.md         cookies.md      hooks.md        sessions.md     utils.md
+    requests.adapters.qmd     requests.cookies.qmd      requests.packages.qmd
+    requests.api.qmd          requests.exceptions.qmd   requests.sessions.qmd
+    requests.auth.qmd         requests.help.qmd         requests.status_codes.qmd
+    requests.certs.qmd        requests.hooks.qmd        requests.structures.qmd
+    requests.compat.qmd       requests.models.qmd       requests.utils.qmd
