@@ -14,7 +14,7 @@ description: "module requests.utils in requests"
 ## Functions
 
     
-### add_dict_to_cookiejar
+### `add_dict_to_cookiejar`
     
 <strong>add_dict_to_cookiejar(cj, cookie_dict)</strong>
     
@@ -24,7 +24,7 @@ description: "module requests.utils in requests"
         :param cookie_dict: Dict of key/values to insert into CookieJar.
         :rtype: CookieJar
     
-### address_in_network
+### `address_in_network`
     
 <strong>address_in_network(ip, net)</strong>
     
@@ -35,13 +35,13 @@ description: "module requests.utils in requests"
         
         :rtype: bool
     
-### atomic_open
+### `atomic_open`
     
 <strong>atomic_open(filename)</strong>
     
         Write a file to the disk in an atomic fashion
     
-### check_header_validity
+### `check_header_validity`
     
 <strong>check_header_validity(header)</strong>
     
@@ -50,13 +50,13 @@ description: "module requests.utils in requests"
         
         :param header: tuple, in the format (name, value).
     
-### default_headers
+### `default_headers`
     
 <strong>default_headers()</strong>
     
         :rtype: requests.structures.CaseInsensitiveDict
     
-### default_user_agent
+### `default_user_agent`
     
 <strong>default_user_agent(name='python-requests')</strong>
     
@@ -64,7 +64,7 @@ description: "module requests.utils in requests"
         
         :rtype: str
     
-### dict_from_cookiejar
+### `dict_from_cookiejar`
     
 <strong>dict_from_cookiejar(cj)</strong>
     
@@ -73,13 +73,13 @@ description: "module requests.utils in requests"
         :param cj: CookieJar object to extract cookies from.
         :rtype: dict
     
-### dict_to_sequence
+### `dict_to_sequence`
     
 <strong>dict_to_sequence(d)</strong>
     
         Returns an internal sequence dictionary update.
     
-### dotted_netmask
+### `dotted_netmask`
     
 <strong>dotted_netmask(mask)</strong>
     
@@ -89,7 +89,7 @@ description: "module requests.utils in requests"
         
         :rtype: str
     
-### extract_zipped_paths
+### `extract_zipped_paths`
     
 <strong>extract_zipped_paths(path)</strong>
     
@@ -97,7 +97,7 @@ description: "module requests.utils in requests"
         archive with the location of an extracted copy of the target, or else
         just return the provided path unchanged.
     
-### from_key_val_list
+### `from_key_val_list`
     
 <strong>from_key_val_list(value)</strong>
     
@@ -118,7 +118,7 @@ description: "module requests.utils in requests"
         
         :rtype: OrderedDict
     
-### get_auth_from_url
+### `get_auth_from_url`
     
 <strong>get_auth_from_url(url)</strong>
     
@@ -127,7 +127,7 @@ description: "module requests.utils in requests"
         
         :rtype: (str,str)
     
-### get_encoding_from_headers
+### `get_encoding_from_headers`
     
 <strong>get_encoding_from_headers(headers)</strong>
     
@@ -136,7 +136,7 @@ description: "module requests.utils in requests"
         :param headers: dictionary to extract encoding from.
         :rtype: str
     
-### get_encodings_from_content
+### `get_encodings_from_content`
     
 <strong>get_encodings_from_content(content)</strong>
     
@@ -144,7 +144,7 @@ description: "module requests.utils in requests"
         
         :param content: bytestring to extract encodings from.
     
-### get_environ_proxies
+### `get_environ_proxies`
     
 <strong>get_environ_proxies(url, no_proxy=None)</strong>
     
@@ -152,13 +152,13 @@ description: "module requests.utils in requests"
         
         :rtype: dict
     
-### get_netrc_auth
+### `get_netrc_auth`
     
 <strong>get_netrc_auth(url, raise_errors=False)</strong>
     
         Returns the Requests tuple auth for a given url from netrc.
     
-### get_unicode_from_response
+### `get_unicode_from_response`
     
 <strong>get_unicode_from_response(r)</strong>
     
@@ -173,25 +173,25 @@ description: "module requests.utils in requests"
         
         :rtype: str
     
-### guess_filename
+### `guess_filename`
     
 <strong>guess_filename(obj)</strong>
     
         Tries to guess the filename of the given object.
     
-### guess_json_utf
+### `guess_json_utf`
     
 <strong>guess_json_utf(data)</strong>
     
         :rtype: str
     
-### is_ipv4_address
+### `is_ipv4_address`
     
 <strong>is_ipv4_address(string_ip)</strong>
     
         :rtype: bool
     
-### is_valid_cidr
+### `is_valid_cidr`
     
 <strong>is_valid_cidr(string_network)</strong>
     
@@ -199,13 +199,13 @@ description: "module requests.utils in requests"
         
         :rtype: bool
     
-### iter_slices
+### `iter_slices`
     
 <strong>iter_slices(string, slice_length)</strong>
     
         Iterate over slices of a string.
     
-### parse_dict_header
+### `parse_dict_header`
     
 <strong>parse_dict_header(value)</strong>
     
@@ -230,7 +230,7 @@ description: "module requests.utils in requests"
         :return: :class:`dict`
         :rtype: dict
     
-### parse_header_links
+### `parse_header_links`
     
 <strong>parse_header_links(value)</strong>
     
@@ -240,7 +240,7 @@ description: "module requests.utils in requests"
         
         :rtype: list
     
-### parse_list_header
+### `parse_list_header`
     
 <strong>parse_list_header(value)</strong>
     
@@ -266,7 +266,7 @@ description: "module requests.utils in requests"
         :return: :class:`list`
         :rtype: list
     
-### prepend_scheme_if_needed
+### `prepend_scheme_if_needed`
     
 <strong>prepend_scheme_if_needed(url, new_scheme)</strong>
     
@@ -275,7 +275,7 @@ description: "module requests.utils in requests"
         
         :rtype: str
     
-### requote_uri
+### `requote_uri`
     
 <strong>requote_uri(uri)</strong>
     
@@ -286,7 +286,7 @@ description: "module requests.utils in requests"
         
         :rtype: str
     
-### resolve_proxies
+### `resolve_proxies`
     
 <strong>resolve_proxies(request, proxies, trust_env=True)</strong>
     
@@ -300,14 +300,14 @@ description: "module requests.utils in requests"
         
         :rtype: dict
     
-### rewind_body
+### `rewind_body`
     
 <strong>rewind_body(prepared_request)</strong>
     
         Move file pointer back to its recorded starting position
         so it can be read again on redirect.
     
-### select_proxy
+### `select_proxy`
     
 <strong>select_proxy(url, proxies)</strong>
     
@@ -316,7 +316,7 @@ description: "module requests.utils in requests"
         :param url: The url being for the request
         :param proxies: A dictionary of schemes or schemes and hosts to proxy URLs
     
-### set_environ
+### `set_environ`
     
 <strong>set_environ(env_name, value)</strong>
     
@@ -327,7 +327,7 @@ description: "module requests.utils in requests"
         
         If 'value' is None, do nothing
     
-### should_bypass_proxies
+### `should_bypass_proxies`
     
 <strong>should_bypass_proxies(url, no_proxy)</strong>
     
@@ -335,18 +335,18 @@ description: "module requests.utils in requests"
         
         :rtype: bool
     
-### stream_decode_response_unicode
+### `stream_decode_response_unicode`
     
 <strong>stream_decode_response_unicode(iterator, r)</strong>
     
         Stream decodes an iterator.
     
-### super_len
+### `super_len`
     
 <strong>super_len(o)</strong>
     
     
-### to_key_val_list
+### `to_key_val_list`
     
 <strong>to_key_val_list(value)</strong>
     
@@ -366,7 +366,7 @@ description: "module requests.utils in requests"
         
         :rtype: list
     
-### unquote_header_value
+### `unquote_header_value`
     
 <strong>unquote_header_value(value, is_filename=False)</strong>
     
@@ -377,7 +377,7 @@ description: "module requests.utils in requests"
         :param value: the header value to unquote.
         :rtype: str
     
-### unquote_unreserved
+### `unquote_unreserved`
     
 <strong>unquote_unreserved(uri)</strong>
     
@@ -386,7 +386,7 @@ description: "module requests.utils in requests"
         
         :rtype: str
     
-### urldefragauth
+### `urldefragauth`
     
 <strong>urldefragauth(url)</strong>
     

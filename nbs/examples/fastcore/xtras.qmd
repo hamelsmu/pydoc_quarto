@@ -32,17 +32,17 @@ description: "module fastcore.xtras in fastcore"
      |  Methods defined here:
      |  
      |  
-#### ContextManagers.__enter__
+#### `ContextManagers.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### ContextManagers.__exit__
+#### `ContextManagers.__exit__`
      |  
      |  __exit__(self, *args, **kwargs)
      |  
      |  
-#### ContextManagers.__init__
+#### `ContextManagers.__init__`
      |  
      |  __init__(self, mgrs)
      |      Initialize self.  See help(type(self)) for accurate signature.
@@ -51,18 +51,18 @@ description: "module fastcore.xtras in fastcore"
      |  Methods inherited from fastcore.basics.GetAttr:
      |  
      |  
-#### GetAttr.__dir__
+#### `GetAttr.__dir__`
      |  
      |  __dir__(self)
      |      Default dir() implementation.
      |  
      |  
-#### GetAttr.__getattr__
+#### `GetAttr.__getattr__`
      |  
      |  __getattr__(self, k)
      |  
      |  
-#### GetAttr.__setstate__
+#### `GetAttr.__setstate__`
      |  
      |  __setstate__(self, data)
      |  
@@ -86,13 +86,13 @@ description: "module fastcore.xtras in fastcore"
      |  Methods defined here:
      |  
      |  
-#### EventTimer.__init__
+#### `EventTimer.__init__`
      |  
      |  __init__(self, store=5, span=60)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### EventTimer.add
+#### `EventTimer.add`
      |  
      |  add(self, n=1)
      |      Record `n` events
@@ -122,7 +122,7 @@ description: "module fastcore.xtras in fastcore"
      |  Methods defined here:
      |  
      |  
-#### IterLen.__iter__
+#### `IterLen.__iter__`
      |  
      |  __iter__(self)
      |  
@@ -149,18 +149,18 @@ description: "module fastcore.xtras in fastcore"
      |  Methods defined here:
      |  
      |  
-#### PartialFormatter.__init__
+#### `PartialFormatter.__init__`
      |  
      |  __init__(self)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### PartialFormatter.check_unused_args
+#### `PartialFormatter.check_unused_args`
      |  
      |  check_unused_args(self, used, args, kwargs)
      |  
      |  
-#### PartialFormatter.get_field
+#### `PartialFormatter.get_field`
      |  
      |  get_field(self, nm, args, kwargs)
      |  
@@ -168,27 +168,27 @@ description: "module fastcore.xtras in fastcore"
      |  Methods inherited from string.Formatter:
      |  
      |  
-#### Formatter.convert_field
+#### `Formatter.convert_field`
      |  
      |  convert_field(self, value, conversion)
      |  
      |  
-#### Formatter.format
+#### `Formatter.format`
      |  
      |  format(self, format_string, /, *args, **kwargs)
      |  
      |  
-#### Formatter.format_field
+#### `Formatter.format_field`
      |  
      |  format_field(self, value, format_spec)
      |  
      |  
-#### Formatter.get_value
+#### `Formatter.get_value`
      |  
      |  get_value(self, key, args, kwargs)
      |  
      |  
-#### Formatter.parse
+#### `Formatter.parse`
      |  
      |  parse(self, format_string)
      |      # returns an iterable that contains tuples of the form:
@@ -200,7 +200,7 @@ description: "module fastcore.xtras in fastcore"
      |      #  with format_spec and conversion and then used
      |  
      |  
-#### Formatter.vformat
+#### `Formatter.vformat`
      |  
      |  vformat(self, format_string, args, kwargs)
      |  
@@ -217,7 +217,7 @@ description: "module fastcore.xtras in fastcore"
     
 <strong>class ReindexCollection(fastcore.basics.GetAttr, IterLen)</strong>
     
-     |  ReindexCollection(coll, idxs=None, cache=None, tfm=<function noop at 0x100d15480>)
+     |  ReindexCollection(coll, idxs=None, cache=None, tfm=<function noop at 0x104d19480>)
      |  
      |  Reindexes collection `coll` with indices `idxs` and optional LRU cache of size `cache`
      |  
@@ -230,45 +230,45 @@ description: "module fastcore.xtras in fastcore"
      |  Methods defined here:
      |  
      |  
-#### ReindexCollection.__getitem__
+#### `ReindexCollection.__getitem__`
      |  
      |  __getitem__(self, i)
      |  
      |  
-#### ReindexCollection.__getstate__
+#### `ReindexCollection.__getstate__`
      |  
      |  __getstate__(self)
      |  
      |  
-#### ReindexCollection.__init__
+#### `ReindexCollection.__init__`
      |  
-     |  __init__(self, coll, idxs=None, cache=None, tfm=<function noop at 0x100d15480>)
+     |  __init__(self, coll, idxs=None, cache=None, tfm=<function noop at 0x104d19480>)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### ReindexCollection.__len__
+#### `ReindexCollection.__len__`
      |  
      |  __len__(self)
      |  
      |  
-#### ReindexCollection.__setstate__
+#### `ReindexCollection.__setstate__`
      |  
      |  __setstate__(self, s)
      |  
      |  
-#### ReindexCollection.cache_clear
+#### `ReindexCollection.cache_clear`
      |  
      |  cache_clear(self)
      |      Clear LRU cache
      |  
      |  
-#### ReindexCollection.reindex
+#### `ReindexCollection.reindex`
      |  
      |  reindex(self, idxs)
      |      Replace `self.idxs` with idxs
      |  
      |  
-#### ReindexCollection.shuffle
+#### `ReindexCollection.shuffle`
      |  
      |  shuffle(self)
      |      Randomly shuffle indices
@@ -277,13 +277,13 @@ description: "module fastcore.xtras in fastcore"
      |  Methods inherited from fastcore.basics.GetAttr:
      |  
      |  
-#### GetAttr.__dir__
+#### `GetAttr.__dir__`
      |  
      |  __dir__(self)
      |      Default dir() implementation.
      |  
      |  
-#### GetAttr.__getattr__
+#### `GetAttr.__getattr__`
      |  
      |  __getattr__(self, k)
      |  
@@ -300,226 +300,226 @@ description: "module fastcore.xtras in fastcore"
      |  Methods inherited from IterLen:
      |  
      |  
-#### IterLen.__iter__
+#### `IterLen.__iter__`
      |  
      |  __iter__(self)
 
 ## Functions
 
     
-### autostart
+### `autostart`
     
 <strong>autostart(g)</strong>
     
         Decorator that automatically starts a generator
     
-### bunzip
+### `bunzip`
     
 <strong>bunzip(fn)</strong>
     
         bunzip `fn`, raising exception if output already exists
     
-### console_help
+### `console_help`
     
 <strong>console_help(libname: 'str')</strong>
     
         Show help for all console scripts from `libname`
     
-### dict2obj
+### `dict2obj`
     
 <strong>dict2obj(d, list_func=<class 'fastcore.foundation.L'>, dict_func=<class 'fastcore.basics.AttrDict'>)</strong>
     
         Convert (possibly nested) dicts (or lists of dicts) to `AttrDict`
     
-### dumps
+### `dumps`
     
 <strong>dumps(obj, **kw)</strong>
     
         Same as `json.dumps`, but uses `ujson` if available
     
-### get_source_link
+### `get_source_link`
     
 <strong>get_source_link(func)</strong>
     
         Return link to `func` in source code
     
-### globtastic
+### `globtastic`
     
-<strong>globtastic(path: 'Path | str', recursive: 'bool' = True, symlinks: 'bool' = True, file_glob: 'str' = None, file_re: 'str' = None, folder_re: 'str' = None, skip_file_glob: 'str' = None, skip_file_re: 'str' = None, skip_folder_re: 'str' = None, func: 'callable' = <function join at 0x100646b90>, ret_folders: 'bool' = False) -> 'L'</strong>
+<strong>globtastic(path: 'Path | str', recursive: 'bool' = True, symlinks: 'bool' = True, file_glob: 'str' = None, file_re: 'str' = None, folder_re: 'str' = None, skip_file_glob: 'str' = None, skip_file_re: 'str' = None, skip_folder_re: 'str' = None, func: 'callable' = <function join at 0x104646b90>, ret_folders: 'bool' = False) -> 'L'</strong>
     
         A more powerful `glob`, including regex matches, symlink handling, and skip parameters
     
-### image_size
+### `image_size`
     
 <strong>image_size(fn)</strong>
     
         Tuple of (w,h) for png, gif, or jpg; `None` otherwise
     
-### is_listy
+### `is_listy`
     
 <strong>is_listy(x)</strong>
     
         `isinstance(x, (tuple,list,L,slice,Generator))`
     
-### join_path_file
+### `join_path_file`
     
 <strong>join_path_file(file, path, ext='')</strong>
     
         Return `path/file` if file is a string or a `Path`, file otherwise
     
-### load_pickle
+### `load_pickle`
     
 <strong>load_pickle(fn)</strong>
     
         Load a pickle file from a file name or opened file
     
-### loads
+### `loads`
     
 <strong>loads(s, **kw)</strong>
     
         Same as `json.loads`, but handles `None`
     
-### loads_multi
+### `loads_multi`
     
 <strong>loads_multi(s: 'str')</strong>
     
         Generator of >=0 decoded json dicts, possibly with non-json ignored text at start and end
     
-### local2utc
+### `local2utc`
     
 <strong>local2utc(dt: 'datetime') -> 'datetime'</strong>
     
         Convert `dt` from local to UTC time
     
-### mapped
+### `mapped`
     
 <strong>mapped(f, it)</strong>
     
         map `f` over `it`, unless it's not listy, in which case return `f(it)`
     
-### maybe_open
+### `maybe_open`
     
 <strong>maybe_open(f, mode='r', **kwargs)</strong>
     
         Context manager: open `f` if it is a path (and close on exit)
     
-### mkdir
+### `mkdir`
     
 <strong>mkdir(path, exist_ok=False, parents=False, overwrite=False, **kwargs)</strong>
     
         Creates and returns a directory defined by `path`, optionally removing previous existing directory if `overwrite` is `True`
     
-### modified_env
+### `modified_env`
     
 <strong>modified_env(*delete, **replace)</strong>
     
         Context manager temporarily modifying `os.environ` by deleting `delete` and replacing `replace`
     
-### modify_exception
+### `modify_exception`
     
 <strong>modify_exception(e: 'Exception', msg: 'str' = None, replace: 'bool' = False) -> 'Exception'</strong>
     
         Modifies `e` with a custom message attached
     
-### obj2dict
+### `obj2dict`
     
 <strong>obj2dict(d)</strong>
     
         Convert (possibly nested) AttrDicts (or lists of AttrDicts) to `dict`
     
-### open_file
+### `open_file`
     
 <strong>open_file(fn, mode='r', **kwargs)</strong>
     
         Open a file, with optional compression if gz or bz2 suffix
     
-### partial_format
+### `partial_format`
     
 <strong>partial_format(s: 'str', **kwargs)</strong>
     
         string format `s`, ignoring missing field errors, returning missing and extra fields
     
-### repo_details
+### `repo_details`
     
 <strong>repo_details(url)</strong>
     
         Tuple of `owner,name` from ssh or https git repo `url`
     
-### repr_dict
+### `repr_dict`
     
 <strong>repr_dict(d)</strong>
     
         Print nested dicts and lists, such as returned by `dict2obj`
     
-### round_multiple
+### `round_multiple`
     
 <strong>round_multiple(x, mult, round_down=False)</strong>
     
         Round `x` to nearest multiple of `mult`
     
-### run
+### `run`
     
 <strong>run(cmd, *rest, same_in_win=False, ignore_ex=False, as_bytes=False, stderr=False)</strong>
     
         Pass `cmd` (splitting with `shlex` if string) to `subprocess.run`; return `stdout`; raise `IOError` if fails
     
-### save_pickle
+### `save_pickle`
     
 <strong>save_pickle(fn, o)</strong>
     
         Save a pickle file, to a file name or opened file
     
-### set_num_threads
+### `set_num_threads`
     
 <strong>set_num_threads(nt)</strong>
     
         Get numpy (and others) to use `nt` threads
     
-### shufflish
+### `shufflish`
     
 <strong>shufflish(x, pct=0.04)</strong>
     
         Randomly relocate items of `x` up to `pct` of `len(x)` from their starting location
     
-### sparkline
+### `sparkline`
     
 <strong>sparkline(data, mn=None, mx=None, empty_zero=False)</strong>
     
         Sparkline for `data`, with `None`s (and zero, if `empty_zero`) shown as empty column
     
-### stringfmt_names
+### `stringfmt_names`
     
 <strong>stringfmt_names(s: 'str') -> 'list'</strong>
     
         Unique brace-delimited names in `s`
     
-### trace
+### `trace`
     
 <strong>trace(f)</strong>
     
         Add `set_trace` to an existing function `f`
     
-### truncstr
+### `truncstr`
     
 <strong>truncstr(s: 'str', maxlen: 'int', suf: 'str' = '…', space='') -> 'str'</strong>
     
         Truncate `s` to length `maxlen`, adding suffix `suf` if truncated
     
-### untar_dir
+### `untar_dir`
     
 <strong>untar_dir(fname, dest, rename=False, overwrite=False)</strong>
     
         untar `file` into `dest`, creating a directory if the root contains more than one item
     
-### utc2local
+### `utc2local`
     
 <strong>utc2local(dt: 'datetime') -> 'datetime'</strong>
     
         Convert `dt` from UTC to local time
     
-### walk
+### `walk`
     
-<strong>walk(path: 'Path | str', symlinks: 'bool' = True, keep_file: 'callable' = <function ret_true at 0x100d748b0>, keep_folder: 'callable' = <function ret_true at 0x100d748b0>, skip_folder: 'callable' = <function ret_false at 0x100d74940>, func: 'callable' = <function join at 0x100646b90>, ret_folders: 'bool' = False)</strong>
+<strong>walk(path: 'Path | str', symlinks: 'bool' = True, keep_file: 'callable' = <function ret_true at 0x104d6c8b0>, keep_folder: 'callable' = <function ret_true at 0x104d6c8b0>, skip_folder: 'callable' = <function ret_false at 0x104d6c940>, func: 'callable' = <function join at 0x104646b90>, ret_folders: 'bool' = False)</strong>
     
         Generator version of `os.walk`, using functions to filter files and folders
 

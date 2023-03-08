@@ -60,7 +60,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -75,13 +75,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -90,7 +90,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -116,36 +116,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -191,7 +191,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -206,13 +206,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -221,7 +221,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -247,36 +247,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -318,7 +318,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -333,13 +333,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -348,7 +348,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -374,36 +374,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -446,7 +446,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -461,13 +461,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -476,7 +476,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -502,36 +502,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -578,7 +578,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.DeprecationWarning:
      |  
      |  
-#### DeprecationWarning.__init__
+#### `DeprecationWarning.__init__`
      |  
      |  __init__(self, /, *args, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
@@ -587,7 +587,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.DeprecationWarning:
      |  
      |  
-#### DeprecationWarning.__new__
+#### `DeprecationWarning.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -596,48 +596,48 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__reduce__
+#### `BaseException.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.__str__
+#### `BaseException.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -679,7 +679,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -694,13 +694,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -709,7 +709,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -735,36 +735,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -807,7 +807,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -822,13 +822,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -837,7 +837,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -863,36 +863,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -934,7 +934,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -949,13 +949,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -964,7 +964,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -990,36 +990,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1063,7 +1063,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -1078,13 +1078,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -1093,7 +1093,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1119,36 +1119,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1191,7 +1191,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -1206,13 +1206,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -1221,7 +1221,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1247,36 +1247,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1319,7 +1319,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -1334,13 +1334,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -1349,7 +1349,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1375,36 +1375,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1449,7 +1449,7 @@ description: "module requests.exceptions in requests"
      |  Methods defined here:
      |  
      |  
-#### JSONDecodeError.__init__
+#### `JSONDecodeError.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Construct the JSONDecodeError instance first with all
@@ -1467,13 +1467,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -1482,7 +1482,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1508,36 +1508,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1580,7 +1580,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -1595,13 +1595,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -1610,7 +1610,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1636,36 +1636,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1708,7 +1708,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -1723,13 +1723,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -1738,7 +1738,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1764,36 +1764,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1836,7 +1836,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -1851,13 +1851,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -1866,7 +1866,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1892,36 +1892,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1963,7 +1963,7 @@ description: "module requests.exceptions in requests"
      |  Methods defined here:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -1978,13 +1978,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -1993,7 +1993,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2019,36 +2019,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2094,7 +2094,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.Warning:
      |  
      |  
-#### Warning.__init__
+#### `Warning.__init__`
      |  
      |  __init__(self, /, *args, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
@@ -2103,7 +2103,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.Warning:
      |  
      |  
-#### Warning.__new__
+#### `Warning.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2112,48 +2112,48 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__reduce__
+#### `BaseException.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.__str__
+#### `BaseException.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2198,7 +2198,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.Warning:
      |  
      |  
-#### Warning.__init__
+#### `Warning.__init__`
      |  
      |  __init__(self, /, *args, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
@@ -2207,7 +2207,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.Warning:
      |  
      |  
-#### Warning.__new__
+#### `Warning.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2216,48 +2216,48 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__reduce__
+#### `BaseException.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.__str__
+#### `BaseException.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2299,7 +2299,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -2314,13 +2314,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -2329,7 +2329,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2355,36 +2355,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2427,7 +2427,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -2442,13 +2442,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -2457,7 +2457,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2483,36 +2483,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2555,7 +2555,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -2570,13 +2570,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -2585,7 +2585,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2611,36 +2611,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2686,7 +2686,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -2701,13 +2701,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -2716,7 +2716,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2742,36 +2742,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2813,7 +2813,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -2828,13 +2828,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -2843,7 +2843,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2869,36 +2869,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2940,7 +2940,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -2955,13 +2955,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -2970,7 +2970,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2996,36 +2996,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -3067,7 +3067,7 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from RequestException:
      |  
      |  
-#### RequestException.__init__
+#### `RequestException.__init__`
      |  
      |  __init__(self, *args, **kwargs)
      |      Initialize RequestException with `request` and `response` objects.
@@ -3082,13 +3082,13 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### OSError.__str__
+#### `OSError.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
@@ -3097,7 +3097,7 @@ description: "module requests.exceptions in requests"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -3123,36 +3123,36 @@ description: "module requests.exceptions in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --

@@ -25,7 +25,7 @@ description: "module fastcore.meta in fastcore"
      |  Methods defined here:
      |  
      |  
-#### AutoInit.__pre_init__
+#### `AutoInit.__pre_init__`
      |  
      |  __pre_init__(self, *args, **kwargs)
      |  
@@ -55,7 +55,7 @@ description: "module fastcore.meta in fastcore"
      |  Methods defined here:
      |  
      |  
-#### BypassNewMeta.__call__
+#### `BypassNewMeta.__call__`
      |  
      |  __call__(cls, x=None, *args, **kwargs)
      |      Call self as a function.
@@ -69,7 +69,7 @@ description: "module fastcore.meta in fastcore"
      |  Static methods inherited from FixSigMeta:
      |  
      |  
-#### FixSigMeta.__new__
+#### `FixSigMeta.__new__`
      |  
      |  __new__(cls, name, bases, dict)
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -78,79 +78,79 @@ description: "module fastcore.meta in fastcore"
      |  Methods inherited from builtins.type:
      |  
      |  
-#### type.__delattr__
+#### `type.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### type.__dir__
+#### `type.__dir__`
      |  
      |  __dir__(self, /)
      |      Specialized __dir__ implementation for types.
      |  
      |  
-#### type.__getattribute__
+#### `type.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### type.__init__
+#### `type.__init__`
      |  
      |  __init__(self, /, *args, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### type.__instancecheck__
+#### `type.__instancecheck__`
      |  
      |  __instancecheck__(self, instance, /)
      |      Check if an object is an instance.
      |  
      |  
-#### type.__or__
+#### `type.__or__`
      |  
      |  __or__(self, value, /)
      |      Return self|value.
      |  
      |  
-#### type.__repr__
+#### `type.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### type.__ror__
+#### `type.__ror__`
      |  
      |  __ror__(self, value, /)
      |      Return value|self.
      |  
      |  
-#### type.__setattr__
+#### `type.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### type.__sizeof__
+#### `type.__sizeof__`
      |  
      |  __sizeof__(self, /)
      |      Return memory consumption of the type object.
      |  
      |  
-#### type.__subclasscheck__
+#### `type.__subclasscheck__`
      |  
      |  __subclasscheck__(self, subclass, /)
      |      Check if a class is a subclass.
      |  
      |  
-#### type.__subclasses__
+#### `type.__subclasses__`
      |  
      |  __subclasses__(self, /)
      |      Return a list of immediate subclasses.
      |  
      |  
-#### type.mro
+#### `type.mro`
      |  
      |  mro(self, /)
      |      Return a type's method resolution order.
@@ -159,7 +159,7 @@ description: "module fastcore.meta in fastcore"
      |  Class methods inherited from builtins.type:
      |  
      |  
-#### BypassNewMeta.__prepare__
+#### `BypassNewMeta.__prepare__`
      |  
      |  __prepare__(...) from builtins.type
      |      __prepare__() -> dict
@@ -211,7 +211,7 @@ description: "module fastcore.meta in fastcore"
      |  Static methods defined here:
      |  
      |  
-#### FixSigMeta.__new__
+#### `FixSigMeta.__new__`
      |  
      |  __new__(cls, name, bases, dict)
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -225,85 +225,85 @@ description: "module fastcore.meta in fastcore"
      |  Methods inherited from builtins.type:
      |  
      |  
-#### type.__call__
+#### `type.__call__`
      |  
      |  __call__(self, /, *args, **kwargs)
      |      Call self as a function.
      |  
      |  
-#### type.__delattr__
+#### `type.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### type.__dir__
+#### `type.__dir__`
      |  
      |  __dir__(self, /)
      |      Specialized __dir__ implementation for types.
      |  
      |  
-#### type.__getattribute__
+#### `type.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### type.__init__
+#### `type.__init__`
      |  
      |  __init__(self, /, *args, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### type.__instancecheck__
+#### `type.__instancecheck__`
      |  
      |  __instancecheck__(self, instance, /)
      |      Check if an object is an instance.
      |  
      |  
-#### type.__or__
+#### `type.__or__`
      |  
      |  __or__(self, value, /)
      |      Return self|value.
      |  
      |  
-#### type.__repr__
+#### `type.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### type.__ror__
+#### `type.__ror__`
      |  
      |  __ror__(self, value, /)
      |      Return value|self.
      |  
      |  
-#### type.__setattr__
+#### `type.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### type.__sizeof__
+#### `type.__sizeof__`
      |  
      |  __sizeof__(self, /)
      |      Return memory consumption of the type object.
      |  
      |  
-#### type.__subclasscheck__
+#### `type.__subclasscheck__`
      |  
      |  __subclasscheck__(self, subclass, /)
      |      Check if a class is a subclass.
      |  
      |  
-#### type.__subclasses__
+#### `type.__subclasses__`
      |  
      |  __subclasses__(self, /)
      |      Return a list of immediate subclasses.
      |  
      |  
-#### type.mro
+#### `type.mro`
      |  
      |  mro(self, /)
      |      Return a type's method resolution order.
@@ -312,7 +312,7 @@ description: "module fastcore.meta in fastcore"
      |  Class methods inherited from builtins.type:
      |  
      |  
-#### FixSigMeta.__prepare__
+#### `FixSigMeta.__prepare__`
      |  
      |  __prepare__(...) from builtins.type
      |      __prepare__() -> dict
@@ -366,7 +366,7 @@ description: "module fastcore.meta in fastcore"
      |  Methods defined here:
      |  
      |  
-#### NewChkMeta.__call__
+#### `NewChkMeta.__call__`
      |  
      |  __call__(cls, x=None, *args, **kwargs)
      |      Call self as a function.
@@ -380,7 +380,7 @@ description: "module fastcore.meta in fastcore"
      |  Static methods inherited from FixSigMeta:
      |  
      |  
-#### FixSigMeta.__new__
+#### `FixSigMeta.__new__`
      |  
      |  __new__(cls, name, bases, dict)
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -389,79 +389,79 @@ description: "module fastcore.meta in fastcore"
      |  Methods inherited from builtins.type:
      |  
      |  
-#### type.__delattr__
+#### `type.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### type.__dir__
+#### `type.__dir__`
      |  
      |  __dir__(self, /)
      |      Specialized __dir__ implementation for types.
      |  
      |  
-#### type.__getattribute__
+#### `type.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### type.__init__
+#### `type.__init__`
      |  
      |  __init__(self, /, *args, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### type.__instancecheck__
+#### `type.__instancecheck__`
      |  
      |  __instancecheck__(self, instance, /)
      |      Check if an object is an instance.
      |  
      |  
-#### type.__or__
+#### `type.__or__`
      |  
      |  __or__(self, value, /)
      |      Return self|value.
      |  
      |  
-#### type.__repr__
+#### `type.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### type.__ror__
+#### `type.__ror__`
      |  
      |  __ror__(self, value, /)
      |      Return value|self.
      |  
      |  
-#### type.__setattr__
+#### `type.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### type.__sizeof__
+#### `type.__sizeof__`
      |  
      |  __sizeof__(self, /)
      |      Return memory consumption of the type object.
      |  
      |  
-#### type.__subclasscheck__
+#### `type.__subclasscheck__`
      |  
      |  __subclasscheck__(self, subclass, /)
      |      Check if a class is a subclass.
      |  
      |  
-#### type.__subclasses__
+#### `type.__subclasses__`
      |  
      |  __subclasses__(self, /)
      |      Return a list of immediate subclasses.
      |  
      |  
-#### type.mro
+#### `type.mro`
      |  
      |  mro(self, /)
      |      Return a type's method resolution order.
@@ -470,7 +470,7 @@ description: "module fastcore.meta in fastcore"
      |  Class methods inherited from builtins.type:
      |  
      |  
-#### NewChkMeta.__prepare__
+#### `NewChkMeta.__prepare__`
      |  
      |  __prepare__(...) from builtins.type
      |      __prepare__() -> dict
@@ -523,7 +523,7 @@ description: "module fastcore.meta in fastcore"
      |  Methods defined here:
      |  
      |  
-#### PrePostInitMeta.__call__
+#### `PrePostInitMeta.__call__`
      |  
      |  __call__(cls, *args, **kwargs)
      |      Call self as a function.
@@ -537,7 +537,7 @@ description: "module fastcore.meta in fastcore"
      |  Static methods inherited from FixSigMeta:
      |  
      |  
-#### FixSigMeta.__new__
+#### `FixSigMeta.__new__`
      |  
      |  __new__(cls, name, bases, dict)
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -546,79 +546,79 @@ description: "module fastcore.meta in fastcore"
      |  Methods inherited from builtins.type:
      |  
      |  
-#### type.__delattr__
+#### `type.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### type.__dir__
+#### `type.__dir__`
      |  
      |  __dir__(self, /)
      |      Specialized __dir__ implementation for types.
      |  
      |  
-#### type.__getattribute__
+#### `type.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### type.__init__
+#### `type.__init__`
      |  
      |  __init__(self, /, *args, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### type.__instancecheck__
+#### `type.__instancecheck__`
      |  
      |  __instancecheck__(self, instance, /)
      |      Check if an object is an instance.
      |  
      |  
-#### type.__or__
+#### `type.__or__`
      |  
      |  __or__(self, value, /)
      |      Return self|value.
      |  
      |  
-#### type.__repr__
+#### `type.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### type.__ror__
+#### `type.__ror__`
      |  
      |  __ror__(self, value, /)
      |      Return value|self.
      |  
      |  
-#### type.__setattr__
+#### `type.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### type.__sizeof__
+#### `type.__sizeof__`
      |  
      |  __sizeof__(self, /)
      |      Return memory consumption of the type object.
      |  
      |  
-#### type.__subclasscheck__
+#### `type.__subclasscheck__`
      |  
      |  __subclasscheck__(self, subclass, /)
      |      Check if a class is a subclass.
      |  
      |  
-#### type.__subclasses__
+#### `type.__subclasses__`
      |  
      |  __subclasses__(self, /)
      |      Return a list of immediate subclasses.
      |  
      |  
-#### type.mro
+#### `type.mro`
      |  
      |  mro(self, /)
      |      Return a type's method resolution order.
@@ -627,7 +627,7 @@ description: "module fastcore.meta in fastcore"
      |  Class methods inherited from builtins.type:
      |  
      |  
-#### PrePostInitMeta.__prepare__
+#### `PrePostInitMeta.__prepare__`
      |  
      |  __prepare__(...) from builtins.type
      |      __prepare__() -> dict
@@ -666,49 +666,49 @@ description: "module fastcore.meta in fastcore"
 ## Functions
 
     
-### anno_dict
+### `anno_dict`
     
 <strong>anno_dict(f)</strong>
     
         `__annotation__ dictionary with `empty` cast to `None`, returning empty if doesn't exist
     
-### delegates
+### `delegates`
     
 <strong>delegates(to: function = None, keep=False, but: list = None)</strong>
     
         Decorator: replace `**kwargs` in signature with params from `to`
     
-### empty2none
+### `empty2none`
     
 <strong>empty2none(p)</strong>
     
         Replace `Parameter.empty` with `None`
     
-### funcs_kwargs
+### `funcs_kwargs`
     
 <strong>funcs_kwargs(as_method=False)</strong>
     
         Replace methods in `cls._methods` with those from `kwargs`
     
-### method
+### `method`
     
 <strong>method(f)</strong>
     
         Mark `f` as a method
     
-### test_sig
+### `test_sig`
     
 <strong>test_sig(f, b)</strong>
     
         Test the signature of an object
     
-### use_kwargs
+### `use_kwargs`
     
 <strong>use_kwargs(names, keep=False)</strong>
     
         Decorator: replace `**kwargs` in signature with `names` params
     
-### use_kwargs_dict
+### `use_kwargs_dict`
     
 <strong>use_kwargs_dict(keep=False, **kwargs)</strong>
     

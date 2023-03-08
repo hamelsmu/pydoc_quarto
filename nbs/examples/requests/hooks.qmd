@@ -18,12 +18,12 @@ description: "module requests.hooks in requests"
 ## Functions
 
     
-### default_hooks
+### `default_hooks`
     
 <strong>default_hooks()</strong>
     
     
-### dispatch_hook
+### `dispatch_hook`
     
 <strong>dispatch_hook(key, hooks, hook_data, **kwargs)</strong>
     

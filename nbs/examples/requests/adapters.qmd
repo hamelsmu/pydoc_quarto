@@ -27,19 +27,19 @@ description: "module requests.adapters in requests"
      |  Methods defined here:
      |  
      |  
-#### BaseAdapter.__init__
+#### `BaseAdapter.__init__`
      |  
      |  __init__(self)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### BaseAdapter.close
+#### `BaseAdapter.close`
      |  
      |  close(self)
      |      Cleans up adapter specific items.
      |  
      |  
-#### BaseAdapter.send
+#### `BaseAdapter.send`
      |  
      |  send(self, request, stream=False, timeout=None, verify=True, cert=None, proxies=None)
      |      Sends PreparedRequest object. Returns Response object.
@@ -104,23 +104,23 @@ description: "module requests.adapters in requests"
      |  Methods defined here:
      |  
      |  
-#### HTTPAdapter.__getstate__
+#### `HTTPAdapter.__getstate__`
      |  
      |  __getstate__(self)
      |  
      |  
-#### HTTPAdapter.__init__
+#### `HTTPAdapter.__init__`
      |  
      |  __init__(self, pool_connections=10, pool_maxsize=10, max_retries=0, pool_block=False)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### HTTPAdapter.__setstate__
+#### `HTTPAdapter.__setstate__`
      |  
      |  __setstate__(self, state)
      |  
      |  
-#### HTTPAdapter.add_headers
+#### `HTTPAdapter.add_headers`
      |  
      |  add_headers(self, request, **kwargs)
      |      Add any headers needed by the connection. As of v2.0 this does
@@ -135,7 +135,7 @@ description: "module requests.adapters in requests"
      |      :param kwargs: The keyword arguments from the call to send().
      |  
      |  
-#### HTTPAdapter.build_response
+#### `HTTPAdapter.build_response`
      |  
      |  build_response(self, req, resp)
      |      Builds a :class:`Response <requests.Response>` object from a urllib3
@@ -148,7 +148,7 @@ description: "module requests.adapters in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### HTTPAdapter.cert_verify
+#### `HTTPAdapter.cert_verify`
      |  
      |  cert_verify(self, conn, url, verify, cert)
      |      Verify a SSL certificate. This method should not be called from user
@@ -163,7 +163,7 @@ description: "module requests.adapters in requests"
      |      :param cert: The SSL certificate to verify.
      |  
      |  
-#### HTTPAdapter.close
+#### `HTTPAdapter.close`
      |  
      |  close(self)
      |      Disposes of any internal state.
@@ -172,7 +172,7 @@ description: "module requests.adapters in requests"
      |      which closes any pooled connections.
      |  
      |  
-#### HTTPAdapter.get_connection
+#### `HTTPAdapter.get_connection`
      |  
      |  get_connection(self, url, proxies=None)
      |      Returns a urllib3 connection for the given URL. This should not be
@@ -184,7 +184,7 @@ description: "module requests.adapters in requests"
      |      :rtype: urllib3.ConnectionPool
      |  
      |  
-#### HTTPAdapter.init_poolmanager
+#### `HTTPAdapter.init_poolmanager`
      |  
      |  init_poolmanager(self, connections, maxsize, block=False, **pool_kwargs)
      |      Initializes a urllib3 PoolManager.
@@ -199,7 +199,7 @@ description: "module requests.adapters in requests"
      |      :param pool_kwargs: Extra keyword arguments used to initialize the Pool Manager.
      |  
      |  
-#### HTTPAdapter.proxy_headers
+#### `HTTPAdapter.proxy_headers`
      |  
      |  proxy_headers(self, proxy)
      |      Returns a dictionary of the headers to add to any request sent
@@ -215,7 +215,7 @@ description: "module requests.adapters in requests"
      |      :rtype: dict
      |  
      |  
-#### HTTPAdapter.proxy_manager_for
+#### `HTTPAdapter.proxy_manager_for`
      |  
      |  proxy_manager_for(self, proxy, **proxy_kwargs)
      |      Return urllib3 ProxyManager for the given proxy.
@@ -230,7 +230,7 @@ description: "module requests.adapters in requests"
      |      :rtype: urllib3.ProxyManager
      |  
      |  
-#### HTTPAdapter.request_url
+#### `HTTPAdapter.request_url`
      |  
      |  request_url(self, request, proxies)
      |      Obtain the url to use when making the final request.
@@ -247,7 +247,7 @@ description: "module requests.adapters in requests"
      |      :rtype: str
      |  
      |  
-#### HTTPAdapter.send
+#### `HTTPAdapter.send`
      |  
      |  send(self, request, stream=False, timeout=None, verify=True, cert=None, proxies=None)
      |      Sends PreparedRequest object. Returns Response object.

@@ -6,13 +6,13 @@ description: "module requests.help in requests"
 ## Functions
 
     
-### info
+### `info`
     
 <strong>info()</strong>
     
         Generate information for a bug report.
     
-### main
+### `main`
     
 <strong>main()</strong>
     

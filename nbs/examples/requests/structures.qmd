@@ -62,56 +62,56 @@ description: "module requests.structures in requests"
      |  Methods defined here:
      |  
      |  
-#### CaseInsensitiveDict.__delitem__
+#### `CaseInsensitiveDict.__delitem__`
      |  
      |  __delitem__(self, key)
      |  
      |  
-#### CaseInsensitiveDict.__eq__
+#### `CaseInsensitiveDict.__eq__`
      |  
      |  __eq__(self, other)
      |      Return self==value.
      |  
      |  
-#### CaseInsensitiveDict.__getitem__
+#### `CaseInsensitiveDict.__getitem__`
      |  
      |  __getitem__(self, key)
      |  
      |  
-#### CaseInsensitiveDict.__init__
+#### `CaseInsensitiveDict.__init__`
      |  
      |  __init__(self, data=None, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### CaseInsensitiveDict.__iter__
+#### `CaseInsensitiveDict.__iter__`
      |  
      |  __iter__(self)
      |  
      |  
-#### CaseInsensitiveDict.__len__
+#### `CaseInsensitiveDict.__len__`
      |  
      |  __len__(self)
      |  
      |  
-#### CaseInsensitiveDict.__repr__
+#### `CaseInsensitiveDict.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### CaseInsensitiveDict.__setitem__
+#### `CaseInsensitiveDict.__setitem__`
      |  
      |  __setitem__(self, key, value)
      |  
      |  
-#### CaseInsensitiveDict.copy
+#### `CaseInsensitiveDict.copy`
      |  
      |  copy(self)
      |      # Copy is required
      |  
      |  
-#### CaseInsensitiveDict.lower_items
+#### `CaseInsensitiveDict.lower_items`
      |  
      |  lower_items(self)
      |      Like iteritems(), but with all lowercase keys.
@@ -136,33 +136,33 @@ description: "module requests.structures in requests"
      |  Methods inherited from collections.abc.MutableMapping:
      |  
      |  
-#### MutableMapping.clear
+#### `MutableMapping.clear`
      |  
      |  clear(self)
      |      D.clear() -> None.  Remove all items from D.
      |  
      |  
-#### MutableMapping.pop
+#### `MutableMapping.pop`
      |  
-     |  pop(self, key, default=<object object at 0x104924180>)
+     |  pop(self, key, default=<object object at 0x1007f4180>)
      |      D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
      |      If key is not found, d is returned if given, otherwise KeyError is raised.
      |  
      |  
-#### MutableMapping.popitem
+#### `MutableMapping.popitem`
      |  
      |  popitem(self)
      |      D.popitem() -> (k, v), remove and return some (key, value) pair
      |      as a 2-tuple; but raise KeyError if D is empty.
      |  
      |  
-#### MutableMapping.setdefault
+#### `MutableMapping.setdefault`
      |  
      |  setdefault(self, key, default=None)
      |      D.setdefault(k[,d]) -> D.get(k,d), also set D[k]=d if k not in D
      |  
      |  
-#### MutableMapping.update
+#### `MutableMapping.update`
      |  
      |  update(self, other=(), /, **kwds)
      |      D.update([E, ]**F) -> None.  Update D from mapping/iterable E and F.
@@ -174,30 +174,30 @@ description: "module requests.structures in requests"
      |  Methods inherited from collections.abc.Mapping:
      |  
      |  
-#### Mapping.__contains__
+#### `Mapping.__contains__`
      |  
      |  __contains__(self, key)
      |  
      |  
-#### Mapping.get
+#### `Mapping.get`
      |  
      |  get(self, key, default=None)
      |      D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None.
      |  
      |  
-#### Mapping.items
+#### `Mapping.items`
      |  
      |  items(self)
      |      D.items() -> a set-like object providing a view on D's items
      |  
      |  
-#### Mapping.keys
+#### `Mapping.keys`
      |  
      |  keys(self)
      |      D.keys() -> a set-like object providing a view on D's keys
      |  
      |  
-#### Mapping.values
+#### `Mapping.values`
      |  
      |  values(self)
      |      D.values() -> an object providing a view on D's values
@@ -211,7 +211,7 @@ description: "module requests.structures in requests"
      |  Class methods inherited from collections.abc.Collection:
      |  
      |  
-#### Collection.__subclasshook__
+#### `Collection.__subclasshook__`
      |  
      |  __subclasshook__(C) from abc.ABCMeta
      |      Abstract classes can override this to customize issubclass().
@@ -225,7 +225,7 @@ description: "module requests.structures in requests"
      |  Class methods inherited from collections.abc.Iterable:
      |  
      |  
-#### GenericAlias
+#### `GenericAlias`
      |  
      |  __class_getitem__ = GenericAlias(...) from abc.ABCMeta
      |      Represent a PEP 585 generic type
@@ -248,25 +248,25 @@ description: "module requests.structures in requests"
      |  Methods defined here:
      |  
      |  
-#### LookupDict.__getitem__
+#### `LookupDict.__getitem__`
      |  
      |  __getitem__(self, key)
      |      x.__getitem__(y) <==> x[y]
      |  
      |  
-#### LookupDict.__init__
+#### `LookupDict.__init__`
      |  
      |  __init__(self, name=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### LookupDict.__repr__
+#### `LookupDict.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### LookupDict.get
+#### `LookupDict.get`
      |  
      |  get(self, key, default=None)
      |      Return the value for key if key is in the dictionary, else default.
@@ -284,133 +284,133 @@ description: "module requests.structures in requests"
      |  Methods inherited from builtins.dict:
      |  
      |  
-#### dict.__contains__
+#### `dict.__contains__`
      |  
      |  __contains__(self, key, /)
      |      True if the dictionary has the specified key, else False.
      |  
      |  
-#### dict.__delitem__
+#### `dict.__delitem__`
      |  
      |  __delitem__(self, key, /)
      |      Delete self[key].
      |  
      |  
-#### dict.__eq__
+#### `dict.__eq__`
      |  
      |  __eq__(self, value, /)
      |      Return self==value.
      |  
      |  
-#### dict.__ge__
+#### `dict.__ge__`
      |  
      |  __ge__(self, value, /)
      |      Return self>=value.
      |  
      |  
-#### dict.__getattribute__
+#### `dict.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### dict.__gt__
+#### `dict.__gt__`
      |  
      |  __gt__(self, value, /)
      |      Return self>value.
      |  
      |  
-#### dict.__ior__
+#### `dict.__ior__`
      |  
      |  __ior__(self, value, /)
      |      Return self|=value.
      |  
      |  
-#### dict.__iter__
+#### `dict.__iter__`
      |  
      |  __iter__(self, /)
      |      Implement iter(self).
      |  
      |  
-#### dict.__le__
+#### `dict.__le__`
      |  
      |  __le__(self, value, /)
      |      Return self<=value.
      |  
      |  
-#### dict.__len__
+#### `dict.__len__`
      |  
      |  __len__(self, /)
      |      Return len(self).
      |  
      |  
-#### dict.__lt__
+#### `dict.__lt__`
      |  
      |  __lt__(self, value, /)
      |      Return self<value.
      |  
      |  
-#### dict.__ne__
+#### `dict.__ne__`
      |  
      |  __ne__(self, value, /)
      |      Return self!=value.
      |  
      |  
-#### dict.__or__
+#### `dict.__or__`
      |  
      |  __or__(self, value, /)
      |      Return self|value.
      |  
      |  
-#### dict.__reversed__
+#### `dict.__reversed__`
      |  
      |  __reversed__(self, /)
      |      Return a reverse iterator over the dict keys.
      |  
      |  
-#### dict.__ror__
+#### `dict.__ror__`
      |  
      |  __ror__(self, value, /)
      |      Return value|self.
      |  
      |  
-#### dict.__setitem__
+#### `dict.__setitem__`
      |  
      |  __setitem__(self, key, value, /)
      |      Set self[key] to value.
      |  
      |  
-#### dict.__sizeof__
+#### `dict.__sizeof__`
      |  
      |  __sizeof__(...)
      |      D.__sizeof__() -> size of D in memory, in bytes
      |  
      |  
-#### dict.clear
+#### `dict.clear`
      |  
      |  clear(...)
      |      D.clear() -> None.  Remove all items from D.
      |  
      |  
-#### dict.copy
+#### `dict.copy`
      |  
      |  copy(...)
      |      D.copy() -> a shallow copy of D
      |  
      |  
-#### dict.items
+#### `dict.items`
      |  
      |  items(...)
      |      D.items() -> a set-like object providing a view on D's items
      |  
      |  
-#### dict.keys
+#### `dict.keys`
      |  
      |  keys(...)
      |      D.keys() -> a set-like object providing a view on D's keys
      |  
      |  
-#### dict.pop
+#### `dict.pop`
      |  
      |  pop(...)
      |      D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
@@ -419,7 +419,7 @@ description: "module requests.structures in requests"
      |      raise a KeyError.
      |  
      |  
-#### dict.popitem
+#### `dict.popitem`
      |  
      |  popitem(self, /)
      |      Remove and return a (key, value) pair as a 2-tuple.
@@ -428,7 +428,7 @@ description: "module requests.structures in requests"
      |      Raises KeyError if the dict is empty.
      |  
      |  
-#### dict.setdefault
+#### `dict.setdefault`
      |  
      |  setdefault(self, key, default=None, /)
      |      Insert key with a value of default if key is not in the dictionary.
@@ -436,7 +436,7 @@ description: "module requests.structures in requests"
      |      Return the value for key if key is in the dictionary, else default.
      |  
      |  
-#### dict.update
+#### `dict.update`
      |  
      |  update(...)
      |      D.update([E, ]**F) -> None.  Update D from dict/iterable E and F.
@@ -445,7 +445,7 @@ description: "module requests.structures in requests"
      |      In either case, this is followed by: for k in F:  D[k] = F[k]
      |  
      |  
-#### dict.values
+#### `dict.values`
      |  
      |  values(...)
      |      D.values() -> an object providing a view on D's values
@@ -454,13 +454,13 @@ description: "module requests.structures in requests"
      |  Class methods inherited from builtins.dict:
      |  
      |  
-#### LookupDict.__class_getitem__
+#### `LookupDict.__class_getitem__`
      |  
      |  __class_getitem__(...) from builtins.type
      |      See PEP 585
      |  
      |  
-#### LookupDict.fromkeys
+#### `LookupDict.fromkeys`
      |  
      |  fromkeys(iterable, value=None, /) from builtins.type
      |      Create a new dictionary with keys from iterable and values set to value.
@@ -469,7 +469,7 @@ description: "module requests.structures in requests"
      |  Static methods inherited from builtins.dict:
      |  
      |  
-#### dict.__new__
+#### `dict.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.

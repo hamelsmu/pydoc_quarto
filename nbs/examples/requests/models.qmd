@@ -52,48 +52,48 @@ description: "module requests.models in requests"
      |  Methods defined here:
      |  
      |  
-#### PreparedRequest.__init__
+#### `PreparedRequest.__init__`
      |  
      |  __init__(self)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### PreparedRequest.__repr__
+#### `PreparedRequest.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### PreparedRequest.copy
+#### `PreparedRequest.copy`
      |  
      |  copy(self)
      |  
      |  
-#### PreparedRequest.prepare
+#### `PreparedRequest.prepare`
      |  
      |  prepare(self, method=None, url=None, headers=None, files=None, data=None, params=None, auth=None, cookies=None, hooks=None, json=None)
      |      Prepares the entire request with the given parameters.
      |  
      |  
-#### PreparedRequest.prepare_auth
+#### `PreparedRequest.prepare_auth`
      |  
      |  prepare_auth(self, auth, url='')
      |      Prepares the given HTTP auth data.
      |  
      |  
-#### PreparedRequest.prepare_body
+#### `PreparedRequest.prepare_body`
      |  
      |  prepare_body(self, data, files, json=None)
      |      Prepares the given HTTP body data.
      |  
      |  
-#### PreparedRequest.prepare_content_length
+#### `PreparedRequest.prepare_content_length`
      |  
      |  prepare_content_length(self, body)
      |      Prepare Content-Length header based on request method and body
      |  
      |  
-#### PreparedRequest.prepare_cookies
+#### `PreparedRequest.prepare_cookies`
      |  
      |  prepare_cookies(self, cookies)
      |      Prepares the given HTTP cookie data.
@@ -107,25 +107,25 @@ description: "module requests.models in requests"
      |      header is removed beforehand.
      |  
      |  
-#### PreparedRequest.prepare_headers
+#### `PreparedRequest.prepare_headers`
      |  
      |  prepare_headers(self, headers)
      |      Prepares the given HTTP headers.
      |  
      |  
-#### PreparedRequest.prepare_hooks
+#### `PreparedRequest.prepare_hooks`
      |  
      |  prepare_hooks(self, hooks)
      |      Prepares the given hooks.
      |  
      |  
-#### PreparedRequest.prepare_method
+#### `PreparedRequest.prepare_method`
      |  
      |  prepare_method(self, method)
      |      Prepares the given HTTP method.
      |  
      |  
-#### PreparedRequest.prepare_url
+#### `PreparedRequest.prepare_url`
      |  
      |  prepare_url(self, url, params)
      |      Prepares the given HTTP URL.
@@ -149,14 +149,14 @@ description: "module requests.models in requests"
      |  Methods inherited from RequestHooksMixin:
      |  
      |  
-#### RequestHooksMixin.deregister_hook
+#### `RequestHooksMixin.deregister_hook`
      |  
      |  deregister_hook(self, event, hook)
      |      Deregister a previously registered hook.
      |      Returns True if the hook existed, False if not.
      |  
      |  
-#### RequestHooksMixin.register_hook
+#### `RequestHooksMixin.register_hook`
      |  
      |  register_hook(self, event, hook)
      |      Properly register a hook.
@@ -201,19 +201,19 @@ description: "module requests.models in requests"
      |  Methods defined here:
      |  
      |  
-#### Request.__init__
+#### `Request.__init__`
      |  
      |  __init__(self, method=None, url=None, headers=None, files=None, data=None, params=None, auth=None, cookies=None, hooks=None, json=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Request.__repr__
+#### `Request.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### Request.prepare
+#### `Request.prepare`
      |  
      |  prepare(self)
      |      Constructs a :class:`PreparedRequest <PreparedRequest>` for transmission and returns it.
@@ -222,14 +222,14 @@ description: "module requests.models in requests"
      |  Methods inherited from RequestHooksMixin:
      |  
      |  
-#### RequestHooksMixin.deregister_hook
+#### `RequestHooksMixin.deregister_hook`
      |  
      |  deregister_hook(self, event, hook)
      |      Deregister a previously registered hook.
      |      Returns True if the hook existed, False if not.
      |  
      |  
-#### RequestHooksMixin.register_hook
+#### `RequestHooksMixin.register_hook`
      |  
      |  register_hook(self, event, hook)
      |      Properly register a hook.
@@ -268,14 +268,14 @@ description: "module requests.models in requests"
      |  Methods defined here:
      |  
      |  
-#### RequestHooksMixin.deregister_hook
+#### `RequestHooksMixin.deregister_hook`
      |  
      |  deregister_hook(self, event, hook)
      |      Deregister a previously registered hook.
      |      Returns True if the hook existed, False if not.
      |  
      |  
-#### RequestHooksMixin.register_hook
+#### `RequestHooksMixin.register_hook`
      |  
      |  register_hook(self, event, hook)
      |      Properly register a hook.
@@ -299,7 +299,7 @@ description: "module requests.models in requests"
      |  Methods defined here:
      |  
      |  
-#### Response.__bool__
+#### `Response.__bool__`
      |  
      |  __bool__(self)
      |      Returns True if :attr:`status_code` is less than 400.
@@ -310,34 +310,34 @@ description: "module requests.models in requests"
      |      is **not** a check to see if the response code is ``200 OK``.
      |  
      |  
-#### Response.__enter__
+#### `Response.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### Response.__exit__
+#### `Response.__exit__`
      |  
      |  __exit__(self, *args)
      |  
      |  
-#### Response.__getstate__
+#### `Response.__getstate__`
      |  
      |  __getstate__(self)
      |  
      |  
-#### Response.__init__
+#### `Response.__init__`
      |  
      |  __init__(self)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Response.__iter__
+#### `Response.__iter__`
      |  
      |  __iter__(self)
      |      Allows you to use a response as an iterator.
      |  
      |  
-#### Response.__nonzero__
+#### `Response.__nonzero__`
      |  
      |  __nonzero__(self)
      |      Returns True if :attr:`status_code` is less than 400.
@@ -348,18 +348,18 @@ description: "module requests.models in requests"
      |      is **not** a check to see if the response code is ``200 OK``.
      |  
      |  
-#### Response.__repr__
+#### `Response.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### Response.__setstate__
+#### `Response.__setstate__`
      |  
      |  __setstate__(self, state)
      |  
      |  
-#### Response.close
+#### `Response.close`
      |  
      |  close(self)
      |      Releases the connection back to the pool. Once this method has been
@@ -368,7 +368,7 @@ description: "module requests.models in requests"
      |      *Note: Should not normally need to be called explicitly.*
      |  
      |  
-#### Response.iter_content
+#### `Response.iter_content`
      |  
      |  iter_content(self, chunk_size=1, decode_unicode=False)
      |      Iterates over the response data.  When stream=True is set on the
@@ -387,7 +387,7 @@ description: "module requests.models in requests"
      |      available encoding based on the response.
      |  
      |  
-#### Response.iter_lines
+#### `Response.iter_lines`
      |  
      |  iter_lines(self, chunk_size=512, decode_unicode=False, delimiter=None)
      |      Iterates over the response data, one line at a time.  When
@@ -397,7 +397,7 @@ description: "module requests.models in requests"
      |      .. note:: This method is not reentrant safe.
      |  
      |  
-#### Response.json
+#### `Response.json`
      |  
      |  json(self, **kwargs)
      |      Returns the json-encoded content of a response, if any.
@@ -407,7 +407,7 @@ description: "module requests.models in requests"
      |          contain valid json.
      |  
      |  
-#### Response.raise_for_status
+#### `Response.raise_for_status`
      |  
      |  raise_for_status(self)
      |      Raises :class:`HTTPError`, if one occurred.

@@ -24,39 +24,39 @@ description: "module fastcore.foundation in fastcore"
      |  Methods defined here:
      |  
      |  
-#### CollBase.__delitem__
+#### `CollBase.__delitem__`
      |  
      |  __delitem__(self, i)
      |  
      |  
-#### CollBase.__getitem__
+#### `CollBase.__getitem__`
      |  
      |  __getitem__(self, k)
      |  
      |  
-#### CollBase.__init__
+#### `CollBase.__init__`
      |  
      |  __init__(self, items)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### CollBase.__iter__
+#### `CollBase.__iter__`
      |  
      |  __iter__(self)
      |  
      |  
-#### CollBase.__len__
+#### `CollBase.__len__`
      |  
      |  __len__(self)
      |  
      |  
-#### CollBase.__repr__
+#### `CollBase.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### CollBase.__setitem__
+#### `CollBase.__setitem__`
      |  
      |  __setitem__(self, k, v)
      |  
@@ -80,49 +80,49 @@ description: "module fastcore.foundation in fastcore"
      |  Methods defined here:
      |  
      |  
-#### Config.__contains__
+#### `Config.__contains__`
      |  
      |  __contains__(self, k)
      |  
      |  
-#### Config.__getattr__
+#### `Config.__getattr__`
      |  
      |  __getattr__(self, k)
      |  
      |  
-#### Config.__getitem__
+#### `Config.__getitem__`
      |  
      |  __getitem__(self, k)
      |  
      |  
-#### Config.__init__
+#### `Config.__init__`
      |  
      |  __init__(self, cfg_path, cfg_name, create=None, save=True, extra_files=None, types=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Config.__repr__
+#### `Config.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### Config.__setitem__
+#### `Config.__setitem__`
      |  
      |  __setitem__(self, k, v)
      |  
      |  
-#### Config.get
+#### `Config.get`
      |  
      |  get(self, k, default=None)
      |  
      |  
-#### Config.path
+#### `Config.path`
      |  
      |  path(self, k, default=None)
      |  
      |  
-#### Config.save
+#### `Config.save`
      |  
      |  save(self)
      |  
@@ -152,227 +152,227 @@ description: "module fastcore.foundation in fastcore"
      |  Methods defined here:
      |  
      |  
-#### L.__add__
+#### `L.__add__`
      |  
      |  __add__(a, b)
      |  
      |  
-#### L.__addi__
+#### `L.__addi__`
      |  
      |  __addi__(a, b)
      |  
      |  
-#### L.__contains__
+#### `L.__contains__`
      |  
      |  __contains__(self, b)
      |  
      |  
-#### L.__eq__
+#### `L.__eq__`
      |  
      |  __eq__(self, b)
      |      Return self==value.
      |  
      |  
-#### L.__getitem__
+#### `L.__getitem__`
      |  
      |  __getitem__(self, idx)
      |      Retrieve `idx` (can be list of indices, or mask, or int) items
      |  
      |  
-#### L.__init__
+#### `L.__init__`
      |  
      |  __init__(self, items=None, *rest, use_list=False, match=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### L.__invert__
+#### `L.__invert__`
      |  
      |  __invert__(self)
      |  
      |  
-#### L.__iter__
+#### `L.__iter__`
      |  
      |  __iter__(self)
      |  
      |  
-#### L.__mul__
+#### `L.__mul__`
      |  
      |  __mul__(a, b)
      |  
      |  
-#### L.__radd__
+#### `L.__radd__`
      |  
      |  __radd__(a, b)
      |  
      |  
-#### L.__repr__
+#### `L.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### L.__reversed__
+#### `L.__reversed__`
      |  
      |  __reversed__(self)
      |  
      |  
-#### L.__setitem__
+#### `L.__setitem__`
      |  
      |  __setitem__(self, idx, o)
      |      Set `idx` (can be list of indices, or mask, or int) items to `o` (which is broadcast if not iterable)
      |  
      |  
-#### L.argfirst
+#### `L.argfirst`
      |  
      |  argfirst(self, f, negate=False)
      |      Return index of first matching item
      |  
      |  
-#### L.argwhere
+#### `L.argwhere`
      |  
      |  argwhere(self, f, negate=False, **kwargs)
      |      Like `filter`, but return indices for matching items
      |  
      |  
-#### L.attrgot
+#### `L.attrgot`
      |  
      |  attrgot(self, k, default=None)
      |      Create new `L` with attr `k` (or value `k` for dicts) of all `items`.
      |  
      |  
-#### L.concat
+#### `L.concat`
      |  
      |  concat(self)
      |      Concatenate all elements of list
      |  
      |  
-#### L.copy
+#### `L.copy`
      |  
      |  copy(self)
      |      Same as `list.copy`, but returns an `L`
      |  
      |  
-#### L.cycle
+#### `L.cycle`
      |  
      |  cycle(self)
      |      Same as `itertools.cycle`
      |  
      |  
-#### L.enumerate
+#### `L.enumerate`
      |  
      |  enumerate(self)
      |      Same as `enumerate`
      |  
      |  
-#### L.filter
+#### `L.filter`
      |  
-     |  filter(self, f=<function noop at 0x100d15480>, negate=False, **kwargs)
+     |  filter(self, f=<function noop at 0x104d19480>, negate=False, **kwargs)
      |      Create new `L` filtered by predicate `f`, passing `args` and `kwargs` to `f`
      |  
      |  
-#### L.itemgot
+#### `L.itemgot`
      |  
      |  itemgot(self, *idxs)
      |      Create new `L` with item `idx` of all `items`
      |  
      |  
-#### L.map
+#### `L.map`
      |  
      |  map(self, f, *args, **kwargs)
      |      Create new `L` with `f` applied to all `items`, passing `args` and `kwargs` to `f`
      |  
      |  
-#### L.map_dict
+#### `L.map_dict`
      |  
-     |  map_dict(self, f=<function noop at 0x100d15480>, *args, **kwargs)
+     |  map_dict(self, f=<function noop at 0x104d19480>, *args, **kwargs)
      |      Like `map`, but creates a dict from `items` to function results
      |  
      |  
-#### L.map_first
+#### `L.map_first`
      |  
-     |  map_first(self, f=<function noop at 0x100d15480>, g=<function noop at 0x100d15480>, *args, **kwargs)
+     |  map_first(self, f=<function noop at 0x104d19480>, g=<function noop at 0x104d19480>, *args, **kwargs)
      |      First element of `map_filter`
      |  
      |  
-#### L.map_zip
+#### `L.map_zip`
      |  
      |  map_zip(self, f, *args, cycled=False, **kwargs)
      |      Combine `zip` and `starmap`
      |  
      |  
-#### L.map_zipwith
+#### `L.map_zipwith`
      |  
      |  map_zipwith(self, f, *rest, cycled=False, **kwargs)
      |      Combine `zipwith` and `starmap`
      |  
      |  
-#### L.product
+#### `L.product`
      |  
      |  product(self)
      |      Product of the items
      |  
      |  
-#### L.reduce
+#### `L.reduce`
      |  
      |  reduce(self, f, initial=None)
      |      Wrapper for `functools.reduce`
      |  
      |  
-#### L.renumerate
+#### `L.renumerate`
      |  
      |  renumerate(self)
      |      Same as `renumerate`
      |  
      |  
-#### L.setattrs
+#### `L.setattrs`
      |  
      |  setattrs(self, attr, val)
      |      Call `setattr` on all items
      |  
      |  
-#### L.shuffle
+#### `L.shuffle`
      |  
      |  shuffle(self)
      |      Same as `random.shuffle`, but not inplace
      |  
      |  
-#### L.sorted
+#### `L.sorted`
      |  
      |  sorted(self, key=None, reverse=False)
      |      New `L` sorted by `key`. If key is str use `attrgetter`; if int use `itemgetter`
      |  
      |  
-#### L.starmap
+#### `L.starmap`
      |  
      |  starmap(self, f, *args, **kwargs)
      |      Like `map`, but use `itertools.starmap`
      |  
      |  
-#### L.sum
+#### `L.sum`
      |  
      |  sum(self)
      |      Sum of the items
      |  
      |  
-#### L.unique
+#### `L.unique`
      |  
      |  unique(self, sort=False, bidir=False, start=None)
      |      Unique items, in stable order
      |  
      |  
-#### L.val2idx
+#### `L.val2idx`
      |  
      |  val2idx(self)
      |      Dict from value to index
      |  
      |  
-#### L.zip
+#### `L.zip`
      |  
      |  zip(self, cycled=False)
      |      Create new `L` with `zip(*items)`
      |  
      |  
-#### L.zipwith
+#### `L.zipwith`
      |  
      |  zipwith(self, *rest, cycled=False)
      |      Create new `L` with `self` zip with each of `*rest`
@@ -381,13 +381,13 @@ description: "module fastcore.foundation in fastcore"
      |  Class methods defined here:
      |  
      |  
-#### L.range
+#### `L.range`
      |  
      |  range(a, b=None, step=None) from _L_Meta
      |      Class Method: Same as `range`, but returns `L`. Can pass collection for `a`, to use `len(a)`
      |  
      |  
-#### L.split
+#### `L.split`
      |  
      |  split(s, sep=None, maxsplit=-1) from _L_Meta
      |      Class Method: Same as `str.split`, but returns an `L`
@@ -403,18 +403,18 @@ description: "module fastcore.foundation in fastcore"
      |  Methods inherited from fastcore.basics.GetAttr:
      |  
      |  
-#### GetAttr.__dir__
+#### `GetAttr.__dir__`
      |  
      |  __dir__(self)
      |      Default dir() implementation.
      |  
      |  
-#### GetAttr.__getattr__
+#### `GetAttr.__getattr__`
      |  
      |  __getattr__(self, k)
      |  
      |  
-#### GetAttr.__setstate__
+#### `GetAttr.__setstate__`
      |  
      |  __setstate__(self, data)
      |  
@@ -431,79 +431,79 @@ description: "module fastcore.foundation in fastcore"
      |  Methods inherited from CollBase:
      |  
      |  
-#### CollBase.__delitem__
+#### `CollBase.__delitem__`
      |  
      |  __delitem__(self, i)
      |  
      |  
-#### CollBase.__len__
+#### `CollBase.__len__`
      |  
      |  __len__(self)
 
 ## Functions
 
     
-### add_docs
+### `add_docs`
     
 <strong>add_docs(cls, cls_doc=None, **docs)</strong>
     
         Copy values from `docs` to `cls` docstrings, and confirm all public methods are documented
     
-### coll_repr
+### `coll_repr`
     
 <strong>coll_repr(c, max_n=10)</strong>
     
         String repr of up to `max_n` items of (possibly lazy) collection `c`
     
-### cycle
+### `cycle`
     
 <strong>cycle(o)</strong>
     
         Like `itertools.cycle` except creates list of `None`s if `o` is empty
     
-### docs
+### `docs`
     
 <strong>docs(cls)</strong>
     
         Decorator version of `add_docs`, using `_docs` dict
     
-### is_bool
+### `is_bool`
     
 <strong>is_bool(x)</strong>
     
         Check whether `x` is a bool or None
     
-### is_indexer
+### `is_indexer`
     
 <strong>is_indexer(idx)</strong>
     
         Test whether `idx` will index a single item in a list
     
-### mask2idxs
+### `mask2idxs`
     
 <strong>mask2idxs(mask)</strong>
     
         Convert bool mask or index list to index `L`
     
-### read_config_file
+### `read_config_file`
     
 <strong>read_config_file(file, **kwargs)</strong>
     
         # %% ../nbs/02_foundation.ipynb 130
     
-### save_config_file
+### `save_config_file`
     
 <strong>save_config_file(file, d, **kwargs)</strong>
     
         Write settings dict to a new config file, or overwrite the existing one.
     
-### working_directory
+### `working_directory`
     
 <strong>working_directory(path)</strong>
     
         Change working directory to `path` and return to previous on exit.
     
-### zip_cycle
+### `zip_cycle`
     
 <strong>zip_cycle(x, *args)</strong>
     

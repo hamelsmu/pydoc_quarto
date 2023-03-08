@@ -26,49 +26,49 @@ description: "module fastcore.docments in fastcore"
 ## Functions
 
     
-### docments
+### `docments`
     
 <strong>docments(elt, full=False, *, returns=True, eval_str=False)</strong>
     
         Generates a `docment`
     
-### docstring
+### `docstring`
     
 <strong>docstring(sym)</strong>
     
         Get docstring for `sym` for functions ad classes
     
-### get_dataclass_source
+### `get_dataclass_source`
     
 <strong>get_dataclass_source(s)</strong>
     
         Get source code for dataclass `s`
     
-### get_name
+### `get_name`
     
 <strong>get_name(obj)</strong>
     
         Get the name of `obj`
     
-### get_source
+### `get_source`
     
 <strong>get_source(s)</strong>
     
         Get source code for string, function object or dataclass `s`
     
-### isdataclass
+### `isdataclass`
     
 <strong>isdataclass(s)</strong>
     
         Check if `s` is a dataclass but not a dataclass' instance
     
-### parse_docstring
+### `parse_docstring`
     
 <strong>parse_docstring(sym)</strong>
     
         Parse a numpy-style docstring in `sym`
     
-### qual_name
+### `qual_name`
     
 <strong>qual_name(obj)</strong>
     

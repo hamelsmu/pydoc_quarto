@@ -19,13 +19,13 @@ description: "module fastcore.dispatch in fastcore"
      |  Methods defined here:
      |  
      |  
-#### DispatchReg.__call__
+#### `DispatchReg.__call__`
      |  
      |  __call__(self, f)
      |      Call self as a function.
      |  
      |  
-#### DispatchReg.__init__
+#### `DispatchReg.__init__`
      |  
      |  __init__(self)
      |      Initialize self.  See help(type(self)) for accurate signature.
@@ -50,48 +50,48 @@ description: "module fastcore.dispatch in fastcore"
      |  Methods defined here:
      |  
      |  
-#### TypeDispatch.__call__
+#### `TypeDispatch.__call__`
      |  
      |  __call__(self, *args, **kwargs)
      |      Call self as a function.
      |  
      |  
-#### TypeDispatch.__get__
+#### `TypeDispatch.__get__`
      |  
      |  __get__(self, inst, owner)
      |  
      |  
-#### TypeDispatch.__getitem__
+#### `TypeDispatch.__getitem__`
      |  
      |  __getitem__(self, k)
      |      Find first matching type that is a super-class of `k`
      |  
      |  
-#### TypeDispatch.__init__
+#### `TypeDispatch.__init__`
      |  
      |  __init__(self, funcs=(), bases=())
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### TypeDispatch.__repr__
+#### `TypeDispatch.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### TypeDispatch.add
+#### `TypeDispatch.add`
      |  
      |  add(self, f)
      |      Add type `t` and function `f`
      |  
      |  
-#### TypeDispatch.first
+#### `TypeDispatch.first`
      |  
      |  first(self)
      |      Get first function in ordered dict of type:func.
      |  
      |  
-#### TypeDispatch.returns
+#### `TypeDispatch.returns`
      |  
      |  returns(self, x)
      |      Get the return type of annotation of `x`.
@@ -109,43 +109,43 @@ description: "module fastcore.dispatch in fastcore"
 
     cast = (object,object) -> cast
     
-### default_set_meta
+### `default_set_meta`
     
 <strong>default_set_meta(self, x, as_copy=False)</strong>
     
         Copy over `_meta` from `x` to `res`, if it's missing
     
-### explode_types
+### `explode_types`
     
 <strong>explode_types(o)</strong>
     
         Return the type of `o`, potentially in nested dictionaries for thing that are listy
     
-### lenient_issubclass
+### `lenient_issubclass`
     
 <strong>lenient_issubclass(cls, types)</strong>
     
         If possible return whether `cls` is a subclass of `types`, otherwise return False.
     
-### retain_meta
+### `retain_meta`
     
 <strong>retain_meta(x, res, as_copy=False)</strong>
     
         Call `res.set_meta(x)`, if it exists
     
-### retain_type
+### `retain_type`
     
 <strong>retain_type(new, old=None, typ=None, as_copy=False)</strong>
     
         Cast `new` to type of `old` or `typ` if it's a superclass
     
-### retain_types
+### `retain_types`
     
 <strong>retain_types(new, old=None, typs=None)</strong>
     
         Cast each item of `new` to type of matching item in `old` if it's a superclass
     
-### sorted_topologically
+### `sorted_topologically`
     
 <strong>sorted_topologically(iterable, *, cmp=<built-in function lt>, reverse=False)</strong>
     

@@ -46,31 +46,31 @@ description: "module fastcore.transform in fastcore"
      |  Methods inherited from Transform:
      |  
      |  
-#### Transform.__call__
+#### `Transform.__call__`
      |  
      |  __call__(self, x, **kwargs)
      |      Call self as a function.
      |  
      |  
-#### Transform.__init__
+#### `Transform.__init__`
      |  
      |  __init__(self, enc=None, dec=None, split_idx=None, order=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Transform.__repr__
+#### `Transform.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### Transform.decode
+#### `Transform.decode`
      |  
      |  decode(self, x, **kwargs)
      |      Delegate to <code>decodes</code> to undo transform
      |  
      |  
-#### Transform.setup
+#### `Transform.setup`
      |  
      |  setup(self, items=None, train_setup=False)
      |      Delegate to <code>setups</code> to set up transform
@@ -106,19 +106,19 @@ description: "module fastcore.transform in fastcore"
      |  Methods defined here:
      |  
      |  
-#### Func.__call__
+#### `Func.__call__`
      |  
      |  __call__(self, t)
      |      Call self as a function.
      |  
      |  
-#### Func.__init__
+#### `Func.__init__`
      |  
      |  __init__(self, name, *args, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Func.__repr__
+#### `Func.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
@@ -159,31 +159,31 @@ description: "module fastcore.transform in fastcore"
      |  Methods inherited from Transform:
      |  
      |  
-#### Transform.__call__
+#### `Transform.__call__`
      |  
      |  __call__(self, x, **kwargs)
      |      Call self as a function.
      |  
      |  
-#### Transform.__init__
+#### `Transform.__init__`
      |  
      |  __init__(self, enc=None, dec=None, split_idx=None, order=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Transform.__repr__
+#### `Transform.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### Transform.decode
+#### `Transform.decode`
      |  
      |  decode(self, x, **kwargs)
      |      Delegate to <code>decodes</code> to undo transform
      |  
      |  
-#### Transform.setup
+#### `Transform.setup`
      |  
      |  setup(self, items=None, train_setup=False)
      |      Delegate to <code>setups</code> to set up transform
@@ -229,13 +229,13 @@ description: "module fastcore.transform in fastcore"
      |  Methods defined here:
      |  
      |  
-#### ItemTransform.__call__
+#### `ItemTransform.__call__`
      |  
      |  __call__(self, x, **kwargs)
      |      Call self as a function.
      |  
      |  
-#### ItemTransform.decode
+#### `ItemTransform.decode`
      |  
      |  decode(self, x, **kwargs)
      |      Delegate to <code>decodes</code> to undo transform
@@ -252,19 +252,19 @@ description: "module fastcore.transform in fastcore"
      |  Methods inherited from Transform:
      |  
      |  
-#### Transform.__init__
+#### `Transform.__init__`
      |  
      |  __init__(self, enc=None, dec=None, split_idx=None, order=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Transform.__repr__
+#### `Transform.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### Transform.setup
+#### `Transform.setup`
      |  
      |  setup(self, items=None, train_setup=False)
      |      Delegate to <code>setups</code> to set up transform
@@ -305,61 +305,61 @@ description: "module fastcore.transform in fastcore"
      |  Methods defined here:
      |  
      |  
-#### Pipeline.__call__
+#### `Pipeline.__call__`
      |  
      |  __call__(self, o)
      |      Call self as a function.
      |  
      |  
-#### Pipeline.__dir__
+#### `Pipeline.__dir__`
      |  
      |  __dir__(self)
      |      Default dir() implementation.
      |  
      |  
-#### Pipeline.__getattr__
+#### `Pipeline.__getattr__`
      |  
      |  __getattr__(self, k)
      |  
      |  
-#### Pipeline.__getitem__
+#### `Pipeline.__getitem__`
      |  
      |  __getitem__(self, i)
      |  
      |  
-#### Pipeline.__init__
+#### `Pipeline.__init__`
      |  
      |  __init__(self, funcs=None, split_idx=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Pipeline.__repr__
+#### `Pipeline.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### Pipeline.__setstate__
+#### `Pipeline.__setstate__`
      |  
      |  __setstate__(self, data)
      |  
      |  
-#### Pipeline.add
+#### `Pipeline.add`
      |  
      |  add(self, ts, items=None, train_setup=False)
      |  
      |  
-#### Pipeline.decode
+#### `Pipeline.decode`
      |  
      |  decode(self, o, full=True)
      |  
      |  
-#### Pipeline.setup
+#### `Pipeline.setup`
      |  
      |  setup(self, items=None, train_setup=False)
      |  
      |  
-#### Pipeline.show
+#### `Pipeline.show`
      |  
      |  show(self, o, ctx=None, **kwargs)
      |  
@@ -383,25 +383,25 @@ description: "module fastcore.transform in fastcore"
      |  Methods defined here:
      |  
      |  
-#### Transform.__call__
+#### `Transform.__call__`
      |  
      |  __call__(self, x, **kwargs)
      |      Call self as a function.
      |  
      |  
-#### Transform.__init__
+#### `Transform.__init__`
      |  
      |  __init__(self, enc=None, dec=None, split_idx=None, order=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Transform.__repr__
+#### `Transform.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### Transform.decode
+#### `Transform.decode`
      |  
      |  decode(self, x, **kwargs)
      |      Delegate to <code>decodes</code> to undo transform
@@ -409,7 +409,7 @@ description: "module fastcore.transform in fastcore"
      |  decodes = 
      |  encodes = 
      |  
-#### Transform.setup
+#### `Transform.setup`
      |  
      |  setup(self, items=None, train_setup=False)
      |      Delegate to <code>setups</code> to set up transform
@@ -445,31 +445,31 @@ description: "module fastcore.transform in fastcore"
 ## Functions
 
     
-### compose_tfms
+### `compose_tfms`
     
 <strong>compose_tfms(x, tfms, is_enc=True, reverse=False, **kwargs)</strong>
     
         Apply all `func_nm` attribute of `tfms` on `x`, maybe in `reverse` order
     
-### gather_attr_names
+### `gather_attr_names`
     
 <strong>gather_attr_names(o, nm)</strong>
     
         Used in __dir__ to collect all attrs `k` from `self.{nm}`
     
-### gather_attrs
+### `gather_attrs`
     
 <strong>gather_attrs(o, k, nm)</strong>
     
         Used in __getattr__ to collect all attrs `k` from `self.{nm}`
     
-### get_func
+### `get_func`
     
 <strong>get_func(t, name, *args, **kwargs)</strong>
     
         Get the `t.name` (potentially partial-ized with `args` and `kwargs`) or `noop` if not defined
     
-### mk_transform
+### `mk_transform`
     
 <strong>mk_transform(f)</strong>
     

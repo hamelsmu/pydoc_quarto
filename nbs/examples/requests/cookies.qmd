@@ -48,7 +48,7 @@ description: "module requests.cookies in requests"
      |  Methods inherited from builtins.RuntimeError:
      |  
      |  
-#### RuntimeError.__init__
+#### `RuntimeError.__init__`
      |  
      |  __init__(self, /, *args, **kwargs)
      |      Initialize self.  See help(type(self)) for accurate signature.
@@ -57,7 +57,7 @@ description: "module requests.cookies in requests"
      |  Static methods inherited from builtins.RuntimeError:
      |  
      |  
-#### RuntimeError.__new__
+#### `RuntimeError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -66,48 +66,48 @@ description: "module requests.cookies in requests"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__reduce__
+#### `BaseException.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
      |  
      |  
-#### BaseException.__repr__
+#### `BaseException.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.__str__
+#### `BaseException.__str__`
      |  
      |  __str__(self, /)
      |      Return str(self).
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -149,59 +149,59 @@ description: "module requests.cookies in requests"
      |  Methods defined here:
      |  
      |  
-#### MockRequest.__init__
+#### `MockRequest.__init__`
      |  
      |  __init__(self, request)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### MockRequest.add_header
+#### `MockRequest.add_header`
      |  
      |  add_header(self, key, val)
      |      cookielib has no legitimate use for this method; add it back if you find one.
      |  
      |  
-#### MockRequest.add_unredirected_header
+#### `MockRequest.add_unredirected_header`
      |  
      |  add_unredirected_header(self, name, value)
      |  
      |  
-#### MockRequest.get_full_url
+#### `MockRequest.get_full_url`
      |  
      |  get_full_url(self)
      |  
      |  
-#### MockRequest.get_header
+#### `MockRequest.get_header`
      |  
      |  get_header(self, name, default=None)
      |  
      |  
-#### MockRequest.get_host
+#### `MockRequest.get_host`
      |  
      |  get_host(self)
      |  
      |  
-#### MockRequest.get_new_headers
+#### `MockRequest.get_new_headers`
      |  
      |  get_new_headers(self)
      |  
      |  
-#### MockRequest.get_origin_req_host
+#### `MockRequest.get_origin_req_host`
      |  
      |  get_origin_req_host(self)
      |  
      |  
-#### MockRequest.get_type
+#### `MockRequest.get_type`
      |  
      |  get_type(self)
      |  
      |  
-#### MockRequest.has_header
+#### `MockRequest.has_header`
      |  
      |  has_header(self, name)
      |  
      |  
-#### MockRequest.is_unverifiable
+#### `MockRequest.is_unverifiable`
      |  
      |  is_unverifiable(self)
      |  
@@ -237,7 +237,7 @@ description: "module requests.cookies in requests"
      |  Methods defined here:
      |  
      |  
-#### MockResponse.__init__
+#### `MockResponse.__init__`
      |  
      |  __init__(self, headers)
      |      Make a MockResponse for `cookielib` to read.
@@ -245,12 +245,12 @@ description: "module requests.cookies in requests"
      |      :param headers: a httplib.HTTPMessage or analogous carrying the headers
      |  
      |  
-#### MockResponse.getheaders
+#### `MockResponse.getheaders`
      |  
      |  getheaders(self, name)
      |  
      |  
-#### MockResponse.info
+#### `MockResponse.info`
      |  
      |  info(self)
      |  
@@ -299,19 +299,19 @@ description: "module requests.cookies in requests"
      |  Methods defined here:
      |  
      |  
-#### RequestsCookieJar.__contains__
+#### `RequestsCookieJar.__contains__`
      |  
      |  __contains__(self, name)
      |  
      |  
-#### RequestsCookieJar.__delitem__
+#### `RequestsCookieJar.__delitem__`
      |  
      |  __delitem__(self, name)
      |      Deletes a cookie given a name. Wraps ``cookielib.CookieJar``'s
      |      ``remove_cookie_by_name()``.
      |  
      |  
-#### RequestsCookieJar.__getitem__
+#### `RequestsCookieJar.__getitem__`
      |  
      |  __getitem__(self, name)
      |      Dict-like __getitem__() for compatibility with client code. Throws
@@ -321,13 +321,13 @@ description: "module requests.cookies in requests"
      |      .. warning:: operation is O(n), not O(1).
      |  
      |  
-#### RequestsCookieJar.__getstate__
+#### `RequestsCookieJar.__getstate__`
      |  
      |  __getstate__(self)
      |      Unlike a normal CookieJar, this class is pickleable.
      |  
      |  
-#### RequestsCookieJar.__setitem__
+#### `RequestsCookieJar.__setitem__`
      |  
      |  __setitem__(self, name, value)
      |      Dict-like __setitem__ for compatibility with client code. Throws
@@ -335,19 +335,19 @@ description: "module requests.cookies in requests"
      |      case, use the more explicit set() method instead.
      |  
      |  
-#### RequestsCookieJar.__setstate__
+#### `RequestsCookieJar.__setstate__`
      |  
      |  __setstate__(self, state)
      |      Unlike a normal CookieJar, this class is pickleable.
      |  
      |  
-#### RequestsCookieJar.copy
+#### `RequestsCookieJar.copy`
      |  
      |  copy(self)
      |      Return a copy of this RequestsCookieJar.
      |  
      |  
-#### RequestsCookieJar.get
+#### `RequestsCookieJar.get`
      |  
      |  get(self, name, default=None, domain=None, path=None)
      |      Dict-like get() that also supports optional domain and path args in
@@ -357,7 +357,7 @@ description: "module requests.cookies in requests"
      |      .. warning:: operation is O(n), not O(1).
      |  
      |  
-#### RequestsCookieJar.get_dict
+#### `RequestsCookieJar.get_dict`
      |  
      |  get_dict(self, domain=None, path=None)
      |      Takes as an argument an optional domain and path and returns a plain
@@ -367,13 +367,13 @@ description: "module requests.cookies in requests"
      |      :rtype: dict
      |  
      |  
-#### RequestsCookieJar.get_policy
+#### `RequestsCookieJar.get_policy`
      |  
      |  get_policy(self)
      |      Return the CookiePolicy instance used.
      |  
      |  
-#### RequestsCookieJar.items
+#### `RequestsCookieJar.items`
      |  
      |  items(self)
      |      Dict-like items() that returns a list of name-value tuples from the
@@ -383,7 +383,7 @@ description: "module requests.cookies in requests"
      |      .. seealso:: keys() and values().
      |  
      |  
-#### RequestsCookieJar.iteritems
+#### `RequestsCookieJar.iteritems`
      |  
      |  iteritems(self)
      |      Dict-like iteritems() that returns an iterator of name-value tuples
@@ -392,7 +392,7 @@ description: "module requests.cookies in requests"
      |      .. seealso:: iterkeys() and itervalues().
      |  
      |  
-#### RequestsCookieJar.iterkeys
+#### `RequestsCookieJar.iterkeys`
      |  
      |  iterkeys(self)
      |      Dict-like iterkeys() that returns an iterator of names of cookies
@@ -401,7 +401,7 @@ description: "module requests.cookies in requests"
      |      .. seealso:: itervalues() and iteritems().
      |  
      |  
-#### RequestsCookieJar.itervalues
+#### `RequestsCookieJar.itervalues`
      |  
      |  itervalues(self)
      |      Dict-like itervalues() that returns an iterator of values of cookies
@@ -410,7 +410,7 @@ description: "module requests.cookies in requests"
      |      .. seealso:: iterkeys() and iteritems().
      |  
      |  
-#### RequestsCookieJar.keys
+#### `RequestsCookieJar.keys`
      |  
      |  keys(self)
      |      Dict-like keys() that returns a list of names of cookies from the
@@ -419,19 +419,19 @@ description: "module requests.cookies in requests"
      |      .. seealso:: values() and items().
      |  
      |  
-#### RequestsCookieJar.list_domains
+#### `RequestsCookieJar.list_domains`
      |  
      |  list_domains(self)
      |      Utility method to list all the domains in the jar.
      |  
      |  
-#### RequestsCookieJar.list_paths
+#### `RequestsCookieJar.list_paths`
      |  
      |  list_paths(self)
      |      Utility method to list all the paths in the jar.
      |  
      |  
-#### RequestsCookieJar.multiple_domains
+#### `RequestsCookieJar.multiple_domains`
      |  
      |  multiple_domains(self)
      |      Returns True if there are multiple domains in the jar.
@@ -440,7 +440,7 @@ description: "module requests.cookies in requests"
      |      :rtype: bool
      |  
      |  
-#### RequestsCookieJar.set
+#### `RequestsCookieJar.set`
      |  
      |  set(self, name, value, **kwargs)
      |      Dict-like set() that also supports optional domain and path args in
@@ -448,19 +448,19 @@ description: "module requests.cookies in requests"
      |      multiple domains.
      |  
      |  
-#### RequestsCookieJar.set_cookie
+#### `RequestsCookieJar.set_cookie`
      |  
      |  set_cookie(self, cookie, *args, **kwargs)
      |      Set a cookie, without checking whether or not it should be set.
      |  
      |  
-#### RequestsCookieJar.update
+#### `RequestsCookieJar.update`
      |  
      |  update(self, other)
      |      Updates this jar with cookies from another CookieJar or dict-like
      |  
      |  
-#### RequestsCookieJar.values
+#### `RequestsCookieJar.values`
      |  
      |  values(self)
      |      Dict-like values() that returns a list of values of cookies from the
@@ -477,36 +477,36 @@ description: "module requests.cookies in requests"
      |  Methods inherited from http.cookiejar.CookieJar:
      |  
      |  
-#### CookieJar.__init__
+#### `CookieJar.__init__`
      |  
      |  __init__(self, policy=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### CookieJar.__iter__
+#### `CookieJar.__iter__`
      |  
      |  __iter__(self)
      |  
      |  
-#### CookieJar.__len__
+#### `CookieJar.__len__`
      |  
      |  __len__(self)
      |      Return number of contained cookies.
      |  
      |  
-#### CookieJar.__repr__
+#### `CookieJar.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### CookieJar.__str__
+#### `CookieJar.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
      |  
      |  
-#### CookieJar.add_cookie_header
+#### `CookieJar.add_cookie_header`
      |  
      |  add_cookie_header(self, request)
      |      Add correct Cookie: header to request (urllib.request.Request object).
@@ -514,7 +514,7 @@ description: "module requests.cookies in requests"
      |      The Cookie2 header is also added unless policy.hide_cookie2 is true.
      |  
      |  
-#### CookieJar.clear
+#### `CookieJar.clear`
      |  
      |  clear(self, domain=None, path=None, name=None)
      |      Clear some cookies.
@@ -528,7 +528,7 @@ description: "module requests.cookies in requests"
      |      Raises KeyError if no matching cookie exists.
      |  
      |  
-#### CookieJar.clear_expired_cookies
+#### `CookieJar.clear_expired_cookies`
      |  
      |  clear_expired_cookies(self)
      |      Discard all expired cookies.
@@ -540,7 +540,7 @@ description: "module requests.cookies in requests"
      |      otherwise by passing a true ignore_expires argument).
      |  
      |  
-#### CookieJar.clear_session_cookies
+#### `CookieJar.clear_session_cookies`
      |  
      |  clear_session_cookies(self)
      |      Discard all session cookies.
@@ -549,25 +549,25 @@ description: "module requests.cookies in requests"
      |      you ask otherwise by passing a true ignore_discard argument.
      |  
      |  
-#### CookieJar.extract_cookies
+#### `CookieJar.extract_cookies`
      |  
      |  extract_cookies(self, response, request)
      |      Extract cookies from response, where allowable given the request.
      |  
      |  
-#### CookieJar.make_cookies
+#### `CookieJar.make_cookies`
      |  
      |  make_cookies(self, response, request)
      |      Return sequence of Cookie objects extracted from response object.
      |  
      |  
-#### CookieJar.set_cookie_if_ok
+#### `CookieJar.set_cookie_if_ok`
      |  
      |  set_cookie_if_ok(self, cookie, request)
      |      Set a cookie if policy says it's OK to do so.
      |  
      |  
-#### CookieJar.set_policy
+#### `CookieJar.set_policy`
      |  
      |  set_policy(self, policy)
      |  
@@ -599,21 +599,21 @@ description: "module requests.cookies in requests"
      |  Methods inherited from collections.abc.MutableMapping:
      |  
      |  
-#### MutableMapping.pop
+#### `MutableMapping.pop`
      |  
-     |  pop(self, key, default=<object object at 0x104924180>)
+     |  pop(self, key, default=<object object at 0x1007f4180>)
      |      D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
      |      If key is not found, d is returned if given, otherwise KeyError is raised.
      |  
      |  
-#### MutableMapping.popitem
+#### `MutableMapping.popitem`
      |  
      |  popitem(self)
      |      D.popitem() -> (k, v), remove and return some (key, value) pair
      |      as a 2-tuple; but raise KeyError if D is empty.
      |  
      |  
-#### MutableMapping.setdefault
+#### `MutableMapping.setdefault`
      |  
      |  setdefault(self, key, default=None)
      |      D.setdefault(k[,d]) -> D.get(k,d), also set D[k]=d if k not in D
@@ -622,7 +622,7 @@ description: "module requests.cookies in requests"
      |  Methods inherited from collections.abc.Mapping:
      |  
      |  
-#### Mapping.__eq__
+#### `Mapping.__eq__`
      |  
      |  __eq__(self, other)
      |      Return self==value.
@@ -638,7 +638,7 @@ description: "module requests.cookies in requests"
      |  Class methods inherited from collections.abc.Collection:
      |  
      |  
-#### Collection.__subclasshook__
+#### `Collection.__subclasshook__`
      |  
      |  __subclasshook__(C) from abc.ABCMeta
      |      Abstract classes can override this to customize issubclass().
@@ -652,7 +652,7 @@ description: "module requests.cookies in requests"
      |  Class methods inherited from collections.abc.Iterable:
      |  
      |  
-#### GenericAlias
+#### `GenericAlias`
      |  
      |  __class_getitem__ = GenericAlias(...) from abc.ABCMeta
      |      Represent a PEP 585 generic type
@@ -662,7 +662,7 @@ description: "module requests.cookies in requests"
 ## Functions
 
     
-### cookiejar_from_dict
+### `cookiejar_from_dict`
     
 <strong>cookiejar_from_dict(cookie_dict, cookiejar=None, overwrite=True)</strong>
     
@@ -674,7 +674,7 @@ description: "module requests.cookies in requests"
             already in the jar with new ones.
         :rtype: CookieJar
     
-### create_cookie
+### `create_cookie`
     
 <strong>create_cookie(name, value, **kwargs)</strong>
     
@@ -683,7 +683,7 @@ description: "module requests.cookies in requests"
         By default, the pair of `name` and `value` will be set for the domain ''
         and sent on every request (this is sometimes called a "supercookie").
     
-### extract_cookies_to_jar
+### `extract_cookies_to_jar`
     
 <strong>extract_cookies_to_jar(jar, request, response)</strong>
     
@@ -693,7 +693,7 @@ description: "module requests.cookies in requests"
         :param request: our own requests.Request object
         :param response: urllib3.HTTPResponse object
     
-### get_cookie_header
+### `get_cookie_header`
     
 <strong>get_cookie_header(jar, request)</strong>
     
@@ -701,7 +701,7 @@ description: "module requests.cookies in requests"
         
         :rtype: str
     
-### merge_cookies
+### `merge_cookies`
     
 <strong>merge_cookies(cookiejar, cookies)</strong>
     
@@ -711,13 +711,13 @@ description: "module requests.cookies in requests"
         :param cookies: Dictionary or CookieJar object to be added.
         :rtype: CookieJar
     
-### morsel_to_cookie
+### `morsel_to_cookie`
     
 <strong>morsel_to_cookie(morsel)</strong>
     
         Convert a Morsel object into a Cookie containing the one k/v pair.
     
-### remove_cookie_by_name
+### `remove_cookie_by_name`
     
 <strong>remove_cookie_by_name(cookiejar, name, domain=None, path=None)</strong>
     

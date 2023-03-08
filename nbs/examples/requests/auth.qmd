@@ -28,7 +28,7 @@ description: "module requests.auth in requests"
      |  Methods defined here:
      |  
      |  
-#### AuthBase.__call__
+#### `AuthBase.__call__`
      |  
      |  __call__(self, r)
      |      Call self as a function.
@@ -58,25 +58,25 @@ description: "module requests.auth in requests"
      |  Methods defined here:
      |  
      |  
-#### HTTPBasicAuth.__call__
+#### `HTTPBasicAuth.__call__`
      |  
      |  __call__(self, r)
      |      Call self as a function.
      |  
      |  
-#### HTTPBasicAuth.__eq__
+#### `HTTPBasicAuth.__eq__`
      |  
      |  __eq__(self, other)
      |      Return self==value.
      |  
      |  
-#### HTTPBasicAuth.__init__
+#### `HTTPBasicAuth.__init__`
      |  
      |  __init__(self, username, password)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### HTTPBasicAuth.__ne__
+#### `HTTPBasicAuth.__ne__`
      |  
      |  __ne__(self, other)
      |      Return self!=value.
@@ -111,37 +111,37 @@ description: "module requests.auth in requests"
      |  Methods defined here:
      |  
      |  
-#### HTTPDigestAuth.__call__
+#### `HTTPDigestAuth.__call__`
      |  
      |  __call__(self, r)
      |      Call self as a function.
      |  
      |  
-#### HTTPDigestAuth.__eq__
+#### `HTTPDigestAuth.__eq__`
      |  
      |  __eq__(self, other)
      |      Return self==value.
      |  
      |  
-#### HTTPDigestAuth.__init__
+#### `HTTPDigestAuth.__init__`
      |  
      |  __init__(self, username, password)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### HTTPDigestAuth.__ne__
+#### `HTTPDigestAuth.__ne__`
      |  
      |  __ne__(self, other)
      |      Return self!=value.
      |  
      |  
-#### HTTPDigestAuth.build_digest_header
+#### `HTTPDigestAuth.build_digest_header`
      |  
      |  build_digest_header(self, method, url)
      |      :rtype: str
      |  
      |  
-#### HTTPDigestAuth.handle_401
+#### `HTTPDigestAuth.handle_401`
      |  
      |  handle_401(self, r, **kwargs)
      |      Takes the given response and tries digest-auth, if needed.
@@ -149,13 +149,13 @@ description: "module requests.auth in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### HTTPDigestAuth.handle_redirect
+#### `HTTPDigestAuth.handle_redirect`
      |  
      |  handle_redirect(self, r, **kwargs)
      |      Reset num_401_calls counter on redirects.
      |  
      |  
-#### HTTPDigestAuth.init_per_thread_state
+#### `HTTPDigestAuth.init_per_thread_state`
      |  
      |  init_per_thread_state(self)
      |  
@@ -190,7 +190,7 @@ description: "module requests.auth in requests"
      |  Methods defined here:
      |  
      |  
-#### HTTPProxyAuth.__call__
+#### `HTTPProxyAuth.__call__`
      |  
      |  __call__(self, r)
      |      Call self as a function.
@@ -199,19 +199,19 @@ description: "module requests.auth in requests"
      |  Methods inherited from HTTPBasicAuth:
      |  
      |  
-#### HTTPBasicAuth.__eq__
+#### `HTTPBasicAuth.__eq__`
      |  
      |  __eq__(self, other)
      |      Return self==value.
      |  
      |  
-#### HTTPBasicAuth.__init__
+#### `HTTPBasicAuth.__init__`
      |  
      |  __init__(self, username, password)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### HTTPBasicAuth.__ne__
+#### `HTTPBasicAuth.__ne__`
      |  
      |  __ne__(self, other)
      |      Return self!=value.

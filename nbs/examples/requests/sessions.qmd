@@ -47,39 +47,39 @@ description: "module requests.sessions in requests"
      |  Methods defined here:
      |  
      |  
-#### Session.__enter__
+#### `Session.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### Session.__exit__
+#### `Session.__exit__`
      |  
      |  __exit__(self, *args)
      |  
      |  
-#### Session.__getstate__
+#### `Session.__getstate__`
      |  
      |  __getstate__(self)
      |  
      |  
-#### Session.__init__
+#### `Session.__init__`
      |  
      |  __init__(self)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Session.__setstate__
+#### `Session.__setstate__`
      |  
      |  __setstate__(self, state)
      |  
      |  
-#### Session.close
+#### `Session.close`
      |  
      |  close(self)
      |      Closes all adapters and as such the session
      |  
      |  
-#### Session.delete
+#### `Session.delete`
      |  
      |  delete(self, url, **kwargs)
      |      Sends a DELETE request. Returns :class:`Response` object.
@@ -89,7 +89,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### Session.get
+#### `Session.get`
      |  
      |  get(self, url, **kwargs)
      |      Sends a GET request. Returns :class:`Response` object.
@@ -99,7 +99,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### Session.get_adapter
+#### `Session.get_adapter`
      |  
      |  get_adapter(self, url)
      |      Returns the appropriate connection adapter for the given URL.
@@ -107,7 +107,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.adapters.BaseAdapter
      |  
      |  
-#### Session.head
+#### `Session.head`
      |  
      |  head(self, url, **kwargs)
      |      Sends a HEAD request. Returns :class:`Response` object.
@@ -117,7 +117,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### Session.merge_environment_settings
+#### `Session.merge_environment_settings`
      |  
      |  merge_environment_settings(self, url, proxies, stream, verify, cert)
      |      Check the environment and merge it with some settings.
@@ -125,7 +125,7 @@ description: "module requests.sessions in requests"
      |      :rtype: dict
      |  
      |  
-#### Session.mount
+#### `Session.mount`
      |  
      |  mount(self, prefix, adapter)
      |      Registers a connection adapter to a prefix.
@@ -133,7 +133,7 @@ description: "module requests.sessions in requests"
      |      Adapters are sorted in descending order by prefix length.
      |  
      |  
-#### Session.options
+#### `Session.options`
      |  
      |  options(self, url, **kwargs)
      |      Sends a OPTIONS request. Returns :class:`Response` object.
@@ -143,7 +143,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### Session.patch
+#### `Session.patch`
      |  
      |  patch(self, url, data=None, **kwargs)
      |      Sends a PATCH request. Returns :class:`Response` object.
@@ -155,7 +155,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### Session.post
+#### `Session.post`
      |  
      |  post(self, url, data=None, json=None, **kwargs)
      |      Sends a POST request. Returns :class:`Response` object.
@@ -168,7 +168,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### Session.prepare_request
+#### `Session.prepare_request`
      |  
      |  prepare_request(self, request)
      |      Constructs a :class:`PreparedRequest <PreparedRequest>` for
@@ -181,7 +181,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.PreparedRequest
      |  
      |  
-#### Session.put
+#### `Session.put`
      |  
      |  put(self, url, data=None, **kwargs)
      |      Sends a PUT request. Returns :class:`Response` object.
@@ -193,7 +193,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### Session.request
+#### `Session.request`
      |  
      |  request(self, method, url, params=None, data=None, headers=None, cookies=None, files=None, auth=None, timeout=None, allow_redirects=True, proxies=None, hooks=None, stream=None, verify=None, cert=None, json=None)
      |      Constructs a :class:`Request <Request>`, prepares it and sends it.
@@ -238,7 +238,7 @@ description: "module requests.sessions in requests"
      |      :rtype: requests.Response
      |  
      |  
-#### Session.send
+#### `Session.send`
      |  
      |  send(self, request, **kwargs)
      |      Send a given PreparedRequest.
@@ -254,13 +254,13 @@ description: "module requests.sessions in requests"
      |  Methods inherited from SessionRedirectMixin:
      |  
      |  
-#### SessionRedirectMixin.get_redirect_target
+#### `SessionRedirectMixin.get_redirect_target`
      |  
      |  get_redirect_target(self, resp)
      |      Receives a Response. Returns a redirect URI or ``None``
      |  
      |  
-#### SessionRedirectMixin.rebuild_auth
+#### `SessionRedirectMixin.rebuild_auth`
      |  
      |  rebuild_auth(self, prepared_request, response)
      |      When being redirected we may want to strip authentication from the
@@ -268,14 +268,14 @@ description: "module requests.sessions in requests"
      |      and reapplies authentication where possible to avoid credential loss.
      |  
      |  
-#### SessionRedirectMixin.rebuild_method
+#### `SessionRedirectMixin.rebuild_method`
      |  
      |  rebuild_method(self, prepared_request, response)
      |      When being redirected we may want to change the method of the request
      |      based on certain specs or browser behavior.
      |  
      |  
-#### SessionRedirectMixin.rebuild_proxies
+#### `SessionRedirectMixin.rebuild_proxies`
      |  
      |  rebuild_proxies(self, prepared_request, proxies)
      |      This method re-evaluates the proxy configuration by considering the
@@ -290,13 +290,13 @@ description: "module requests.sessions in requests"
      |      :rtype: dict
      |  
      |  
-#### SessionRedirectMixin.resolve_redirects
+#### `SessionRedirectMixin.resolve_redirects`
      |  
      |  resolve_redirects(self, resp, req, stream=False, timeout=None, verify=True, cert=None, proxies=None, yield_requests=False, **adapter_kwargs)
      |      Receives a Response. Returns a generator of Responses or Requests.
      |  
      |  
-#### SessionRedirectMixin.should_strip_auth
+#### `SessionRedirectMixin.should_strip_auth`
      |  
      |  should_strip_auth(self, old_url, new_url)
      |      Decide whether Authorization header should be removed when redirecting
@@ -317,13 +317,13 @@ description: "module requests.sessions in requests"
      |  Methods defined here:
      |  
      |  
-#### SessionRedirectMixin.get_redirect_target
+#### `SessionRedirectMixin.get_redirect_target`
      |  
      |  get_redirect_target(self, resp)
      |      Receives a Response. Returns a redirect URI or ``None``
      |  
      |  
-#### SessionRedirectMixin.rebuild_auth
+#### `SessionRedirectMixin.rebuild_auth`
      |  
      |  rebuild_auth(self, prepared_request, response)
      |      When being redirected we may want to strip authentication from the
@@ -331,14 +331,14 @@ description: "module requests.sessions in requests"
      |      and reapplies authentication where possible to avoid credential loss.
      |  
      |  
-#### SessionRedirectMixin.rebuild_method
+#### `SessionRedirectMixin.rebuild_method`
      |  
      |  rebuild_method(self, prepared_request, response)
      |      When being redirected we may want to change the method of the request
      |      based on certain specs or browser behavior.
      |  
      |  
-#### SessionRedirectMixin.rebuild_proxies
+#### `SessionRedirectMixin.rebuild_proxies`
      |  
      |  rebuild_proxies(self, prepared_request, proxies)
      |      This method re-evaluates the proxy configuration by considering the
@@ -353,13 +353,13 @@ description: "module requests.sessions in requests"
      |      :rtype: dict
      |  
      |  
-#### SessionRedirectMixin.resolve_redirects
+#### `SessionRedirectMixin.resolve_redirects`
      |  
      |  resolve_redirects(self, resp, req, stream=False, timeout=None, verify=True, cert=None, proxies=None, yield_requests=False, **adapter_kwargs)
      |      Receives a Response. Returns a generator of Responses or Requests.
      |  
      |  
-#### SessionRedirectMixin.should_strip_auth
+#### `SessionRedirectMixin.should_strip_auth`
      |  
      |  should_strip_auth(self, old_url, new_url)
      |      Decide whether Authorization header should be removed when redirecting
@@ -376,7 +376,7 @@ description: "module requests.sessions in requests"
 ## Functions
 
     
-### merge_hooks
+### `merge_hooks`
     
 <strong>merge_hooks(request_hooks, session_hooks, dict_class=<class 'collections.OrderedDict'>)</strong>
     
@@ -385,7 +385,7 @@ description: "module requests.sessions in requests"
         This is necessary because when request_hooks == {'response': []}, the
         merge breaks Session hooks entirely.
     
-### merge_setting
+### `merge_setting`
     
 <strong>merge_setting(request_setting, session_setting, dict_class=<class 'collections.OrderedDict'>)</strong>
     
@@ -393,7 +393,7 @@ description: "module requests.sessions in requests"
         the explicit setting on that request, and the setting in the session. If a
         setting is a dictionary, they will be merged together using `dict_class`
     
-### preferred_clock
+### `preferred_clock`
     
 <strong>preferred_clock = time(...)</strong>
     
@@ -402,7 +402,7 @@ description: "module requests.sessions in requests"
         Return the current time in seconds since the Epoch.
         Fractions of a second may be present if the system clock provides them.
     
-### session
+### `session`
     
 <strong>session()</strong>
     

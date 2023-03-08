@@ -62,7 +62,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Bad Request', code=400)</strong>
      |  
@@ -70,13 +70,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -101,7 +101,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -110,7 +110,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -136,30 +136,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -186,12 +186,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -204,7 +204,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -212,12 +212,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -225,18 +225,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -264,7 +264,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Unauthorized', code=401)</strong>
      |  
@@ -272,13 +272,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -303,7 +303,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -312,7 +312,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -338,30 +338,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -388,12 +388,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -406,7 +406,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -414,12 +414,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -427,18 +427,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -466,7 +466,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Payment Required', code=402)</strong>
      |  
@@ -474,13 +474,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -505,7 +505,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -514,7 +514,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -540,30 +540,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -590,12 +590,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -608,7 +608,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -616,12 +616,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -629,18 +629,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -668,7 +668,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Forbidden', code=403)</strong>
      |  
@@ -676,13 +676,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -707,7 +707,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -716,7 +716,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -742,30 +742,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -792,12 +792,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -810,7 +810,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -818,12 +818,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -831,18 +831,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -870,7 +870,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Not Found', code=404)</strong>
      |  
@@ -878,13 +878,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -909,7 +909,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -918,7 +918,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -944,30 +944,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -994,12 +994,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -1012,7 +1012,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -1020,12 +1020,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -1033,18 +1033,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -1072,7 +1072,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Method Not Allowed', code=405)</strong>
      |  
@@ -1080,13 +1080,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -1111,7 +1111,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -1120,7 +1120,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1146,30 +1146,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1196,12 +1196,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -1214,7 +1214,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -1222,12 +1222,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -1235,18 +1235,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -1274,7 +1274,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Not Acceptable', code=406)</strong>
      |  
@@ -1282,13 +1282,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -1313,7 +1313,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -1322,7 +1322,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1348,30 +1348,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1398,12 +1398,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -1416,7 +1416,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -1424,12 +1424,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -1437,18 +1437,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -1476,7 +1476,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Proxy Auth Required', code=407)</strong>
      |  
@@ -1484,13 +1484,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -1515,7 +1515,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -1524,7 +1524,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1550,30 +1550,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1600,12 +1600,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -1618,7 +1618,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -1626,12 +1626,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -1639,18 +1639,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -1678,7 +1678,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Request Timeout', code=408)</strong>
      |  
@@ -1686,13 +1686,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -1717,7 +1717,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -1726,7 +1726,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1752,30 +1752,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -1802,12 +1802,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -1820,7 +1820,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -1828,12 +1828,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -1841,18 +1841,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -1880,7 +1880,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Conflict', code=409)</strong>
      |  
@@ -1888,13 +1888,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -1919,7 +1919,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -1928,7 +1928,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -1954,30 +1954,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2004,12 +2004,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -2022,7 +2022,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -2030,12 +2030,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -2043,18 +2043,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -2082,7 +2082,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Gone', code=410)</strong>
      |  
@@ -2090,13 +2090,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -2121,7 +2121,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -2130,7 +2130,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2156,30 +2156,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2206,12 +2206,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -2224,7 +2224,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -2232,12 +2232,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -2245,18 +2245,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -2284,7 +2284,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Length Required', code=411)</strong>
      |  
@@ -2292,13 +2292,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -2323,7 +2323,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -2332,7 +2332,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2358,30 +2358,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2408,12 +2408,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -2426,7 +2426,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -2434,12 +2434,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -2447,18 +2447,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -2486,7 +2486,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Precondition Failed', code=412)</strong>
      |  
@@ -2494,13 +2494,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -2525,7 +2525,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -2534,7 +2534,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2560,30 +2560,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2610,12 +2610,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -2628,7 +2628,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -2636,12 +2636,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -2649,18 +2649,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -2688,7 +2688,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Payload Too Large', code=413)</strong>
      |  
@@ -2696,13 +2696,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -2727,7 +2727,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -2736,7 +2736,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2762,30 +2762,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -2812,12 +2812,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -2830,7 +2830,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -2838,12 +2838,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -2851,18 +2851,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -2890,7 +2890,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='URI Too Long', code=414)</strong>
      |  
@@ -2898,13 +2898,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -2929,7 +2929,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -2938,7 +2938,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -2964,30 +2964,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -3014,12 +3014,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -3032,7 +3032,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -3040,12 +3040,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -3053,18 +3053,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -3092,7 +3092,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Unsupported Media Type', code=415)</strong>
      |  
@@ -3100,13 +3100,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -3131,7 +3131,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -3140,7 +3140,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -3166,30 +3166,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -3216,12 +3216,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -3234,7 +3234,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -3242,12 +3242,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -3255,18 +3255,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -3294,7 +3294,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Range Not Satisfiable', code=416)</strong>
      |  
@@ -3302,13 +3302,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -3333,7 +3333,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -3342,7 +3342,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -3368,30 +3368,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -3418,12 +3418,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -3436,7 +3436,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -3444,12 +3444,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -3457,18 +3457,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -3496,7 +3496,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Expectation Failed', code=417)</strong>
      |  
@@ -3504,13 +3504,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -3535,7 +3535,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -3544,7 +3544,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -3570,30 +3570,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -3620,12 +3620,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -3638,7 +3638,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -3646,12 +3646,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -3659,18 +3659,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -3698,7 +3698,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Am A teapot', code=418)</strong>
      |  
@@ -3706,13 +3706,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -3737,7 +3737,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -3746,7 +3746,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -3772,30 +3772,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -3822,12 +3822,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -3840,7 +3840,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -3848,12 +3848,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -3861,18 +3861,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -3900,7 +3900,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Misdirected Request', code=421)</strong>
      |  
@@ -3908,13 +3908,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -3939,7 +3939,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -3948,7 +3948,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -3974,30 +3974,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -4024,12 +4024,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -4042,7 +4042,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -4050,12 +4050,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -4063,18 +4063,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -4102,7 +4102,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Unprocessable Entity', code=422)</strong>
      |  
@@ -4110,13 +4110,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -4141,7 +4141,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -4150,7 +4150,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -4176,30 +4176,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -4226,12 +4226,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -4244,7 +4244,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -4252,12 +4252,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -4265,18 +4265,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -4304,7 +4304,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Locked', code=423)</strong>
      |  
@@ -4312,13 +4312,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -4343,7 +4343,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -4352,7 +4352,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -4378,30 +4378,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -4428,12 +4428,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -4446,7 +4446,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -4454,12 +4454,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -4467,18 +4467,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -4506,7 +4506,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Failed Dependency', code=424)</strong>
      |  
@@ -4514,13 +4514,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -4545,7 +4545,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -4554,7 +4554,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -4580,30 +4580,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -4630,12 +4630,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -4648,7 +4648,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -4656,12 +4656,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -4669,18 +4669,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -4708,7 +4708,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Too Early', code=425)</strong>
      |  
@@ -4716,13 +4716,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -4747,7 +4747,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -4756,7 +4756,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -4782,30 +4782,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -4832,12 +4832,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -4850,7 +4850,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -4858,12 +4858,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -4871,18 +4871,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -4910,7 +4910,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Upgrade Required', code=426)</strong>
      |  
@@ -4918,13 +4918,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -4949,7 +4949,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -4958,7 +4958,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -4984,30 +4984,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -5034,12 +5034,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -5052,7 +5052,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -5060,12 +5060,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -5073,18 +5073,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -5112,7 +5112,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Precondition Required', code=428)</strong>
      |  
@@ -5120,13 +5120,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -5151,7 +5151,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -5160,7 +5160,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -5186,30 +5186,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -5236,12 +5236,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -5254,7 +5254,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -5262,12 +5262,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -5275,18 +5275,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -5314,7 +5314,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Too Many Requests', code=429)</strong>
      |  
@@ -5322,13 +5322,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -5353,7 +5353,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -5362,7 +5362,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -5388,30 +5388,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -5438,12 +5438,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -5456,7 +5456,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -5464,12 +5464,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -5477,18 +5477,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -5516,7 +5516,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Header Fields Too Large', code=431)</strong>
      |  
@@ -5524,13 +5524,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -5555,7 +5555,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -5564,7 +5564,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -5590,30 +5590,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -5640,12 +5640,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -5658,7 +5658,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -5666,12 +5666,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -5679,18 +5679,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -5718,7 +5718,7 @@ description: "module fastcore.net in fastcore"
      |  Methods defined here:
      |  
      |  
-### __init__
+### `__init__`
      |  
 <strong>__init__ = _init(self, url, hdrs, fp, msg='Legal Reasons', code=451)</strong>
      |  
@@ -5726,13 +5726,13 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -5757,7 +5757,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -5766,7 +5766,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -5792,30 +5792,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -5842,12 +5842,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -5860,7 +5860,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -5868,12 +5868,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -5881,18 +5881,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -5921,19 +5921,19 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__init__
+#### `HTTPError.__init__`
      |  
      |  __init__(self, url, code, msg, hdrs, fp)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -5958,7 +5958,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -5967,7 +5967,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -5993,30 +5993,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -6043,12 +6043,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -6061,7 +6061,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -6069,12 +6069,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -6082,18 +6082,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -6122,19 +6122,19 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.error.HTTPError:
      |  
      |  
-#### HTTPError.__init__
+#### `HTTPError.__init__`
      |  
      |  __init__(self, url, code, msg, hdrs, fp)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### HTTPError.__repr__
+#### `HTTPError.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### HTTPError.__str__
+#### `HTTPError.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -6159,7 +6159,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__reduce__
+#### `OSError.__reduce__`
      |  
      |  __reduce__(...)
      |      Helper for pickle.
@@ -6168,7 +6168,7 @@ description: "module fastcore.net in fastcore"
      |  Static methods inherited from builtins.OSError:
      |  
      |  
-#### OSError.__new__
+#### `OSError.__new__`
      |  
      |  __new__(*args, **kwargs) from builtins.type
      |      Create and return a new object.  See help(type) for accurate signature.
@@ -6194,30 +6194,30 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from builtins.BaseException:
      |  
      |  
-#### BaseException.__delattr__
+#### `BaseException.__delattr__`
      |  
      |  __delattr__(self, name, /)
      |      Implement delattr(self, name).
      |  
      |  
-#### BaseException.__getattribute__
+#### `BaseException.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### BaseException.__setattr__
+#### `BaseException.__setattr__`
      |  
      |  __setattr__(self, name, value, /)
      |      Implement setattr(self, name, value).
      |  
      |  
-#### BaseException.__setstate__
+#### `BaseException.__setstate__`
      |  
      |  __setstate__(...)
      |  
      |  
-#### BaseException.with_traceback
+#### `BaseException.with_traceback`
      |  
      |  with_traceback(...)
      |      Exception.with_traceback(tb) --
@@ -6244,12 +6244,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfourl:
      |  
      |  
-#### addinfourl.getcode
+#### `addinfourl.getcode`
      |  
      |  getcode(self)
      |  
      |  
-#### addinfourl.geturl
+#### `addinfourl.geturl`
      |  
      |  geturl(self)
      |  
@@ -6262,7 +6262,7 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addinfo:
      |  
      |  
-#### addinfo.info
+#### `addinfo.info`
      |  
      |  info(self)
      |  
@@ -6270,12 +6270,12 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from urllib.response.addbase:
      |  
      |  
-#### addbase.__enter__
+#### `addbase.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### addbase.__exit__
+#### `addbase.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
@@ -6283,18 +6283,18 @@ description: "module fastcore.net in fastcore"
      |  Methods inherited from tempfile._TemporaryFileWrapper:
      |  
      |  
-#### _TemporaryFileWrapper.__getattr__
+#### `_TemporaryFileWrapper.__getattr__`
      |  
      |  __getattr__(self, name)
      |  
      |  
-#### _TemporaryFileWrapper.__iter__
+#### `_TemporaryFileWrapper.__iter__`
      |  
      |  __iter__(self)
      |      # iter() doesn't use __getattr__ to find the __iter__ method
      |  
      |  
-#### _TemporaryFileWrapper.close
+#### `_TemporaryFileWrapper.close`
      |  
      |  close(self)
      |      Close the temporary file, possibly deleting it.
@@ -6302,103 +6302,103 @@ description: "module fastcore.net in fastcore"
 ## Functions
 
     
-### do_request
+### `do_request`
     
 <strong>do_request(url, post=False, headers=None, **data)</strong>
     
         Call GET or json-encoded POST on `url`, depending on `post`
     
-### start_client
+### `start_client`
     
 <strong>start_client(port, host=None, dgram=False)</strong>
     
         Create a `socket` client on `port`, with optional `host`, of type `dgram`
     
-### start_server
+### `start_server`
     
 <strong>start_server(port, host=None, dgram=False, reuse_addr=True, n_queue=None)</strong>
     
         Create a `socket` server on `port`, with optional `host`, of type `dgram`
     
-### urlcheck
+### `urlcheck`
     
 <strong>urlcheck(url, headers=None, timeout=10)</strong>
     
         # %% ../nbs/03b_net.ipynb 23
     
-### urlclean
+### `urlclean`
     
 <strong>urlclean(url)</strong>
     
         Remove fragment, params, and querystring from `url` if present
     
-### urldest
+### `urldest`
     
 <strong>urldest(url, dest=None)</strong>
     
         # %% ../nbs/03b_net.ipynb 27
     
-### urljson
+### `urljson`
     
 <strong>urljson(url, data=None, timeout=None)</strong>
     
         Retrieve `url` and decode json
     
-### urlopen
+### `urlopen`
     
 <strong>urlopen(url, data=None, headers=None, timeout=None, **kwargs)</strong>
     
         Like `urllib.request.urlopen`, but first `urlwrap` the `url`, and encode `data`
     
-### urlopener
+### `urlopener`
     
 <strong>urlopener()</strong>
     
         # %% ../nbs/03b_net.ipynb 14
     
-### urlquote
+### `urlquote`
     
 <strong>urlquote(url)</strong>
     
         Update url's path with `urllib.parse.quote`
     
-### urlread
+### `urlread`
     
 <strong>urlread(url, data=None, headers=None, decode=True, return_json=False, return_headers=False, timeout=None, **kwargs)</strong>
     
         Retrieve `url`, using `data` dict or `kwargs` to `POST` if present
     
-### urlrequest
+### `urlrequest`
     
 <strong>urlrequest(url, verb, headers=None, route=None, query=None, data=None, json_data=True)</strong>
     
         `Request` for `url` with optional route params replaced by `route`, plus `query` string, and post `data`
     
-### urlretrieve
+### `urlretrieve`
     
 <strong>urlretrieve(url, filename=None, reporthook=None, data=None, headers=None, timeout=None)</strong>
     
         Same as `urllib.request.urlretrieve` but also works with `Request` objects
     
-### urlsave
+### `urlsave`
     
 <strong>urlsave(url, dest=None, reporthook=None, headers=None, timeout=None)</strong>
     
         Retrieve `url` and save based on its name
     
-### urlsend
+### `urlsend`
     
 <strong>urlsend(url, verb, headers=None, route=None, query=None, data=None, json_data=True, return_json=True, return_headers=False, debug=None)</strong>
     
         Send request with `urlrequest`, converting result to json if `return_json`
     
-### urlvalid
+### `urlvalid`
     
 <strong>urlvalid(x)</strong>
     
         Test if `x` is a valid URL
     
-### urlwrap
+### `urlwrap`
     
 <strong>urlwrap(url, data=None, headers=None)</strong>
     

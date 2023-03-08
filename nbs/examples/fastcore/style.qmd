@@ -21,30 +21,30 @@ description: "module fastcore.style in fastcore"
      |  Methods defined here:
      |  
      |  
-#### Style.__call__
+#### `Style.__call__`
      |  
      |  __call__(self, obj)
      |      Call self as a function.
      |  
      |  
-#### Style.__dir__
+#### `Style.__dir__`
      |  
      |  __dir__(self)
      |      Default dir() implementation.
      |  
      |  
-#### Style.__getattr__
+#### `Style.__getattr__`
      |  
      |  __getattr__(self, k)
      |  
      |  
-#### Style.__init__
+#### `Style.__init__`
      |  
      |  __init__(self, codes=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Style.__repr__
+#### `Style.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
@@ -69,13 +69,13 @@ description: "module fastcore.style in fastcore"
      |  Methods defined here:
      |  
      |  
-#### StyleCode.__init__
+#### `StyleCode.__init__`
      |  
      |  __init__(self, name, code, typ)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### StyleCode.__str__
+#### `StyleCode.__str__`
      |  
      |  __str__(self)
      |      Return str(self).
@@ -92,7 +92,7 @@ description: "module fastcore.style in fastcore"
 ## Functions
 
     
-### demo
+### `demo`
     
 <strong>demo()</strong>
     

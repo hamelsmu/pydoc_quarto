@@ -28,7 +28,7 @@ description: "module fastcore.parallel in fastcore"
      |  Methods defined here:
      |  
      |  
-#### ProcessPoolExecutor.__init__
+#### `ProcessPoolExecutor.__init__`
      |  
      |  __init__(self, max_workers=10, on_exc=<built-in function print>, pause=0, *, mp_context=None, initializer=None, initargs=())
      |      Initializes a new ProcessPoolExecutor instance.
@@ -43,7 +43,7 @@ description: "module fastcore.parallel in fastcore"
      |          initargs: A tuple of arguments to pass to the initializer.
      |  
      |  
-#### ProcessPoolExecutor.map
+#### `ProcessPoolExecutor.map`
      |  
      |  map(self, f, items, *args, timeout=None, chunksize=1, **kwargs)
      |      Returns an iterator equivalent to map(fn, iter).
@@ -70,7 +70,7 @@ description: "module fastcore.parallel in fastcore"
      |  Methods inherited from concurrent.futures.process.ProcessPoolExecutor:
      |  
      |  
-#### ProcessPoolExecutor.shutdown
+#### `ProcessPoolExecutor.shutdown`
      |  
      |  shutdown(self, wait=True, *, cancel_futures=False)
      |      Clean-up the resources associated with the Executor.
@@ -87,7 +87,7 @@ description: "module fastcore.parallel in fastcore"
      |              cancelled.
      |  
      |  
-#### ProcessPoolExecutor.submit
+#### `ProcessPoolExecutor.submit`
      |  
      |  submit(self, fn, /, *args, **kwargs)
      |      Submits a callable to be executed with the given arguments.
@@ -102,12 +102,12 @@ description: "module fastcore.parallel in fastcore"
      |  Methods inherited from concurrent.futures._base.Executor:
      |  
      |  
-#### Executor.__enter__
+#### `Executor.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### Executor.__exit__
+#### `Executor.__exit__`
      |  
      |  __exit__(self, exc_type, exc_val, exc_tb)
      |  
@@ -137,7 +137,7 @@ description: "module fastcore.parallel in fastcore"
      |  Methods defined here:
      |  
      |  
-#### ThreadPoolExecutor.__init__
+#### `ThreadPoolExecutor.__init__`
      |  
      |  __init__(self, max_workers=10, on_exc=<built-in function print>, pause=0, **kwargs)
      |      Initializes a new ThreadPoolExecutor instance.
@@ -150,7 +150,7 @@ description: "module fastcore.parallel in fastcore"
      |          initargs: A tuple of arguments to pass to the initializer.
      |  
      |  
-#### ThreadPoolExecutor.map
+#### `ThreadPoolExecutor.map`
      |  
      |  map(self, f, items, *args, timeout=None, chunksize=1, **kwargs)
      |      Returns an iterator equivalent to map(fn, iter).
@@ -178,7 +178,7 @@ description: "module fastcore.parallel in fastcore"
      |  Methods inherited from concurrent.futures.thread.ThreadPoolExecutor:
      |  
      |  
-#### ThreadPoolExecutor.shutdown
+#### `ThreadPoolExecutor.shutdown`
      |  
      |  shutdown(self, wait=True, *, cancel_futures=False)
      |      Clean-up the resources associated with the Executor.
@@ -195,7 +195,7 @@ description: "module fastcore.parallel in fastcore"
      |              cancelled.
      |  
      |  
-#### ThreadPoolExecutor.submit
+#### `ThreadPoolExecutor.submit`
      |  
      |  submit(self, fn, /, *args, **kwargs)
      |      Submits a callable to be executed with the given arguments.
@@ -210,12 +210,12 @@ description: "module fastcore.parallel in fastcore"
      |  Methods inherited from concurrent.futures._base.Executor:
      |  
      |  
-#### Executor.__enter__
+#### `Executor.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### Executor.__exit__
+#### `Executor.__exit__`
      |  
      |  __exit__(self, exc_type, exc_val, exc_tb)
      |  
@@ -231,43 +231,43 @@ description: "module fastcore.parallel in fastcore"
 ## Functions
 
     
-### add_one
+### `add_one`
     
 <strong>add_one(x, a=1)</strong>
     
         # %% ../nbs/03a_parallel.ipynb 16
     
-### parallel
+### `parallel`
     
 <strong>parallel(f, items, *args, n_workers=10, total=None, progress=None, pause=0, method=None, threadpool=False, timeout=None, chunksize=1, **kwargs)</strong>
     
         Applies `func` in parallel to `items`, using `n_workers`
     
-### parallel_gen
+### `parallel_gen`
     
 <strong>parallel_gen(cls, items, n_workers=10, **kwargs)</strong>
     
         Instantiate `cls` in `n_workers` procs & call each on a subset of `items` in parallel.
     
-### parallelable
+### `parallelable`
     
 <strong>parallelable(param_name, num_workers, f=None)</strong>
     
         # %% ../nbs/03a_parallel.ipynb 9
     
-### run_procs
+### `run_procs`
     
 <strong>run_procs(f, f_done, args)</strong>
     
         Call `f` for each item in `args` in parallel, yielding `f_done`
     
-### startthread
+### `startthread`
     
 <strong>startthread(f)</strong>
     
         Like `threaded`, but start thread immediately
     
-### threaded
+### `threaded`
     
 <strong>threaded(f)</strong>
     

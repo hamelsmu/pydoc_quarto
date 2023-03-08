@@ -6,43 +6,43 @@ description: "module fastcore.xdg in fastcore"
 ## Functions
 
     
-### xdg_cache_home
+### `xdg_cache_home`
     
 <strong>xdg_cache_home()</strong>
     
         Path corresponding to `XDG_CACHE_HOME`
     
-### xdg_config_dirs
+### `xdg_config_dirs`
     
 <strong>xdg_config_dirs()</strong>
     
         Paths corresponding to `XDG_CONFIG_DIRS`
     
-### xdg_config_home
+### `xdg_config_home`
     
 <strong>xdg_config_home()</strong>
     
         Path corresponding to `XDG_CONFIG_HOME`
     
-### xdg_data_dirs
+### `xdg_data_dirs`
     
 <strong>xdg_data_dirs()</strong>
     
         Paths corresponding to XDG_DATA_DIRS`
     
-### xdg_data_home
+### `xdg_data_home`
     
 <strong>xdg_data_home()</strong>
     
         Path corresponding to `XDG_DATA_HOME`
     
-### xdg_runtime_dir
+### `xdg_runtime_dir`
     
 <strong>xdg_runtime_dir()</strong>
     
         Path corresponding to `XDG_RUNTIME_DIR`
     
-### xdg_state_home
+### `xdg_state_home`
     
 <strong>xdg_state_home()</strong>
     

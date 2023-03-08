@@ -20,19 +20,19 @@ description: "module fastcore.script in fastcore"
      |  Methods defined here:
      |  
      |  
-#### Param.__init__
+#### `Param.__init__`
      |  
      |  __init__(self, help='', type=None, opt=True, action=None, nargs=None, const=None, choices=None, required=None, default=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### Param.__repr__
+#### `Param.__repr__`
      |  
      |  __repr__(self)
      |      Return repr(self).
      |  
      |  
-#### Param.set_default
+#### `Param.set_default`
      |  
      |  set_default(self, d)
      |  
@@ -55,43 +55,43 @@ description: "module fastcore.script in fastcore"
 ## Functions
 
     
-### anno_parser
+### `anno_parser`
     
 <strong>anno_parser(func, prog: str = None)</strong>
     
         Look at params (annotated with `Param`) in func and return an `ArgumentParser`
     
-### args_from_prog
+### `args_from_prog`
     
 <strong>args_from_prog(func, prog)</strong>
     
         Extract args from `prog`
     
-### bool_arg
+### `bool_arg`
     
 <strong>bool_arg(v)</strong>
     
         Use as `type` for `Param` to get `bool` behavior
     
-### call_parse
+### `call_parse`
     
 <strong>call_parse(func=None, nested=False)</strong>
     
         Decorator to create a simple CLI from `func` using `anno_parser`
     
-### clean_type_str
+### `clean_type_str`
     
 <strong>clean_type_str(x: str)</strong>
     
         # %% ../nbs/08_script.ipynb 18
     
-### store_false
+### `store_false`
     
 <strong>store_false()</strong>
     
         Placeholder to pass to `Param` for `store_false` action
     
-### store_true
+### `store_true`
     
 <strong>store_true()</strong>
     

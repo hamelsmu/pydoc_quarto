@@ -6,7 +6,7 @@ description: "module fastcore.nb_imports in fastcore"
 ## Functions
 
     
-### array
+### `array`
     
 <strong>array(...)</strong>
     
@@ -130,7 +130,7 @@ description: "module fastcore.nb_imports in fastcore"
         matrix([[1, 2],
                 [3, 4]])
     
-### sleep
+### `sleep`
     
 <strong>sleep(...)</strong>
     

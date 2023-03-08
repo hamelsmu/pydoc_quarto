@@ -20,17 +20,17 @@ description: "module fastcore.test in fastcore"
      |  Methods defined here:
      |  
      |  
-#### ExceptionExpected.__enter__
+#### `ExceptionExpected.__enter__`
      |  
      |  __enter__(self)
      |  
      |  
-#### ExceptionExpected.__exit__
+#### `ExceptionExpected.__exit__`
      |  
      |  __exit__(self, type, value, traceback)
      |  
      |  
-#### ExceptionExpected.__init__
+#### `ExceptionExpected.__init__`
      |  
      |  __init__(self, ex=<class 'Exception'>, regex='')
      |      Initialize self.  See help(type(self)) for accurate signature.
@@ -47,79 +47,79 @@ description: "module fastcore.test in fastcore"
 ## Functions
 
     
-### is_close
+### `is_close`
     
 <strong>is_close(a, b, eps=1e-05)</strong>
     
         Is `a` within `eps` of `b`
     
-### nequals
+### `nequals`
     
 <strong>nequals(a, b)</strong>
     
         Compares `a` and `b` for `not equals`
     
-### test
+### `test`
     
 <strong>test(a, b, cmp, cname=None)</strong>
     
         `assert` that `cmp(a,b)`; display inputs and `cname or cmp.__name__` if it fails
     
-### test_close
+### `test_close`
     
 <strong>test_close(a, b, eps=1e-05)</strong>
     
         `test` that `a` is within `eps` of `b`
     
-### test_eq
+### `test_eq`
     
 <strong>test_eq(a, b)</strong>
     
         `test` that `a==b`
     
-### test_eq_type
+### `test_eq_type`
     
 <strong>test_eq_type(a, b)</strong>
     
         `test` that `a==b` and are same type
     
-### test_fail
+### `test_fail`
     
 <strong>test_fail(f, msg='', contains='', args=None, kwargs=None)</strong>
     
         Fails with `msg` unless `f()` raises an exception and (optionally) has `contains` in `e.args`
     
-### test_fig_exists
+### `test_fig_exists`
     
 <strong>test_fig_exists(ax)</strong>
     
         Test there is a figure displayed in `ax`
     
-### test_is
+### `test_is`
     
 <strong>test_is(a, b)</strong>
     
         `test` that `a is b`
     
-### test_ne
+### `test_ne`
     
 <strong>test_ne(a, b)</strong>
     
         `test` that `a!=b`
     
-### test_shuffled
+### `test_shuffled`
     
 <strong>test_shuffled(a, b)</strong>
     
         `test` that `a` and `b` are shuffled versions of the same sequence of items
     
-### test_stdout
+### `test_stdout`
     
 <strong>test_stdout(f, exp, regex=False)</strong>
     
         Test that `f` prints `exp` to stdout, optionally checking as `regex`
     
-### test_warns
+### `test_warns`
     
 <strong>test_warns(f, show=False)</strong>
     

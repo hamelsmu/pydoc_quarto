@@ -31,28 +31,28 @@ description: "module fastcore.docscrape in fastcore"
      |  Methods defined here:
      |  
      |  
-#### NumpyDocString.__getitem__
+#### `NumpyDocString.__getitem__`
      |  
      |  __getitem__(self, key)
      |  
      |  
-#### NumpyDocString.__init__
+#### `NumpyDocString.__init__`
      |  
      |  __init__(self, docstring, config=None)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
-#### NumpyDocString.__iter__
+#### `NumpyDocString.__iter__`
      |  
      |  __iter__(self)
      |  
      |  
-#### NumpyDocString.__len__
+#### `NumpyDocString.__len__`
      |  
      |  __len__(self)
      |  
      |  
-#### NumpyDocString.__setitem__
+#### `NumpyDocString.__setitem__`
      |  
      |  __setitem__(self, key, val)
      |  
@@ -76,36 +76,36 @@ description: "module fastcore.docscrape in fastcore"
      |  Methods inherited from collections.abc.Mapping:
      |  
      |  
-#### Mapping.__contains__
+#### `Mapping.__contains__`
      |  
      |  __contains__(self, key)
      |  
      |  
-#### Mapping.__eq__
+#### `Mapping.__eq__`
      |  
      |  __eq__(self, other)
      |      Return self==value.
      |  
      |  
-#### Mapping.get
+#### `Mapping.get`
      |  
      |  get(self, key, default=None)
      |      D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None.
      |  
      |  
-#### Mapping.items
+#### `Mapping.items`
      |  
      |  items(self)
      |      D.items() -> a set-like object providing a view on D's items
      |  
      |  
-#### Mapping.keys
+#### `Mapping.keys`
      |  
      |  keys(self)
      |      D.keys() -> a set-like object providing a view on D's keys
      |  
      |  
-#### Mapping.values
+#### `Mapping.values`
      |  
      |  values(self)
      |      D.values() -> an object providing a view on D's values
@@ -121,7 +121,7 @@ description: "module fastcore.docscrape in fastcore"
      |  Class methods inherited from collections.abc.Collection:
      |  
      |  
-#### Collection.__subclasshook__
+#### `Collection.__subclasshook__`
      |  
      |  __subclasshook__(C) from abc.ABCMeta
      |      Abstract classes can override this to customize issubclass().
@@ -135,7 +135,7 @@ description: "module fastcore.docscrape in fastcore"
      |  Class methods inherited from collections.abc.Iterable:
      |  
      |  
-#### GenericAlias
+#### `GenericAlias`
      |  
      |  __class_getitem__ = GenericAlias(...) from abc.ABCMeta
      |      Represent a PEP 585 generic type
@@ -158,25 +158,25 @@ description: "module fastcore.docscrape in fastcore"
      |  Methods defined here:
      |  
      |  
-#### Parameter.__getnewargs__
+#### `Parameter.__getnewargs__`
      |  
      |  __getnewargs__(self)
      |      Return self as a plain tuple.  Used by copy and pickle.
      |  
      |  
-#### Parameter.__repr__
+#### `Parameter.__repr__`
      |  
      |  __repr__(self)
      |      Return a nicely formatted representation string
      |  
      |  
-#### Parameter._asdict
+#### `Parameter._asdict`
      |  
      |  _asdict(self)
      |      Return a new dict which maps field names to their values.
      |  
      |  
-#### Parameter._replace
+#### `Parameter._replace`
      |  
      |  _replace(self, /, **kwds)
      |      Return a new Parameter object replacing specified fields with new values
@@ -185,7 +185,7 @@ description: "module fastcore.docscrape in fastcore"
      |  Class methods defined here:
      |  
      |  
-#### Parameter._make
+#### `Parameter._make`
      |  
      |  _make(iterable) from builtins.type
      |      Make a new Parameter object from a sequence or iterable
@@ -194,7 +194,7 @@ description: "module fastcore.docscrape in fastcore"
      |  Static methods defined here:
      |  
      |  
-#### Parameter.__new__
+#### `Parameter.__new__`
      |  
      |  __new__(_cls, name, type, desc)
      |      Create new instance of Parameter(name, type, desc)
@@ -224,103 +224,103 @@ description: "module fastcore.docscrape in fastcore"
      |  Methods inherited from builtins.tuple:
      |  
      |  
-#### tuple.__add__
+#### `tuple.__add__`
      |  
      |  __add__(self, value, /)
      |      Return self+value.
      |  
      |  
-#### tuple.__contains__
+#### `tuple.__contains__`
      |  
      |  __contains__(self, key, /)
      |      Return key in self.
      |  
      |  
-#### tuple.__eq__
+#### `tuple.__eq__`
      |  
      |  __eq__(self, value, /)
      |      Return self==value.
      |  
      |  
-#### tuple.__ge__
+#### `tuple.__ge__`
      |  
      |  __ge__(self, value, /)
      |      Return self>=value.
      |  
      |  
-#### tuple.__getattribute__
+#### `tuple.__getattribute__`
      |  
      |  __getattribute__(self, name, /)
      |      Return getattr(self, name).
      |  
      |  
-#### tuple.__getitem__
+#### `tuple.__getitem__`
      |  
      |  __getitem__(self, key, /)
      |      Return self[key].
      |  
      |  
-#### tuple.__gt__
+#### `tuple.__gt__`
      |  
      |  __gt__(self, value, /)
      |      Return self>value.
      |  
      |  
-#### tuple.__hash__
+#### `tuple.__hash__`
      |  
      |  __hash__(self, /)
      |      Return hash(self).
      |  
      |  
-#### tuple.__iter__
+#### `tuple.__iter__`
      |  
      |  __iter__(self, /)
      |      Implement iter(self).
      |  
      |  
-#### tuple.__le__
+#### `tuple.__le__`
      |  
      |  __le__(self, value, /)
      |      Return self<=value.
      |  
      |  
-#### tuple.__len__
+#### `tuple.__len__`
      |  
      |  __len__(self, /)
      |      Return len(self).
      |  
      |  
-#### tuple.__lt__
+#### `tuple.__lt__`
      |  
      |  __lt__(self, value, /)
      |      Return self<value.
      |  
      |  
-#### tuple.__mul__
+#### `tuple.__mul__`
      |  
      |  __mul__(self, value, /)
      |      Return self*value.
      |  
      |  
-#### tuple.__ne__
+#### `tuple.__ne__`
      |  
      |  __ne__(self, value, /)
      |      Return self!=value.
      |  
      |  
-#### tuple.__rmul__
+#### `tuple.__rmul__`
      |  
      |  __rmul__(self, value, /)
      |      Return value*self.
      |  
      |  
-#### tuple.count
+#### `tuple.count`
      |  
      |  count(self, value, /)
      |      Return number of occurrences of value.
      |  
      |  
-#### tuple.index
+#### `tuple.index`
      |  
      |  index(self, value, start=0, stop=9223372036854775807, /)
      |      Return first index of value.
@@ -331,7 +331,7 @@ description: "module fastcore.docscrape in fastcore"
      |  Class methods inherited from builtins.tuple:
      |  
      |  
-#### Parameter.__class_getitem__
+#### `Parameter.__class_getitem__`
      |  
      |  __class_getitem__(...) from builtins.type
      |      See PEP 585
@@ -339,7 +339,7 @@ description: "module fastcore.docscrape in fastcore"
 ## Functions
 
     
-### dedent_lines
+### `dedent_lines`
     
 <strong>dedent_lines(lines, split=True)</strong>
     

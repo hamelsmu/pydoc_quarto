@@ -16,7 +16,7 @@ description: "module requests.api in requests"
 ## Functions
 
     
-### delete
+### `delete`
     
 <strong>delete(url, **kwargs)</strong>
     
@@ -27,7 +27,7 @@ description: "module requests.api in requests"
         :return: :class:`Response <Response>` object
         :rtype: requests.Response
     
-### get
+### `get`
     
 <strong>get(url, params=None, **kwargs)</strong>
     
@@ -40,7 +40,7 @@ description: "module requests.api in requests"
         :return: :class:`Response <Response>` object
         :rtype: requests.Response
     
-### head
+### `head`
     
 <strong>head(url, **kwargs)</strong>
     
@@ -53,7 +53,7 @@ description: "module requests.api in requests"
         :return: :class:`Response <Response>` object
         :rtype: requests.Response
     
-### options
+### `options`
     
 <strong>options(url, **kwargs)</strong>
     
@@ -64,7 +64,7 @@ description: "module requests.api in requests"
         :return: :class:`Response <Response>` object
         :rtype: requests.Response
     
-### patch
+### `patch`
     
 <strong>patch(url, data=None, **kwargs)</strong>
     
@@ -78,7 +78,7 @@ description: "module requests.api in requests"
         :return: :class:`Response <Response>` object
         :rtype: requests.Response
     
-### post
+### `post`
     
 <strong>post(url, data=None, json=None, **kwargs)</strong>
     
@@ -92,7 +92,7 @@ description: "module requests.api in requests"
         :return: :class:`Response <Response>` object
         :rtype: requests.Response
     
-### put
+### `put`
     
 <strong>put(url, data=None, **kwargs)</strong>
     
@@ -106,7 +106,7 @@ description: "module requests.api in requests"
         :return: :class:`Response <Response>` object
         :rtype: requests.Response
     
-### request
+### `request`
     
 <strong>request(method, url, **kwargs)</strong>
     

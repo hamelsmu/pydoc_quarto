@@ -6,7 +6,7 @@ description: "module fastcore.all in fastcore"
 ## Functions
 
     
-### reduce
+### `reduce`
     
 <strong>reduce(...)</strong>
     
@@ -19,7 +19,7 @@ description: "module fastcore.all in fastcore"
         of the iterable in the calculation, and serves as a default when the
         iterable is empty.
     
-### warn
+### `warn`
     
 <strong>warn(message, category=None, stacklevel=1, source=None)</strong>
     
