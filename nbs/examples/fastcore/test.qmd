@@ -11,7 +11,13 @@ description: "module fastcore.test in fastcore"
     
 ### ExceptionExpected
     
-<strong>class ExceptionExpected(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ExceptionExpected(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  ExceptionExpected(ex=<class 'Exception'>, regex='')
      |  
@@ -49,79 +55,157 @@ description: "module fastcore.test in fastcore"
     
 ### `is_close`
     
-<strong>is_close(a, b, eps=1e-05)</strong>
+
+
+```{=html}
+<blockquote><strong><code>is_close(a, b, eps=1e-05)</code></strong></blockquote>
+```
+
+
     
         Is `a` within `eps` of `b`
     
 ### `nequals`
     
-<strong>nequals(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>nequals(a, b)</code></strong></blockquote>
+```
+
+
     
         Compares `a` and `b` for `not equals`
     
 ### `test`
     
-<strong>test(a, b, cmp, cname=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test(a, b, cmp, cname=None)</code></strong></blockquote>
+```
+
+
     
         `assert` that `cmp(a,b)`; display inputs and `cname or cmp.__name__` if it fails
     
 ### `test_close`
     
-<strong>test_close(a, b, eps=1e-05)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_close(a, b, eps=1e-05)</code></strong></blockquote>
+```
+
+
     
         `test` that `a` is within `eps` of `b`
     
 ### `test_eq`
     
-<strong>test_eq(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_eq(a, b)</code></strong></blockquote>
+```
+
+
     
         `test` that `a==b`
     
 ### `test_eq_type`
     
-<strong>test_eq_type(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_eq_type(a, b)</code></strong></blockquote>
+```
+
+
     
         `test` that `a==b` and are same type
     
 ### `test_fail`
     
-<strong>test_fail(f, msg='', contains='', args=None, kwargs=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_fail(f, msg='', contains='', args=None, kwargs=None)</code></strong></blockquote>
+```
+
+
     
         Fails with `msg` unless `f()` raises an exception and (optionally) has `contains` in `e.args`
     
 ### `test_fig_exists`
     
-<strong>test_fig_exists(ax)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_fig_exists(ax)</code></strong></blockquote>
+```
+
+
     
         Test there is a figure displayed in `ax`
     
 ### `test_is`
     
-<strong>test_is(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_is(a, b)</code></strong></blockquote>
+```
+
+
     
         `test` that `a is b`
     
 ### `test_ne`
     
-<strong>test_ne(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_ne(a, b)</code></strong></blockquote>
+```
+
+
     
         `test` that `a!=b`
     
 ### `test_shuffled`
     
-<strong>test_shuffled(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_shuffled(a, b)</code></strong></blockquote>
+```
+
+
     
         `test` that `a` and `b` are shuffled versions of the same sequence of items
     
 ### `test_stdout`
     
-<strong>test_stdout(f, exp, regex=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_stdout(f, exp, regex=False)</code></strong></blockquote>
+```
+
+
     
         Test that `f` prints `exp` to stdout, optionally checking as `regex`
     
 ### `test_warns`
     
-<strong>test_warns(f, show=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_warns(f, show=False)</code></strong></blockquote>
+```
+
+
     
         # %% ../nbs/00_test.ipynb 40
 

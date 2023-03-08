@@ -20,7 +20,13 @@ description: "module requests.adapters in requests"
     
 ### BaseAdapter
     
-<strong>class BaseAdapter(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class BaseAdapter(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  The Base Transport Adapter
      |  
@@ -67,7 +73,13 @@ description: "module requests.adapters in requests"
     
 ### HTTPAdapter
     
-<strong>class HTTPAdapter(BaseAdapter)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTPAdapter(BaseAdapter)</code></strong></blockquote>
+```
+
+
     
      |  HTTPAdapter(pool_connections=10, pool_maxsize=10, max_retries=0, pool_block=False)
      |  

@@ -18,7 +18,13 @@ description: "module fastcore.xtras in fastcore"
     
 ### ContextManagers
     
-<strong>class ContextManagers(fastcore.basics.GetAttr)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ContextManagers(fastcore.basics.GetAttr)</code></strong></blockquote>
+```
+
+
     
      |  ContextManagers(mgrs)
      |  
@@ -77,7 +83,13 @@ description: "module fastcore.xtras in fastcore"
     
 ### EventTimer
     
-<strong>class EventTimer(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class EventTimer(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  EventTimer(store=5, span=60)
      |  
@@ -115,7 +127,13 @@ description: "module fastcore.xtras in fastcore"
     
 ### IterLen
     
-<strong>class IterLen(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class IterLen(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Base class to add iteration to anything supporting `__len__` and `__getitem__`
      |  
@@ -137,7 +155,13 @@ description: "module fastcore.xtras in fastcore"
     
 ### PartialFormatter
     
-<strong>class PartialFormatter(string.Formatter)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class PartialFormatter(string.Formatter)</code></strong></blockquote>
+```
+
+
     
      |  A `string.Formatter` that doesn't error on missing fields, and tracks missing fields and unused args
      |  
@@ -215,9 +239,15 @@ description: "module fastcore.xtras in fastcore"
     
 ### ReindexCollection
     
-<strong>class ReindexCollection(fastcore.basics.GetAttr, IterLen)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ReindexCollection(fastcore.basics.GetAttr, IterLen)</code></strong></blockquote>
+```
+
+
     
-     |  ReindexCollection(coll, idxs=None, cache=None, tfm=<function noop at 0x104d19480>)
+     |  ReindexCollection(coll, idxs=None, cache=None, tfm=<function noop at 0x103bc1480>)
      |  
      |  Reindexes collection `coll` with indices `idxs` and optional LRU cache of size `cache`
      |  
@@ -242,7 +272,7 @@ description: "module fastcore.xtras in fastcore"
      |  
 #### `ReindexCollection.__init__`
      |  
-     |  __init__(self, coll, idxs=None, cache=None, tfm=<function noop at 0x104d19480>)
+     |  __init__(self, coll, idxs=None, cache=None, tfm=<function noop at 0x103bc1480>)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
@@ -309,217 +339,433 @@ description: "module fastcore.xtras in fastcore"
     
 ### `autostart`
     
-<strong>autostart(g)</strong>
+
+
+```{=html}
+<blockquote><strong><code>autostart(g)</code></strong></blockquote>
+```
+
+
     
         Decorator that automatically starts a generator
     
 ### `bunzip`
     
-<strong>bunzip(fn)</strong>
+
+
+```{=html}
+<blockquote><strong><code>bunzip(fn)</code></strong></blockquote>
+```
+
+
     
         bunzip `fn`, raising exception if output already exists
     
 ### `console_help`
     
-<strong>console_help(libname: 'str')</strong>
+
+
+```{=html}
+<blockquote><strong><code>console_help(libname: 'str')</code></strong></blockquote>
+```
+
+
     
         Show help for all console scripts from `libname`
     
 ### `dict2obj`
     
-<strong>dict2obj(d, list_func=<class 'fastcore.foundation.L'>, dict_func=<class 'fastcore.basics.AttrDict'>)</strong>
+
+
+```{=html}
+<blockquote><strong><code>dict2obj(d, list_func=<class 'fastcore.foundation.L'>, dict_func=<class 'fastcore.basics.AttrDict'>)</code></strong></blockquote>
+```
+
+
     
         Convert (possibly nested) dicts (or lists of dicts) to `AttrDict`
     
 ### `dumps`
     
-<strong>dumps(obj, **kw)</strong>
+
+
+```{=html}
+<blockquote><strong><code>dumps(obj, **kw)</code></strong></blockquote>
+```
+
+
     
         Same as `json.dumps`, but uses `ujson` if available
     
 ### `get_source_link`
     
-<strong>get_source_link(func)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_source_link(func)</code></strong></blockquote>
+```
+
+
     
         Return link to `func` in source code
     
 ### `globtastic`
     
-<strong>globtastic(path: 'Path | str', recursive: 'bool' = True, symlinks: 'bool' = True, file_glob: 'str' = None, file_re: 'str' = None, folder_re: 'str' = None, skip_file_glob: 'str' = None, skip_file_re: 'str' = None, skip_folder_re: 'str' = None, func: 'callable' = <function join at 0x104646b90>, ret_folders: 'bool' = False) -> 'L'</strong>
+
+
+```{=html}
+<blockquote><strong><code>globtastic(path: 'Path | str', recursive: 'bool' = True, symlinks: 'bool' = True, file_glob: 'str' = None, file_re: 'str' = None, folder_re: 'str' = None, skip_file_glob: 'str' = None, skip_file_re: 'str' = None, skip_folder_re: 'str' = None, func: 'callable' = <function join at 0x1034eeb90>, ret_folders: 'bool' = False) -> 'L'</code></strong></blockquote>
+```
+
+
     
         A more powerful `glob`, including regex matches, symlink handling, and skip parameters
     
 ### `image_size`
     
-<strong>image_size(fn)</strong>
+
+
+```{=html}
+<blockquote><strong><code>image_size(fn)</code></strong></blockquote>
+```
+
+
     
         Tuple of (w,h) for png, gif, or jpg; `None` otherwise
     
 ### `is_listy`
     
-<strong>is_listy(x)</strong>
+
+
+```{=html}
+<blockquote><strong><code>is_listy(x)</code></strong></blockquote>
+```
+
+
     
         `isinstance(x, (tuple,list,L,slice,Generator))`
     
 ### `join_path_file`
     
-<strong>join_path_file(file, path, ext='')</strong>
+
+
+```{=html}
+<blockquote><strong><code>join_path_file(file, path, ext='')</code></strong></blockquote>
+```
+
+
     
         Return `path/file` if file is a string or a `Path`, file otherwise
     
 ### `load_pickle`
     
-<strong>load_pickle(fn)</strong>
+
+
+```{=html}
+<blockquote><strong><code>load_pickle(fn)</code></strong></blockquote>
+```
+
+
     
         Load a pickle file from a file name or opened file
     
 ### `loads`
     
-<strong>loads(s, **kw)</strong>
+
+
+```{=html}
+<blockquote><strong><code>loads(s, **kw)</code></strong></blockquote>
+```
+
+
     
         Same as `json.loads`, but handles `None`
     
 ### `loads_multi`
     
-<strong>loads_multi(s: 'str')</strong>
+
+
+```{=html}
+<blockquote><strong><code>loads_multi(s: 'str')</code></strong></blockquote>
+```
+
+
     
         Generator of >=0 decoded json dicts, possibly with non-json ignored text at start and end
     
 ### `local2utc`
     
-<strong>local2utc(dt: 'datetime') -> 'datetime'</strong>
+
+
+```{=html}
+<blockquote><strong><code>local2utc(dt: 'datetime') -> 'datetime'</code></strong></blockquote>
+```
+
+
     
         Convert `dt` from local to UTC time
     
 ### `mapped`
     
-<strong>mapped(f, it)</strong>
+
+
+```{=html}
+<blockquote><strong><code>mapped(f, it)</code></strong></blockquote>
+```
+
+
     
         map `f` over `it`, unless it's not listy, in which case return `f(it)`
     
 ### `maybe_open`
     
-<strong>maybe_open(f, mode='r', **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>maybe_open(f, mode='r', **kwargs)</code></strong></blockquote>
+```
+
+
     
         Context manager: open `f` if it is a path (and close on exit)
     
 ### `mkdir`
     
-<strong>mkdir(path, exist_ok=False, parents=False, overwrite=False, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>mkdir(path, exist_ok=False, parents=False, overwrite=False, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Creates and returns a directory defined by `path`, optionally removing previous existing directory if `overwrite` is `True`
     
 ### `modified_env`
     
-<strong>modified_env(*delete, **replace)</strong>
+
+
+```{=html}
+<blockquote><strong><code>modified_env(*delete, **replace)</code></strong></blockquote>
+```
+
+
     
         Context manager temporarily modifying `os.environ` by deleting `delete` and replacing `replace`
     
 ### `modify_exception`
     
-<strong>modify_exception(e: 'Exception', msg: 'str' = None, replace: 'bool' = False) -> 'Exception'</strong>
+
+
+```{=html}
+<blockquote><strong><code>modify_exception(e: 'Exception', msg: 'str' = None, replace: 'bool' = False) -> 'Exception'</code></strong></blockquote>
+```
+
+
     
         Modifies `e` with a custom message attached
     
 ### `obj2dict`
     
-<strong>obj2dict(d)</strong>
+
+
+```{=html}
+<blockquote><strong><code>obj2dict(d)</code></strong></blockquote>
+```
+
+
     
         Convert (possibly nested) AttrDicts (or lists of AttrDicts) to `dict`
     
 ### `open_file`
     
-<strong>open_file(fn, mode='r', **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>open_file(fn, mode='r', **kwargs)</code></strong></blockquote>
+```
+
+
     
         Open a file, with optional compression if gz or bz2 suffix
     
 ### `partial_format`
     
-<strong>partial_format(s: 'str', **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>partial_format(s: 'str', **kwargs)</code></strong></blockquote>
+```
+
+
     
         string format `s`, ignoring missing field errors, returning missing and extra fields
     
 ### `repo_details`
     
-<strong>repo_details(url)</strong>
+
+
+```{=html}
+<blockquote><strong><code>repo_details(url)</code></strong></blockquote>
+```
+
+
     
         Tuple of `owner,name` from ssh or https git repo `url`
     
 ### `repr_dict`
     
-<strong>repr_dict(d)</strong>
+
+
+```{=html}
+<blockquote><strong><code>repr_dict(d)</code></strong></blockquote>
+```
+
+
     
         Print nested dicts and lists, such as returned by `dict2obj`
     
 ### `round_multiple`
     
-<strong>round_multiple(x, mult, round_down=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>round_multiple(x, mult, round_down=False)</code></strong></blockquote>
+```
+
+
     
         Round `x` to nearest multiple of `mult`
     
 ### `run`
     
-<strong>run(cmd, *rest, same_in_win=False, ignore_ex=False, as_bytes=False, stderr=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>run(cmd, *rest, same_in_win=False, ignore_ex=False, as_bytes=False, stderr=False)</code></strong></blockquote>
+```
+
+
     
         Pass `cmd` (splitting with `shlex` if string) to `subprocess.run`; return `stdout`; raise `IOError` if fails
     
 ### `save_pickle`
     
-<strong>save_pickle(fn, o)</strong>
+
+
+```{=html}
+<blockquote><strong><code>save_pickle(fn, o)</code></strong></blockquote>
+```
+
+
     
         Save a pickle file, to a file name or opened file
     
 ### `set_num_threads`
     
-<strong>set_num_threads(nt)</strong>
+
+
+```{=html}
+<blockquote><strong><code>set_num_threads(nt)</code></strong></blockquote>
+```
+
+
     
         Get numpy (and others) to use `nt` threads
     
 ### `shufflish`
     
-<strong>shufflish(x, pct=0.04)</strong>
+
+
+```{=html}
+<blockquote><strong><code>shufflish(x, pct=0.04)</code></strong></blockquote>
+```
+
+
     
         Randomly relocate items of `x` up to `pct` of `len(x)` from their starting location
     
 ### `sparkline`
     
-<strong>sparkline(data, mn=None, mx=None, empty_zero=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>sparkline(data, mn=None, mx=None, empty_zero=False)</code></strong></blockquote>
+```
+
+
     
         Sparkline for `data`, with `None`s (and zero, if `empty_zero`) shown as empty column
     
 ### `stringfmt_names`
     
-<strong>stringfmt_names(s: 'str') -> 'list'</strong>
+
+
+```{=html}
+<blockquote><strong><code>stringfmt_names(s: 'str') -> 'list'</code></strong></blockquote>
+```
+
+
     
         Unique brace-delimited names in `s`
     
 ### `trace`
     
-<strong>trace(f)</strong>
+
+
+```{=html}
+<blockquote><strong><code>trace(f)</code></strong></blockquote>
+```
+
+
     
         Add `set_trace` to an existing function `f`
     
 ### `truncstr`
     
-<strong>truncstr(s: 'str', maxlen: 'int', suf: 'str' = '…', space='') -> 'str'</strong>
+
+
+```{=html}
+<blockquote><strong><code>truncstr(s: 'str', maxlen: 'int', suf: 'str' = '…', space='') -> 'str'</code></strong></blockquote>
+```
+
+
     
         Truncate `s` to length `maxlen`, adding suffix `suf` if truncated
     
 ### `untar_dir`
     
-<strong>untar_dir(fname, dest, rename=False, overwrite=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>untar_dir(fname, dest, rename=False, overwrite=False)</code></strong></blockquote>
+```
+
+
     
         untar `file` into `dest`, creating a directory if the root contains more than one item
     
 ### `utc2local`
     
-<strong>utc2local(dt: 'datetime') -> 'datetime'</strong>
+
+
+```{=html}
+<blockquote><strong><code>utc2local(dt: 'datetime') -> 'datetime'</code></strong></blockquote>
+```
+
+
     
         Convert `dt` from UTC to local time
     
 ### `walk`
     
-<strong>walk(path: 'Path | str', symlinks: 'bool' = True, keep_file: 'callable' = <function ret_true at 0x104d6c8b0>, keep_folder: 'callable' = <function ret_true at 0x104d6c8b0>, skip_folder: 'callable' = <function ret_false at 0x104d6c940>, func: 'callable' = <function join at 0x104646b90>, ret_folders: 'bool' = False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>walk(path: 'Path | str', symlinks: 'bool' = True, keep_file: 'callable' = <function ret_true at 0x103c148b0>, keep_folder: 'callable' = <function ret_true at 0x103c148b0>, skip_folder: 'callable' = <function ret_false at 0x103c14940>, func: 'callable' = <function join at 0x1034eeb90>, ret_folders: 'bool' = False)</code></strong></blockquote>
+```
+
+
     
         Generator version of `os.walk`, using functions to filter files and folders
 

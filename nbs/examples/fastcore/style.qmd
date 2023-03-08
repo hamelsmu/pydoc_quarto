@@ -12,7 +12,13 @@ description: "module fastcore.style in fastcore"
     
 ### Style
     
-<strong>class Style(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Style(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Style(codes=None)
      |  
@@ -60,7 +66,13 @@ description: "module fastcore.style in fastcore"
     
 ### StyleCode
     
-<strong>class StyleCode(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class StyleCode(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  StyleCode(name, code, typ)
      |  
@@ -94,7 +106,13 @@ description: "module fastcore.style in fastcore"
     
 ### `demo`
     
-<strong>demo()</strong>
+
+
+```{=html}
+<blockquote><strong><code>demo()</code></strong></blockquote>
+```
+
+
     
         Demonstrate all available styles and their codes.
 

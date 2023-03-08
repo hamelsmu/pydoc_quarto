@@ -16,7 +16,13 @@ description: "module requests.utils in requests"
     
 ### `add_dict_to_cookiejar`
     
-<strong>add_dict_to_cookiejar(cj, cookie_dict)</strong>
+
+
+```{=html}
+<blockquote><strong><code>add_dict_to_cookiejar(cj, cookie_dict)</code></strong></blockquote>
+```
+
+
     
         Returns a CookieJar from a key/value dictionary.
         
@@ -26,7 +32,13 @@ description: "module requests.utils in requests"
     
 ### `address_in_network`
     
-<strong>address_in_network(ip, net)</strong>
+
+
+```{=html}
+<blockquote><strong><code>address_in_network(ip, net)</code></strong></blockquote>
+```
+
+
     
         This function allows you to check if an IP belongs to a network subnet
         
@@ -37,13 +49,25 @@ description: "module requests.utils in requests"
     
 ### `atomic_open`
     
-<strong>atomic_open(filename)</strong>
+
+
+```{=html}
+<blockquote><strong><code>atomic_open(filename)</code></strong></blockquote>
+```
+
+
     
         Write a file to the disk in an atomic fashion
     
 ### `check_header_validity`
     
-<strong>check_header_validity(header)</strong>
+
+
+```{=html}
+<blockquote><strong><code>check_header_validity(header)</code></strong></blockquote>
+```
+
+
     
         Verifies that header parts don't contain leading whitespace
         reserved characters, or return characters.
@@ -52,13 +76,25 @@ description: "module requests.utils in requests"
     
 ### `default_headers`
     
-<strong>default_headers()</strong>
+
+
+```{=html}
+<blockquote><strong><code>default_headers()</code></strong></blockquote>
+```
+
+
     
         :rtype: requests.structures.CaseInsensitiveDict
     
 ### `default_user_agent`
     
-<strong>default_user_agent(name='python-requests')</strong>
+
+
+```{=html}
+<blockquote><strong><code>default_user_agent(name='python-requests')</code></strong></blockquote>
+```
+
+
     
         Return a string representing the default user agent.
         
@@ -66,7 +102,13 @@ description: "module requests.utils in requests"
     
 ### `dict_from_cookiejar`
     
-<strong>dict_from_cookiejar(cj)</strong>
+
+
+```{=html}
+<blockquote><strong><code>dict_from_cookiejar(cj)</code></strong></blockquote>
+```
+
+
     
         Returns a key/value dictionary from a CookieJar.
         
@@ -75,13 +117,25 @@ description: "module requests.utils in requests"
     
 ### `dict_to_sequence`
     
-<strong>dict_to_sequence(d)</strong>
+
+
+```{=html}
+<blockquote><strong><code>dict_to_sequence(d)</code></strong></blockquote>
+```
+
+
     
         Returns an internal sequence dictionary update.
     
 ### `dotted_netmask`
     
-<strong>dotted_netmask(mask)</strong>
+
+
+```{=html}
+<blockquote><strong><code>dotted_netmask(mask)</code></strong></blockquote>
+```
+
+
     
         Converts mask from /xx format to xxx.xxx.xxx.xxx
         
@@ -91,7 +145,13 @@ description: "module requests.utils in requests"
     
 ### `extract_zipped_paths`
     
-<strong>extract_zipped_paths(path)</strong>
+
+
+```{=html}
+<blockquote><strong><code>extract_zipped_paths(path)</code></strong></blockquote>
+```
+
+
     
         Replace nonexistent paths that look like they refer to a member of a zip
         archive with the location of an extracted copy of the target, or else
@@ -99,7 +159,13 @@ description: "module requests.utils in requests"
     
 ### `from_key_val_list`
     
-<strong>from_key_val_list(value)</strong>
+
+
+```{=html}
+<blockquote><strong><code>from_key_val_list(value)</code></strong></blockquote>
+```
+
+
     
         Take an object and test to see if it can be represented as a
         dictionary. Unless it can not be represented as such, return an
@@ -120,7 +186,13 @@ description: "module requests.utils in requests"
     
 ### `get_auth_from_url`
     
-<strong>get_auth_from_url(url)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_auth_from_url(url)</code></strong></blockquote>
+```
+
+
     
         Given a url with authentication components, extract them into a tuple of
         username,password.
@@ -129,7 +201,13 @@ description: "module requests.utils in requests"
     
 ### `get_encoding_from_headers`
     
-<strong>get_encoding_from_headers(headers)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_encoding_from_headers(headers)</code></strong></blockquote>
+```
+
+
     
         Returns encodings from given HTTP Header Dict.
         
@@ -138,7 +216,13 @@ description: "module requests.utils in requests"
     
 ### `get_encodings_from_content`
     
-<strong>get_encodings_from_content(content)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_encodings_from_content(content)</code></strong></blockquote>
+```
+
+
     
         Returns encodings from given content string.
         
@@ -146,7 +230,13 @@ description: "module requests.utils in requests"
     
 ### `get_environ_proxies`
     
-<strong>get_environ_proxies(url, no_proxy=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_environ_proxies(url, no_proxy=None)</code></strong></blockquote>
+```
+
+
     
         Return a dict of environment proxies.
         
@@ -154,13 +244,25 @@ description: "module requests.utils in requests"
     
 ### `get_netrc_auth`
     
-<strong>get_netrc_auth(url, raise_errors=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_netrc_auth(url, raise_errors=False)</code></strong></blockquote>
+```
+
+
     
         Returns the Requests tuple auth for a given url from netrc.
     
 ### `get_unicode_from_response`
     
-<strong>get_unicode_from_response(r)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_unicode_from_response(r)</code></strong></blockquote>
+```
+
+
     
         Returns the requested content back in unicode.
         
@@ -175,25 +277,49 @@ description: "module requests.utils in requests"
     
 ### `guess_filename`
     
-<strong>guess_filename(obj)</strong>
+
+
+```{=html}
+<blockquote><strong><code>guess_filename(obj)</code></strong></blockquote>
+```
+
+
     
         Tries to guess the filename of the given object.
     
 ### `guess_json_utf`
     
-<strong>guess_json_utf(data)</strong>
+
+
+```{=html}
+<blockquote><strong><code>guess_json_utf(data)</code></strong></blockquote>
+```
+
+
     
         :rtype: str
     
 ### `is_ipv4_address`
     
-<strong>is_ipv4_address(string_ip)</strong>
+
+
+```{=html}
+<blockquote><strong><code>is_ipv4_address(string_ip)</code></strong></blockquote>
+```
+
+
     
         :rtype: bool
     
 ### `is_valid_cidr`
     
-<strong>is_valid_cidr(string_network)</strong>
+
+
+```{=html}
+<blockquote><strong><code>is_valid_cidr(string_network)</code></strong></blockquote>
+```
+
+
     
         Very simple check of the cidr format in no_proxy variable.
         
@@ -201,13 +327,25 @@ description: "module requests.utils in requests"
     
 ### `iter_slices`
     
-<strong>iter_slices(string, slice_length)</strong>
+
+
+```{=html}
+<blockquote><strong><code>iter_slices(string, slice_length)</code></strong></blockquote>
+```
+
+
     
         Iterate over slices of a string.
     
 ### `parse_dict_header`
     
-<strong>parse_dict_header(value)</strong>
+
+
+```{=html}
+<blockquote><strong><code>parse_dict_header(value)</code></strong></blockquote>
+```
+
+
     
         Parse lists of key, value pairs as described by RFC 2068 Section 2 and
         convert them into a python dict:
@@ -232,7 +370,13 @@ description: "module requests.utils in requests"
     
 ### `parse_header_links`
     
-<strong>parse_header_links(value)</strong>
+
+
+```{=html}
+<blockquote><strong><code>parse_header_links(value)</code></strong></blockquote>
+```
+
+
     
         Return a list of parsed link headers proxies.
         
@@ -242,7 +386,13 @@ description: "module requests.utils in requests"
     
 ### `parse_list_header`
     
-<strong>parse_list_header(value)</strong>
+
+
+```{=html}
+<blockquote><strong><code>parse_list_header(value)</code></strong></blockquote>
+```
+
+
     
         Parse lists as described by RFC 2068 Section 2.
         
@@ -268,7 +418,13 @@ description: "module requests.utils in requests"
     
 ### `prepend_scheme_if_needed`
     
-<strong>prepend_scheme_if_needed(url, new_scheme)</strong>
+
+
+```{=html}
+<blockquote><strong><code>prepend_scheme_if_needed(url, new_scheme)</code></strong></blockquote>
+```
+
+
     
         Given a URL that may or may not have a scheme, prepend the given scheme.
         Does not replace a present scheme with the one provided as an argument.
@@ -277,7 +433,13 @@ description: "module requests.utils in requests"
     
 ### `requote_uri`
     
-<strong>requote_uri(uri)</strong>
+
+
+```{=html}
+<blockquote><strong><code>requote_uri(uri)</code></strong></blockquote>
+```
+
+
     
         Re-quote the given URI.
         
@@ -288,7 +450,13 @@ description: "module requests.utils in requests"
     
 ### `resolve_proxies`
     
-<strong>resolve_proxies(request, proxies, trust_env=True)</strong>
+
+
+```{=html}
+<blockquote><strong><code>resolve_proxies(request, proxies, trust_env=True)</code></strong></blockquote>
+```
+
+
     
         This method takes proxy information from a request and configuration
         input to resolve a mapping of target proxies. This will consider settings
@@ -302,14 +470,26 @@ description: "module requests.utils in requests"
     
 ### `rewind_body`
     
-<strong>rewind_body(prepared_request)</strong>
+
+
+```{=html}
+<blockquote><strong><code>rewind_body(prepared_request)</code></strong></blockquote>
+```
+
+
     
         Move file pointer back to its recorded starting position
         so it can be read again on redirect.
     
 ### `select_proxy`
     
-<strong>select_proxy(url, proxies)</strong>
+
+
+```{=html}
+<blockquote><strong><code>select_proxy(url, proxies)</code></strong></blockquote>
+```
+
+
     
         Select a proxy for the url, if applicable.
         
@@ -318,7 +498,13 @@ description: "module requests.utils in requests"
     
 ### `set_environ`
     
-<strong>set_environ(env_name, value)</strong>
+
+
+```{=html}
+<blockquote><strong><code>set_environ(env_name, value)</code></strong></blockquote>
+```
+
+
     
         Set the environment variable 'env_name' to 'value'
         
@@ -329,7 +515,13 @@ description: "module requests.utils in requests"
     
 ### `should_bypass_proxies`
     
-<strong>should_bypass_proxies(url, no_proxy)</strong>
+
+
+```{=html}
+<blockquote><strong><code>should_bypass_proxies(url, no_proxy)</code></strong></blockquote>
+```
+
+
     
         Returns whether we should bypass proxies or not.
         
@@ -337,18 +529,36 @@ description: "module requests.utils in requests"
     
 ### `stream_decode_response_unicode`
     
-<strong>stream_decode_response_unicode(iterator, r)</strong>
+
+
+```{=html}
+<blockquote><strong><code>stream_decode_response_unicode(iterator, r)</code></strong></blockquote>
+```
+
+
     
         Stream decodes an iterator.
     
 ### `super_len`
     
-<strong>super_len(o)</strong>
+
+
+```{=html}
+<blockquote><strong><code>super_len(o)</code></strong></blockquote>
+```
+
+
     
     
 ### `to_key_val_list`
     
-<strong>to_key_val_list(value)</strong>
+
+
+```{=html}
+<blockquote><strong><code>to_key_val_list(value)</code></strong></blockquote>
+```
+
+
     
         Take an object and test to see if it can be represented as a
         dictionary. If it can be, return a list of tuples, e.g.,
@@ -368,7 +578,13 @@ description: "module requests.utils in requests"
     
 ### `unquote_header_value`
     
-<strong>unquote_header_value(value, is_filename=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>unquote_header_value(value, is_filename=False)</code></strong></blockquote>
+```
+
+
     
         Unquotes a header value.  (Reversal of :func:`quote_header_value`).
         This does not use the real unquoting but what browsers are actually
@@ -379,7 +595,13 @@ description: "module requests.utils in requests"
     
 ### `unquote_unreserved`
     
-<strong>unquote_unreserved(uri)</strong>
+
+
+```{=html}
+<blockquote><strong><code>unquote_unreserved(uri)</code></strong></blockquote>
+```
+
+
     
         Un-escape any percent-escape sequences in a URI that are unreserved
         characters. This leaves all reserved, illegal and non-ASCII bytes encoded.
@@ -388,7 +610,13 @@ description: "module requests.utils in requests"
     
 ### `urldefragauth`
     
-<strong>urldefragauth(url)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urldefragauth(url)</code></strong></blockquote>
+```
+
+
     
         Given a url remove the fragment and the authentication part.
         

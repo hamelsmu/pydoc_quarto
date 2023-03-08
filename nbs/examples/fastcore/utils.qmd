@@ -8,7 +8,13 @@ description: "module fastcore.utils in fastcore"
     
 ### `reduce`
     
-<strong>reduce(...)</strong>
+
+
+```{=html}
+<blockquote><strong><code>reduce(...)</code></strong></blockquote>
+```
+
+
     
         reduce(function, iterable[, initial]) -> value
         
@@ -21,7 +27,13 @@ description: "module fastcore.utils in fastcore"
     
 ### `warn`
     
-<strong>warn(message, category=None, stacklevel=1, source=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>warn(message, category=None, stacklevel=1, source=None)</code></strong></blockquote>
+```
+
+
     
         Issue a warning, or maybe ignore it or raise an exception.
 

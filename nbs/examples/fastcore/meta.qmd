@@ -16,7 +16,13 @@ description: "module fastcore.meta in fastcore"
     
 ### AutoInit
     
-<strong>class AutoInit(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class AutoInit(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  AutoInit(*args, **kwargs)
      |  
@@ -40,7 +46,13 @@ description: "module fastcore.meta in fastcore"
     
 ### BypassNewMeta
     
-<strong>class BypassNewMeta(FixSigMeta)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class BypassNewMeta(FixSigMeta)</code></strong></blockquote>
+```
+
+
     
      |  BypassNewMeta(name, bases, dict)
      |  
@@ -197,7 +209,13 @@ description: "module fastcore.meta in fastcore"
     
 ### FixSigMeta
     
-<strong>class FixSigMeta(builtins.type)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class FixSigMeta(builtins.type)</code></strong></blockquote>
+```
+
+
     
      |  FixSigMeta(name, bases, dict)
      |  
@@ -351,7 +369,13 @@ description: "module fastcore.meta in fastcore"
     
 ### NewChkMeta
     
-<strong>class NewChkMeta(FixSigMeta)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class NewChkMeta(FixSigMeta)</code></strong></blockquote>
+```
+
+
     
      |  NewChkMeta(name, bases, dict)
      |  
@@ -508,7 +532,13 @@ description: "module fastcore.meta in fastcore"
     
 ### PrePostInitMeta
     
-<strong>class PrePostInitMeta(FixSigMeta)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class PrePostInitMeta(FixSigMeta)</code></strong></blockquote>
+```
+
+
     
      |  PrePostInitMeta(name, bases, dict)
      |  
@@ -668,49 +698,97 @@ description: "module fastcore.meta in fastcore"
     
 ### `anno_dict`
     
-<strong>anno_dict(f)</strong>
+
+
+```{=html}
+<blockquote><strong><code>anno_dict(f)</code></strong></blockquote>
+```
+
+
     
         `__annotation__ dictionary with `empty` cast to `None`, returning empty if doesn't exist
     
 ### `delegates`
     
-<strong>delegates(to: function = None, keep=False, but: list = None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>delegates(to: function = None, keep=False, but: list = None)</code></strong></blockquote>
+```
+
+
     
         Decorator: replace `**kwargs` in signature with params from `to`
     
 ### `empty2none`
     
-<strong>empty2none(p)</strong>
+
+
+```{=html}
+<blockquote><strong><code>empty2none(p)</code></strong></blockquote>
+```
+
+
     
         Replace `Parameter.empty` with `None`
     
 ### `funcs_kwargs`
     
-<strong>funcs_kwargs(as_method=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>funcs_kwargs(as_method=False)</code></strong></blockquote>
+```
+
+
     
         Replace methods in `cls._methods` with those from `kwargs`
     
 ### `method`
     
-<strong>method(f)</strong>
+
+
+```{=html}
+<blockquote><strong><code>method(f)</code></strong></blockquote>
+```
+
+
     
         Mark `f` as a method
     
 ### `test_sig`
     
-<strong>test_sig(f, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>test_sig(f, b)</code></strong></blockquote>
+```
+
+
     
         Test the signature of an object
     
 ### `use_kwargs`
     
-<strong>use_kwargs(names, keep=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>use_kwargs(names, keep=False)</code></strong></blockquote>
+```
+
+
     
         Decorator: replace `**kwargs` in signature with `names` params
     
 ### `use_kwargs_dict`
     
-<strong>use_kwargs_dict(keep=False, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>use_kwargs_dict(keep=False, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Decorator: replace `**kwargs` in signature with `names` params
 

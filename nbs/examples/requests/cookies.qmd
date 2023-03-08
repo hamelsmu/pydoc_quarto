@@ -27,7 +27,13 @@ description: "module requests.cookies in requests"
     
 ### CookieConflictError
     
-<strong>class CookieConflictError(builtins.RuntimeError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class CookieConflictError(builtins.RuntimeError)</code></strong></blockquote>
+```
+
+
     
      |  There are two cookies that meet the criteria specified in the cookie jar.
      |  Use .get and .set and include domain and path args in order to be more specific.
@@ -132,7 +138,13 @@ description: "module requests.cookies in requests"
     
 ### MockRequest
     
-<strong>class MockRequest(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class MockRequest(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  MockRequest(request)
      |  
@@ -225,7 +237,13 @@ description: "module requests.cookies in requests"
     
 ### MockResponse
     
-<strong>class MockResponse(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class MockResponse(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  MockResponse(headers)
      |  
@@ -265,7 +283,13 @@ description: "module requests.cookies in requests"
     
 ### RequestsCookieJar
     
-<strong>class RequestsCookieJar(http.cookiejar.CookieJar, collections.abc.MutableMapping)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class RequestsCookieJar(http.cookiejar.CookieJar, collections.abc.MutableMapping)</code></strong></blockquote>
+```
+
+
     
      |  RequestsCookieJar(policy=None)
      |  
@@ -601,7 +625,7 @@ description: "module requests.cookies in requests"
      |  
 #### `MutableMapping.pop`
      |  
-     |  pop(self, key, default=<object object at 0x1007f4180>)
+     |  pop(self, key, default=<object object at 0x102754180>)
      |      D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
      |      If key is not found, d is returned if given, otherwise KeyError is raised.
      |  
@@ -664,7 +688,13 @@ description: "module requests.cookies in requests"
     
 ### `cookiejar_from_dict`
     
-<strong>cookiejar_from_dict(cookie_dict, cookiejar=None, overwrite=True)</strong>
+
+
+```{=html}
+<blockquote><strong><code>cookiejar_from_dict(cookie_dict, cookiejar=None, overwrite=True)</code></strong></blockquote>
+```
+
+
     
         Returns a CookieJar from a key/value dictionary.
         
@@ -676,7 +706,13 @@ description: "module requests.cookies in requests"
     
 ### `create_cookie`
     
-<strong>create_cookie(name, value, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>create_cookie(name, value, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Make a cookie from underspecified parameters.
         
@@ -685,7 +721,13 @@ description: "module requests.cookies in requests"
     
 ### `extract_cookies_to_jar`
     
-<strong>extract_cookies_to_jar(jar, request, response)</strong>
+
+
+```{=html}
+<blockquote><strong><code>extract_cookies_to_jar(jar, request, response)</code></strong></blockquote>
+```
+
+
     
         Extract the cookies from the response into a CookieJar.
         
@@ -695,7 +737,13 @@ description: "module requests.cookies in requests"
     
 ### `get_cookie_header`
     
-<strong>get_cookie_header(jar, request)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_cookie_header(jar, request)</code></strong></blockquote>
+```
+
+
     
         Produce an appropriate Cookie header string to be sent with `request`, or None.
         
@@ -703,7 +751,13 @@ description: "module requests.cookies in requests"
     
 ### `merge_cookies`
     
-<strong>merge_cookies(cookiejar, cookies)</strong>
+
+
+```{=html}
+<blockquote><strong><code>merge_cookies(cookiejar, cookies)</code></strong></blockquote>
+```
+
+
     
         Add cookies to cookiejar and returns a merged CookieJar.
         
@@ -713,13 +767,25 @@ description: "module requests.cookies in requests"
     
 ### `morsel_to_cookie`
     
-<strong>morsel_to_cookie(morsel)</strong>
+
+
+```{=html}
+<blockquote><strong><code>morsel_to_cookie(morsel)</code></strong></blockquote>
+```
+
+
     
         Convert a Morsel object into a Cookie containing the one k/v pair.
     
 ### `remove_cookie_by_name`
     
-<strong>remove_cookie_by_name(cookiejar, name, domain=None, path=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>remove_cookie_by_name(cookiejar, name, domain=None, path=None)</code></strong></blockquote>
+```
+
+
     
         Unsets a cookie by name, by default over all domains and paths.
         

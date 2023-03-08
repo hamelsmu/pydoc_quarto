@@ -8,7 +8,13 @@ description: "module fastcore.nb_imports in fastcore"
     
 ### `array`
     
-<strong>array(...)</strong>
+
+
+```{=html}
+<blockquote><strong><code>array(...)</code></strong></blockquote>
+```
+
+
     
         array(object, dtype=None, *, copy=True, order='K', subok=False, ndmin=0,
               like=None)
@@ -132,7 +138,13 @@ description: "module fastcore.nb_imports in fastcore"
     
 ### `sleep`
     
-<strong>sleep(...)</strong>
+
+
+```{=html}
+<blockquote><strong><code>sleep(...)</code></strong></blockquote>
+```
+
+
     
         sleep(seconds)
         

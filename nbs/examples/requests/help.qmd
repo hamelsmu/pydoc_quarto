@@ -8,13 +8,25 @@ description: "module requests.help in requests"
     
 ### `info`
     
-<strong>info()</strong>
+
+
+```{=html}
+<blockquote><strong><code>info()</code></strong></blockquote>
+```
+
+
     
         Generate information for a bug report.
     
 ### `main`
     
-<strong>main()</strong>
+
+
+```{=html}
+<blockquote><strong><code>main()</code></strong></blockquote>
+```
+
+
     
         Pretty-print the bug information as JSON.
 

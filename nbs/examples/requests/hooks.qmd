@@ -20,12 +20,24 @@ description: "module requests.hooks in requests"
     
 ### `default_hooks`
     
-<strong>default_hooks()</strong>
+
+
+```{=html}
+<blockquote><strong><code>default_hooks()</code></strong></blockquote>
+```
+
+
     
     
 ### `dispatch_hook`
     
-<strong>dispatch_hook(key, hooks, hook_data, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>dispatch_hook(key, hooks, hook_data, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Dispatches a hook dictionary on a given piece of data.
 

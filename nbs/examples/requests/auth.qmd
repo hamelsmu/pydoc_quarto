@@ -21,7 +21,13 @@ description: "module requests.auth in requests"
     
 ### AuthBase
     
-<strong>class AuthBase(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class AuthBase(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Base class that all auth implementations derive from
      |  
@@ -44,7 +50,13 @@ description: "module requests.auth in requests"
     
 ### HTTPBasicAuth
     
-<strong>class HTTPBasicAuth(AuthBase)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTPBasicAuth(AuthBase)</code></strong></blockquote>
+```
+
+
     
      |  HTTPBasicAuth(username, password)
      |  
@@ -97,7 +109,13 @@ description: "module requests.auth in requests"
     
 ### HTTPDigestAuth
     
-<strong>class HTTPDigestAuth(AuthBase)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTPDigestAuth(AuthBase)</code></strong></blockquote>
+```
+
+
     
      |  HTTPDigestAuth(username, password)
      |  
@@ -175,7 +193,13 @@ description: "module requests.auth in requests"
     
 ### HTTPProxyAuth
     
-<strong>class HTTPProxyAuth(HTTPBasicAuth)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTPProxyAuth(HTTPBasicAuth)</code></strong></blockquote>
+```
+
+
     
      |  HTTPProxyAuth(username, password)
      |  

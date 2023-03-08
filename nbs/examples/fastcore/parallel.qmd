@@ -13,7 +13,13 @@ description: "module fastcore.parallel in fastcore"
     
 ### ProcessPoolExecutor
     
-<strong>class ProcessPoolExecutor(concurrent.futures.process.ProcessPoolExecutor)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ProcessPoolExecutor(concurrent.futures.process.ProcessPoolExecutor)</code></strong></blockquote>
+```
+
+
     
      |  ProcessPoolExecutor(max_workers=10, on_exc=<built-in function print>, pause=0, *, mp_context=None, initializer=None, initargs=())
      |  
@@ -122,7 +128,13 @@ description: "module fastcore.parallel in fastcore"
     
 ### ThreadPoolExecutor
     
-<strong>class ThreadPoolExecutor(concurrent.futures.thread.ThreadPoolExecutor)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ThreadPoolExecutor(concurrent.futures.thread.ThreadPoolExecutor)</code></strong></blockquote>
+```
+
+
     
      |  ThreadPoolExecutor(max_workers=10, on_exc=<built-in function print>, pause=0, **kwargs)
      |  
@@ -233,43 +245,85 @@ description: "module fastcore.parallel in fastcore"
     
 ### `add_one`
     
-<strong>add_one(x, a=1)</strong>
+
+
+```{=html}
+<blockquote><strong><code>add_one(x, a=1)</code></strong></blockquote>
+```
+
+
     
         # %% ../nbs/03a_parallel.ipynb 16
     
 ### `parallel`
     
-<strong>parallel(f, items, *args, n_workers=10, total=None, progress=None, pause=0, method=None, threadpool=False, timeout=None, chunksize=1, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>parallel(f, items, *args, n_workers=10, total=None, progress=None, pause=0, method=None, threadpool=False, timeout=None, chunksize=1, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Applies `func` in parallel to `items`, using `n_workers`
     
 ### `parallel_gen`
     
-<strong>parallel_gen(cls, items, n_workers=10, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>parallel_gen(cls, items, n_workers=10, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Instantiate `cls` in `n_workers` procs & call each on a subset of `items` in parallel.
     
 ### `parallelable`
     
-<strong>parallelable(param_name, num_workers, f=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>parallelable(param_name, num_workers, f=None)</code></strong></blockquote>
+```
+
+
     
         # %% ../nbs/03a_parallel.ipynb 9
     
 ### `run_procs`
     
-<strong>run_procs(f, f_done, args)</strong>
+
+
+```{=html}
+<blockquote><strong><code>run_procs(f, f_done, args)</code></strong></blockquote>
+```
+
+
     
         Call `f` for each item in `args` in parallel, yielding `f_done`
     
 ### `startthread`
     
-<strong>startthread(f)</strong>
+
+
+```{=html}
+<blockquote><strong><code>startthread(f)</code></strong></blockquote>
+```
+
+
     
         Like `threaded`, but start thread immediately
     
 ### `threaded`
     
-<strong>threaded(f)</strong>
+
+
+```{=html}
+<blockquote><strong><code>threaded(f)</code></strong></blockquote>
+```
+
+
     
         Run `f` in a thread, and returns the thread
 

@@ -20,7 +20,13 @@ description: "module requests.structures in requests"
     
 ### CaseInsensitiveDict
     
-<strong>class CaseInsensitiveDict(collections.abc.MutableMapping)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class CaseInsensitiveDict(collections.abc.MutableMapping)</code></strong></blockquote>
+```
+
+
     
      |  CaseInsensitiveDict(data=None, **kwargs)
      |  
@@ -144,7 +150,7 @@ description: "module requests.structures in requests"
      |  
 #### `MutableMapping.pop`
      |  
-     |  pop(self, key, default=<object object at 0x1007f4180>)
+     |  pop(self, key, default=<object object at 0x102754180>)
      |      D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
      |      If key is not found, d is returned if given, otherwise KeyError is raised.
      |  
@@ -234,7 +240,13 @@ description: "module requests.structures in requests"
     
 ### LookupDict
     
-<strong>class LookupDict(builtins.dict)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class LookupDict(builtins.dict)</code></strong></blockquote>
+```
+
+
     
      |  LookupDict(name=None)
      |  

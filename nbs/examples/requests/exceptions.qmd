@@ -43,7 +43,13 @@ description: "module requests.exceptions in requests"
     
 ### ChunkedEncodingError
     
-<strong>class ChunkedEncodingError(RequestException)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ChunkedEncodingError(RequestException)</code></strong></blockquote>
+```
+
+
     
      |  ChunkedEncodingError(*args, **kwargs)
      |  
@@ -170,7 +176,13 @@ description: "module requests.exceptions in requests"
     
 ### ConnectTimeout
     
-<strong>class ConnectTimeout(ConnectionError, Timeout)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ConnectTimeout(ConnectionError, Timeout)</code></strong></blockquote>
+```
+
+
     
      |  ConnectTimeout(*args, **kwargs)
      |  
@@ -301,7 +313,13 @@ description: "module requests.exceptions in requests"
     
 ### ConnectionError
     
-<strong>class ConnectionError(RequestException)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ConnectionError(RequestException)</code></strong></blockquote>
+```
+
+
     
      |  ConnectionError(*args, **kwargs)
      |  
@@ -428,7 +446,13 @@ description: "module requests.exceptions in requests"
     
 ### ContentDecodingError
     
-<strong>class ContentDecodingError(RequestException, urllib3.exceptions.HTTPError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ContentDecodingError(RequestException, urllib3.exceptions.HTTPError)</code></strong></blockquote>
+```
+
+
     
      |  ContentDecodingError(*args, **kwargs)
      |  
@@ -556,7 +580,13 @@ description: "module requests.exceptions in requests"
     
 ### FileModeWarning
     
-<strong>class FileModeWarning(RequestsWarning, builtins.DeprecationWarning)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class FileModeWarning(RequestsWarning, builtins.DeprecationWarning)</code></strong></blockquote>
+```
+
+
     
      |  A file was opened in text mode, but Requests determined its binary length.
      |  
@@ -662,7 +692,13 @@ description: "module requests.exceptions in requests"
     
 ### HTTPError
     
-<strong>class HTTPError(RequestException)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTPError(RequestException)</code></strong></blockquote>
+```
+
+
     
      |  HTTPError(*args, **kwargs)
      |  
@@ -789,7 +825,13 @@ description: "module requests.exceptions in requests"
     
 ### InvalidHeader
     
-<strong>class InvalidHeader(RequestException, builtins.ValueError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class InvalidHeader(RequestException, builtins.ValueError)</code></strong></blockquote>
+```
+
+
     
      |  InvalidHeader(*args, **kwargs)
      |  
@@ -917,7 +959,13 @@ description: "module requests.exceptions in requests"
     
 ### InvalidJSONError
     
-<strong>class InvalidJSONError(RequestException)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class InvalidJSONError(RequestException)</code></strong></blockquote>
+```
+
+
     
      |  InvalidJSONError(*args, **kwargs)
      |  
@@ -1044,7 +1092,13 @@ description: "module requests.exceptions in requests"
     
 ### InvalidProxyURL
     
-<strong>class InvalidProxyURL(InvalidURL)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class InvalidProxyURL(InvalidURL)</code></strong></blockquote>
+```
+
+
     
      |  InvalidProxyURL(*args, **kwargs)
      |  
@@ -1173,7 +1227,13 @@ description: "module requests.exceptions in requests"
     
 ### InvalidSchema
     
-<strong>class InvalidSchema(RequestException, builtins.ValueError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class InvalidSchema(RequestException, builtins.ValueError)</code></strong></blockquote>
+```
+
+
     
      |  InvalidSchema(*args, **kwargs)
      |  
@@ -1301,7 +1361,13 @@ description: "module requests.exceptions in requests"
     
 ### InvalidURL
     
-<strong>class InvalidURL(RequestException, builtins.ValueError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class InvalidURL(RequestException, builtins.ValueError)</code></strong></blockquote>
+```
+
+
     
      |  InvalidURL(*args, **kwargs)
      |  
@@ -1429,7 +1495,13 @@ description: "module requests.exceptions in requests"
     
 ### JSONDecodeError
     
-<strong>class JSONDecodeError(InvalidJSONError, json.decoder.JSONDecodeError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class JSONDecodeError(InvalidJSONError, json.decoder.JSONDecodeError)</code></strong></blockquote>
+```
+
+
     
      |  JSONDecodeError(*args, **kwargs)
      |  
@@ -1562,7 +1634,13 @@ description: "module requests.exceptions in requests"
     
 ### MissingSchema
     
-<strong>class MissingSchema(RequestException, builtins.ValueError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class MissingSchema(RequestException, builtins.ValueError)</code></strong></blockquote>
+```
+
+
     
      |  MissingSchema(*args, **kwargs)
      |  
@@ -1690,7 +1768,13 @@ description: "module requests.exceptions in requests"
     
 ### ProxyError
     
-<strong>class ProxyError(ConnectionError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ProxyError(ConnectionError)</code></strong></blockquote>
+```
+
+
     
      |  ProxyError(*args, **kwargs)
      |  
@@ -1818,7 +1902,13 @@ description: "module requests.exceptions in requests"
     
 ### ReadTimeout
     
-<strong>class ReadTimeout(Timeout)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ReadTimeout(Timeout)</code></strong></blockquote>
+```
+
+
     
      |  ReadTimeout(*args, **kwargs)
      |  
@@ -1946,7 +2036,13 @@ description: "module requests.exceptions in requests"
     
 ### RequestException
     
-<strong>class RequestException(builtins.OSError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class RequestException(builtins.OSError)</code></strong></blockquote>
+```
+
+
     
      |  RequestException(*args, **kwargs)
      |  
@@ -2073,7 +2169,13 @@ description: "module requests.exceptions in requests"
     
 ### RequestsDependencyWarning
     
-<strong>class RequestsDependencyWarning(RequestsWarning)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class RequestsDependencyWarning(RequestsWarning)</code></strong></blockquote>
+```
+
+
     
      |  An imported dependency doesn't match the expected version range.
      |  
@@ -2178,7 +2280,13 @@ description: "module requests.exceptions in requests"
     
 ### RequestsWarning
     
-<strong>class RequestsWarning(builtins.Warning)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class RequestsWarning(builtins.Warning)</code></strong></blockquote>
+```
+
+
     
      |  Base warning for Requests.
      |  
@@ -2282,7 +2390,13 @@ description: "module requests.exceptions in requests"
     
 ### RetryError
     
-<strong>class RetryError(RequestException)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class RetryError(RequestException)</code></strong></blockquote>
+```
+
+
     
      |  RetryError(*args, **kwargs)
      |  
@@ -2409,7 +2523,13 @@ description: "module requests.exceptions in requests"
     
 ### SSLError
     
-<strong>class SSLError(ConnectionError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class SSLError(ConnectionError)</code></strong></blockquote>
+```
+
+
     
      |  SSLError(*args, **kwargs)
      |  
@@ -2537,7 +2657,13 @@ description: "module requests.exceptions in requests"
     
 ### StreamConsumedError
     
-<strong>class StreamConsumedError(RequestException, builtins.TypeError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class StreamConsumedError(RequestException, builtins.TypeError)</code></strong></blockquote>
+```
+
+
     
      |  StreamConsumedError(*args, **kwargs)
      |  
@@ -2665,7 +2791,13 @@ description: "module requests.exceptions in requests"
     
 ### Timeout
     
-<strong>class Timeout(RequestException)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Timeout(RequestException)</code></strong></blockquote>
+```
+
+
     
      |  Timeout(*args, **kwargs)
      |  
@@ -2796,7 +2928,13 @@ description: "module requests.exceptions in requests"
     
 ### TooManyRedirects
     
-<strong>class TooManyRedirects(RequestException)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class TooManyRedirects(RequestException)</code></strong></blockquote>
+```
+
+
     
      |  TooManyRedirects(*args, **kwargs)
      |  
@@ -2923,7 +3061,13 @@ description: "module requests.exceptions in requests"
     
 ### URLRequired
     
-<strong>class URLRequired(RequestException)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class URLRequired(RequestException)</code></strong></blockquote>
+```
+
+
     
      |  URLRequired(*args, **kwargs)
      |  
@@ -3050,7 +3194,13 @@ description: "module requests.exceptions in requests"
     
 ### UnrewindableBodyError
     
-<strong>class UnrewindableBodyError(RequestException)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class UnrewindableBodyError(RequestException)</code></strong></blockquote>
+```
+
+
     
      |  UnrewindableBodyError(*args, **kwargs)
      |  

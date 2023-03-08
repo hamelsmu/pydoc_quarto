@@ -41,7 +41,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP400BadRequestError
     
-<strong>class HTTP400BadRequestError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP400BadRequestError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP400BadRequestError(url, hdrs, fp, msg='Bad Request', code=400)
      |  
@@ -64,7 +70,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Bad Request', code=400)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Bad Request', code=400)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -243,7 +255,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP401UnauthorizedError
     
-<strong>class HTTP401UnauthorizedError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP401UnauthorizedError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP401UnauthorizedError(url, hdrs, fp, msg='Unauthorized', code=401)
      |  
@@ -266,7 +284,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Unauthorized', code=401)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Unauthorized', code=401)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -445,7 +469,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP402PaymentRequiredError
     
-<strong>class HTTP402PaymentRequiredError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP402PaymentRequiredError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP402PaymentRequiredError(url, hdrs, fp, msg='Payment Required', code=402)
      |  
@@ -468,7 +498,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Payment Required', code=402)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Payment Required', code=402)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -647,7 +683,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP403ForbiddenError
     
-<strong>class HTTP403ForbiddenError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP403ForbiddenError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP403ForbiddenError(url, hdrs, fp, msg='Forbidden', code=403)
      |  
@@ -670,7 +712,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Forbidden', code=403)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Forbidden', code=403)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -849,7 +897,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP404NotFoundError
     
-<strong>class HTTP404NotFoundError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP404NotFoundError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP404NotFoundError(url, hdrs, fp, msg='Not Found', code=404)
      |  
@@ -872,7 +926,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Not Found', code=404)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Not Found', code=404)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -1051,7 +1111,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP405MethodNotAllowedError
     
-<strong>class HTTP405MethodNotAllowedError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP405MethodNotAllowedError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP405MethodNotAllowedError(url, hdrs, fp, msg='Method Not Allowed', code=405)
      |  
@@ -1074,7 +1140,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Method Not Allowed', code=405)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Method Not Allowed', code=405)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -1253,7 +1325,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP406NotAcceptableError
     
-<strong>class HTTP406NotAcceptableError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP406NotAcceptableError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP406NotAcceptableError(url, hdrs, fp, msg='Not Acceptable', code=406)
      |  
@@ -1276,7 +1354,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Not Acceptable', code=406)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Not Acceptable', code=406)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -1455,7 +1539,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP407ProxyAuthRequiredError
     
-<strong>class HTTP407ProxyAuthRequiredError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP407ProxyAuthRequiredError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP407ProxyAuthRequiredError(url, hdrs, fp, msg='Proxy Auth Required', code=407)
      |  
@@ -1478,7 +1568,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Proxy Auth Required', code=407)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Proxy Auth Required', code=407)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -1657,7 +1753,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP408RequestTimeoutError
     
-<strong>class HTTP408RequestTimeoutError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP408RequestTimeoutError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP408RequestTimeoutError(url, hdrs, fp, msg='Request Timeout', code=408)
      |  
@@ -1680,7 +1782,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Request Timeout', code=408)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Request Timeout', code=408)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -1859,7 +1967,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP409ConflictError
     
-<strong>class HTTP409ConflictError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP409ConflictError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP409ConflictError(url, hdrs, fp, msg='Conflict', code=409)
      |  
@@ -1882,7 +1996,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Conflict', code=409)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Conflict', code=409)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -2061,7 +2181,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP410GoneError
     
-<strong>class HTTP410GoneError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP410GoneError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP410GoneError(url, hdrs, fp, msg='Gone', code=410)
      |  
@@ -2084,7 +2210,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Gone', code=410)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Gone', code=410)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -2263,7 +2395,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP411LengthRequiredError
     
-<strong>class HTTP411LengthRequiredError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP411LengthRequiredError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP411LengthRequiredError(url, hdrs, fp, msg='Length Required', code=411)
      |  
@@ -2286,7 +2424,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Length Required', code=411)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Length Required', code=411)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -2465,7 +2609,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP412PreconditionFailedError
     
-<strong>class HTTP412PreconditionFailedError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP412PreconditionFailedError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP412PreconditionFailedError(url, hdrs, fp, msg='Precondition Failed', code=412)
      |  
@@ -2488,7 +2638,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Precondition Failed', code=412)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Precondition Failed', code=412)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -2667,7 +2823,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP413PayloadTooLargeError
     
-<strong>class HTTP413PayloadTooLargeError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP413PayloadTooLargeError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP413PayloadTooLargeError(url, hdrs, fp, msg='Payload Too Large', code=413)
      |  
@@ -2690,7 +2852,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Payload Too Large', code=413)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Payload Too Large', code=413)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -2869,7 +3037,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP414URITooLongError
     
-<strong>class HTTP414URITooLongError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP414URITooLongError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP414URITooLongError(url, hdrs, fp, msg='URI Too Long', code=414)
      |  
@@ -2892,7 +3066,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='URI Too Long', code=414)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='URI Too Long', code=414)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -3071,7 +3251,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP415UnsupportedMediaTypeError
     
-<strong>class HTTP415UnsupportedMediaTypeError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP415UnsupportedMediaTypeError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP415UnsupportedMediaTypeError(url, hdrs, fp, msg='Unsupported Media Type', code=415)
      |  
@@ -3094,7 +3280,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Unsupported Media Type', code=415)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Unsupported Media Type', code=415)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -3273,7 +3465,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP416RangeNotSatisfiableError
     
-<strong>class HTTP416RangeNotSatisfiableError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP416RangeNotSatisfiableError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP416RangeNotSatisfiableError(url, hdrs, fp, msg='Range Not Satisfiable', code=416)
      |  
@@ -3296,7 +3494,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Range Not Satisfiable', code=416)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Range Not Satisfiable', code=416)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -3475,7 +3679,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP417ExpectationFailedError
     
-<strong>class HTTP417ExpectationFailedError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP417ExpectationFailedError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP417ExpectationFailedError(url, hdrs, fp, msg='Expectation Failed', code=417)
      |  
@@ -3498,7 +3708,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Expectation Failed', code=417)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Expectation Failed', code=417)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -3677,7 +3893,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP418AmAteapotError
     
-<strong>class HTTP418AmAteapotError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP418AmAteapotError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP418AmAteapotError(url, hdrs, fp, msg='Am A teapot', code=418)
      |  
@@ -3700,7 +3922,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Am A teapot', code=418)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Am A teapot', code=418)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -3879,7 +4107,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP421MisdirectedRequestError
     
-<strong>class HTTP421MisdirectedRequestError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP421MisdirectedRequestError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP421MisdirectedRequestError(url, hdrs, fp, msg='Misdirected Request', code=421)
      |  
@@ -3902,7 +4136,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Misdirected Request', code=421)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Misdirected Request', code=421)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -4081,7 +4321,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP422UnprocessableEntityError
     
-<strong>class HTTP422UnprocessableEntityError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP422UnprocessableEntityError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP422UnprocessableEntityError(url, hdrs, fp, msg='Unprocessable Entity', code=422)
      |  
@@ -4104,7 +4350,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Unprocessable Entity', code=422)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Unprocessable Entity', code=422)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -4283,7 +4535,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP423LockedError
     
-<strong>class HTTP423LockedError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP423LockedError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP423LockedError(url, hdrs, fp, msg='Locked', code=423)
      |  
@@ -4306,7 +4564,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Locked', code=423)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Locked', code=423)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -4485,7 +4749,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP424FailedDependencyError
     
-<strong>class HTTP424FailedDependencyError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP424FailedDependencyError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP424FailedDependencyError(url, hdrs, fp, msg='Failed Dependency', code=424)
      |  
@@ -4508,7 +4778,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Failed Dependency', code=424)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Failed Dependency', code=424)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -4687,7 +4963,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP425TooEarlyError
     
-<strong>class HTTP425TooEarlyError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP425TooEarlyError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP425TooEarlyError(url, hdrs, fp, msg='Too Early', code=425)
      |  
@@ -4710,7 +4992,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Too Early', code=425)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Too Early', code=425)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -4889,7 +5177,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP426UpgradeRequiredError
     
-<strong>class HTTP426UpgradeRequiredError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP426UpgradeRequiredError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP426UpgradeRequiredError(url, hdrs, fp, msg='Upgrade Required', code=426)
      |  
@@ -4912,7 +5206,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Upgrade Required', code=426)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Upgrade Required', code=426)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -5091,7 +5391,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP428PreconditionRequiredError
     
-<strong>class HTTP428PreconditionRequiredError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP428PreconditionRequiredError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP428PreconditionRequiredError(url, hdrs, fp, msg='Precondition Required', code=428)
      |  
@@ -5114,7 +5420,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Precondition Required', code=428)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Precondition Required', code=428)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -5293,7 +5605,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP429TooManyRequestsError
     
-<strong>class HTTP429TooManyRequestsError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP429TooManyRequestsError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP429TooManyRequestsError(url, hdrs, fp, msg='Too Many Requests', code=429)
      |  
@@ -5316,7 +5634,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Too Many Requests', code=429)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Too Many Requests', code=429)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -5495,7 +5819,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP431HeaderFieldsTooLargeError
     
-<strong>class HTTP431HeaderFieldsTooLargeError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP431HeaderFieldsTooLargeError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP431HeaderFieldsTooLargeError(url, hdrs, fp, msg='Header Fields Too Large', code=431)
      |  
@@ -5518,7 +5848,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Header Fields Too Large', code=431)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Header Fields Too Large', code=431)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -5697,7 +6033,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP451LegalReasonsError
     
-<strong>class HTTP451LegalReasonsError(HTTP4xxClientError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP451LegalReasonsError(HTTP4xxClientError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP451LegalReasonsError(url, hdrs, fp, msg='Legal Reasons', code=451)
      |  
@@ -5720,7 +6062,13 @@ description: "module fastcore.net in fastcore"
      |  
 ### `__init__`
      |  
-<strong>__init__ = _init(self, url, hdrs, fp, msg='Legal Reasons', code=451)</strong>
+    
+    
+```{=html}
+<blockquote><strong><code>__init__ = _init(self, url, hdrs, fp, msg='Legal Reasons', code=451)</code></strong></blockquote>
+```
+    
+    
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from urllib.error.HTTPError:
@@ -5899,7 +6247,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP4xxClientError
     
-<strong>class HTTP4xxClientError(urllib.error.HTTPError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP4xxClientError(urllib.error.HTTPError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP4xxClientError(url, code, msg, hdrs, fp)
      |  
@@ -6100,7 +6454,13 @@ description: "module fastcore.net in fastcore"
     
 ### HTTP5xxServerError
     
-<strong>class HTTP5xxServerError(urllib.error.HTTPError)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class HTTP5xxServerError(urllib.error.HTTPError)</code></strong></blockquote>
+```
+
+
     
      |  HTTP5xxServerError(url, code, msg, hdrs, fp)
      |  
@@ -6304,103 +6664,205 @@ description: "module fastcore.net in fastcore"
     
 ### `do_request`
     
-<strong>do_request(url, post=False, headers=None, **data)</strong>
+
+
+```{=html}
+<blockquote><strong><code>do_request(url, post=False, headers=None, **data)</code></strong></blockquote>
+```
+
+
     
         Call GET or json-encoded POST on `url`, depending on `post`
     
 ### `start_client`
     
-<strong>start_client(port, host=None, dgram=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>start_client(port, host=None, dgram=False)</code></strong></blockquote>
+```
+
+
     
         Create a `socket` client on `port`, with optional `host`, of type `dgram`
     
 ### `start_server`
     
-<strong>start_server(port, host=None, dgram=False, reuse_addr=True, n_queue=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>start_server(port, host=None, dgram=False, reuse_addr=True, n_queue=None)</code></strong></blockquote>
+```
+
+
     
         Create a `socket` server on `port`, with optional `host`, of type `dgram`
     
 ### `urlcheck`
     
-<strong>urlcheck(url, headers=None, timeout=10)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlcheck(url, headers=None, timeout=10)</code></strong></blockquote>
+```
+
+
     
         # %% ../nbs/03b_net.ipynb 23
     
 ### `urlclean`
     
-<strong>urlclean(url)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlclean(url)</code></strong></blockquote>
+```
+
+
     
         Remove fragment, params, and querystring from `url` if present
     
 ### `urldest`
     
-<strong>urldest(url, dest=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urldest(url, dest=None)</code></strong></blockquote>
+```
+
+
     
         # %% ../nbs/03b_net.ipynb 27
     
 ### `urljson`
     
-<strong>urljson(url, data=None, timeout=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urljson(url, data=None, timeout=None)</code></strong></blockquote>
+```
+
+
     
         Retrieve `url` and decode json
     
 ### `urlopen`
     
-<strong>urlopen(url, data=None, headers=None, timeout=None, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlopen(url, data=None, headers=None, timeout=None, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Like `urllib.request.urlopen`, but first `urlwrap` the `url`, and encode `data`
     
 ### `urlopener`
     
-<strong>urlopener()</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlopener()</code></strong></blockquote>
+```
+
+
     
         # %% ../nbs/03b_net.ipynb 14
     
 ### `urlquote`
     
-<strong>urlquote(url)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlquote(url)</code></strong></blockquote>
+```
+
+
     
         Update url's path with `urllib.parse.quote`
     
 ### `urlread`
     
-<strong>urlread(url, data=None, headers=None, decode=True, return_json=False, return_headers=False, timeout=None, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlread(url, data=None, headers=None, decode=True, return_json=False, return_headers=False, timeout=None, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Retrieve `url`, using `data` dict or `kwargs` to `POST` if present
     
 ### `urlrequest`
     
-<strong>urlrequest(url, verb, headers=None, route=None, query=None, data=None, json_data=True)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlrequest(url, verb, headers=None, route=None, query=None, data=None, json_data=True)</code></strong></blockquote>
+```
+
+
     
         `Request` for `url` with optional route params replaced by `route`, plus `query` string, and post `data`
     
 ### `urlretrieve`
     
-<strong>urlretrieve(url, filename=None, reporthook=None, data=None, headers=None, timeout=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlretrieve(url, filename=None, reporthook=None, data=None, headers=None, timeout=None)</code></strong></blockquote>
+```
+
+
     
         Same as `urllib.request.urlretrieve` but also works with `Request` objects
     
 ### `urlsave`
     
-<strong>urlsave(url, dest=None, reporthook=None, headers=None, timeout=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlsave(url, dest=None, reporthook=None, headers=None, timeout=None)</code></strong></blockquote>
+```
+
+
     
         Retrieve `url` and save based on its name
     
 ### `urlsend`
     
-<strong>urlsend(url, verb, headers=None, route=None, query=None, data=None, json_data=True, return_json=True, return_headers=False, debug=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlsend(url, verb, headers=None, route=None, query=None, data=None, json_data=True, return_json=True, return_headers=False, debug=None)</code></strong></blockquote>
+```
+
+
     
         Send request with `urlrequest`, converting result to json if `return_json`
     
 ### `urlvalid`
     
-<strong>urlvalid(x)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlvalid(x)</code></strong></blockquote>
+```
+
+
     
         Test if `x` is a valid URL
     
 ### `urlwrap`
     
-<strong>urlwrap(url, data=None, headers=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>urlwrap(url, data=None, headers=None)</code></strong></blockquote>
+```
+
+
     
         Wrap `url` in a urllib `Request` with `urlquote`
 

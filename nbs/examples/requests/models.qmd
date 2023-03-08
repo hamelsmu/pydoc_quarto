@@ -22,7 +22,13 @@ description: "module requests.models in requests"
     
 ### PreparedRequest
     
-<strong>class PreparedRequest(RequestEncodingMixin, RequestHooksMixin)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class PreparedRequest(RequestEncodingMixin, RequestHooksMixin)</code></strong></blockquote>
+```
+
+
     
      |  The fully mutable :class:`PreparedRequest <PreparedRequest>` object,
      |  containing the exact bytes that will be sent to the server.
@@ -163,7 +169,13 @@ description: "module requests.models in requests"
     
 ### Request
     
-<strong>class Request(RequestHooksMixin)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Request(RequestHooksMixin)</code></strong></blockquote>
+```
+
+
     
      |  Request(method=None, url=None, headers=None, files=None, data=None, params=None, auth=None, cookies=None, hooks=None, json=None)
      |  
@@ -245,7 +257,13 @@ description: "module requests.models in requests"
     
 ### RequestEncodingMixin
     
-<strong>class RequestEncodingMixin(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class RequestEncodingMixin(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Readonly properties defined here:
      |  
@@ -263,7 +281,13 @@ description: "module requests.models in requests"
     
 ### RequestHooksMixin
     
-<strong>class RequestHooksMixin(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class RequestHooksMixin(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Methods defined here:
      |  
@@ -291,7 +315,13 @@ description: "module requests.models in requests"
     
 ### Response
     
-<strong>class Response(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Response(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  The :class:`Response <Response>` object, which contains a
      |  server's response to an HTTP request.

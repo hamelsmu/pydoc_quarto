@@ -11,7 +11,13 @@ description: "module fastcore.script in fastcore"
     
 ### Param
     
-<strong>class Param(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Param(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Param(help='', type=None, opt=True, action=None, nargs=None, const=None, choices=None, required=None, default=None)
      |  
@@ -57,43 +63,85 @@ description: "module fastcore.script in fastcore"
     
 ### `anno_parser`
     
-<strong>anno_parser(func, prog: str = None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>anno_parser(func, prog: str = None)</code></strong></blockquote>
+```
+
+
     
         Look at params (annotated with `Param`) in func and return an `ArgumentParser`
     
 ### `args_from_prog`
     
-<strong>args_from_prog(func, prog)</strong>
+
+
+```{=html}
+<blockquote><strong><code>args_from_prog(func, prog)</code></strong></blockquote>
+```
+
+
     
         Extract args from `prog`
     
 ### `bool_arg`
     
-<strong>bool_arg(v)</strong>
+
+
+```{=html}
+<blockquote><strong><code>bool_arg(v)</code></strong></blockquote>
+```
+
+
     
         Use as `type` for `Param` to get `bool` behavior
     
 ### `call_parse`
     
-<strong>call_parse(func=None, nested=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>call_parse(func=None, nested=False)</code></strong></blockquote>
+```
+
+
     
         Decorator to create a simple CLI from `func` using `anno_parser`
     
 ### `clean_type_str`
     
-<strong>clean_type_str(x: str)</strong>
+
+
+```{=html}
+<blockquote><strong><code>clean_type_str(x: str)</code></strong></blockquote>
+```
+
+
     
         # %% ../nbs/08_script.ipynb 18
     
 ### `store_false`
     
-<strong>store_false()</strong>
+
+
+```{=html}
+<blockquote><strong><code>store_false()</code></strong></blockquote>
+```
+
+
     
         Placeholder to pass to `Param` for `store_false` action
     
 ### `store_true`
     
-<strong>store_true()</strong>
+
+
+```{=html}
+<blockquote><strong><code>store_true()</code></strong></blockquote>
+```
+
+
     
         Placeholder to pass to `Param` for `store_true` action
 

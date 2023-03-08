@@ -16,7 +16,13 @@ description: "module fastcore.transform in fastcore"
     
 ### DisplayedTransform
     
-<strong>class DisplayedTransform(Transform)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class DisplayedTransform(Transform)</code></strong></blockquote>
+```
+
+
     
      |  DisplayedTransform(self, enc=None, dec=None, split_idx=None, order=None)
      |  
@@ -97,7 +103,13 @@ description: "module fastcore.transform in fastcore"
     
 ### Func
     
-<strong>class Func(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Func(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Func(name, *args, **kwargs)
      |  
@@ -134,7 +146,13 @@ description: "module fastcore.transform in fastcore"
     
 ### InplaceTransform
     
-<strong>class InplaceTransform(Transform)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class InplaceTransform(Transform)</code></strong></blockquote>
+```
+
+
     
      |  InplaceTransform(self, enc=None, dec=None, split_idx=None, order=None)
      |  
@@ -215,7 +233,13 @@ description: "module fastcore.transform in fastcore"
     
 ### ItemTransform
     
-<strong>class ItemTransform(Transform)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class ItemTransform(Transform)</code></strong></blockquote>
+```
+
+
     
      |  ItemTransform(self, enc=None, dec=None, split_idx=None, order=None)
      |  
@@ -296,7 +320,13 @@ description: "module fastcore.transform in fastcore"
     
 ### Pipeline
     
-<strong>class Pipeline(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Pipeline(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Pipeline(funcs=None, split_idx=None)
      |  
@@ -374,7 +404,13 @@ description: "module fastcore.transform in fastcore"
     
 ### Transform
     
-<strong>class Transform(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Transform(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Transform(self, enc=None, dec=None, split_idx=None, order=None)
      |  
@@ -447,31 +483,61 @@ description: "module fastcore.transform in fastcore"
     
 ### `compose_tfms`
     
-<strong>compose_tfms(x, tfms, is_enc=True, reverse=False, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>compose_tfms(x, tfms, is_enc=True, reverse=False, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Apply all `func_nm` attribute of `tfms` on `x`, maybe in `reverse` order
     
 ### `gather_attr_names`
     
-<strong>gather_attr_names(o, nm)</strong>
+
+
+```{=html}
+<blockquote><strong><code>gather_attr_names(o, nm)</code></strong></blockquote>
+```
+
+
     
         Used in __dir__ to collect all attrs `k` from `self.{nm}`
     
 ### `gather_attrs`
     
-<strong>gather_attrs(o, k, nm)</strong>
+
+
+```{=html}
+<blockquote><strong><code>gather_attrs(o, k, nm)</code></strong></blockquote>
+```
+
+
     
         Used in __getattr__ to collect all attrs `k` from `self.{nm}`
     
 ### `get_func`
     
-<strong>get_func(t, name, *args, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_func(t, name, *args, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Get the `t.name` (potentially partial-ized with `args` and `kwargs`) or `noop` if not defined
     
 ### `mk_transform`
     
-<strong>mk_transform(f)</strong>
+
+
+```{=html}
+<blockquote><strong><code>mk_transform(f)</code></strong></blockquote>
+```
+
+
     
         Convert function `f` to `Transform` if it isn't already one
 

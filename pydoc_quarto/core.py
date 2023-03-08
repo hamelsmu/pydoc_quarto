@@ -27,7 +27,8 @@ class MarkdownDoc(TextDoc):
 
     def _bold_first_line(self, text):
         lines = text.splitlines()
-        if lines: lines[0] = f'<strong>{lines[0].strip()}</strong>\n'
+        html_escape = "\n```{=html}\n"
+        if lines: lines[0] = f'<br>{html_escape}<blockquote><strong><code>{lines[0].strip()}</code></strong></blockquote>\n```\n<br>\n'
         return '\n'.join(lines)
     
     def title_format(self, text): return f'## {text.title()}\n'
@@ -40,10 +41,13 @@ class MarkdownDoc(TextDoc):
     
         lines = []
         for line in text.split('\n'):
-            if not (line.strip().startswith('###') or line.strip().startswith('<strong>')):
-                lines.append(prefix + line)
+            sline = line.strip()
+
+            if  sline == '<br>': lines.append('\n')
+            elif sline.startswith('###') or sline.startswith('<blockquote>') or sline.startswith("```"):
+                lines.append(sline)
             else: 
-                lines.append(line.strip())
+                lines.append(prefix + line)
                 
         if lines: lines[-1] = lines[-1].rstrip()
         return '\n'.join(lines)

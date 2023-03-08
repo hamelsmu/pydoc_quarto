@@ -18,7 +18,13 @@ description: "module requests.api in requests"
     
 ### `delete`
     
-<strong>delete(url, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>delete(url, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Sends a DELETE request.
         
@@ -29,7 +35,13 @@ description: "module requests.api in requests"
     
 ### `get`
     
-<strong>get(url, params=None, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get(url, params=None, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Sends a GET request.
         
@@ -42,7 +54,13 @@ description: "module requests.api in requests"
     
 ### `head`
     
-<strong>head(url, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>head(url, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Sends a HEAD request.
         
@@ -55,7 +73,13 @@ description: "module requests.api in requests"
     
 ### `options`
     
-<strong>options(url, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>options(url, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Sends an OPTIONS request.
         
@@ -66,7 +90,13 @@ description: "module requests.api in requests"
     
 ### `patch`
     
-<strong>patch(url, data=None, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>patch(url, data=None, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Sends a PATCH request.
         
@@ -80,7 +110,13 @@ description: "module requests.api in requests"
     
 ### `post`
     
-<strong>post(url, data=None, json=None, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>post(url, data=None, json=None, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Sends a POST request.
         
@@ -94,7 +130,13 @@ description: "module requests.api in requests"
     
 ### `put`
     
-<strong>put(url, data=None, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>put(url, data=None, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Sends a PUT request.
         
@@ -108,7 +150,13 @@ description: "module requests.api in requests"
     
 ### `request`
     
-<strong>request(method, url, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>request(method, url, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Constructs and sends a :class:`Request <Request>`.
         

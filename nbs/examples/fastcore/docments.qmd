@@ -11,7 +11,13 @@ description: "module fastcore.docments in fastcore"
     
 ### empty
     
-<strong>empty = class _empty(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>empty = class _empty(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Marker object for Signature.empty and Parameter.empty.
      |  
@@ -28,49 +34,97 @@ description: "module fastcore.docments in fastcore"
     
 ### `docments`
     
-<strong>docments(elt, full=False, *, returns=True, eval_str=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>docments(elt, full=False, *, returns=True, eval_str=False)</code></strong></blockquote>
+```
+
+
     
         Generates a `docment`
     
 ### `docstring`
     
-<strong>docstring(sym)</strong>
+
+
+```{=html}
+<blockquote><strong><code>docstring(sym)</code></strong></blockquote>
+```
+
+
     
         Get docstring for `sym` for functions ad classes
     
 ### `get_dataclass_source`
     
-<strong>get_dataclass_source(s)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_dataclass_source(s)</code></strong></blockquote>
+```
+
+
     
         Get source code for dataclass `s`
     
 ### `get_name`
     
-<strong>get_name(obj)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_name(obj)</code></strong></blockquote>
+```
+
+
     
         Get the name of `obj`
     
 ### `get_source`
     
-<strong>get_source(s)</strong>
+
+
+```{=html}
+<blockquote><strong><code>get_source(s)</code></strong></blockquote>
+```
+
+
     
         Get source code for string, function object or dataclass `s`
     
 ### `isdataclass`
     
-<strong>isdataclass(s)</strong>
+
+
+```{=html}
+<blockquote><strong><code>isdataclass(s)</code></strong></blockquote>
+```
+
+
     
         Check if `s` is a dataclass but not a dataclass' instance
     
 ### `parse_docstring`
     
-<strong>parse_docstring(sym)</strong>
+
+
+```{=html}
+<blockquote><strong><code>parse_docstring(sym)</code></strong></blockquote>
+```
+
+
     
         Parse a numpy-style docstring in `sym`
     
 ### `qual_name`
     
-<strong>qual_name(obj)</strong>
+
+
+```{=html}
+<blockquote><strong><code>qual_name(obj)</code></strong></blockquote>
+```
+
+
     
         Get the qualified name of `obj`
 

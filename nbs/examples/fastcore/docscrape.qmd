@@ -13,7 +13,13 @@ description: "module fastcore.docscrape in fastcore"
     
 ### NumpyDocString
     
-<strong>class NumpyDocString(collections.abc.Mapping)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class NumpyDocString(collections.abc.Mapping)</code></strong></blockquote>
+```
+
+
     
      |  NumpyDocString(docstring, config=None)
      |  
@@ -144,7 +150,13 @@ description: "module fastcore.docscrape in fastcore"
     
 ### Parameter
     
-<strong>class Parameter(builtins.tuple)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Parameter(builtins.tuple)</code></strong></blockquote>
+```
+
+
     
      |  Parameter(name, type, desc)
      |  
@@ -341,7 +353,13 @@ description: "module fastcore.docscrape in fastcore"
     
 ### `dedent_lines`
     
-<strong>dedent_lines(lines, split=True)</strong>
+
+
+```{=html}
+<blockquote><strong><code>dedent_lines(lines, split=True)</code></strong></blockquote>
+```
+
+
     
         Deindent a list of lines maximally
 

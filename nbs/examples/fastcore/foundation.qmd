@@ -15,7 +15,13 @@ description: "module fastcore.foundation in fastcore"
     
 ### CollBase
     
-<strong>class CollBase(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class CollBase(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  CollBase(items)
      |  
@@ -71,7 +77,13 @@ description: "module fastcore.foundation in fastcore"
     
 ### Config
     
-<strong>class Config(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Config(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Config(cfg_path, cfg_name, create=None, save=True, extra_files=None, types=None)
      |  
@@ -137,7 +149,13 @@ description: "module fastcore.foundation in fastcore"
     
 ### L
     
-<strong>class L(fastcore.basics.GetAttr, CollBase)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class L(fastcore.basics.GetAttr, CollBase)</code></strong></blockquote>
+```
+
+
     
      |  L(items=None, *rest, use_list=False, match=None)
      |  
@@ -266,7 +284,7 @@ description: "module fastcore.foundation in fastcore"
      |  
 #### `L.filter`
      |  
-     |  filter(self, f=<function noop at 0x104d19480>, negate=False, **kwargs)
+     |  filter(self, f=<function noop at 0x103bc1480>, negate=False, **kwargs)
      |      Create new `L` filtered by predicate `f`, passing `args` and `kwargs` to `f`
      |  
      |  
@@ -284,13 +302,13 @@ description: "module fastcore.foundation in fastcore"
      |  
 #### `L.map_dict`
      |  
-     |  map_dict(self, f=<function noop at 0x104d19480>, *args, **kwargs)
+     |  map_dict(self, f=<function noop at 0x103bc1480>, *args, **kwargs)
      |      Like `map`, but creates a dict from `items` to function results
      |  
      |  
 #### `L.map_first`
      |  
-     |  map_first(self, f=<function noop at 0x104d19480>, g=<function noop at 0x104d19480>, *args, **kwargs)
+     |  map_first(self, f=<function noop at 0x103bc1480>, g=<function noop at 0x103bc1480>, *args, **kwargs)
      |      First element of `map_filter`
      |  
      |  
@@ -445,67 +463,133 @@ description: "module fastcore.foundation in fastcore"
     
 ### `add_docs`
     
-<strong>add_docs(cls, cls_doc=None, **docs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>add_docs(cls, cls_doc=None, **docs)</code></strong></blockquote>
+```
+
+
     
         Copy values from `docs` to `cls` docstrings, and confirm all public methods are documented
     
 ### `coll_repr`
     
-<strong>coll_repr(c, max_n=10)</strong>
+
+
+```{=html}
+<blockquote><strong><code>coll_repr(c, max_n=10)</code></strong></blockquote>
+```
+
+
     
         String repr of up to `max_n` items of (possibly lazy) collection `c`
     
 ### `cycle`
     
-<strong>cycle(o)</strong>
+
+
+```{=html}
+<blockquote><strong><code>cycle(o)</code></strong></blockquote>
+```
+
+
     
         Like `itertools.cycle` except creates list of `None`s if `o` is empty
     
 ### `docs`
     
-<strong>docs(cls)</strong>
+
+
+```{=html}
+<blockquote><strong><code>docs(cls)</code></strong></blockquote>
+```
+
+
     
         Decorator version of `add_docs`, using `_docs` dict
     
 ### `is_bool`
     
-<strong>is_bool(x)</strong>
+
+
+```{=html}
+<blockquote><strong><code>is_bool(x)</code></strong></blockquote>
+```
+
+
     
         Check whether `x` is a bool or None
     
 ### `is_indexer`
     
-<strong>is_indexer(idx)</strong>
+
+
+```{=html}
+<blockquote><strong><code>is_indexer(idx)</code></strong></blockquote>
+```
+
+
     
         Test whether `idx` will index a single item in a list
     
 ### `mask2idxs`
     
-<strong>mask2idxs(mask)</strong>
+
+
+```{=html}
+<blockquote><strong><code>mask2idxs(mask)</code></strong></blockquote>
+```
+
+
     
         Convert bool mask or index list to index `L`
     
 ### `read_config_file`
     
-<strong>read_config_file(file, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>read_config_file(file, **kwargs)</code></strong></blockquote>
+```
+
+
     
         # %% ../nbs/02_foundation.ipynb 130
     
 ### `save_config_file`
     
-<strong>save_config_file(file, d, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>save_config_file(file, d, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Write settings dict to a new config file, or overwrite the existing one.
     
 ### `working_directory`
     
-<strong>working_directory(path)</strong>
+
+
+```{=html}
+<blockquote><strong><code>working_directory(path)</code></strong></blockquote>
+```
+
+
     
         Change working directory to `path` and return to previous on exit.
     
 ### `zip_cycle`
     
-<strong>zip_cycle(x, *args)</strong>
+
+
+```{=html}
+<blockquote><strong><code>zip_cycle(x, *args)</code></strong></blockquote>
+```
+
+
     
         Like `itertools.zip_longest` but `cycle`s through elements of all but first argument
 

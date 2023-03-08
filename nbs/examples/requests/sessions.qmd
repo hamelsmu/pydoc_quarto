@@ -20,7 +20,13 @@ description: "module requests.sessions in requests"
     
 ### Session
     
-<strong>class Session(SessionRedirectMixin)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class Session(SessionRedirectMixin)</code></strong></blockquote>
+```
+
+
     
      |  A Requests session.
      |  
@@ -312,7 +318,13 @@ description: "module requests.sessions in requests"
     
 ### SessionRedirectMixin
     
-<strong>class SessionRedirectMixin(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class SessionRedirectMixin(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  Methods defined here:
      |  
@@ -378,7 +390,13 @@ description: "module requests.sessions in requests"
     
 ### `merge_hooks`
     
-<strong>merge_hooks(request_hooks, session_hooks, dict_class=<class 'collections.OrderedDict'>)</strong>
+
+
+```{=html}
+<blockquote><strong><code>merge_hooks(request_hooks, session_hooks, dict_class=<class 'collections.OrderedDict'>)</code></strong></blockquote>
+```
+
+
     
         Properly merges both requests and session hooks.
         
@@ -387,7 +405,13 @@ description: "module requests.sessions in requests"
     
 ### `merge_setting`
     
-<strong>merge_setting(request_setting, session_setting, dict_class=<class 'collections.OrderedDict'>)</strong>
+
+
+```{=html}
+<blockquote><strong><code>merge_setting(request_setting, session_setting, dict_class=<class 'collections.OrderedDict'>)</code></strong></blockquote>
+```
+
+
     
         Determines appropriate setting for a given request, taking into account
         the explicit setting on that request, and the setting in the session. If a
@@ -395,7 +419,13 @@ description: "module requests.sessions in requests"
     
 ### `preferred_clock`
     
-<strong>preferred_clock = time(...)</strong>
+
+
+```{=html}
+<blockquote><strong><code>preferred_clock = time(...)</code></strong></blockquote>
+```
+
+
     
         time() -> floating point number
         
@@ -404,7 +434,13 @@ description: "module requests.sessions in requests"
     
 ### `session`
     
-<strong>session()</strong>
+
+
+```{=html}
+<blockquote><strong><code>session()</code></strong></blockquote>
+```
+
+
     
         Returns a :class:`Session` for context-management.
         

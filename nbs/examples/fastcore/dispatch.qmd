@@ -12,7 +12,13 @@ description: "module fastcore.dispatch in fastcore"
     
 ### DispatchReg
     
-<strong>class DispatchReg(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class DispatchReg(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  A global registry for `TypeDispatch` objects keyed by function name
      |  
@@ -41,7 +47,13 @@ description: "module fastcore.dispatch in fastcore"
     
 ### TypeDispatch
     
-<strong>class TypeDispatch(builtins.object)</strong>
+
+
+```{=html}
+<blockquote><strong><code>class TypeDispatch(builtins.object)</code></strong></blockquote>
+```
+
+
     
      |  TypeDispatch(funcs=(), bases=())
      |  
@@ -111,43 +123,85 @@ description: "module fastcore.dispatch in fastcore"
     
 ### `default_set_meta`
     
-<strong>default_set_meta(self, x, as_copy=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>default_set_meta(self, x, as_copy=False)</code></strong></blockquote>
+```
+
+
     
         Copy over `_meta` from `x` to `res`, if it's missing
     
 ### `explode_types`
     
-<strong>explode_types(o)</strong>
+
+
+```{=html}
+<blockquote><strong><code>explode_types(o)</code></strong></blockquote>
+```
+
+
     
         Return the type of `o`, potentially in nested dictionaries for thing that are listy
     
 ### `lenient_issubclass`
     
-<strong>lenient_issubclass(cls, types)</strong>
+
+
+```{=html}
+<blockquote><strong><code>lenient_issubclass(cls, types)</code></strong></blockquote>
+```
+
+
     
         If possible return whether `cls` is a subclass of `types`, otherwise return False.
     
 ### `retain_meta`
     
-<strong>retain_meta(x, res, as_copy=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>retain_meta(x, res, as_copy=False)</code></strong></blockquote>
+```
+
+
     
         Call `res.set_meta(x)`, if it exists
     
 ### `retain_type`
     
-<strong>retain_type(new, old=None, typ=None, as_copy=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>retain_type(new, old=None, typ=None, as_copy=False)</code></strong></blockquote>
+```
+
+
     
         Cast `new` to type of `old` or `typ` if it's a superclass
     
 ### `retain_types`
     
-<strong>retain_types(new, old=None, typs=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>retain_types(new, old=None, typs=None)</code></strong></blockquote>
+```
+
+
     
         Cast each item of `new` to type of matching item in `old` if it's a superclass
     
 ### `sorted_topologically`
     
-<strong>sorted_topologically(iterable, *, cmp=<built-in function lt>, reverse=False)</strong>
+
+
+```{=html}
+<blockquote><strong><code>sorted_topologically(iterable, *, cmp=<built-in function lt>, reverse=False)</code></strong></blockquote>
+```
+
+
     
         Return a new list containing all items from the iterable sorted topologically
 

@@ -8,94 +8,190 @@ description: "module fastcore.imports in fastcore"
     
 ### `all_equal`
     
-<strong>all_equal(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>all_equal(a, b)</code></strong></blockquote>
+```
+
+
     
         Compares whether `a` and `b` are the same length and have the same contents
     
 ### `any_is_instance`
     
-<strong>any_is_instance(t, *args)</strong>
+
+
+```{=html}
+<blockquote><strong><code>any_is_instance(t, *args)</code></strong></blockquote>
+```
+
+
     
     
 ### `array_equal`
     
-<strong>array_equal(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>array_equal(a, b)</code></strong></blockquote>
+```
+
+
     
     
 ### `df_equal`
     
-<strong>df_equal(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>df_equal(a, b)</code></strong></blockquote>
+```
+
+
     
     
 ### `equals`
     
-<strong>equals(a, b)</strong>
+
+
+```{=html}
+<blockquote><strong><code>equals(a, b)</code></strong></blockquote>
+```
+
+
     
         Compares `a` and `b` for equality; supports sublists, tensors and arrays too
     
 ### `in_colab`
     
-<strong>in_colab()</strong>
+
+
+```{=html}
+<blockquote><strong><code>in_colab()</code></strong></blockquote>
+```
+
+
     
         Check if the code is running in Google Colaboratory
     
 ### `in_ipython`
     
-<strong>in_ipython()</strong>
+
+
+```{=html}
+<blockquote><strong><code>in_ipython()</code></strong></blockquote>
+```
+
+
     
         Check if code is running in some kind of IPython environment
     
 ### `in_jupyter`
     
-<strong>in_jupyter()</strong>
+
+
+```{=html}
+<blockquote><strong><code>in_jupyter()</code></strong></blockquote>
+```
+
+
     
         Check if the code is running in a jupyter notebook
     
 ### `in_notebook`
     
-<strong>in_notebook()</strong>
+
+
+```{=html}
+<blockquote><strong><code>in_notebook()</code></strong></blockquote>
+```
+
+
     
         Check if the code is running in a jupyter notebook
     
 ### `ipython_shell`
     
-<strong>ipython_shell()</strong>
+
+
+```{=html}
+<blockquote><strong><code>ipython_shell()</code></strong></blockquote>
+```
+
+
     
         Same as `get_ipython` but returns `False` if not in IPython
     
 ### `is_coll`
     
-<strong>is_coll(o)</strong>
+
+
+```{=html}
+<blockquote><strong><code>is_coll(o)</code></strong></blockquote>
+```
+
+
     
         Test whether `o` is a collection (i.e. has a usable `len`)
     
 ### `is_iter`
     
-<strong>is_iter(o)</strong>
+
+
+```{=html}
+<blockquote><strong><code>is_iter(o)</code></strong></blockquote>
+```
+
+
     
         Test whether `o` can be used in a `for` loop
     
 ### `isinstance_str`
     
-<strong>isinstance_str(x, cls_name)</strong>
+
+
+```{=html}
+<blockquote><strong><code>isinstance_str(x, cls_name)</code></strong></blockquote>
+```
+
+
     
         Like `isinstance`, except takes a type name instead of a type
     
 ### `noop`
     
-<strong>noop(x=None, *args, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>noop(x=None, *args, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Do nothing
     
 ### `noops`
     
-<strong>noops(self, x=None, *args, **kwargs)</strong>
+
+
+```{=html}
+<blockquote><strong><code>noops(self, x=None, *args, **kwargs)</code></strong></blockquote>
+```
+
+
     
         Do nothing (method)
     
 ### `reduce`
     
-<strong>reduce(...)</strong>
+
+
+```{=html}
+<blockquote><strong><code>reduce(...)</code></strong></blockquote>
+```
+
+
     
         reduce(function, iterable[, initial]) -> value
         
@@ -108,19 +204,37 @@ description: "module fastcore.imports in fastcore"
     
 ### `remove_prefix`
     
-<strong>remove_prefix(text, prefix)</strong>
+
+
+```{=html}
+<blockquote><strong><code>remove_prefix(text, prefix)</code></strong></blockquote>
+```
+
+
     
         Temporary until py39 is a prereq
     
 ### `remove_suffix`
     
-<strong>remove_suffix(text, suffix)</strong>
+
+
+```{=html}
+<blockquote><strong><code>remove_suffix(text, suffix)</code></strong></blockquote>
+```
+
+
     
         Temporary until py39 is a prereq
     
 ### `warn`
     
-<strong>warn(message, category=None, stacklevel=1, source=None)</strong>
+
+
+```{=html}
+<blockquote><strong><code>warn(message, category=None, stacklevel=1, source=None)</code></strong></blockquote>
+```
+
+
     
         Issue a warning, or maybe ignore it or raise an exception.
 
