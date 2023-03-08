@@ -59,8 +59,8 @@ class MarkdownDoc(TextDoc):
         try:
             if inspect.ismodule(object): return self.docmodule(*args)
             elif _isclass(object): return f'\n### {name.strip()}\n\n' + self._bold_first_line(self.docclass(*args))
-            elif inspect.ismethod(object) or '.' in object.__qualname__: return  f'\n#### {object.__qualname__}\n\n' + self.docroutine(*args)
-            elif inspect.isroutine(object) and '.' not in object.__qualname__: return f'\n### {name.strip()}\n\n' + self._bold_first_line(self.docroutine(*args))
+            elif inspect.ismethod(object) or '.' in object.__qualname__: return  f'\n#### `{object.__qualname__}`\n\n' + self.docroutine(*args)
+            elif inspect.isroutine(object) and '.' not in object.__qualname__: return f'\n### `{name.strip()}`\n\n' + self._bold_first_line(self.docroutine(*args))
         except AttributeError:
             pass
         if inspect.isdatadescriptor(object): return self.docdata(*args)
