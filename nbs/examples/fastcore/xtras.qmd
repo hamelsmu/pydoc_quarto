@@ -247,7 +247,7 @@ description: "module fastcore.xtras in fastcore"
 
 
     
-     |  ReindexCollection(coll, idxs=None, cache=None, tfm=<function noop at 0x103bc1480>)
+     |  ReindexCollection(coll, idxs=None, cache=None, tfm=<function noop at 0x10bb5bee0>)
      |  
      |  Reindexes collection `coll` with indices `idxs` and optional LRU cache of size `cache`
      |  
@@ -272,7 +272,7 @@ description: "module fastcore.xtras in fastcore"
      |  
 #### `ReindexCollection.__init__`
      |  
-     |  __init__(self, coll, idxs=None, cache=None, tfm=<function noop at 0x103bc1480>)
+     |  __init__(self, coll, idxs=None, cache=None, tfm=<function noop at 0x10bb5bee0>)
      |      Initialize self.  See help(type(self)) for accurate signature.
      |  
      |  
@@ -414,7 +414,7 @@ description: "module fastcore.xtras in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>globtastic(path: 'Path | str', recursive: 'bool' = True, symlinks: 'bool' = True, file_glob: 'str' = None, file_re: 'str' = None, folder_re: 'str' = None, skip_file_glob: 'str' = None, skip_file_re: 'str' = None, skip_folder_re: 'str' = None, func: 'callable' = <function join at 0x1034eeb90>, ret_folders: 'bool' = False) -> 'L'</code></strong></blockquote>
+<blockquote><strong><code>globtastic(path: 'Path | str', recursive: 'bool' = True, symlinks: 'bool' = True, file_glob: 'str' = None, file_re: 'str' = None, folder_re: 'str' = None, skip_file_glob: 'str' = None, skip_file_re: 'str' = None, skip_folder_re: 'str' = None, func: 'callable' = <function join at 0x10b547940>, ret_folders: 'bool' = False) -> 'L'</code></strong></blockquote>
 ```
 
 
@@ -762,7 +762,7 @@ description: "module fastcore.xtras in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>walk(path: 'Path | str', symlinks: 'bool' = True, keep_file: 'callable' = <function ret_true at 0x103c148b0>, keep_folder: 'callable' = <function ret_true at 0x103c148b0>, skip_folder: 'callable' = <function ret_false at 0x103c14940>, func: 'callable' = <function join at 0x1034eeb90>, ret_folders: 'bool' = False)</code></strong></blockquote>
+<blockquote><strong><code>walk(path: 'Path | str', symlinks: 'bool' = True, keep_file: 'callable' = <function ret_true at 0x10bb95700>, keep_folder: 'callable' = <function ret_true at 0x10bb95700>, skip_folder: 'callable' = <function ret_false at 0x10bb95790>, func: 'callable' = <function join at 0x10b547940>, ret_folders: 'bool' = False)</code></strong></blockquote>
 ```
 
 

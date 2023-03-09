@@ -73,11 +73,6 @@ description: "module fastcore.meta in fastcore"
      |      Call self as a function.
      |  
      |  ----------------------------------------------------------------------
-     |  Data and other attributes defined here:
-     |  
-     |  __annotations__ = {}
-     |  
-     |  ----------------------------------------------------------------------
      |  Static methods inherited from FixSigMeta:
      |  
      |  
@@ -120,22 +115,10 @@ description: "module fastcore.meta in fastcore"
      |      Check if an object is an instance.
      |  
      |  
-#### `type.__or__`
-     |  
-     |  __or__(self, value, /)
-     |      Return self|value.
-     |  
-     |  
 #### `type.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
-     |  
-     |  
-#### `type.__ror__`
-     |  
-     |  __ror__(self, value, /)
-     |      Return value|self.
      |  
      |  
 #### `type.__setattr__`
@@ -195,11 +178,11 @@ description: "module fastcore.meta in fastcore"
      |  
      |  __bases__ = (<class 'fastcore.meta.FixSigMeta'>,)
      |  
-     |  __basicsize__ = 888
+     |  __basicsize__ = 880
      |  
      |  __dictoffset__ = 264
      |  
-     |  __flags__ = 2148029952
+     |  __flags__ = 2148292096
      |  
      |  __itemsize__ = 40
      |  
@@ -233,11 +216,6 @@ description: "module fastcore.meta in fastcore"
      |  
      |  __new__(cls, name, bases, dict)
      |      Create and return a new object.  See help(type) for accurate signature.
-     |  
-     |  ----------------------------------------------------------------------
-     |  Data and other attributes defined here:
-     |  
-     |  __annotations__ = {}
      |  
      |  ----------------------------------------------------------------------
      |  Methods inherited from builtins.type:
@@ -279,22 +257,10 @@ description: "module fastcore.meta in fastcore"
      |      Check if an object is an instance.
      |  
      |  
-#### `type.__or__`
-     |  
-     |  __or__(self, value, /)
-     |      Return self|value.
-     |  
-     |  
 #### `type.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
-     |  
-     |  
-#### `type.__ror__`
-     |  
-     |  __ror__(self, value, /)
-     |      Return value|self.
      |  
      |  
 #### `type.__setattr__`
@@ -355,11 +321,11 @@ description: "module fastcore.meta in fastcore"
      |  
      |  __bases__ = (<class 'type'>,)
      |  
-     |  __basicsize__ = 888
+     |  __basicsize__ = 880
      |  
      |  __dictoffset__ = 264
      |  
-     |  __flags__ = 2148029952
+     |  __flags__ = 2148292096
      |  
      |  __itemsize__ = 40
      |  
@@ -394,11 +360,6 @@ description: "module fastcore.meta in fastcore"
      |  
      |  __call__(cls, x=None, *args, **kwargs)
      |      Call self as a function.
-     |  
-     |  ----------------------------------------------------------------------
-     |  Data and other attributes defined here:
-     |  
-     |  __annotations__ = {}
      |  
      |  ----------------------------------------------------------------------
      |  Static methods inherited from FixSigMeta:
@@ -443,22 +404,10 @@ description: "module fastcore.meta in fastcore"
      |      Check if an object is an instance.
      |  
      |  
-#### `type.__or__`
-     |  
-     |  __or__(self, value, /)
-     |      Return self|value.
-     |  
-     |  
 #### `type.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
-     |  
-     |  
-#### `type.__ror__`
-     |  
-     |  __ror__(self, value, /)
-     |      Return value|self.
      |  
      |  
 #### `type.__setattr__`
@@ -518,11 +467,11 @@ description: "module fastcore.meta in fastcore"
      |  
      |  __bases__ = (<class 'fastcore.meta.FixSigMeta'>,)
      |  
-     |  __basicsize__ = 888
+     |  __basicsize__ = 880
      |  
      |  __dictoffset__ = 264
      |  
-     |  __flags__ = 2148029952
+     |  __flags__ = 2148292096
      |  
      |  __itemsize__ = 40
      |  
@@ -557,11 +506,6 @@ description: "module fastcore.meta in fastcore"
      |  
      |  __call__(cls, *args, **kwargs)
      |      Call self as a function.
-     |  
-     |  ----------------------------------------------------------------------
-     |  Data and other attributes defined here:
-     |  
-     |  __annotations__ = {}
      |  
      |  ----------------------------------------------------------------------
      |  Static methods inherited from FixSigMeta:
@@ -606,22 +550,10 @@ description: "module fastcore.meta in fastcore"
      |      Check if an object is an instance.
      |  
      |  
-#### `type.__or__`
-     |  
-     |  __or__(self, value, /)
-     |      Return self|value.
-     |  
-     |  
 #### `type.__repr__`
      |  
      |  __repr__(self, /)
      |      Return repr(self).
-     |  
-     |  
-#### `type.__ror__`
-     |  
-     |  __ror__(self, value, /)
-     |      Return value|self.
      |  
      |  
 #### `type.__setattr__`
@@ -681,11 +613,11 @@ description: "module fastcore.meta in fastcore"
      |  
      |  __bases__ = (<class 'fastcore.meta.FixSigMeta'>,)
      |  
-     |  __basicsize__ = 888
+     |  __basicsize__ = 880
      |  
      |  __dictoffset__ = 264
      |  
-     |  __flags__ = 2148029952
+     |  __flags__ = 2148292096
      |  
      |  __itemsize__ = 40
      |  

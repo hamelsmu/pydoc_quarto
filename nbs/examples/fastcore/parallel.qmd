@@ -21,7 +21,7 @@ description: "module fastcore.parallel in fastcore"
 
 
     
-     |  ProcessPoolExecutor(max_workers=10, on_exc=<built-in function print>, pause=0, *, mp_context=None, initializer=None, initargs=())
+     |  ProcessPoolExecutor(max_workers=8, on_exc=<built-in function print>, pause=0, *, mp_context=None, initializer=None, initargs=())
      |  
      |  Same as Python's ProcessPoolExecutor, except can pass `max_workers==0` for serial execution
      |  
@@ -36,7 +36,7 @@ description: "module fastcore.parallel in fastcore"
      |  
 #### `ProcessPoolExecutor.__init__`
      |  
-     |  __init__(self, max_workers=10, on_exc=<built-in function print>, pause=0, *, mp_context=None, initializer=None, initargs=())
+     |  __init__(self, max_workers=8, on_exc=<built-in function print>, pause=0, *, mp_context=None, initializer=None, initargs=())
      |      Initializes a new ProcessPoolExecutor instance.
      |      
      |      Args:
@@ -136,7 +136,7 @@ description: "module fastcore.parallel in fastcore"
 
 
     
-     |  ThreadPoolExecutor(max_workers=10, on_exc=<built-in function print>, pause=0, **kwargs)
+     |  ThreadPoolExecutor(max_workers=8, on_exc=<built-in function print>, pause=0, **kwargs)
      |  
      |  Same as Python's ThreadPoolExecutor, except can pass `max_workers==0` for serial execution
      |  
@@ -151,7 +151,7 @@ description: "module fastcore.parallel in fastcore"
      |  
 #### `ThreadPoolExecutor.__init__`
      |  
-     |  __init__(self, max_workers=10, on_exc=<built-in function print>, pause=0, **kwargs)
+     |  __init__(self, max_workers=8, on_exc=<built-in function print>, pause=0, **kwargs)
      |      Initializes a new ThreadPoolExecutor instance.
      |      
      |      Args:
@@ -260,7 +260,7 @@ description: "module fastcore.parallel in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>parallel(f, items, *args, n_workers=10, total=None, progress=None, pause=0, method=None, threadpool=False, timeout=None, chunksize=1, **kwargs)</code></strong></blockquote>
+<blockquote><strong><code>parallel(f, items, *args, n_workers=8, total=None, progress=None, pause=0, method=None, threadpool=False, timeout=None, chunksize=1, **kwargs)</code></strong></blockquote>
 ```
 
 
@@ -272,7 +272,7 @@ description: "module fastcore.parallel in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>parallel_gen(cls, items, n_workers=10, **kwargs)</code></strong></blockquote>
+<blockquote><strong><code>parallel_gen(cls, items, n_workers=8, **kwargs)</code></strong></blockquote>
 ```
 
 

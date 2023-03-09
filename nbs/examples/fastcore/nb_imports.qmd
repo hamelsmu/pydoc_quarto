@@ -26,8 +26,6 @@ description: "module fastcore.nb_imports in fastcore"
         object : array_like
             An array, any object exposing the array interface, an object whose
             __array__ method returns an array, or any (nested) sequence.
-            If object is a scalar, a 0-dimensional array containing object is
-            returned.
         dtype : data-type, optional
             The desired data-type for the array.  If not given, then the type will
             be determined as the minimum type required to hold the objects in the
@@ -60,9 +58,9 @@ description: "module fastcore.nb_imports in fastcore"
             the returned array will be forced to be a base-class array (default).
         ndmin : int, optional
             Specifies the minimum number of dimensions that the resulting
-            array should have.  Ones will be prepended to the shape as
+            array should have.  Ones will be pre-pended to the shape as
             needed to meet this requirement.
-        like : array_like, optional
+        like : array_like
             Reference object to allow the creation of arrays which are not
             NumPy arrays. If an array-like passed in as ``like`` supports
             the ``__array_function__`` protocol, the result will be defined

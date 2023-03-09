@@ -284,7 +284,7 @@ description: "module fastcore.foundation in fastcore"
      |  
 #### `L.filter`
      |  
-     |  filter(self, f=<function noop at 0x103bc1480>, negate=False, **kwargs)
+     |  filter(self, f=<function noop at 0x10bb5bee0>, negate=False, gen=False, **kwargs)
      |      Create new `L` filtered by predicate `f`, passing `args` and `kwargs` to `f`
      |  
      |  
@@ -296,19 +296,19 @@ description: "module fastcore.foundation in fastcore"
      |  
 #### `L.map`
      |  
-     |  map(self, f, *args, **kwargs)
+     |  map(self, f, *args, gen=False, **kwargs)
      |      Create new `L` with `f` applied to all `items`, passing `args` and `kwargs` to `f`
      |  
      |  
 #### `L.map_dict`
      |  
-     |  map_dict(self, f=<function noop at 0x103bc1480>, *args, **kwargs)
+     |  map_dict(self, f=<function noop at 0x10bb5bee0>, *args, gen=False, **kwargs)
      |      Like `map`, but creates a dict from `items` to function results
      |  
      |  
 #### `L.map_first`
      |  
-     |  map_first(self, f=<function noop at 0x103bc1480>, g=<function noop at 0x103bc1480>, *args, **kwargs)
+     |  map_first(self, f=<function noop at 0x10bb5bee0>, g=<function noop at 0x10bb5bee0>, *args, **kwargs)
      |      First element of `map_filter`
      |  
      |  

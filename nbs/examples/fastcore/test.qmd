@@ -135,7 +135,7 @@ description: "module fastcore.test in fastcore"
 
 
     
-        Fails with `msg` unless `f()` raises an exception and (optionally) has `contains` in `e.args`
+        # %% ../nbs/00_test.ipynb 6
     
 ### `test_fig_exists`
     

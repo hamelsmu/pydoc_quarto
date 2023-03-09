@@ -226,8 +226,6 @@ description: "module fastcore.docscrape in fastcore"
      |  ----------------------------------------------------------------------
      |  Data and other attributes defined here:
      |  
-     |  __match_args__ = ('name', 'type', 'desc')
-     |  
      |  _field_defaults = {}
      |  
      |  _fields = ('name', 'type', 'desc')

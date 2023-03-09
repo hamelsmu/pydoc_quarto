@@ -1,6 +1,8 @@
 _docs/
 _proc/
 
+nbs/_test_dir/
+nbs/_test_dir1/
 *.bak
 .gitattributes
 .last_checked

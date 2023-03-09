@@ -15,7 +15,6 @@ description: "module fastcore.basics in fastcore"
         GetAttr
         GetAttrBase
         Inf
-        NullType
         ShowPrint
             Float(builtins.float, ShowPrint)
             Int(builtins.int, ShowPrint)
@@ -238,8 +237,7 @@ description: "module fastcore.basics in fastcore"
      |  pop(...)
      |      D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
      |      
-     |      If the key is not found, return the default if given; otherwise,
-     |      raise a KeyError.
+     |      If key is not found, default is returned if given, otherwise KeyError is raised
      |  
      |  
 #### `dict.popitem`
@@ -1057,7 +1055,6 @@ description: "module fastcore.basics in fastcore"
      |  
      |  __round__(...)
      |      Rounding an Integral returns itself.
-     |      
      |      Rounding with an ndigits argument also returns an integer.
      |  
      |  
@@ -1141,19 +1138,6 @@ description: "module fastcore.basics in fastcore"
      |      (-10, 1)
      |      >>> (0).as_integer_ratio()
      |      (0, 1)
-     |  
-     |  
-#### `int.bit_count`
-     |  
-     |  bit_count(self, /)
-     |      Number of ones in the binary representation of the absolute value of self.
-     |      
-     |      Also known as the population count.
-     |      
-     |      >>> bin(13)
-     |      '0b1101'
-     |      >>> (13).bit_count()
-     |      3
      |  
      |  
 #### `int.bit_length`
@@ -1249,50 +1233,6 @@ description: "module fastcore.basics in fastcore"
      |  
      |  ----------------------------------------------------------------------
      |  Data descriptors inherited from ShowPrint:
-     |  
-     |  __weakref__
-     |      list of weak references to the object (if defined)
-    
-### NullType
-    
-
-
-```{=html}
-<blockquote><strong><code>class NullType(builtins.object)</code></strong></blockquote>
-```
-
-
-    
-     |  An object that is `False` and can be called, chained, and indexed
-     |  
-     |  Methods defined here:
-     |  
-     |  
-#### `NullType.__bool__`
-     |  
-     |  __bool__(self)
-     |  
-     |  
-#### `NullType.__call__`
-     |  
-     |  __call__(self, *args, **kwargs)
-     |      Call self as a function.
-     |  
-     |  
-#### `NullType.__getattr__`
-     |  
-     |  __getattr__(self, *args)
-     |  
-     |  
-#### `NullType.__getitem__`
-     |  
-     |  __getitem__(self, *args)
-     |  
-     |  ----------------------------------------------------------------------
-     |  Data descriptors defined here:
-     |  
-     |  __dict__
-     |      dictionary for instance variables (if defined)
      |  
      |  __weakref__
      |      list of weak references to the object (if defined)
@@ -1803,19 +1743,17 @@ description: "module fastcore.basics in fastcore"
 #### `str.rsplit`
      |  
      |  rsplit(self, /, sep=None, maxsplit=-1)
-     |      Return a list of the substrings in the string, using sep as the separator string.
+     |      Return a list of the words in the string, using sep as the delimiter string.
      |      
      |        sep
-     |          The separator used to split the string.
-     |      
-     |          When set to None (the default value), will split on any whitespace
-     |          character (including \\n \\r \\t \\f and spaces) and will discard
-     |          empty strings from the result.
+     |          The delimiter according which to split the string.
+     |          None (the default value) means split according to any whitespace,
+     |          and discard empty strings from the result.
      |        maxsplit
-     |          Maximum number of splits (starting from the left).
+     |          Maximum number of splits to do.
      |          -1 (the default value) means no limit.
      |      
-     |      Splitting starts at the end of the string and works to the front.
+     |      Splits are done starting at the end of the string and working to the front.
      |  
      |  
 #### `str.rstrip`
@@ -1829,21 +1767,15 @@ description: "module fastcore.basics in fastcore"
 #### `str.split`
      |  
      |  split(self, /, sep=None, maxsplit=-1)
-     |      Return a list of the substrings in the string, using sep as the separator string.
+     |      Return a list of the words in the string, using sep as the delimiter string.
      |      
-     |        sep
-     |          The separator used to split the string.
-     |      
-     |          When set to None (the default value), will split on any whitespace
-     |          character (including \\n \\r \\t \\f and spaces) and will discard
-     |          empty strings from the result.
-     |        maxsplit
-     |          Maximum number of splits (starting from the left).
-     |          -1 (the default value) means no limit.
-     |      
-     |      Note, str.split() is mainly useful for data that has been intentionally
-     |      delimited.  With natural text that includes punctuation, consider using
-     |      the regular expression module.
+     |      sep
+     |        The delimiter according which to split the string.
+     |        None (the default value) means split according to any whitespace,
+     |        and discard empty strings from the result.
+     |      maxsplit
+     |        Maximum number of splits to do.
+     |        -1 (the default value) means no limit.
      |  
      |  
 #### `str.splitlines`
@@ -2512,19 +2444,17 @@ description: "module fastcore.basics in fastcore"
 #### `str.rsplit`
      |  
      |  rsplit(self, /, sep=None, maxsplit=-1)
-     |      Return a list of the substrings in the string, using sep as the separator string.
+     |      Return a list of the words in the string, using sep as the delimiter string.
      |      
      |        sep
-     |          The separator used to split the string.
-     |      
-     |          When set to None (the default value), will split on any whitespace
-     |          character (including \\n \\r \\t \\f and spaces) and will discard
-     |          empty strings from the result.
+     |          The delimiter according which to split the string.
+     |          None (the default value) means split according to any whitespace,
+     |          and discard empty strings from the result.
      |        maxsplit
-     |          Maximum number of splits (starting from the left).
+     |          Maximum number of splits to do.
      |          -1 (the default value) means no limit.
      |      
-     |      Splitting starts at the end of the string and works to the front.
+     |      Splits are done starting at the end of the string and working to the front.
      |  
      |  
 #### `str.rstrip`
@@ -2538,21 +2468,15 @@ description: "module fastcore.basics in fastcore"
 #### `str.split`
      |  
      |  split(self, /, sep=None, maxsplit=-1)
-     |      Return a list of the substrings in the string, using sep as the separator string.
+     |      Return a list of the words in the string, using sep as the delimiter string.
      |      
-     |        sep
-     |          The separator used to split the string.
-     |      
-     |          When set to None (the default value), will split on any whitespace
-     |          character (including \\n \\r \\t \\f and spaces) and will discard
-     |          empty strings from the result.
-     |        maxsplit
-     |          Maximum number of splits (starting from the left).
-     |          -1 (the default value) means no limit.
-     |      
-     |      Note, str.split() is mainly useful for data that has been intentionally
-     |      delimited.  With natural text that includes punctuation, consider using
-     |      the regular expression module.
+     |      sep
+     |        The delimiter according which to split the string.
+     |        None (the default value) means split according to any whitespace,
+     |        and discard empty strings from the result.
+     |      maxsplit
+     |        Maximum number of splits to do.
+     |        -1 (the default value) means no limit.
      |  
      |  
 #### `str.splitlines`
@@ -2791,6 +2715,11 @@ description: "module fastcore.basics in fastcore"
 #### `_get_op.<locals>._f`
      |  
      |  __neg__ = _f(self, *args)
+     |  
+     |  
+#### `_get_op.<locals>._f`
+     |  
+     |  __or__ = _f(self, *args)
      |  
      |  
 #### `_get_op.<locals>._f`
@@ -3057,7 +2986,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>add(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>add(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3297,7 +3226,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>eq(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>eq(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3381,7 +3310,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>filter_ex(iterable, f=<function noop at 0x103bc1480>, negate=False, gen=False, **kwargs)</code></strong></blockquote>
+<blockquote><strong><code>filter_ex(iterable, f=<function noop at 0x10bb5bee0>, negate=False, gen=False, **kwargs)</code></strong></blockquote>
 ```
 
 
@@ -3441,7 +3370,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>ge(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>ge(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3453,7 +3382,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>gen(func, seq, cond=<function ret_true at 0x103c148b0>)</code></strong></blockquote>
+<blockquote><strong><code>gen(func, seq, cond=<function ret_true at 0x10bb95700>)</code></strong></blockquote>
 ```
 
 
@@ -3513,7 +3442,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>groupby(x, key, val=<function noop at 0x103bc1480>)</code></strong></blockquote>
+<blockquote><strong><code>groupby(x, key, val=<function noop at 0x10bb5bee0>)</code></strong></blockquote>
 ```
 
 
@@ -3525,7 +3454,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>gt(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>gt(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3561,7 +3490,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>in_(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>in_(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3585,7 +3514,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>is_(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>is_(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3609,7 +3538,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>is_not(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>is_not(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3633,7 +3562,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>le(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>le(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3693,7 +3622,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>lt(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>lt(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3717,7 +3646,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>maps(*args, retain=<function noop at 0x103bc1480>)</code></strong></blockquote>
+<blockquote><strong><code>maps(*args, retain=<function noop at 0x10bb5bee0>)</code></strong></blockquote>
 ```
 
 
@@ -3777,7 +3706,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>mul(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>mul(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -3789,7 +3718,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>ne(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>ne(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -4046,7 +3975,7 @@ description: "module fastcore.basics in fastcore"
 
 
     
-        # %% ../nbs/01_basics.ipynb 184
+        # %% ../nbs/01_basics.ipynb 180
     
 ### `setify`
     
@@ -4161,24 +4090,12 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>sub(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>sub(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
     
         Same as `operator.sub`, or returns partial if 1 arg
-    
-### `tonull`
-    
-
-
-```{=html}
-<blockquote><strong><code>tonull(x)</code></strong></blockquote>
-```
-
-
-    
-        Convert `None` to `null`
     
 ### `true`
     
@@ -4197,7 +4114,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>truediv(a, b=<object object at 0x103405140>)</code></strong></blockquote>
+<blockquote><strong><code>truediv(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
 ```
 
 
@@ -4262,7 +4179,7 @@ description: "module fastcore.basics in fastcore"
 
 
     
-        # %% ../nbs/01_basics.ipynb 128
+        # %% ../nbs/01_basics.ipynb 124
     
 ### `uniqueify`
     

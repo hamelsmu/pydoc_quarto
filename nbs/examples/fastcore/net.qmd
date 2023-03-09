@@ -6703,7 +6703,7 @@ description: "module fastcore.net in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>urlcheck(url, headers=None, timeout=10)</code></strong></blockquote>
+<blockquote><strong><code>urlcheck(url, timeout=10)</code></strong></blockquote>
 ```
 
 
@@ -6811,7 +6811,7 @@ description: "module fastcore.net in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>urlretrieve(url, filename=None, reporthook=None, data=None, headers=None, timeout=None)</code></strong></blockquote>
+<blockquote><strong><code>urlretrieve(url, filename=None, reporthook=None, data=None, timeout=None)</code></strong></blockquote>
 ```
 
 
@@ -6823,7 +6823,7 @@ description: "module fastcore.net in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>urlsave(url, dest=None, reporthook=None, headers=None, timeout=None)</code></strong></blockquote>
+<blockquote><strong><code>urlsave(url, dest=None, reporthook=None, timeout=None)</code></strong></blockquote>
 ```
 
 

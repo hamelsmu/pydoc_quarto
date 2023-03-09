@@ -23,7 +23,7 @@ description: "module requests.exceptions in requests"
             HTTPError
             InvalidHeader(RequestException, builtins.ValueError)
             InvalidJSONError
-                JSONDecodeError(InvalidJSONError, json.decoder.JSONDecodeError)
+                JSONDecodeError(InvalidJSONError, simplejson.errors.JSONDecodeError)
             InvalidSchema(RequestException, builtins.ValueError)
             InvalidURL(RequestException, builtins.ValueError)
                 InvalidProxyURL
@@ -1498,7 +1498,7 @@ description: "module requests.exceptions in requests"
 
 
 ```{=html}
-<blockquote><strong><code>class JSONDecodeError(InvalidJSONError, json.decoder.JSONDecodeError)</code></strong></blockquote>
+<blockquote><strong><code>class JSONDecodeError(InvalidJSONError, simplejson.errors.JSONDecodeError)</code></strong></blockquote>
 ```
 
 
@@ -1512,7 +1512,7 @@ description: "module requests.exceptions in requests"
      |      InvalidJSONError
      |      RequestException
      |      builtins.OSError
-     |      json.decoder.JSONDecodeError
+     |      simplejson.errors.JSONDecodeError
      |      builtins.ValueError
      |      builtins.Exception
      |      builtins.BaseException

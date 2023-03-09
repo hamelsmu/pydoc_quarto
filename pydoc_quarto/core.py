@@ -6,7 +6,7 @@ __all__ = ['get_modules', 'MarkdownDoc', 'render_quarto_md', 'gethelp', 'gen_md'
 # %% ../nbs/00_core.ipynb 2
 import pkgutil, re, inspect
 from importlib import import_module
-from pydoc import TextDoc, _isclass, resolve, describe
+from pydoc import TextDoc, resolve, describe
 from types import ModuleType
 from pathlib import Path
 from fastcore.script import call_parse
@@ -62,7 +62,7 @@ class MarkdownDoc(TextDoc):
         args = (object, name) + args
         try:
             if inspect.ismodule(object): return self.docmodule(*args)
-            elif _isclass(object): return f'\n### {name.strip()}\n\n' + self._bold_first_line(self.docclass(*args))
+            elif inspect.isclass(object): return f'\n### {name.strip()}\n\n' + self._bold_first_line(self.docclass(*args))
             elif inspect.ismethod(object) or '.' in object.__qualname__: return  f'\n#### `{object.__qualname__}`\n\n' + self.docroutine(*args)
             elif inspect.isroutine(object) and '.' not in object.__qualname__: return f'\n### `{name.strip()}`\n\n' + self._bold_first_line(self.docroutine(*args))
         except AttributeError:
@@ -89,7 +89,7 @@ def render_quarto_md(thing, title=None, forceload=0):
         desc += ' in module ' + module.__name__
 
     if not (inspect.ismodule(object) or
-              _isclass(object) or
+              inpsect.isclass(object) or
               inspect.isroutine(object) or
               inspect.isdatadescriptor(object) or
               _getdoc(object)):
