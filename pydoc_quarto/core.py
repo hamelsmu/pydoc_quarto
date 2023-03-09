@@ -13,7 +13,7 @@ from fastcore.script import call_parse
 from fastcore.xtras import mk_write
 
 # %% ../nbs/00_core.ipynb 3
-def get_modules(lib:ModuleType) -> list[str]:
+def get_modules(lib:ModuleType):
     "get a list of modules from a python package"
     modules = []
     for _, modname, _ in pkgutil.iter_modules(lib.__path__, lib.__name__ + '.'):
