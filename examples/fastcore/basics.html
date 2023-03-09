@@ -1,0 +1,4708 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="module fastcore.basics in fastcore">
+
+<title>pydoc_quarto - basics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="pydoc_quarto - basics">
+<meta property="og:description" content="module fastcore.basics in fastcore">
+<meta property="og:site-name" content="pydoc_quarto">
+<meta name="twitter:title" content="pydoc_quarto - basics">
+<meta name="twitter:description" content="module fastcore.basics in fastcore">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">pydoc_quarto</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/hamelsmu/pydoc_quarto"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">basics</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">pydoc-quarto</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core.html" class="sidebar-item-text sidebar-link">core</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">reference examples</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Fastcore</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/all.html" class="sidebar-item-text sidebar-link">all</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/basics.html" class="sidebar-item-text sidebar-link active">basics</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/dispatch.html" class="sidebar-item-text sidebar-link">dispatch</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/docments.html" class="sidebar-item-text sidebar-link">docments</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/docscrape.html" class="sidebar-item-text sidebar-link">docscrape</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/foundation.html" class="sidebar-item-text sidebar-link">foundation</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/imports.html" class="sidebar-item-text sidebar-link">imports</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/meta.html" class="sidebar-item-text sidebar-link">meta</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/nb_imports.html" class="sidebar-item-text sidebar-link">nb_imports</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/net.html" class="sidebar-item-text sidebar-link">net</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/parallel.html" class="sidebar-item-text sidebar-link">parallel</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/script.html" class="sidebar-item-text sidebar-link">script</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/shutil.html" class="sidebar-item-text sidebar-link">shutil</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/style.html" class="sidebar-item-text sidebar-link">style</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/test.html" class="sidebar-item-text sidebar-link">test</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/transform.html" class="sidebar-item-text sidebar-link">transform</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/utils.html" class="sidebar-item-text sidebar-link">utils</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/xdg.html" class="sidebar-item-text sidebar-link">xdg</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/xtras.html" class="sidebar-item-text sidebar-link">xtras</a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Requests</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/adapters.html" class="sidebar-item-text sidebar-link">adapters</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/api.html" class="sidebar-item-text sidebar-link">api</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/auth.html" class="sidebar-item-text sidebar-link">auth</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/certs.html" class="sidebar-item-text sidebar-link">certs</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/compat.html" class="sidebar-item-text sidebar-link">compat</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/cookies.html" class="sidebar-item-text sidebar-link">cookies</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/exceptions.html" class="sidebar-item-text sidebar-link">exceptions</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/help.html" class="sidebar-item-text sidebar-link">help</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/hooks.html" class="sidebar-item-text sidebar-link">hooks</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/models.html" class="sidebar-item-text sidebar-link">models</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/packages.html" class="sidebar-item-text sidebar-link">packages</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/sessions.html" class="sidebar-item-text sidebar-link">sessions</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/status_codes.html" class="sidebar-item-text sidebar-link">status_codes</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/structures.html" class="sidebar-item-text sidebar-link">structures</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/utils.html" class="sidebar-item-text sidebar-link">utils</a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#classes" id="toc-classes" class="nav-link active" data-scroll-target="#classes">Classes</a>
+  <ul class="collapse">
+  <li><a href="#attrdict" id="toc-attrdict" class="nav-link" data-scroll-target="#attrdict">AttrDict</a></li>
+  <li><a href="#float" id="toc-float" class="nav-link" data-scroll-target="#float">Float</a></li>
+  <li><a href="#getattr" id="toc-getattr" class="nav-link" data-scroll-target="#getattr">GetAttr</a></li>
+  <li><a href="#getattrbase" id="toc-getattrbase" class="nav-link" data-scroll-target="#getattrbase">GetAttrBase</a></li>
+  <li><a href="#importenum" id="toc-importenum" class="nav-link" data-scroll-target="#importenum">ImportEnum</a></li>
+  <li><a href="#inf" id="toc-inf" class="nav-link" data-scroll-target="#inf">Inf</a></li>
+  <li><a href="#int" id="toc-int" class="nav-link" data-scroll-target="#int">Int</a></li>
+  <li><a href="#prettystring" id="toc-prettystring" class="nav-link" data-scroll-target="#prettystring">PrettyString</a></li>
+  <li><a href="#showprint" id="toc-showprint" class="nav-link" data-scroll-target="#showprint">ShowPrint</a></li>
+  <li><a href="#stateful" id="toc-stateful" class="nav-link" data-scroll-target="#stateful">Stateful</a></li>
+  <li><a href="#str" id="toc-str" class="nav-link" data-scroll-target="#str">Str</a></li>
+  <li><a href="#strenum" id="toc-strenum" class="nav-link" data-scroll-target="#strenum">StrEnum</a></li>
+  <li><a href="#bind" id="toc-bind" class="nav-link" data-scroll-target="#bind">bind</a></li>
+  <li><a href="#fastuple" id="toc-fastuple" class="nav-link" data-scroll-target="#fastuple">fastuple</a></li>
+  <li><a href="#ignore_exceptions" id="toc-ignore_exceptions" class="nav-link" data-scroll-target="#ignore_exceptions">ignore_exceptions</a></li>
+  </ul></li>
+  <li><a href="#functions" id="toc-functions" class="nav-link" data-scroll-target="#functions">Functions</a>
+  <ul class="collapse">
+  <li><a href="#add" id="toc-add" class="nav-link" data-scroll-target="#add"><code>add</code></a></li>
+  <li><a href="#add_props" id="toc-add_props" class="nav-link" data-scroll-target="#add_props"><code>add_props</code></a></li>
+  <li><a href="#anno_ret" id="toc-anno_ret" class="nav-link" data-scroll-target="#anno_ret"><code>anno_ret</code></a></li>
+  <li><a href="#annotations" id="toc-annotations" class="nav-link" data-scroll-target="#annotations"><code>annotations</code></a></li>
+  <li><a href="#argnames" id="toc-argnames" class="nav-link" data-scroll-target="#argnames"><code>argnames</code></a></li>
+  <li><a href="#argwhere" id="toc-argwhere" class="nav-link" data-scroll-target="#argwhere"><code>argwhere</code></a></li>
+  <li><a href="#attrdict-1" id="toc-attrdict-1" class="nav-link" data-scroll-target="#attrdict-1"><code>attrdict</code></a></li>
+  <li><a href="#basic_repr" id="toc-basic_repr" class="nav-link" data-scroll-target="#basic_repr"><code>basic_repr</code></a></li>
+  <li><a href="#camel2snake" id="toc-camel2snake" class="nav-link" data-scroll-target="#camel2snake"><code>camel2snake</code></a></li>
+  <li><a href="#camel2words" id="toc-camel2words" class="nav-link" data-scroll-target="#camel2words"><code>camel2words</code></a></li>
+  <li><a href="#chunked" id="toc-chunked" class="nav-link" data-scroll-target="#chunked"><code>chunked</code></a></li>
+  <li><a href="#class2attr" id="toc-class2attr" class="nav-link" data-scroll-target="#class2attr"><code>class2attr</code></a></li>
+  <li><a href="#compile_re" id="toc-compile_re" class="nav-link" data-scroll-target="#compile_re"><code>compile_re</code></a></li>
+  <li><a href="#compose" id="toc-compose" class="nav-link" data-scroll-target="#compose"><code>compose</code></a></li>
+  <li><a href="#concat" id="toc-concat" class="nav-link" data-scroll-target="#concat"><code>concat</code></a></li>
+  <li><a href="#copy_func" id="toc-copy_func" class="nav-link" data-scroll-target="#copy_func"><code>copy_func</code></a></li>
+  <li><a href="#custom_dir" id="toc-custom_dir" class="nav-link" data-scroll-target="#custom_dir"><code>custom_dir</code></a></li>
+  <li><a href="#cycle" id="toc-cycle" class="nav-link" data-scroll-target="#cycle"><code>cycle</code></a></li>
+  <li><a href="#delegate_attr" id="toc-delegate_attr" class="nav-link" data-scroll-target="#delegate_attr"><code>delegate_attr</code></a></li>
+  <li><a href="#detuplify" id="toc-detuplify" class="nav-link" data-scroll-target="#detuplify"><code>detuplify</code></a></li>
+  <li><a href="#eq" id="toc-eq" class="nav-link" data-scroll-target="#eq"><code>eq</code></a></li>
+  <li><a href="#eval_type" id="toc-eval_type" class="nav-link" data-scroll-target="#eval_type"><code>eval_type</code></a></li>
+  <li><a href="#even_mults" id="toc-even_mults" class="nav-link" data-scroll-target="#even_mults"><code>even_mults</code></a></li>
+  <li><a href="#exec_import" id="toc-exec_import" class="nav-link" data-scroll-target="#exec_import"><code>exec_import</code></a></li>
+  <li><a href="#exec_local" id="toc-exec_local" class="nav-link" data-scroll-target="#exec_local"><code>exec_local</code></a></li>
+  <li><a href="#exec_new" id="toc-exec_new" class="nav-link" data-scroll-target="#exec_new"><code>exec_new</code></a></li>
+  <li><a href="#filter_dict" id="toc-filter_dict" class="nav-link" data-scroll-target="#filter_dict"><code>filter_dict</code></a></li>
+  <li><a href="#filter_ex" id="toc-filter_ex" class="nav-link" data-scroll-target="#filter_ex"><code>filter_ex</code></a></li>
+  <li><a href="#filter_keys" id="toc-filter_keys" class="nav-link" data-scroll-target="#filter_keys"><code>filter_keys</code></a></li>
+  <li><a href="#filter_values" id="toc-filter_values" class="nav-link" data-scroll-target="#filter_values"><code>filter_values</code></a></li>
+  <li><a href="#first" id="toc-first" class="nav-link" data-scroll-target="#first"><code>first</code></a></li>
+  <li><a href="#flatten" id="toc-flatten" class="nav-link" data-scroll-target="#flatten"><code>flatten</code></a></li>
+  <li><a href="#ge" id="toc-ge" class="nav-link" data-scroll-target="#ge"><code>ge</code></a></li>
+  <li><a href="#gen" id="toc-gen" class="nav-link" data-scroll-target="#gen"><code>gen</code></a></li>
+  <li><a href="#get_annotations_ex" id="toc-get_annotations_ex" class="nav-link" data-scroll-target="#get_annotations_ex"><code>get_annotations_ex</code></a></li>
+  <li><a href="#get_class" id="toc-get_class" class="nav-link" data-scroll-target="#get_class"><code>get_class</code></a></li>
+  <li><a href="#getattrs" id="toc-getattrs" class="nav-link" data-scroll-target="#getattrs"><code>getattrs</code></a></li>
+  <li><a href="#getcallable" id="toc-getcallable" class="nav-link" data-scroll-target="#getcallable"><code>getcallable</code></a></li>
+  <li><a href="#groupby" id="toc-groupby" class="nav-link" data-scroll-target="#groupby"><code>groupby</code></a></li>
+  <li><a href="#gt" id="toc-gt" class="nav-link" data-scroll-target="#gt"><code>gt</code></a></li>
+  <li><a href="#hasattrs" id="toc-hasattrs" class="nav-link" data-scroll-target="#hasattrs"><code>hasattrs</code></a></li>
+  <li><a href="#ifnone" id="toc-ifnone" class="nav-link" data-scroll-target="#ifnone"><code>ifnone</code></a></li>
+  <li><a href="#in_" id="toc-in_" class="nav-link" data-scroll-target="#in_"><code>in_</code></a></li>
+  <li><a href="#instantiate" id="toc-instantiate" class="nav-link" data-scroll-target="#instantiate"><code>instantiate</code></a></li>
+  <li><a href="#is_" id="toc-is_" class="nav-link" data-scroll-target="#is_"><code>is_</code></a></li>
+  <li><a href="#is_array" id="toc-is_array" class="nav-link" data-scroll-target="#is_array"><code>is_array</code></a></li>
+  <li><a href="#is_not" id="toc-is_not" class="nav-link" data-scroll-target="#is_not"><code>is_not</code></a></li>
+  <li><a href="#last_index" id="toc-last_index" class="nav-link" data-scroll-target="#last_index"><code>last_index</code></a></li>
+  <li><a href="#le" id="toc-le" class="nav-link" data-scroll-target="#le"><code>le</code></a></li>
+  <li><a href="#listify" id="toc-listify" class="nav-link" data-scroll-target="#listify"><code>listify</code></a></li>
+  <li><a href="#loop_first" id="toc-loop_first" class="nav-link" data-scroll-target="#loop_first"><code>loop_first</code></a></li>
+  <li><a href="#loop_first_last" id="toc-loop_first_last" class="nav-link" data-scroll-target="#loop_first_last"><code>loop_first_last</code></a></li>
+  <li><a href="#loop_last" id="toc-loop_last" class="nav-link" data-scroll-target="#loop_last"><code>loop_last</code></a></li>
+  <li><a href="#lt" id="toc-lt" class="nav-link" data-scroll-target="#lt"><code>lt</code></a></li>
+  <li><a href="#map_ex" id="toc-map_ex" class="nav-link" data-scroll-target="#map_ex"><code>map_ex</code></a></li>
+  <li><a href="#maps" id="toc-maps" class="nav-link" data-scroll-target="#maps"><code>maps</code></a></li>
+  <li><a href="#mapt" id="toc-mapt" class="nav-link" data-scroll-target="#mapt"><code>mapt</code></a></li>
+  <li><a href="#maybe_attr" id="toc-maybe_attr" class="nav-link" data-scroll-target="#maybe_attr"><code>maybe_attr</code></a></li>
+  <li><a href="#merge" id="toc-merge" class="nav-link" data-scroll-target="#merge"><code>merge</code></a></li>
+  <li><a href="#mk_class" id="toc-mk_class" class="nav-link" data-scroll-target="#mk_class"><code>mk_class</code></a></li>
+  <li><a href="#mul" id="toc-mul" class="nav-link" data-scroll-target="#mul"><code>mul</code></a></li>
+  <li><a href="#ne" id="toc-ne" class="nav-link" data-scroll-target="#ne"><code>ne</code></a></li>
+  <li><a href="#nested_attr" id="toc-nested_attr" class="nav-link" data-scroll-target="#nested_attr"><code>nested_attr</code></a></li>
+  <li><a href="#nested_callable" id="toc-nested_callable" class="nav-link" data-scroll-target="#nested_callable"><code>nested_callable</code></a></li>
+  <li><a href="#nested_idx" id="toc-nested_idx" class="nav-link" data-scroll-target="#nested_idx"><code>nested_idx</code></a></li>
+  <li><a href="#nested_setdefault" id="toc-nested_setdefault" class="nav-link" data-scroll-target="#nested_setdefault"><code>nested_setdefault</code></a></li>
+  <li><a href="#not_" id="toc-not_" class="nav-link" data-scroll-target="#not_"><code>not_</code></a></li>
+  <li><a href="#num_cpus" id="toc-num_cpus" class="nav-link" data-scroll-target="#num_cpus"><code>num_cpus</code></a></li>
+  <li><a href="#only" id="toc-only" class="nav-link" data-scroll-target="#only"><code>only</code></a></li>
+  <li><a href="#otherwise" id="toc-otherwise" class="nav-link" data-scroll-target="#otherwise"><code>otherwise</code></a></li>
+  <li><a href="#partialler" id="toc-partialler" class="nav-link" data-scroll-target="#partialler"><code>partialler</code></a></li>
+  <li><a href="#patch" id="toc-patch" class="nav-link" data-scroll-target="#patch"><code>patch</code></a></li>
+  <li><a href="#patch_property" id="toc-patch_property" class="nav-link" data-scroll-target="#patch_property"><code>patch_property</code></a></li>
+  <li><a href="#patch_to" id="toc-patch_to" class="nav-link" data-scroll-target="#patch_to"><code>patch_to</code></a></li>
+  <li><a href="#properties" id="toc-properties" class="nav-link" data-scroll-target="#properties"><code>properties</code></a></li>
+  <li><a href="#range_of" id="toc-range_of" class="nav-link" data-scroll-target="#range_of"><code>range_of</code></a></li>
+  <li><a href="#renumerate" id="toc-renumerate" class="nav-link" data-scroll-target="#renumerate"><code>renumerate</code></a></li>
+  <li><a href="#replicate" id="toc-replicate" class="nav-link" data-scroll-target="#replicate"><code>replicate</code></a></li>
+  <li><a href="#ret_false" id="toc-ret_false" class="nav-link" data-scroll-target="#ret_false"><code>ret_false</code></a></li>
+  <li><a href="#ret_true" id="toc-ret_true" class="nav-link" data-scroll-target="#ret_true"><code>ret_true</code></a></li>
+  <li><a href="#risinstance" id="toc-risinstance" class="nav-link" data-scroll-target="#risinstance"><code>risinstance</code></a></li>
+  <li><a href="#set_nested_idx" id="toc-set_nested_idx" class="nav-link" data-scroll-target="#set_nested_idx"><code>set_nested_idx</code></a></li>
+  <li><a href="#setattrs" id="toc-setattrs" class="nav-link" data-scroll-target="#setattrs"><code>setattrs</code></a></li>
+  <li><a href="#setify" id="toc-setify" class="nav-link" data-scroll-target="#setify"><code>setify</code></a></li>
+  <li><a href="#signature_ex" id="toc-signature_ex" class="nav-link" data-scroll-target="#signature_ex"><code>signature_ex</code></a></li>
+  <li><a href="#snake2camel" id="toc-snake2camel" class="nav-link" data-scroll-target="#snake2camel"><code>snake2camel</code></a></li>
+  <li><a href="#sorted_ex" id="toc-sorted_ex" class="nav-link" data-scroll-target="#sorted_ex"><code>sorted_ex</code></a></li>
+  <li><a href="#stop" id="toc-stop" class="nav-link" data-scroll-target="#stop"><code>stop</code></a></li>
+  <li><a href="#store_attr" id="toc-store_attr" class="nav-link" data-scroll-target="#store_attr"><code>store_attr</code></a></li>
+  <li><a href="#str2bool" id="toc-str2bool" class="nav-link" data-scroll-target="#str2bool"><code>str2bool</code></a></li>
+  <li><a href="#str_enum" id="toc-str_enum" class="nav-link" data-scroll-target="#str_enum"><code>str_enum</code></a></li>
+  <li><a href="#strcat" id="toc-strcat" class="nav-link" data-scroll-target="#strcat"><code>strcat</code></a></li>
+  <li><a href="#sub" id="toc-sub" class="nav-link" data-scroll-target="#sub"><code>sub</code></a></li>
+  <li><a href="#true" id="toc-true" class="nav-link" data-scroll-target="#true"><code>true</code></a></li>
+  <li><a href="#truediv" id="toc-truediv" class="nav-link" data-scroll-target="#truediv"><code>truediv</code></a></li>
+  <li><a href="#try_attrs" id="toc-try_attrs" class="nav-link" data-scroll-target="#try_attrs"><code>try_attrs</code></a></li>
+  <li><a href="#tuplify" id="toc-tuplify" class="nav-link" data-scroll-target="#tuplify"><code>tuplify</code></a></li>
+  <li><a href="#type_hints" id="toc-type_hints" class="nav-link" data-scroll-target="#type_hints"><code>type_hints</code></a></li>
+  <li><a href="#typed" id="toc-typed" class="nav-link" data-scroll-target="#typed"><code>typed</code></a></li>
+  <li><a href="#union2tuple" id="toc-union2tuple" class="nav-link" data-scroll-target="#union2tuple"><code>union2tuple</code></a></li>
+  <li><a href="#uniqueify" id="toc-uniqueify" class="nav-link" data-scroll-target="#uniqueify"><code>uniqueify</code></a></li>
+  <li><a href="#using_attr" id="toc-using_attr" class="nav-link" data-scroll-target="#using_attr"><code>using_attr</code></a></li>
+  <li><a href="#val2idx" id="toc-val2idx" class="nav-link" data-scroll-target="#val2idx"><code>val2idx</code></a></li>
+  <li><a href="#with_cast" id="toc-with_cast" class="nav-link" data-scroll-target="#with_cast"><code>with_cast</code></a></li>
+  <li><a href="#wrap_class" id="toc-wrap_class" class="nav-link" data-scroll-target="#wrap_class"><code>wrap_class</code></a></li>
+  <li><a href="#zip_cycle" id="toc-zip_cycle" class="nav-link" data-scroll-target="#zip_cycle"><code>zip_cycle</code></a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/hamelsmu/pydoc_quarto/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">basics</h1>
+</div>
+
+<div>
+  <div class="description">
+    module fastcore.basics in fastcore
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="classes" class="level2">
+<h2 class="anchored" data-anchor-id="classes">Classes</h2>
+<pre><code>builtins.dict(builtins.object)
+    AttrDict
+builtins.float(builtins.object)
+    Float(builtins.float, ShowPrint)
+builtins.int(builtins.object)
+    Int(builtins.int, ShowPrint)
+builtins.object
+    GetAttr
+    GetAttrBase
+    Inf
+    ShowPrint
+        Float(builtins.float, ShowPrint)
+        Int(builtins.int, ShowPrint)
+        Str(builtins.str, ShowPrint)
+    Stateful
+    bind
+    ignore_exceptions
+builtins.str(builtins.object)
+    PrettyString
+    Str(builtins.str, ShowPrint)
+    StrEnum(builtins.str, ImportEnum)
+builtins.tuple(builtins.object)
+    fastuple
+enum.Enum(builtins.object)
+    ImportEnum
+        StrEnum(builtins.str, ImportEnum)</code></pre>
+<section id="attrdict" class="level3">
+<h3 class="anchored" data-anchor-id="attrdict">AttrDict</h3>
+<blockquote class="blockquote"><strong><code>class AttrDict(builtins.dict)</code></strong></blockquote>
+<pre><code> |  `dict` subclass that also provides access to keys as attrs
+ |  
+ |  Method resolution order:
+ |      AttrDict
+ |      builtins.dict
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="attrdict.__dir__" class="level4">
+<h4 class="anchored" data-anchor-id="attrdict.__dir__"><code>AttrDict.__dir__</code></h4>
+<pre><code> |  
+ |  __dir__(self)
+ |      Default dir() implementation.
+ |  
+ |  </code></pre>
+</section>
+<section id="attrdict.__getattr__" class="level4">
+<h4 class="anchored" data-anchor-id="attrdict.__getattr__"><code>AttrDict.__getattr__</code></h4>
+<pre><code> |  
+ |  __getattr__(self, k)
+ |  
+ |  </code></pre>
+</section>
+<section id="attrdict.__setattr__" class="level4">
+<h4 class="anchored" data-anchor-id="attrdict.__setattr__"><code>AttrDict.__setattr__</code></h4>
+<pre><code> |  
+ |  __setattr__(self, k, v)
+ |      Implement setattr(self, name, value).
+ |  
+ |  </code></pre>
+</section>
+<section id="attrdict.copy" class="level4">
+<h4 class="anchored" data-anchor-id="attrdict.copy"><code>AttrDict.copy</code></h4>
+<pre><code> |  
+ |  copy(self)
+ |      D.copy() -&gt; a shallow copy of D
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from builtins.dict:
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__contains__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__contains__"><code>dict.__contains__</code></h4>
+<pre><code> |  
+ |  __contains__(self, key, /)
+ |      True if the dictionary has the specified key, else False.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__delitem__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__delitem__"><code>dict.__delitem__</code></h4>
+<pre><code> |  
+ |  __delitem__(self, key, /)
+ |      Delete self[key].
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__eq__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__eq__"><code>dict.__eq__</code></h4>
+<pre><code> |  
+ |  __eq__(self, value, /)
+ |      Return self==value.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__ge__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__ge__"><code>dict.__ge__</code></h4>
+<pre><code> |  
+ |  __ge__(self, value, /)
+ |      Return self&gt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__getattribute__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__getattribute__"><code>dict.__getattribute__</code></h4>
+<pre><code> |  
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__getitem__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__getitem__"><code>dict.__getitem__</code></h4>
+<pre><code> |  
+ |  __getitem__(...)
+ |      x.__getitem__(y) &lt;==&gt; x[y]
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__gt__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__gt__"><code>dict.__gt__</code></h4>
+<pre><code> |  
+ |  __gt__(self, value, /)
+ |      Return self&gt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__init__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__init__"><code>dict.__init__</code></h4>
+<pre><code> |  
+ |  __init__(self, /, *args, **kwargs)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__ior__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__ior__"><code>dict.__ior__</code></h4>
+<pre><code> |  
+ |  __ior__(self, value, /)
+ |      Return self|=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__iter__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__iter__"><code>dict.__iter__</code></h4>
+<pre><code> |  
+ |  __iter__(self, /)
+ |      Implement iter(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__le__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__le__"><code>dict.__le__</code></h4>
+<pre><code> |  
+ |  __le__(self, value, /)
+ |      Return self&lt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__len__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__len__"><code>dict.__len__</code></h4>
+<pre><code> |  
+ |  __len__(self, /)
+ |      Return len(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__lt__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__lt__"><code>dict.__lt__</code></h4>
+<pre><code> |  
+ |  __lt__(self, value, /)
+ |      Return self&lt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__ne__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__ne__"><code>dict.__ne__</code></h4>
+<pre><code> |  
+ |  __ne__(self, value, /)
+ |      Return self!=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__or__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__or__"><code>dict.__or__</code></h4>
+<pre><code> |  
+ |  __or__(self, value, /)
+ |      Return self|value.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__repr__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__repr__"><code>dict.__repr__</code></h4>
+<pre><code> |  
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__reversed__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__reversed__"><code>dict.__reversed__</code></h4>
+<pre><code> |  
+ |  __reversed__(self, /)
+ |      Return a reverse iterator over the dict keys.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__ror__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__ror__"><code>dict.__ror__</code></h4>
+<pre><code> |  
+ |  __ror__(self, value, /)
+ |      Return value|self.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__setitem__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__setitem__"><code>dict.__setitem__</code></h4>
+<pre><code> |  
+ |  __setitem__(self, key, value, /)
+ |      Set self[key] to value.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__sizeof__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__sizeof__"><code>dict.__sizeof__</code></h4>
+<pre><code> |  
+ |  __sizeof__(...)
+ |      D.__sizeof__() -&gt; size of D in memory, in bytes
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.clear" class="level4">
+<h4 class="anchored" data-anchor-id="dict.clear"><code>dict.clear</code></h4>
+<pre><code> |  
+ |  clear(...)
+ |      D.clear() -&gt; None.  Remove all items from D.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.get" class="level4">
+<h4 class="anchored" data-anchor-id="dict.get"><code>dict.get</code></h4>
+<pre><code> |  
+ |  get(self, key, default=None, /)
+ |      Return the value for key if key is in the dictionary, else default.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.items" class="level4">
+<h4 class="anchored" data-anchor-id="dict.items"><code>dict.items</code></h4>
+<pre><code> |  
+ |  items(...)
+ |      D.items() -&gt; a set-like object providing a view on D's items
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.keys" class="level4">
+<h4 class="anchored" data-anchor-id="dict.keys"><code>dict.keys</code></h4>
+<pre><code> |  
+ |  keys(...)
+ |      D.keys() -&gt; a set-like object providing a view on D's keys
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.pop" class="level4">
+<h4 class="anchored" data-anchor-id="dict.pop"><code>dict.pop</code></h4>
+<pre><code> |  
+ |  pop(...)
+ |      D.pop(k[,d]) -&gt; v, remove specified key and return the corresponding value.
+ |      
+ |      If key is not found, default is returned if given, otherwise KeyError is raised
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.popitem" class="level4">
+<h4 class="anchored" data-anchor-id="dict.popitem"><code>dict.popitem</code></h4>
+<pre><code> |  
+ |  popitem(self, /)
+ |      Remove and return a (key, value) pair as a 2-tuple.
+ |      
+ |      Pairs are returned in LIFO (last-in, first-out) order.
+ |      Raises KeyError if the dict is empty.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.setdefault" class="level4">
+<h4 class="anchored" data-anchor-id="dict.setdefault"><code>dict.setdefault</code></h4>
+<pre><code> |  
+ |  setdefault(self, key, default=None, /)
+ |      Insert key with a value of default if key is not in the dictionary.
+ |      
+ |      Return the value for key if key is in the dictionary, else default.
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.update" class="level4">
+<h4 class="anchored" data-anchor-id="dict.update"><code>dict.update</code></h4>
+<pre><code> |  
+ |  update(...)
+ |      D.update([E, ]**F) -&gt; None.  Update D from dict/iterable E and F.
+ |      If E is present and has a .keys() method, then does:  for k in E: D[k] = E[k]
+ |      If E is present and lacks a .keys() method, then does:  for k, v in E: D[k] = v
+ |      In either case, this is followed by: for k in F:  D[k] = F[k]
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.values" class="level4">
+<h4 class="anchored" data-anchor-id="dict.values"><code>dict.values</code></h4>
+<pre><code> |  
+ |  values(...)
+ |      D.values() -&gt; an object providing a view on D's values
+ |  
+ |  ----------------------------------------------------------------------
+ |  Class methods inherited from builtins.dict:
+ |  
+ |  </code></pre>
+</section>
+<section id="attrdict.__class_getitem__" class="level4">
+<h4 class="anchored" data-anchor-id="attrdict.__class_getitem__"><code>AttrDict.__class_getitem__</code></h4>
+<pre><code> |  
+ |  __class_getitem__(...) from builtins.type
+ |      See PEP 585
+ |  
+ |  </code></pre>
+</section>
+<section id="attrdict.fromkeys" class="level4">
+<h4 class="anchored" data-anchor-id="attrdict.fromkeys"><code>AttrDict.fromkeys</code></h4>
+<pre><code> |  
+ |  fromkeys(iterable, value=None, /) from builtins.type
+ |      Create a new dictionary with keys from iterable and values set to value.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods inherited from builtins.dict:
+ |  
+ |  </code></pre>
+</section>
+<section id="dict.__new__" class="level4">
+<h4 class="anchored" data-anchor-id="dict.__new__"><code>dict.__new__</code></h4>
+<pre><code> |  
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes inherited from builtins.dict:
+ |  
+ |  __hash__ = None</code></pre>
+</section>
+</section>
+<section id="float" class="level3">
+<h3 class="anchored" data-anchor-id="float">Float</h3>
+<blockquote class="blockquote"><strong><code>class Float(builtins.float, ShowPrint)</code></strong></blockquote>
+<pre><code> |  Float(x=0, /)
+ |  
+ |  An extensible `float`
+ |  
+ |  Method resolution order:
+ |      Float
+ |      builtins.float
+ |      ShowPrint
+ |      builtins.object
+ |  
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from builtins.float:
+ |  
+ |  </code></pre>
+<section id="float.__abs__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__abs__"><code>float.__abs__</code></h4>
+<pre><code> |  
+ |  __abs__(self, /)
+ |      abs(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__add__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__add__"><code>float.__add__</code></h4>
+<pre><code> |  
+ |  __add__(self, value, /)
+ |      Return self+value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__bool__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__bool__"><code>float.__bool__</code></h4>
+<pre><code> |  
+ |  __bool__(self, /)
+ |      True if self else False
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__ceil__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__ceil__"><code>float.__ceil__</code></h4>
+<pre><code> |  
+ |  __ceil__(self, /)
+ |      Return the ceiling as an Integral.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__divmod__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__divmod__"><code>float.__divmod__</code></h4>
+<pre><code> |  
+ |  __divmod__(self, value, /)
+ |      Return divmod(self, value).
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__eq__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__eq__"><code>float.__eq__</code></h4>
+<pre><code> |  
+ |  __eq__(self, value, /)
+ |      Return self==value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__float__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__float__"><code>float.__float__</code></h4>
+<pre><code> |  
+ |  __float__(self, /)
+ |      float(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__floor__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__floor__"><code>float.__floor__</code></h4>
+<pre><code> |  
+ |  __floor__(self, /)
+ |      Return the floor as an Integral.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__floordiv__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__floordiv__"><code>float.__floordiv__</code></h4>
+<pre><code> |  
+ |  __floordiv__(self, value, /)
+ |      Return self//value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__format__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__format__"><code>float.__format__</code></h4>
+<pre><code> |  
+ |  __format__(self, format_spec, /)
+ |      Formats the float according to format_spec.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__ge__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__ge__"><code>float.__ge__</code></h4>
+<pre><code> |  
+ |  __ge__(self, value, /)
+ |      Return self&gt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__getattribute__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__getattribute__"><code>float.__getattribute__</code></h4>
+<pre><code> |  
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__getnewargs__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__getnewargs__"><code>float.__getnewargs__</code></h4>
+<pre><code> |  
+ |  __getnewargs__(self, /)
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__gt__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__gt__"><code>float.__gt__</code></h4>
+<pre><code> |  
+ |  __gt__(self, value, /)
+ |      Return self&gt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__hash__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__hash__"><code>float.__hash__</code></h4>
+<pre><code> |  
+ |  __hash__(self, /)
+ |      Return hash(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__int__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__int__"><code>float.__int__</code></h4>
+<pre><code> |  
+ |  __int__(self, /)
+ |      int(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__le__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__le__"><code>float.__le__</code></h4>
+<pre><code> |  
+ |  __le__(self, value, /)
+ |      Return self&lt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__lt__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__lt__"><code>float.__lt__</code></h4>
+<pre><code> |  
+ |  __lt__(self, value, /)
+ |      Return self&lt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__mod__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__mod__"><code>float.__mod__</code></h4>
+<pre><code> |  
+ |  __mod__(self, value, /)
+ |      Return self%value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__mul__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__mul__"><code>float.__mul__</code></h4>
+<pre><code> |  
+ |  __mul__(self, value, /)
+ |      Return self*value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__ne__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__ne__"><code>float.__ne__</code></h4>
+<pre><code> |  
+ |  __ne__(self, value, /)
+ |      Return self!=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__neg__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__neg__"><code>float.__neg__</code></h4>
+<pre><code> |  
+ |  __neg__(self, /)
+ |      -self
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__pos__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__pos__"><code>float.__pos__</code></h4>
+<pre><code> |  
+ |  __pos__(self, /)
+ |      +self
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__pow__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__pow__"><code>float.__pow__</code></h4>
+<pre><code> |  
+ |  __pow__(self, value, mod=None, /)
+ |      Return pow(self, value, mod).
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__radd__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__radd__"><code>float.__radd__</code></h4>
+<pre><code> |  
+ |  __radd__(self, value, /)
+ |      Return value+self.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__rdivmod__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__rdivmod__"><code>float.__rdivmod__</code></h4>
+<pre><code> |  
+ |  __rdivmod__(self, value, /)
+ |      Return divmod(value, self).
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__repr__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__repr__"><code>float.__repr__</code></h4>
+<pre><code> |  
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__rfloordiv__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__rfloordiv__"><code>float.__rfloordiv__</code></h4>
+<pre><code> |  
+ |  __rfloordiv__(self, value, /)
+ |      Return value//self.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__rmod__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__rmod__"><code>float.__rmod__</code></h4>
+<pre><code> |  
+ |  __rmod__(self, value, /)
+ |      Return value%self.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__rmul__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__rmul__"><code>float.__rmul__</code></h4>
+<pre><code> |  
+ |  __rmul__(self, value, /)
+ |      Return value*self.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__round__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__round__"><code>float.__round__</code></h4>
+<pre><code> |  
+ |  __round__(self, ndigits=None, /)
+ |      Return the Integral closest to x, rounding half toward even.
+ |      
+ |      When an argument is passed, work like built-in round(x, ndigits).
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__rpow__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__rpow__"><code>float.__rpow__</code></h4>
+<pre><code> |  
+ |  __rpow__(self, value, mod=None, /)
+ |      Return pow(value, self, mod).
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__rsub__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__rsub__"><code>float.__rsub__</code></h4>
+<pre><code> |  
+ |  __rsub__(self, value, /)
+ |      Return value-self.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__rtruediv__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__rtruediv__"><code>float.__rtruediv__</code></h4>
+<pre><code> |  
+ |  __rtruediv__(self, value, /)
+ |      Return value/self.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__sub__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__sub__"><code>float.__sub__</code></h4>
+<pre><code> |  
+ |  __sub__(self, value, /)
+ |      Return self-value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__truediv__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__truediv__"><code>float.__truediv__</code></h4>
+<pre><code> |  
+ |  __truediv__(self, value, /)
+ |      Return self/value.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__trunc__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__trunc__"><code>float.__trunc__</code></h4>
+<pre><code> |  
+ |  __trunc__(self, /)
+ |      Return the Integral closest to x between 0 and x.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.as_integer_ratio" class="level4">
+<h4 class="anchored" data-anchor-id="float.as_integer_ratio"><code>float.as_integer_ratio</code></h4>
+<pre><code> |  
+ |  as_integer_ratio(self, /)
+ |      Return integer ratio.
+ |      
+ |      Return a pair of integers, whose ratio is exactly equal to the original float
+ |      and with a positive denominator.
+ |      
+ |      Raise OverflowError on infinities and a ValueError on NaNs.
+ |      
+ |      &gt;&gt;&gt; (10.0).as_integer_ratio()
+ |      (10, 1)
+ |      &gt;&gt;&gt; (0.0).as_integer_ratio()
+ |      (0, 1)
+ |      &gt;&gt;&gt; (-.25).as_integer_ratio()
+ |      (-1, 4)
+ |  
+ |  </code></pre>
+</section>
+<section id="float.conjugate" class="level4">
+<h4 class="anchored" data-anchor-id="float.conjugate"><code>float.conjugate</code></h4>
+<pre><code> |  
+ |  conjugate(self, /)
+ |      Return self, the complex conjugate of any float.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.hex" class="level4">
+<h4 class="anchored" data-anchor-id="float.hex"><code>float.hex</code></h4>
+<pre><code> |  
+ |  hex(self, /)
+ |      Return a hexadecimal representation of a floating-point number.
+ |      
+ |      &gt;&gt;&gt; (-0.1).hex()
+ |      '-0x1.999999999999ap-4'
+ |      &gt;&gt;&gt; 3.14159.hex()
+ |      '0x1.921f9f01b866ep+1'
+ |  
+ |  </code></pre>
+</section>
+<section id="float.is_integer" class="level4">
+<h4 class="anchored" data-anchor-id="float.is_integer"><code>float.is_integer</code></h4>
+<pre><code> |  
+ |  is_integer(self, /)
+ |      Return True if the float is an integer.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Class methods inherited from builtins.float:
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__getformat__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__getformat__"><code>Float.__getformat__</code></h4>
+<pre><code> |  
+ |  __getformat__(typestr, /) from builtins.type
+ |      You probably don't want to use this function.
+ |      
+ |        typestr
+ |          Must be 'double' or 'float'.
+ |      
+ |      It exists mainly to be used in Python's test suite.
+ |      
+ |      This function returns whichever of 'unknown', 'IEEE, big-endian' or 'IEEE,
+ |      little-endian' best describes the format of floating point numbers used by the
+ |      C type named by typestr.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__setformat__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__setformat__"><code>Float.__setformat__</code></h4>
+<pre><code> |  
+ |  __setformat__(typestr, fmt, /) from builtins.type
+ |      You probably don't want to use this function.
+ |      
+ |        typestr
+ |          Must be 'double' or 'float'.
+ |        fmt
+ |          Must be one of 'unknown', 'IEEE, big-endian' or 'IEEE, little-endian',
+ |          and in addition can only be one of the latter two if it appears to
+ |          match the underlying C reality.
+ |      
+ |      It exists mainly to be used in Python's test suite.
+ |      
+ |      Override the automatic determination of C-level floating point type.
+ |      This affects how floats are converted to and from binary strings.
+ |  
+ |  </code></pre>
+</section>
+<section id="float.fromhex" class="level4">
+<h4 class="anchored" data-anchor-id="float.fromhex"><code>Float.fromhex</code></h4>
+<pre><code> |  
+ |  fromhex(string, /) from builtins.type
+ |      Create a floating-point number from a hexadecimal string.
+ |      
+ |      &gt;&gt;&gt; float.fromhex('0x1.ffffp10')
+ |      2047.984375
+ |      &gt;&gt;&gt; float.fromhex('-0x1p-1074')
+ |      -5e-324
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods inherited from builtins.float:
+ |  
+ |  </code></pre>
+</section>
+<section id="float.__new__" class="level4">
+<h4 class="anchored" data-anchor-id="float.__new__"><code>float.__new__</code></h4>
+<pre><code> |  
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from builtins.float:
+ |  
+ |  imag
+ |      the imaginary part of a complex number
+ |  
+ |  real
+ |      the real part of a complex number
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from ShowPrint:
+ |  
+ |  </code></pre>
+</section>
+<section id="showprint.show" class="level4">
+<h4 class="anchored" data-anchor-id="showprint.show"><code>ShowPrint.show</code></h4>
+<pre><code> |  
+ |  show(self, *args, **kwargs)</code></pre>
+</section>
+</section>
+<section id="getattr" class="level3">
+<h3 class="anchored" data-anchor-id="getattr">GetAttr</h3>
+<blockquote class="blockquote"><strong><code>class GetAttr(builtins.object)</code></strong></blockquote>
+<pre><code> |  Inherit from this to have all attr accesses in `self._xtra` passed down to `self.default`
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="getattr.__dir__" class="level4">
+<h4 class="anchored" data-anchor-id="getattr.__dir__"><code>GetAttr.__dir__</code></h4>
+<pre><code> |  
+ |  __dir__(self)
+ |      Default dir() implementation.
+ |  
+ |  </code></pre>
+</section>
+<section id="getattr.__getattr__" class="level4">
+<h4 class="anchored" data-anchor-id="getattr.__getattr__"><code>GetAttr.__getattr__</code></h4>
+<pre><code> |  
+ |  __getattr__(self, k)
+ |  
+ |  </code></pre>
+</section>
+<section id="getattr.__setstate__" class="level4">
+<h4 class="anchored" data-anchor-id="getattr.__setstate__"><code>GetAttr.__setstate__</code></h4>
+<pre><code> |  
+ |  __setstate__(self, data)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+</section>
+<section id="getattrbase" class="level3">
+<h3 class="anchored" data-anchor-id="getattrbase">GetAttrBase</h3>
+<blockquote class="blockquote"><strong><code>class GetAttrBase(builtins.object)</code></strong></blockquote>
+<pre><code> |  Basic delegation of `__getattr__` and `__dir__`
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="getattrbase.__dir__" class="level4">
+<h4 class="anchored" data-anchor-id="getattrbase.__dir__"><code>GetAttrBase.__dir__</code></h4>
+<pre><code> |  
+ |  __dir__(self)
+ |      Default dir() implementation.
+ |  
+ |  </code></pre>
+</section>
+<section id="getattrbase.__getattr__" class="level4">
+<h4 class="anchored" data-anchor-id="getattrbase.__getattr__"><code>GetAttrBase.__getattr__</code></h4>
+<pre><code> |  
+ |  __getattr__(self, k)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+</section>
+<section id="importenum" class="level3">
+<h3 class="anchored" data-anchor-id="importenum">ImportEnum</h3>
+<blockquote class="blockquote"><strong><code>class ImportEnum(enum.Enum)</code></strong></blockquote>
+<pre><code> |  ImportEnum(value, names=None, *, module=None, qualname=None, type=None, start=1)
+ |  
+ |  An `Enum` that can have its values imported
+ |  
+ |  Method resolution order:
+ |      ImportEnum
+ |      enum.Enum
+ |      builtins.object
+ |  
+ |  Data descriptors inherited from enum.Enum:
+ |  
+ |  name
+ |      The name of the Enum member.
+ |  
+ |  value
+ |      The value of the Enum member.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Readonly properties inherited from enum.EnumMeta:
+ |  
+ |  __members__
+ |      Returns a mapping of member name-&gt;value.
+ |      
+ |      This mapping lists all enum members, including aliases. Note that this
+ |      is a read-only view of the internal mapping.</code></pre>
+</section>
+<section id="inf" class="level3">
+<h3 class="anchored" data-anchor-id="inf">Inf</h3>
+<blockquote class="blockquote"><strong><code>class Inf(builtins.object)</code></strong></blockquote>
+<pre><code> |  Infinite lists
+ |  
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+<section id="int" class="level3">
+<h3 class="anchored" data-anchor-id="int">Int</h3>
+<blockquote class="blockquote"><strong><code>class Int(builtins.int, ShowPrint)</code></strong></blockquote>
+<pre><code> |  An extensible `int`
+ |  
+ |  Method resolution order:
+ |      Int
+ |      builtins.int
+ |      ShowPrint
+ |      builtins.object
+ |  
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from builtins.int:
+ |  
+ |  </code></pre>
+<section id="int.__abs__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__abs__"><code>int.__abs__</code></h4>
+<pre><code> |  
+ |  __abs__(self, /)
+ |      abs(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__add__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__add__"><code>int.__add__</code></h4>
+<pre><code> |  
+ |  __add__(self, value, /)
+ |      Return self+value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__and__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__and__"><code>int.__and__</code></h4>
+<pre><code> |  
+ |  __and__(self, value, /)
+ |      Return self&amp;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__bool__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__bool__"><code>int.__bool__</code></h4>
+<pre><code> |  
+ |  __bool__(self, /)
+ |      True if self else False
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__ceil__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__ceil__"><code>int.__ceil__</code></h4>
+<pre><code> |  
+ |  __ceil__(...)
+ |      Ceiling of an Integral returns itself.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__divmod__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__divmod__"><code>int.__divmod__</code></h4>
+<pre><code> |  
+ |  __divmod__(self, value, /)
+ |      Return divmod(self, value).
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__eq__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__eq__"><code>int.__eq__</code></h4>
+<pre><code> |  
+ |  __eq__(self, value, /)
+ |      Return self==value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__float__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__float__"><code>int.__float__</code></h4>
+<pre><code> |  
+ |  __float__(self, /)
+ |      float(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__floor__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__floor__"><code>int.__floor__</code></h4>
+<pre><code> |  
+ |  __floor__(...)
+ |      Flooring an Integral returns itself.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__floordiv__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__floordiv__"><code>int.__floordiv__</code></h4>
+<pre><code> |  
+ |  __floordiv__(self, value, /)
+ |      Return self//value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__format__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__format__"><code>int.__format__</code></h4>
+<pre><code> |  
+ |  __format__(self, format_spec, /)
+ |      Default object formatter.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__ge__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__ge__"><code>int.__ge__</code></h4>
+<pre><code> |  
+ |  __ge__(self, value, /)
+ |      Return self&gt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__getattribute__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__getattribute__"><code>int.__getattribute__</code></h4>
+<pre><code> |  
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__getnewargs__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__getnewargs__"><code>int.__getnewargs__</code></h4>
+<pre><code> |  
+ |  __getnewargs__(self, /)
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__gt__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__gt__"><code>int.__gt__</code></h4>
+<pre><code> |  
+ |  __gt__(self, value, /)
+ |      Return self&gt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__hash__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__hash__"><code>int.__hash__</code></h4>
+<pre><code> |  
+ |  __hash__(self, /)
+ |      Return hash(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__index__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__index__"><code>int.__index__</code></h4>
+<pre><code> |  
+ |  __index__(self, /)
+ |      Return self converted to an integer, if self is suitable for use as an index into a list.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__int__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__int__"><code>int.__int__</code></h4>
+<pre><code> |  
+ |  __int__(self, /)
+ |      int(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__invert__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__invert__"><code>int.__invert__</code></h4>
+<pre><code> |  
+ |  __invert__(self, /)
+ |      ~self
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__le__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__le__"><code>int.__le__</code></h4>
+<pre><code> |  
+ |  __le__(self, value, /)
+ |      Return self&lt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__lshift__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__lshift__"><code>int.__lshift__</code></h4>
+<pre><code> |  
+ |  __lshift__(self, value, /)
+ |      Return self&lt;&lt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__lt__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__lt__"><code>int.__lt__</code></h4>
+<pre><code> |  
+ |  __lt__(self, value, /)
+ |      Return self&lt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__mod__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__mod__"><code>int.__mod__</code></h4>
+<pre><code> |  
+ |  __mod__(self, value, /)
+ |      Return self%value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__mul__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__mul__"><code>int.__mul__</code></h4>
+<pre><code> |  
+ |  __mul__(self, value, /)
+ |      Return self*value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__ne__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__ne__"><code>int.__ne__</code></h4>
+<pre><code> |  
+ |  __ne__(self, value, /)
+ |      Return self!=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__neg__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__neg__"><code>int.__neg__</code></h4>
+<pre><code> |  
+ |  __neg__(self, /)
+ |      -self
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__or__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__or__"><code>int.__or__</code></h4>
+<pre><code> |  
+ |  __or__(self, value, /)
+ |      Return self|value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__pos__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__pos__"><code>int.__pos__</code></h4>
+<pre><code> |  
+ |  __pos__(self, /)
+ |      +self
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__pow__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__pow__"><code>int.__pow__</code></h4>
+<pre><code> |  
+ |  __pow__(self, value, mod=None, /)
+ |      Return pow(self, value, mod).
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__radd__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__radd__"><code>int.__radd__</code></h4>
+<pre><code> |  
+ |  __radd__(self, value, /)
+ |      Return value+self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rand__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rand__"><code>int.__rand__</code></h4>
+<pre><code> |  
+ |  __rand__(self, value, /)
+ |      Return value&amp;self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rdivmod__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rdivmod__"><code>int.__rdivmod__</code></h4>
+<pre><code> |  
+ |  __rdivmod__(self, value, /)
+ |      Return divmod(value, self).
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__repr__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__repr__"><code>int.__repr__</code></h4>
+<pre><code> |  
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rfloordiv__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rfloordiv__"><code>int.__rfloordiv__</code></h4>
+<pre><code> |  
+ |  __rfloordiv__(self, value, /)
+ |      Return value//self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rlshift__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rlshift__"><code>int.__rlshift__</code></h4>
+<pre><code> |  
+ |  __rlshift__(self, value, /)
+ |      Return value&lt;&lt;self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rmod__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rmod__"><code>int.__rmod__</code></h4>
+<pre><code> |  
+ |  __rmod__(self, value, /)
+ |      Return value%self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rmul__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rmul__"><code>int.__rmul__</code></h4>
+<pre><code> |  
+ |  __rmul__(self, value, /)
+ |      Return value*self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__ror__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__ror__"><code>int.__ror__</code></h4>
+<pre><code> |  
+ |  __ror__(self, value, /)
+ |      Return value|self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__round__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__round__"><code>int.__round__</code></h4>
+<pre><code> |  
+ |  __round__(...)
+ |      Rounding an Integral returns itself.
+ |      Rounding with an ndigits argument also returns an integer.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rpow__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rpow__"><code>int.__rpow__</code></h4>
+<pre><code> |  
+ |  __rpow__(self, value, mod=None, /)
+ |      Return pow(value, self, mod).
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rrshift__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rrshift__"><code>int.__rrshift__</code></h4>
+<pre><code> |  
+ |  __rrshift__(self, value, /)
+ |      Return value&gt;&gt;self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rshift__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rshift__"><code>int.__rshift__</code></h4>
+<pre><code> |  
+ |  __rshift__(self, value, /)
+ |      Return self&gt;&gt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rsub__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rsub__"><code>int.__rsub__</code></h4>
+<pre><code> |  
+ |  __rsub__(self, value, /)
+ |      Return value-self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rtruediv__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rtruediv__"><code>int.__rtruediv__</code></h4>
+<pre><code> |  
+ |  __rtruediv__(self, value, /)
+ |      Return value/self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__rxor__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__rxor__"><code>int.__rxor__</code></h4>
+<pre><code> |  
+ |  __rxor__(self, value, /)
+ |      Return value^self.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__sizeof__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__sizeof__"><code>int.__sizeof__</code></h4>
+<pre><code> |  
+ |  __sizeof__(self, /)
+ |      Returns size in memory, in bytes.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__sub__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__sub__"><code>int.__sub__</code></h4>
+<pre><code> |  
+ |  __sub__(self, value, /)
+ |      Return self-value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__truediv__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__truediv__"><code>int.__truediv__</code></h4>
+<pre><code> |  
+ |  __truediv__(self, value, /)
+ |      Return self/value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__trunc__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__trunc__"><code>int.__trunc__</code></h4>
+<pre><code> |  
+ |  __trunc__(...)
+ |      Truncating an Integral returns itself.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__xor__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__xor__"><code>int.__xor__</code></h4>
+<pre><code> |  
+ |  __xor__(self, value, /)
+ |      Return self^value.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.as_integer_ratio" class="level4">
+<h4 class="anchored" data-anchor-id="int.as_integer_ratio"><code>int.as_integer_ratio</code></h4>
+<pre><code> |  
+ |  as_integer_ratio(self, /)
+ |      Return integer ratio.
+ |      
+ |      Return a pair of integers, whose ratio is exactly equal to the original int
+ |      and with a positive denominator.
+ |      
+ |      &gt;&gt;&gt; (10).as_integer_ratio()
+ |      (10, 1)
+ |      &gt;&gt;&gt; (-10).as_integer_ratio()
+ |      (-10, 1)
+ |      &gt;&gt;&gt; (0).as_integer_ratio()
+ |      (0, 1)
+ |  
+ |  </code></pre>
+</section>
+<section id="int.bit_length" class="level4">
+<h4 class="anchored" data-anchor-id="int.bit_length"><code>int.bit_length</code></h4>
+<pre><code> |  
+ |  bit_length(self, /)
+ |      Number of bits necessary to represent self in binary.
+ |      
+ |      &gt;&gt;&gt; bin(37)
+ |      '0b100101'
+ |      &gt;&gt;&gt; (37).bit_length()
+ |      6
+ |  
+ |  </code></pre>
+</section>
+<section id="int.conjugate" class="level4">
+<h4 class="anchored" data-anchor-id="int.conjugate"><code>int.conjugate</code></h4>
+<pre><code> |  
+ |  conjugate(...)
+ |      Returns self, the complex conjugate of any int.
+ |  
+ |  </code></pre>
+</section>
+<section id="int.to_bytes" class="level4">
+<h4 class="anchored" data-anchor-id="int.to_bytes"><code>int.to_bytes</code></h4>
+<pre><code> |  
+ |  to_bytes(self, /, length, byteorder, *, signed=False)
+ |      Return an array of bytes representing an integer.
+ |      
+ |      length
+ |        Length of bytes object to use.  An OverflowError is raised if the
+ |        integer is not representable with the given number of bytes.
+ |      byteorder
+ |        The byte order used to represent the integer.  If byteorder is 'big',
+ |        the most significant byte is at the beginning of the byte array.  If
+ |        byteorder is 'little', the most significant byte is at the end of the
+ |        byte array.  To request the native byte order of the host system, use
+ |        `sys.byteorder' as the byte order value.
+ |      signed
+ |        Determines whether two's complement is used to represent the integer.
+ |        If signed is False and a negative integer is given, an OverflowError
+ |        is raised.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Class methods inherited from builtins.int:
+ |  
+ |  </code></pre>
+</section>
+<section id="int.from_bytes" class="level4">
+<h4 class="anchored" data-anchor-id="int.from_bytes"><code>Int.from_bytes</code></h4>
+<pre><code> |  
+ |  from_bytes(bytes, byteorder, *, signed=False) from builtins.type
+ |      Return the integer represented by the given array of bytes.
+ |      
+ |      bytes
+ |        Holds the array of bytes to convert.  The argument must either
+ |        support the buffer protocol or be an iterable object producing bytes.
+ |        Bytes and bytearray are examples of built-in objects that support the
+ |        buffer protocol.
+ |      byteorder
+ |        The byte order used to represent the integer.  If byteorder is 'big',
+ |        the most significant byte is at the beginning of the byte array.  If
+ |        byteorder is 'little', the most significant byte is at the end of the
+ |        byte array.  To request the native byte order of the host system, use
+ |        `sys.byteorder' as the byte order value.
+ |      signed
+ |        Indicates whether two's complement is used to represent the integer.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods inherited from builtins.int:
+ |  
+ |  </code></pre>
+</section>
+<section id="int.__new__" class="level4">
+<h4 class="anchored" data-anchor-id="int.__new__"><code>int.__new__</code></h4>
+<pre><code> |  
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from builtins.int:
+ |  
+ |  denominator
+ |      the denominator of a rational number in lowest terms
+ |  
+ |  imag
+ |      the imaginary part of a complex number
+ |  
+ |  numerator
+ |      the numerator of a rational number in lowest terms
+ |  
+ |  real
+ |      the real part of a complex number
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from ShowPrint:
+ |  
+ |  </code></pre>
+</section>
+<section id="showprint.show-1" class="level4">
+<h4 class="anchored" data-anchor-id="showprint.show-1"><code>ShowPrint.show</code></h4>
+<pre><code> |  
+ |  show(self, *args, **kwargs)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from ShowPrint:
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+</section>
+<section id="prettystring" class="level3">
+<h3 class="anchored" data-anchor-id="prettystring">PrettyString</h3>
+<blockquote class="blockquote"><strong><code>class PrettyString(builtins.str)</code></strong></blockquote>
+<pre><code> |  Little hack to get strings to show properly in Jupyter.
+ |  
+ |  Method resolution order:
+ |      PrettyString
+ |      builtins.str
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="prettystring.__repr__" class="level4">
+<h4 class="anchored" data-anchor-id="prettystring.__repr__"><code>PrettyString.__repr__</code></h4>
+<pre><code> |  
+ |  __repr__(self)
+ |      Return repr(self).
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from builtins.str:
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__add__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__add__"><code>str.__add__</code></h4>
+<pre><code> |  
+ |  __add__(self, value, /)
+ |      Return self+value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__contains__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__contains__"><code>str.__contains__</code></h4>
+<pre><code> |  
+ |  __contains__(self, key, /)
+ |      Return key in self.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__eq__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__eq__"><code>str.__eq__</code></h4>
+<pre><code> |  
+ |  __eq__(self, value, /)
+ |      Return self==value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__format__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__format__"><code>str.__format__</code></h4>
+<pre><code> |  
+ |  __format__(self, format_spec, /)
+ |      Return a formatted version of the string as described by format_spec.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__ge__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__ge__"><code>str.__ge__</code></h4>
+<pre><code> |  
+ |  __ge__(self, value, /)
+ |      Return self&gt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__getattribute__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__getattribute__"><code>str.__getattribute__</code></h4>
+<pre><code> |  
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__getitem__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__getitem__"><code>str.__getitem__</code></h4>
+<pre><code> |  
+ |  __getitem__(self, key, /)
+ |      Return self[key].
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__getnewargs__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__getnewargs__"><code>str.__getnewargs__</code></h4>
+<pre><code> |  
+ |  __getnewargs__(...)
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__gt__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__gt__"><code>str.__gt__</code></h4>
+<pre><code> |  
+ |  __gt__(self, value, /)
+ |      Return self&gt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__hash__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__hash__"><code>str.__hash__</code></h4>
+<pre><code> |  
+ |  __hash__(self, /)
+ |      Return hash(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__iter__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__iter__"><code>str.__iter__</code></h4>
+<pre><code> |  
+ |  __iter__(self, /)
+ |      Implement iter(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__le__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__le__"><code>str.__le__</code></h4>
+<pre><code> |  
+ |  __le__(self, value, /)
+ |      Return self&lt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__len__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__len__"><code>str.__len__</code></h4>
+<pre><code> |  
+ |  __len__(self, /)
+ |      Return len(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__lt__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__lt__"><code>str.__lt__</code></h4>
+<pre><code> |  
+ |  __lt__(self, value, /)
+ |      Return self&lt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__mod__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__mod__"><code>str.__mod__</code></h4>
+<pre><code> |  
+ |  __mod__(self, value, /)
+ |      Return self%value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__mul__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__mul__"><code>str.__mul__</code></h4>
+<pre><code> |  
+ |  __mul__(self, value, /)
+ |      Return self*value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__ne__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__ne__"><code>str.__ne__</code></h4>
+<pre><code> |  
+ |  __ne__(self, value, /)
+ |      Return self!=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__rmod__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__rmod__"><code>str.__rmod__</code></h4>
+<pre><code> |  
+ |  __rmod__(self, value, /)
+ |      Return value%self.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__rmul__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__rmul__"><code>str.__rmul__</code></h4>
+<pre><code> |  
+ |  __rmul__(self, value, /)
+ |      Return value*self.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__sizeof__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__sizeof__"><code>str.__sizeof__</code></h4>
+<pre><code> |  
+ |  __sizeof__(self, /)
+ |      Return the size of the string in memory, in bytes.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__str__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__str__"><code>str.__str__</code></h4>
+<pre><code> |  
+ |  __str__(self, /)
+ |      Return str(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.capitalize" class="level4">
+<h4 class="anchored" data-anchor-id="str.capitalize"><code>str.capitalize</code></h4>
+<pre><code> |  
+ |  capitalize(self, /)
+ |      Return a capitalized version of the string.
+ |      
+ |      More specifically, make the first character have upper case and the rest lower
+ |      case.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.casefold" class="level4">
+<h4 class="anchored" data-anchor-id="str.casefold"><code>str.casefold</code></h4>
+<pre><code> |  
+ |  casefold(self, /)
+ |      Return a version of the string suitable for caseless comparisons.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.center" class="level4">
+<h4 class="anchored" data-anchor-id="str.center"><code>str.center</code></h4>
+<pre><code> |  
+ |  center(self, width, fillchar=' ', /)
+ |      Return a centered string of length width.
+ |      
+ |      Padding is done using the specified fill character (default is a space).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.count" class="level4">
+<h4 class="anchored" data-anchor-id="str.count"><code>str.count</code></h4>
+<pre><code> |  
+ |  count(...)
+ |      S.count(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the number of non-overlapping occurrences of substring sub in
+ |      string S[start:end].  Optional arguments start and end are
+ |      interpreted as in slice notation.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.encode" class="level4">
+<h4 class="anchored" data-anchor-id="str.encode"><code>str.encode</code></h4>
+<pre><code> |  
+ |  encode(self, /, encoding='utf-8', errors='strict')
+ |      Encode the string using the codec registered for encoding.
+ |      
+ |      encoding
+ |        The encoding in which to encode the string.
+ |      errors
+ |        The error handling scheme to use for encoding errors.
+ |        The default is 'strict' meaning that encoding errors raise a
+ |        UnicodeEncodeError.  Other possible values are 'ignore', 'replace' and
+ |        'xmlcharrefreplace' as well as any other name registered with
+ |        codecs.register_error that can handle UnicodeEncodeErrors.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.endswith" class="level4">
+<h4 class="anchored" data-anchor-id="str.endswith"><code>str.endswith</code></h4>
+<pre><code> |  
+ |  endswith(...)
+ |      S.endswith(suffix[, start[, end]]) -&gt; bool
+ |      
+ |      Return True if S ends with the specified suffix, False otherwise.
+ |      With optional start, test S beginning at that position.
+ |      With optional end, stop comparing S at that position.
+ |      suffix can also be a tuple of strings to try.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.expandtabs" class="level4">
+<h4 class="anchored" data-anchor-id="str.expandtabs"><code>str.expandtabs</code></h4>
+<pre><code> |  
+ |  expandtabs(self, /, tabsize=8)
+ |      Return a copy where all tab characters are expanded using spaces.
+ |      
+ |      If tabsize is not given, a tab size of 8 characters is assumed.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.find" class="level4">
+<h4 class="anchored" data-anchor-id="str.find"><code>str.find</code></h4>
+<pre><code> |  
+ |  find(...)
+ |      S.find(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the lowest index in S where substring sub is found,
+ |      such that sub is contained within S[start:end].  Optional
+ |      arguments start and end are interpreted as in slice notation.
+ |      
+ |      Return -1 on failure.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.format" class="level4">
+<h4 class="anchored" data-anchor-id="str.format"><code>str.format</code></h4>
+<pre><code> |  
+ |  format(...)
+ |      S.format(*args, **kwargs) -&gt; str
+ |      
+ |      Return a formatted version of S, using substitutions from args and kwargs.
+ |      The substitutions are identified by braces ('{' and '}').
+ |  
+ |  </code></pre>
+</section>
+<section id="str.format_map" class="level4">
+<h4 class="anchored" data-anchor-id="str.format_map"><code>str.format_map</code></h4>
+<pre><code> |  
+ |  format_map(...)
+ |      S.format_map(mapping) -&gt; str
+ |      
+ |      Return a formatted version of S, using substitutions from mapping.
+ |      The substitutions are identified by braces ('{' and '}').
+ |  
+ |  </code></pre>
+</section>
+<section id="str.index" class="level4">
+<h4 class="anchored" data-anchor-id="str.index"><code>str.index</code></h4>
+<pre><code> |  
+ |  index(...)
+ |      S.index(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the lowest index in S where substring sub is found,
+ |      such that sub is contained within S[start:end].  Optional
+ |      arguments start and end are interpreted as in slice notation.
+ |      
+ |      Raises ValueError when the substring is not found.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isalnum" class="level4">
+<h4 class="anchored" data-anchor-id="str.isalnum"><code>str.isalnum</code></h4>
+<pre><code> |  
+ |  isalnum(self, /)
+ |      Return True if the string is an alpha-numeric string, False otherwise.
+ |      
+ |      A string is alpha-numeric if all characters in the string are alpha-numeric and
+ |      there is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isalpha" class="level4">
+<h4 class="anchored" data-anchor-id="str.isalpha"><code>str.isalpha</code></h4>
+<pre><code> |  
+ |  isalpha(self, /)
+ |      Return True if the string is an alphabetic string, False otherwise.
+ |      
+ |      A string is alphabetic if all characters in the string are alphabetic and there
+ |      is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isascii" class="level4">
+<h4 class="anchored" data-anchor-id="str.isascii"><code>str.isascii</code></h4>
+<pre><code> |  
+ |  isascii(self, /)
+ |      Return True if all characters in the string are ASCII, False otherwise.
+ |      
+ |      ASCII characters have code points in the range U+0000-U+007F.
+ |      Empty string is ASCII too.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isdecimal" class="level4">
+<h4 class="anchored" data-anchor-id="str.isdecimal"><code>str.isdecimal</code></h4>
+<pre><code> |  
+ |  isdecimal(self, /)
+ |      Return True if the string is a decimal string, False otherwise.
+ |      
+ |      A string is a decimal string if all characters in the string are decimal and
+ |      there is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isdigit" class="level4">
+<h4 class="anchored" data-anchor-id="str.isdigit"><code>str.isdigit</code></h4>
+<pre><code> |  
+ |  isdigit(self, /)
+ |      Return True if the string is a digit string, False otherwise.
+ |      
+ |      A string is a digit string if all characters in the string are digits and there
+ |      is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isidentifier" class="level4">
+<h4 class="anchored" data-anchor-id="str.isidentifier"><code>str.isidentifier</code></h4>
+<pre><code> |  
+ |  isidentifier(self, /)
+ |      Return True if the string is a valid Python identifier, False otherwise.
+ |      
+ |      Call keyword.iskeyword(s) to test whether string s is a reserved identifier,
+ |      such as "def" or "class".
+ |  
+ |  </code></pre>
+</section>
+<section id="str.islower" class="level4">
+<h4 class="anchored" data-anchor-id="str.islower"><code>str.islower</code></h4>
+<pre><code> |  
+ |  islower(self, /)
+ |      Return True if the string is a lowercase string, False otherwise.
+ |      
+ |      A string is lowercase if all cased characters in the string are lowercase and
+ |      there is at least one cased character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isnumeric" class="level4">
+<h4 class="anchored" data-anchor-id="str.isnumeric"><code>str.isnumeric</code></h4>
+<pre><code> |  
+ |  isnumeric(self, /)
+ |      Return True if the string is a numeric string, False otherwise.
+ |      
+ |      A string is numeric if all characters in the string are numeric and there is at
+ |      least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isprintable" class="level4">
+<h4 class="anchored" data-anchor-id="str.isprintable"><code>str.isprintable</code></h4>
+<pre><code> |  
+ |  isprintable(self, /)
+ |      Return True if the string is printable, False otherwise.
+ |      
+ |      A string is printable if all of its characters are considered printable in
+ |      repr() or if it is empty.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isspace" class="level4">
+<h4 class="anchored" data-anchor-id="str.isspace"><code>str.isspace</code></h4>
+<pre><code> |  
+ |  isspace(self, /)
+ |      Return True if the string is a whitespace string, False otherwise.
+ |      
+ |      A string is whitespace if all characters in the string are whitespace and there
+ |      is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.istitle" class="level4">
+<h4 class="anchored" data-anchor-id="str.istitle"><code>str.istitle</code></h4>
+<pre><code> |  
+ |  istitle(self, /)
+ |      Return True if the string is a title-cased string, False otherwise.
+ |      
+ |      In a title-cased string, upper- and title-case characters may only
+ |      follow uncased characters and lowercase characters only cased ones.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isupper" class="level4">
+<h4 class="anchored" data-anchor-id="str.isupper"><code>str.isupper</code></h4>
+<pre><code> |  
+ |  isupper(self, /)
+ |      Return True if the string is an uppercase string, False otherwise.
+ |      
+ |      A string is uppercase if all cased characters in the string are uppercase and
+ |      there is at least one cased character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.join" class="level4">
+<h4 class="anchored" data-anchor-id="str.join"><code>str.join</code></h4>
+<pre><code> |  
+ |  join(self, iterable, /)
+ |      Concatenate any number of strings.
+ |      
+ |      The string whose method is called is inserted in between each given string.
+ |      The result is returned as a new string.
+ |      
+ |      Example: '.'.join(['ab', 'pq', 'rs']) -&gt; 'ab.pq.rs'
+ |  
+ |  </code></pre>
+</section>
+<section id="str.ljust" class="level4">
+<h4 class="anchored" data-anchor-id="str.ljust"><code>str.ljust</code></h4>
+<pre><code> |  
+ |  ljust(self, width, fillchar=' ', /)
+ |      Return a left-justified string of length width.
+ |      
+ |      Padding is done using the specified fill character (default is a space).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.lower" class="level4">
+<h4 class="anchored" data-anchor-id="str.lower"><code>str.lower</code></h4>
+<pre><code> |  
+ |  lower(self, /)
+ |      Return a copy of the string converted to lowercase.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.lstrip" class="level4">
+<h4 class="anchored" data-anchor-id="str.lstrip"><code>str.lstrip</code></h4>
+<pre><code> |  
+ |  lstrip(self, chars=None, /)
+ |      Return a copy of the string with leading whitespace removed.
+ |      
+ |      If chars is given and not None, remove characters in chars instead.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.partition" class="level4">
+<h4 class="anchored" data-anchor-id="str.partition"><code>str.partition</code></h4>
+<pre><code> |  
+ |  partition(self, sep, /)
+ |      Partition the string into three parts using the given separator.
+ |      
+ |      This will search for the separator in the string.  If the separator is found,
+ |      returns a 3-tuple containing the part before the separator, the separator
+ |      itself, and the part after it.
+ |      
+ |      If the separator is not found, returns a 3-tuple containing the original string
+ |      and two empty strings.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.removeprefix" class="level4">
+<h4 class="anchored" data-anchor-id="str.removeprefix"><code>str.removeprefix</code></h4>
+<pre><code> |  
+ |  removeprefix(self, prefix, /)
+ |      Return a str with the given prefix string removed if present.
+ |      
+ |      If the string starts with the prefix string, return string[len(prefix):].
+ |      Otherwise, return a copy of the original string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.removesuffix" class="level4">
+<h4 class="anchored" data-anchor-id="str.removesuffix"><code>str.removesuffix</code></h4>
+<pre><code> |  
+ |  removesuffix(self, suffix, /)
+ |      Return a str with the given suffix string removed if present.
+ |      
+ |      If the string ends with the suffix string and that suffix is not empty,
+ |      return string[:-len(suffix)]. Otherwise, return a copy of the original
+ |      string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.replace" class="level4">
+<h4 class="anchored" data-anchor-id="str.replace"><code>str.replace</code></h4>
+<pre><code> |  
+ |  replace(self, old, new, count=-1, /)
+ |      Return a copy with all occurrences of substring old replaced by new.
+ |      
+ |        count
+ |          Maximum number of occurrences to replace.
+ |          -1 (the default value) means replace all occurrences.
+ |      
+ |      If the optional argument count is given, only the first count occurrences are
+ |      replaced.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rfind" class="level4">
+<h4 class="anchored" data-anchor-id="str.rfind"><code>str.rfind</code></h4>
+<pre><code> |  
+ |  rfind(...)
+ |      S.rfind(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the highest index in S where substring sub is found,
+ |      such that sub is contained within S[start:end].  Optional
+ |      arguments start and end are interpreted as in slice notation.
+ |      
+ |      Return -1 on failure.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rindex" class="level4">
+<h4 class="anchored" data-anchor-id="str.rindex"><code>str.rindex</code></h4>
+<pre><code> |  
+ |  rindex(...)
+ |      S.rindex(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the highest index in S where substring sub is found,
+ |      such that sub is contained within S[start:end].  Optional
+ |      arguments start and end are interpreted as in slice notation.
+ |      
+ |      Raises ValueError when the substring is not found.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rjust" class="level4">
+<h4 class="anchored" data-anchor-id="str.rjust"><code>str.rjust</code></h4>
+<pre><code> |  
+ |  rjust(self, width, fillchar=' ', /)
+ |      Return a right-justified string of length width.
+ |      
+ |      Padding is done using the specified fill character (default is a space).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rpartition" class="level4">
+<h4 class="anchored" data-anchor-id="str.rpartition"><code>str.rpartition</code></h4>
+<pre><code> |  
+ |  rpartition(self, sep, /)
+ |      Partition the string into three parts using the given separator.
+ |      
+ |      This will search for the separator in the string, starting at the end. If
+ |      the separator is found, returns a 3-tuple containing the part before the
+ |      separator, the separator itself, and the part after it.
+ |      
+ |      If the separator is not found, returns a 3-tuple containing two empty strings
+ |      and the original string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rsplit" class="level4">
+<h4 class="anchored" data-anchor-id="str.rsplit"><code>str.rsplit</code></h4>
+<pre><code> |  
+ |  rsplit(self, /, sep=None, maxsplit=-1)
+ |      Return a list of the words in the string, using sep as the delimiter string.
+ |      
+ |        sep
+ |          The delimiter according which to split the string.
+ |          None (the default value) means split according to any whitespace,
+ |          and discard empty strings from the result.
+ |        maxsplit
+ |          Maximum number of splits to do.
+ |          -1 (the default value) means no limit.
+ |      
+ |      Splits are done starting at the end of the string and working to the front.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rstrip" class="level4">
+<h4 class="anchored" data-anchor-id="str.rstrip"><code>str.rstrip</code></h4>
+<pre><code> |  
+ |  rstrip(self, chars=None, /)
+ |      Return a copy of the string with trailing whitespace removed.
+ |      
+ |      If chars is given and not None, remove characters in chars instead.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.split" class="level4">
+<h4 class="anchored" data-anchor-id="str.split"><code>str.split</code></h4>
+<pre><code> |  
+ |  split(self, /, sep=None, maxsplit=-1)
+ |      Return a list of the words in the string, using sep as the delimiter string.
+ |      
+ |      sep
+ |        The delimiter according which to split the string.
+ |        None (the default value) means split according to any whitespace,
+ |        and discard empty strings from the result.
+ |      maxsplit
+ |        Maximum number of splits to do.
+ |        -1 (the default value) means no limit.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.splitlines" class="level4">
+<h4 class="anchored" data-anchor-id="str.splitlines"><code>str.splitlines</code></h4>
+<pre><code> |  
+ |  splitlines(self, /, keepends=False)
+ |      Return a list of the lines in the string, breaking at line boundaries.
+ |      
+ |      Line breaks are not included in the resulting list unless keepends is given and
+ |      true.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.startswith" class="level4">
+<h4 class="anchored" data-anchor-id="str.startswith"><code>str.startswith</code></h4>
+<pre><code> |  
+ |  startswith(...)
+ |      S.startswith(prefix[, start[, end]]) -&gt; bool
+ |      
+ |      Return True if S starts with the specified prefix, False otherwise.
+ |      With optional start, test S beginning at that position.
+ |      With optional end, stop comparing S at that position.
+ |      prefix can also be a tuple of strings to try.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.strip" class="level4">
+<h4 class="anchored" data-anchor-id="str.strip"><code>str.strip</code></h4>
+<pre><code> |  
+ |  strip(self, chars=None, /)
+ |      Return a copy of the string with leading and trailing whitespace removed.
+ |      
+ |      If chars is given and not None, remove characters in chars instead.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.swapcase" class="level4">
+<h4 class="anchored" data-anchor-id="str.swapcase"><code>str.swapcase</code></h4>
+<pre><code> |  
+ |  swapcase(self, /)
+ |      Convert uppercase characters to lowercase and lowercase characters to uppercase.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.title" class="level4">
+<h4 class="anchored" data-anchor-id="str.title"><code>str.title</code></h4>
+<pre><code> |  
+ |  title(self, /)
+ |      Return a version of the string where each word is titlecased.
+ |      
+ |      More specifically, words start with uppercased characters and all remaining
+ |      cased characters have lower case.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.translate" class="level4">
+<h4 class="anchored" data-anchor-id="str.translate"><code>str.translate</code></h4>
+<pre><code> |  
+ |  translate(self, table, /)
+ |      Replace each character in the string using the given translation table.
+ |      
+ |        table
+ |          Translation table, which must be a mapping of Unicode ordinals to
+ |          Unicode ordinals, strings, or None.
+ |      
+ |      The table must implement lookup/indexing via __getitem__, for instance a
+ |      dictionary or list.  If this operation raises LookupError, the character is
+ |      left untouched.  Characters mapped to None are deleted.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.upper" class="level4">
+<h4 class="anchored" data-anchor-id="str.upper"><code>str.upper</code></h4>
+<pre><code> |  
+ |  upper(self, /)
+ |      Return a copy of the string converted to uppercase.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.zfill" class="level4">
+<h4 class="anchored" data-anchor-id="str.zfill"><code>str.zfill</code></h4>
+<pre><code> |  
+ |  zfill(self, width, /)
+ |      Pad a numeric string with zeros on the left, to fill a field of the given width.
+ |      
+ |      The string is never truncated.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods inherited from builtins.str:
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__new__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__new__"><code>str.__new__</code></h4>
+<pre><code> |  
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.maketrans" class="level4">
+<h4 class="anchored" data-anchor-id="str.maketrans"><code>str.maketrans</code></h4>
+<pre><code> |  
+ |  maketrans(...)
+ |      Return a translation table usable for str.translate().
+ |      
+ |      If there is only one argument, it must be a dictionary mapping Unicode
+ |      ordinals (integers) or characters to Unicode ordinals, strings or None.
+ |      Character keys will be then converted to ordinals.
+ |      If there are two arguments, they must be strings of equal length, and
+ |      in the resulting dictionary, each character in x will be mapped to the
+ |      character at the same position in y. If there is a third argument, it
+ |      must be a string, whose characters will be mapped to None in the result.</code></pre>
+</section>
+</section>
+<section id="showprint" class="level3">
+<h3 class="anchored" data-anchor-id="showprint">ShowPrint</h3>
+<blockquote class="blockquote"><strong><code>class ShowPrint(builtins.object)</code></strong></blockquote>
+<pre><code> |  Base class that prints for `show`
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="showprint.show-2" class="level4">
+<h4 class="anchored" data-anchor-id="showprint.show-2"><code>ShowPrint.show</code></h4>
+<pre><code> |  
+ |  show(self, *args, **kwargs)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+</section>
+<section id="stateful" class="level3">
+<h3 class="anchored" data-anchor-id="stateful">Stateful</h3>
+<blockquote class="blockquote"><strong><code>class Stateful(builtins.object)</code></strong></blockquote>
+<pre><code> |  Stateful(*args, **kwargs)
+ |  
+ |  A base class/mixin for objects that should not serialize all their state
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="stateful.__getstate__" class="level4">
+<h4 class="anchored" data-anchor-id="stateful.__getstate__"><code>Stateful.__getstate__</code></h4>
+<pre><code> |  
+ |  __getstate__(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="stateful.__init__" class="level4">
+<h4 class="anchored" data-anchor-id="stateful.__init__"><code>Stateful.__init__</code></h4>
+<pre><code> |  
+ |  __init__(self, *args, **kwargs)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  </code></pre>
+</section>
+<section id="stateful.__setstate__" class="level4">
+<h4 class="anchored" data-anchor-id="stateful.__setstate__"><code>Stateful.__setstate__</code></h4>
+<pre><code> |  
+ |  __setstate__(self, state)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+</section>
+<section id="str" class="level3">
+<h3 class="anchored" data-anchor-id="str">Str</h3>
+<blockquote class="blockquote"><strong><code>class Str(builtins.str, ShowPrint)</code></strong></blockquote>
+<pre><code> |  An extensible `str`
+ |  
+ |  Method resolution order:
+ |      Str
+ |      builtins.str
+ |      ShowPrint
+ |      builtins.object
+ |  
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from builtins.str:
+ |  
+ |  </code></pre>
+<section id="str.__add__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__add__-1"><code>str.__add__</code></h4>
+<pre><code> |  
+ |  __add__(self, value, /)
+ |      Return self+value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__contains__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__contains__-1"><code>str.__contains__</code></h4>
+<pre><code> |  
+ |  __contains__(self, key, /)
+ |      Return key in self.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__eq__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__eq__-1"><code>str.__eq__</code></h4>
+<pre><code> |  
+ |  __eq__(self, value, /)
+ |      Return self==value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__format__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__format__-1"><code>str.__format__</code></h4>
+<pre><code> |  
+ |  __format__(self, format_spec, /)
+ |      Return a formatted version of the string as described by format_spec.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__ge__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__ge__-1"><code>str.__ge__</code></h4>
+<pre><code> |  
+ |  __ge__(self, value, /)
+ |      Return self&gt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__getattribute__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__getattribute__-1"><code>str.__getattribute__</code></h4>
+<pre><code> |  
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__getitem__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__getitem__-1"><code>str.__getitem__</code></h4>
+<pre><code> |  
+ |  __getitem__(self, key, /)
+ |      Return self[key].
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__getnewargs__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__getnewargs__-1"><code>str.__getnewargs__</code></h4>
+<pre><code> |  
+ |  __getnewargs__(...)
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__gt__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__gt__-1"><code>str.__gt__</code></h4>
+<pre><code> |  
+ |  __gt__(self, value, /)
+ |      Return self&gt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__hash__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__hash__-1"><code>str.__hash__</code></h4>
+<pre><code> |  
+ |  __hash__(self, /)
+ |      Return hash(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__iter__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__iter__-1"><code>str.__iter__</code></h4>
+<pre><code> |  
+ |  __iter__(self, /)
+ |      Implement iter(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__le__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__le__-1"><code>str.__le__</code></h4>
+<pre><code> |  
+ |  __le__(self, value, /)
+ |      Return self&lt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__len__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__len__-1"><code>str.__len__</code></h4>
+<pre><code> |  
+ |  __len__(self, /)
+ |      Return len(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__lt__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__lt__-1"><code>str.__lt__</code></h4>
+<pre><code> |  
+ |  __lt__(self, value, /)
+ |      Return self&lt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__mod__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__mod__-1"><code>str.__mod__</code></h4>
+<pre><code> |  
+ |  __mod__(self, value, /)
+ |      Return self%value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__mul__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__mul__-1"><code>str.__mul__</code></h4>
+<pre><code> |  
+ |  __mul__(self, value, /)
+ |      Return self*value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__ne__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__ne__-1"><code>str.__ne__</code></h4>
+<pre><code> |  
+ |  __ne__(self, value, /)
+ |      Return self!=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__repr__" class="level4">
+<h4 class="anchored" data-anchor-id="str.__repr__"><code>str.__repr__</code></h4>
+<pre><code> |  
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__rmod__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__rmod__-1"><code>str.__rmod__</code></h4>
+<pre><code> |  
+ |  __rmod__(self, value, /)
+ |      Return value%self.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__rmul__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__rmul__-1"><code>str.__rmul__</code></h4>
+<pre><code> |  
+ |  __rmul__(self, value, /)
+ |      Return value*self.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__sizeof__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__sizeof__-1"><code>str.__sizeof__</code></h4>
+<pre><code> |  
+ |  __sizeof__(self, /)
+ |      Return the size of the string in memory, in bytes.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__str__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__str__-1"><code>str.__str__</code></h4>
+<pre><code> |  
+ |  __str__(self, /)
+ |      Return str(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.capitalize-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.capitalize-1"><code>str.capitalize</code></h4>
+<pre><code> |  
+ |  capitalize(self, /)
+ |      Return a capitalized version of the string.
+ |      
+ |      More specifically, make the first character have upper case and the rest lower
+ |      case.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.casefold-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.casefold-1"><code>str.casefold</code></h4>
+<pre><code> |  
+ |  casefold(self, /)
+ |      Return a version of the string suitable for caseless comparisons.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.center-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.center-1"><code>str.center</code></h4>
+<pre><code> |  
+ |  center(self, width, fillchar=' ', /)
+ |      Return a centered string of length width.
+ |      
+ |      Padding is done using the specified fill character (default is a space).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.count-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.count-1"><code>str.count</code></h4>
+<pre><code> |  
+ |  count(...)
+ |      S.count(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the number of non-overlapping occurrences of substring sub in
+ |      string S[start:end].  Optional arguments start and end are
+ |      interpreted as in slice notation.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.encode-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.encode-1"><code>str.encode</code></h4>
+<pre><code> |  
+ |  encode(self, /, encoding='utf-8', errors='strict')
+ |      Encode the string using the codec registered for encoding.
+ |      
+ |      encoding
+ |        The encoding in which to encode the string.
+ |      errors
+ |        The error handling scheme to use for encoding errors.
+ |        The default is 'strict' meaning that encoding errors raise a
+ |        UnicodeEncodeError.  Other possible values are 'ignore', 'replace' and
+ |        'xmlcharrefreplace' as well as any other name registered with
+ |        codecs.register_error that can handle UnicodeEncodeErrors.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.endswith-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.endswith-1"><code>str.endswith</code></h4>
+<pre><code> |  
+ |  endswith(...)
+ |      S.endswith(suffix[, start[, end]]) -&gt; bool
+ |      
+ |      Return True if S ends with the specified suffix, False otherwise.
+ |      With optional start, test S beginning at that position.
+ |      With optional end, stop comparing S at that position.
+ |      suffix can also be a tuple of strings to try.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.expandtabs-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.expandtabs-1"><code>str.expandtabs</code></h4>
+<pre><code> |  
+ |  expandtabs(self, /, tabsize=8)
+ |      Return a copy where all tab characters are expanded using spaces.
+ |      
+ |      If tabsize is not given, a tab size of 8 characters is assumed.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.find-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.find-1"><code>str.find</code></h4>
+<pre><code> |  
+ |  find(...)
+ |      S.find(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the lowest index in S where substring sub is found,
+ |      such that sub is contained within S[start:end].  Optional
+ |      arguments start and end are interpreted as in slice notation.
+ |      
+ |      Return -1 on failure.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.format-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.format-1"><code>str.format</code></h4>
+<pre><code> |  
+ |  format(...)
+ |      S.format(*args, **kwargs) -&gt; str
+ |      
+ |      Return a formatted version of S, using substitutions from args and kwargs.
+ |      The substitutions are identified by braces ('{' and '}').
+ |  
+ |  </code></pre>
+</section>
+<section id="str.format_map-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.format_map-1"><code>str.format_map</code></h4>
+<pre><code> |  
+ |  format_map(...)
+ |      S.format_map(mapping) -&gt; str
+ |      
+ |      Return a formatted version of S, using substitutions from mapping.
+ |      The substitutions are identified by braces ('{' and '}').
+ |  
+ |  </code></pre>
+</section>
+<section id="str.index-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.index-1"><code>str.index</code></h4>
+<pre><code> |  
+ |  index(...)
+ |      S.index(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the lowest index in S where substring sub is found,
+ |      such that sub is contained within S[start:end].  Optional
+ |      arguments start and end are interpreted as in slice notation.
+ |      
+ |      Raises ValueError when the substring is not found.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isalnum-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isalnum-1"><code>str.isalnum</code></h4>
+<pre><code> |  
+ |  isalnum(self, /)
+ |      Return True if the string is an alpha-numeric string, False otherwise.
+ |      
+ |      A string is alpha-numeric if all characters in the string are alpha-numeric and
+ |      there is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isalpha-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isalpha-1"><code>str.isalpha</code></h4>
+<pre><code> |  
+ |  isalpha(self, /)
+ |      Return True if the string is an alphabetic string, False otherwise.
+ |      
+ |      A string is alphabetic if all characters in the string are alphabetic and there
+ |      is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isascii-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isascii-1"><code>str.isascii</code></h4>
+<pre><code> |  
+ |  isascii(self, /)
+ |      Return True if all characters in the string are ASCII, False otherwise.
+ |      
+ |      ASCII characters have code points in the range U+0000-U+007F.
+ |      Empty string is ASCII too.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isdecimal-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isdecimal-1"><code>str.isdecimal</code></h4>
+<pre><code> |  
+ |  isdecimal(self, /)
+ |      Return True if the string is a decimal string, False otherwise.
+ |      
+ |      A string is a decimal string if all characters in the string are decimal and
+ |      there is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isdigit-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isdigit-1"><code>str.isdigit</code></h4>
+<pre><code> |  
+ |  isdigit(self, /)
+ |      Return True if the string is a digit string, False otherwise.
+ |      
+ |      A string is a digit string if all characters in the string are digits and there
+ |      is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isidentifier-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isidentifier-1"><code>str.isidentifier</code></h4>
+<pre><code> |  
+ |  isidentifier(self, /)
+ |      Return True if the string is a valid Python identifier, False otherwise.
+ |      
+ |      Call keyword.iskeyword(s) to test whether string s is a reserved identifier,
+ |      such as "def" or "class".
+ |  
+ |  </code></pre>
+</section>
+<section id="str.islower-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.islower-1"><code>str.islower</code></h4>
+<pre><code> |  
+ |  islower(self, /)
+ |      Return True if the string is a lowercase string, False otherwise.
+ |      
+ |      A string is lowercase if all cased characters in the string are lowercase and
+ |      there is at least one cased character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isnumeric-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isnumeric-1"><code>str.isnumeric</code></h4>
+<pre><code> |  
+ |  isnumeric(self, /)
+ |      Return True if the string is a numeric string, False otherwise.
+ |      
+ |      A string is numeric if all characters in the string are numeric and there is at
+ |      least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isprintable-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isprintable-1"><code>str.isprintable</code></h4>
+<pre><code> |  
+ |  isprintable(self, /)
+ |      Return True if the string is printable, False otherwise.
+ |      
+ |      A string is printable if all of its characters are considered printable in
+ |      repr() or if it is empty.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isspace-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isspace-1"><code>str.isspace</code></h4>
+<pre><code> |  
+ |  isspace(self, /)
+ |      Return True if the string is a whitespace string, False otherwise.
+ |      
+ |      A string is whitespace if all characters in the string are whitespace and there
+ |      is at least one character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.istitle-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.istitle-1"><code>str.istitle</code></h4>
+<pre><code> |  
+ |  istitle(self, /)
+ |      Return True if the string is a title-cased string, False otherwise.
+ |      
+ |      In a title-cased string, upper- and title-case characters may only
+ |      follow uncased characters and lowercase characters only cased ones.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.isupper-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.isupper-1"><code>str.isupper</code></h4>
+<pre><code> |  
+ |  isupper(self, /)
+ |      Return True if the string is an uppercase string, False otherwise.
+ |      
+ |      A string is uppercase if all cased characters in the string are uppercase and
+ |      there is at least one cased character in the string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.join-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.join-1"><code>str.join</code></h4>
+<pre><code> |  
+ |  join(self, iterable, /)
+ |      Concatenate any number of strings.
+ |      
+ |      The string whose method is called is inserted in between each given string.
+ |      The result is returned as a new string.
+ |      
+ |      Example: '.'.join(['ab', 'pq', 'rs']) -&gt; 'ab.pq.rs'
+ |  
+ |  </code></pre>
+</section>
+<section id="str.ljust-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.ljust-1"><code>str.ljust</code></h4>
+<pre><code> |  
+ |  ljust(self, width, fillchar=' ', /)
+ |      Return a left-justified string of length width.
+ |      
+ |      Padding is done using the specified fill character (default is a space).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.lower-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.lower-1"><code>str.lower</code></h4>
+<pre><code> |  
+ |  lower(self, /)
+ |      Return a copy of the string converted to lowercase.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.lstrip-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.lstrip-1"><code>str.lstrip</code></h4>
+<pre><code> |  
+ |  lstrip(self, chars=None, /)
+ |      Return a copy of the string with leading whitespace removed.
+ |      
+ |      If chars is given and not None, remove characters in chars instead.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.partition-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.partition-1"><code>str.partition</code></h4>
+<pre><code> |  
+ |  partition(self, sep, /)
+ |      Partition the string into three parts using the given separator.
+ |      
+ |      This will search for the separator in the string.  If the separator is found,
+ |      returns a 3-tuple containing the part before the separator, the separator
+ |      itself, and the part after it.
+ |      
+ |      If the separator is not found, returns a 3-tuple containing the original string
+ |      and two empty strings.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.removeprefix-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.removeprefix-1"><code>str.removeprefix</code></h4>
+<pre><code> |  
+ |  removeprefix(self, prefix, /)
+ |      Return a str with the given prefix string removed if present.
+ |      
+ |      If the string starts with the prefix string, return string[len(prefix):].
+ |      Otherwise, return a copy of the original string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.removesuffix-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.removesuffix-1"><code>str.removesuffix</code></h4>
+<pre><code> |  
+ |  removesuffix(self, suffix, /)
+ |      Return a str with the given suffix string removed if present.
+ |      
+ |      If the string ends with the suffix string and that suffix is not empty,
+ |      return string[:-len(suffix)]. Otherwise, return a copy of the original
+ |      string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.replace-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.replace-1"><code>str.replace</code></h4>
+<pre><code> |  
+ |  replace(self, old, new, count=-1, /)
+ |      Return a copy with all occurrences of substring old replaced by new.
+ |      
+ |        count
+ |          Maximum number of occurrences to replace.
+ |          -1 (the default value) means replace all occurrences.
+ |      
+ |      If the optional argument count is given, only the first count occurrences are
+ |      replaced.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rfind-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.rfind-1"><code>str.rfind</code></h4>
+<pre><code> |  
+ |  rfind(...)
+ |      S.rfind(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the highest index in S where substring sub is found,
+ |      such that sub is contained within S[start:end].  Optional
+ |      arguments start and end are interpreted as in slice notation.
+ |      
+ |      Return -1 on failure.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rindex-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.rindex-1"><code>str.rindex</code></h4>
+<pre><code> |  
+ |  rindex(...)
+ |      S.rindex(sub[, start[, end]]) -&gt; int
+ |      
+ |      Return the highest index in S where substring sub is found,
+ |      such that sub is contained within S[start:end].  Optional
+ |      arguments start and end are interpreted as in slice notation.
+ |      
+ |      Raises ValueError when the substring is not found.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rjust-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.rjust-1"><code>str.rjust</code></h4>
+<pre><code> |  
+ |  rjust(self, width, fillchar=' ', /)
+ |      Return a right-justified string of length width.
+ |      
+ |      Padding is done using the specified fill character (default is a space).
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rpartition-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.rpartition-1"><code>str.rpartition</code></h4>
+<pre><code> |  
+ |  rpartition(self, sep, /)
+ |      Partition the string into three parts using the given separator.
+ |      
+ |      This will search for the separator in the string, starting at the end. If
+ |      the separator is found, returns a 3-tuple containing the part before the
+ |      separator, the separator itself, and the part after it.
+ |      
+ |      If the separator is not found, returns a 3-tuple containing two empty strings
+ |      and the original string.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rsplit-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.rsplit-1"><code>str.rsplit</code></h4>
+<pre><code> |  
+ |  rsplit(self, /, sep=None, maxsplit=-1)
+ |      Return a list of the words in the string, using sep as the delimiter string.
+ |      
+ |        sep
+ |          The delimiter according which to split the string.
+ |          None (the default value) means split according to any whitespace,
+ |          and discard empty strings from the result.
+ |        maxsplit
+ |          Maximum number of splits to do.
+ |          -1 (the default value) means no limit.
+ |      
+ |      Splits are done starting at the end of the string and working to the front.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.rstrip-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.rstrip-1"><code>str.rstrip</code></h4>
+<pre><code> |  
+ |  rstrip(self, chars=None, /)
+ |      Return a copy of the string with trailing whitespace removed.
+ |      
+ |      If chars is given and not None, remove characters in chars instead.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.split-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.split-1"><code>str.split</code></h4>
+<pre><code> |  
+ |  split(self, /, sep=None, maxsplit=-1)
+ |      Return a list of the words in the string, using sep as the delimiter string.
+ |      
+ |      sep
+ |        The delimiter according which to split the string.
+ |        None (the default value) means split according to any whitespace,
+ |        and discard empty strings from the result.
+ |      maxsplit
+ |        Maximum number of splits to do.
+ |        -1 (the default value) means no limit.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.splitlines-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.splitlines-1"><code>str.splitlines</code></h4>
+<pre><code> |  
+ |  splitlines(self, /, keepends=False)
+ |      Return a list of the lines in the string, breaking at line boundaries.
+ |      
+ |      Line breaks are not included in the resulting list unless keepends is given and
+ |      true.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.startswith-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.startswith-1"><code>str.startswith</code></h4>
+<pre><code> |  
+ |  startswith(...)
+ |      S.startswith(prefix[, start[, end]]) -&gt; bool
+ |      
+ |      Return True if S starts with the specified prefix, False otherwise.
+ |      With optional start, test S beginning at that position.
+ |      With optional end, stop comparing S at that position.
+ |      prefix can also be a tuple of strings to try.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.strip-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.strip-1"><code>str.strip</code></h4>
+<pre><code> |  
+ |  strip(self, chars=None, /)
+ |      Return a copy of the string with leading and trailing whitespace removed.
+ |      
+ |      If chars is given and not None, remove characters in chars instead.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.swapcase-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.swapcase-1"><code>str.swapcase</code></h4>
+<pre><code> |  
+ |  swapcase(self, /)
+ |      Convert uppercase characters to lowercase and lowercase characters to uppercase.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.title-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.title-1"><code>str.title</code></h4>
+<pre><code> |  
+ |  title(self, /)
+ |      Return a version of the string where each word is titlecased.
+ |      
+ |      More specifically, words start with uppercased characters and all remaining
+ |      cased characters have lower case.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.translate-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.translate-1"><code>str.translate</code></h4>
+<pre><code> |  
+ |  translate(self, table, /)
+ |      Replace each character in the string using the given translation table.
+ |      
+ |        table
+ |          Translation table, which must be a mapping of Unicode ordinals to
+ |          Unicode ordinals, strings, or None.
+ |      
+ |      The table must implement lookup/indexing via __getitem__, for instance a
+ |      dictionary or list.  If this operation raises LookupError, the character is
+ |      left untouched.  Characters mapped to None are deleted.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.upper-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.upper-1"><code>str.upper</code></h4>
+<pre><code> |  
+ |  upper(self, /)
+ |      Return a copy of the string converted to uppercase.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.zfill-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.zfill-1"><code>str.zfill</code></h4>
+<pre><code> |  
+ |  zfill(self, width, /)
+ |      Pad a numeric string with zeros on the left, to fill a field of the given width.
+ |      
+ |      The string is never truncated.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods inherited from builtins.str:
+ |  
+ |  </code></pre>
+</section>
+<section id="str.__new__-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.__new__-1"><code>str.__new__</code></h4>
+<pre><code> |  
+ |  __new__(*args, **kwargs) from builtins.type
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |  
+ |  </code></pre>
+</section>
+<section id="str.maketrans-1" class="level4">
+<h4 class="anchored" data-anchor-id="str.maketrans-1"><code>str.maketrans</code></h4>
+<pre><code> |  
+ |  maketrans(...)
+ |      Return a translation table usable for str.translate().
+ |      
+ |      If there is only one argument, it must be a dictionary mapping Unicode
+ |      ordinals (integers) or characters to Unicode ordinals, strings or None.
+ |      Character keys will be then converted to ordinals.
+ |      If there are two arguments, they must be strings of equal length, and
+ |      in the resulting dictionary, each character in x will be mapped to the
+ |      character at the same position in y. If there is a third argument, it
+ |      must be a string, whose characters will be mapped to None in the result.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from ShowPrint:
+ |  
+ |  </code></pre>
+</section>
+<section id="showprint.show-3" class="level4">
+<h4 class="anchored" data-anchor-id="showprint.show-3"><code>ShowPrint.show</code></h4>
+<pre><code> |  
+ |  show(self, *args, **kwargs)</code></pre>
+</section>
+</section>
+<section id="strenum" class="level3">
+<h3 class="anchored" data-anchor-id="strenum">StrEnum</h3>
+<blockquote class="blockquote"><strong><code>class StrEnum(builtins.str, ImportEnum)</code></strong></blockquote>
+<pre><code> |  StrEnum(value, names=None, *, module=None, qualname=None, type=None, start=1)
+ |  
+ |  An `ImportEnum` that behaves like a `str`
+ |  
+ |  Method resolution order:
+ |      StrEnum
+ |      builtins.str
+ |      ImportEnum
+ |      enum.Enum
+ |      builtins.object
+ |  
+ |  Data descriptors inherited from enum.Enum:
+ |  
+ |  name
+ |      The name of the Enum member.
+ |  
+ |  value
+ |      The value of the Enum member.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Readonly properties inherited from enum.EnumMeta:
+ |  
+ |  __members__
+ |      Returns a mapping of member name-&gt;value.
+ |      
+ |      This mapping lists all enum members, including aliases. Note that this
+ |      is a read-only view of the internal mapping.</code></pre>
+</section>
+<section id="bind" class="level3">
+<h3 class="anchored" data-anchor-id="bind">bind</h3>
+<blockquote class="blockquote"><strong><code>class bind(builtins.object)</code></strong></blockquote>
+<pre><code> |  bind(func, *pargs, **pkwargs)
+ |  
+ |  Same as `partial`, except you can use `arg0` `arg1` etc param placeholders
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="bind.__call__" class="level4">
+<h4 class="anchored" data-anchor-id="bind.__call__"><code>bind.__call__</code></h4>
+<pre><code> |  
+ |  __call__(self, *args, **kwargs)
+ |      Call self as a function.
+ |  
+ |  </code></pre>
+</section>
+<section id="bind.__init__" class="level4">
+<h4 class="anchored" data-anchor-id="bind.__init__"><code>bind.__init__</code></h4>
+<pre><code> |  
+ |  __init__(self, func, *pargs, **pkwargs)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+</section>
+<section id="fastuple" class="level3">
+<h3 class="anchored" data-anchor-id="fastuple">fastuple</h3>
+<blockquote class="blockquote"><strong><code>class fastuple(builtins.tuple)</code></strong></blockquote>
+<pre><code> |  fastuple(x=None, *rest)
+ |  
+ |  A `tuple` with elementwise ops and more friendly __init__ behavior
+ |  
+ |  Method resolution order:
+ |      fastuple
+ |      builtins.tuple
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="get_op.locals._f" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __abs__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-1" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-1"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __and__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-2" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-2"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __floordiv__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-3" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-3"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __invert__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-4" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-4"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __lshift__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-5" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-5"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __matmul__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-6" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-6"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __mod__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-7" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-7"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __neg__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-8" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-8"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __or__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-9" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-9"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __pos__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-10" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-10"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __pow__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-11" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-11"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __rshift__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-12" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-12"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __sub__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-13" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-13"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __truediv__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-14" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-14"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  __xor__ = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="fastuple.add" class="level4">
+<h4 class="anchored" data-anchor-id="fastuple.add"><code>fastuple.add</code></h4>
+<pre><code> |  
+ |  add(self, *args)
+ |      `+` is already defined in `tuple` for concat, so use `add` instead
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-15" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-15"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  eq = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-16" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-16"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  ge = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-17" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-17"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  gt = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-18" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-18"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  le = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-19" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-19"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  lt = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-20" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-20"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  max = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-21" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-21"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  min = _f(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="fastuple.mul" class="level4">
+<h4 class="anchored" data-anchor-id="fastuple.mul"><code>fastuple.mul</code></h4>
+<pre><code> |  
+ |  mul(self, *args)
+ |      `*` is already defined in `tuple` for replicating, so use `mul` instead
+ |  
+ |  </code></pre>
+</section>
+<section id="get_op.locals._f-22" class="level4">
+<h4 class="anchored" data-anchor-id="get_op.locals._f-22"><code>_get_op.&lt;locals&gt;._f</code></h4>
+<pre><code> |  
+ |  ne = _f(self, *args)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods defined here:
+ |  
+ |  </code></pre>
+</section>
+<section id="fastuple.__new__" class="level4">
+<h4 class="anchored" data-anchor-id="fastuple.__new__"><code>fastuple.__new__</code></h4>
+<pre><code> |  
+ |  __new__(cls, x=None, *rest)
+ |      Create and return a new object.  See help(type) for accurate signature.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from builtins.tuple:
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__add__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__add__"><code>tuple.__add__</code></h4>
+<pre><code> |  
+ |  __add__(self, value, /)
+ |      Return self+value.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__contains__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__contains__"><code>tuple.__contains__</code></h4>
+<pre><code> |  
+ |  __contains__(self, key, /)
+ |      Return key in self.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__eq__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__eq__"><code>tuple.__eq__</code></h4>
+<pre><code> |  
+ |  __eq__(self, value, /)
+ |      Return self==value.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__ge__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__ge__"><code>tuple.__ge__</code></h4>
+<pre><code> |  
+ |  __ge__(self, value, /)
+ |      Return self&gt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__getattribute__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__getattribute__"><code>tuple.__getattribute__</code></h4>
+<pre><code> |  
+ |  __getattribute__(self, name, /)
+ |      Return getattr(self, name).
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__getitem__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__getitem__"><code>tuple.__getitem__</code></h4>
+<pre><code> |  
+ |  __getitem__(self, key, /)
+ |      Return self[key].
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__getnewargs__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__getnewargs__"><code>tuple.__getnewargs__</code></h4>
+<pre><code> |  
+ |  __getnewargs__(self, /)
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__gt__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__gt__"><code>tuple.__gt__</code></h4>
+<pre><code> |  
+ |  __gt__(self, value, /)
+ |      Return self&gt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__hash__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__hash__"><code>tuple.__hash__</code></h4>
+<pre><code> |  
+ |  __hash__(self, /)
+ |      Return hash(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__iter__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__iter__"><code>tuple.__iter__</code></h4>
+<pre><code> |  
+ |  __iter__(self, /)
+ |      Implement iter(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__le__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__le__"><code>tuple.__le__</code></h4>
+<pre><code> |  
+ |  __le__(self, value, /)
+ |      Return self&lt;=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__len__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__len__"><code>tuple.__len__</code></h4>
+<pre><code> |  
+ |  __len__(self, /)
+ |      Return len(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__lt__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__lt__"><code>tuple.__lt__</code></h4>
+<pre><code> |  
+ |  __lt__(self, value, /)
+ |      Return self&lt;value.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__mul__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__mul__"><code>tuple.__mul__</code></h4>
+<pre><code> |  
+ |  __mul__(self, value, /)
+ |      Return self*value.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__ne__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__ne__"><code>tuple.__ne__</code></h4>
+<pre><code> |  
+ |  __ne__(self, value, /)
+ |      Return self!=value.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__repr__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__repr__"><code>tuple.__repr__</code></h4>
+<pre><code> |  
+ |  __repr__(self, /)
+ |      Return repr(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.__rmul__" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.__rmul__"><code>tuple.__rmul__</code></h4>
+<pre><code> |  
+ |  __rmul__(self, value, /)
+ |      Return value*self.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.count" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.count"><code>tuple.count</code></h4>
+<pre><code> |  
+ |  count(self, value, /)
+ |      Return number of occurrences of value.
+ |  
+ |  </code></pre>
+</section>
+<section id="tuple.index" class="level4">
+<h4 class="anchored" data-anchor-id="tuple.index"><code>tuple.index</code></h4>
+<pre><code> |  
+ |  index(self, value, start=0, stop=9223372036854775807, /)
+ |      Return first index of value.
+ |      
+ |      Raises ValueError if the value is not present.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Class methods inherited from builtins.tuple:
+ |  
+ |  </code></pre>
+</section>
+<section id="fastuple.__class_getitem__" class="level4">
+<h4 class="anchored" data-anchor-id="fastuple.__class_getitem__"><code>fastuple.__class_getitem__</code></h4>
+<pre><code> |  
+ |  __class_getitem__(...) from builtins.type
+ |      See PEP 585</code></pre>
+</section>
+</section>
+<section id="ignore_exceptions" class="level3">
+<h3 class="anchored" data-anchor-id="ignore_exceptions">ignore_exceptions</h3>
+<blockquote class="blockquote"><strong><code>class ignore_exceptions(builtins.object)</code></strong></blockquote>
+<pre><code> |  Context manager to ignore exceptions
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="ignore_exceptions.__enter__" class="level4">
+<h4 class="anchored" data-anchor-id="ignore_exceptions.__enter__"><code>ignore_exceptions.__enter__</code></h4>
+<pre><code> |  
+ |  __enter__(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="ignore_exceptions.__exit__" class="level4">
+<h4 class="anchored" data-anchor-id="ignore_exceptions.__exit__"><code>ignore_exceptions.__exit__</code></h4>
+<pre><code> |  
+ |  __exit__(self, *args)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+</section>
+</section>
+<section id="functions" class="level2">
+<h2 class="anchored" data-anchor-id="functions">Functions</h2>
+<section id="add" class="level3">
+<h3 class="anchored" data-anchor-id="add"><code>add</code></h3>
+<blockquote class="blockquote"><strong><code>add(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.add`, or returns partial if 1 arg</code></pre>
+
+<section id="add_props" class="level3">
+<h3 class="anchored" data-anchor-id="add_props"><code>add_props</code></h3>
+<blockquote class="blockquote"><strong><code>add_props(f, g=None, n=2)</code></strong></blockquote>
+<pre><code>    Create properties passing each of `range(n)` to f</code></pre>
+</section>
+<section id="anno_ret" class="level3">
+<h3 class="anchored" data-anchor-id="anno_ret"><code>anno_ret</code></h3>
+<blockquote class="blockquote"><strong><code>anno_ret(func)</code></strong></blockquote>
+<pre><code>    Get the return annotation of `func`</code></pre>
+</section>
+<section id="annotations" class="level3">
+<h3 class="anchored" data-anchor-id="annotations"><code>annotations</code></h3>
+<blockquote class="blockquote"><strong><code>annotations(o)</code></strong></blockquote>
+<pre><code>    Annotations for `o`, or `type(o)`</code></pre>
+</section>
+<section id="argnames" class="level3">
+<h3 class="anchored" data-anchor-id="argnames"><code>argnames</code></h3>
+<blockquote class="blockquote"><strong><code>argnames(f, frame=False)</code></strong></blockquote>
+<pre><code>    Names of arguments to function or frame `f`</code></pre>
+</section>
+<section id="argwhere" class="level3">
+<h3 class="anchored" data-anchor-id="argwhere"><code>argwhere</code></h3>
+<blockquote class="blockquote"><strong><code>argwhere(iterable, f, negate=False, **kwargs)</code></strong></blockquote>
+<pre><code>    Like `filter_ex`, but return indices for matching items</code></pre>
+</section>
+<section id="attrdict-1" class="level3">
+<h3 class="anchored" data-anchor-id="attrdict-1"><code>attrdict</code></h3>
+<blockquote class="blockquote"><strong><code>attrdict(o, *ks, default=None)</code></strong></blockquote>
+<pre><code>    Dict from each `k` in `ks` to `getattr(o,k)`</code></pre>
+</section>
+<section id="basic_repr" class="level3">
+<h3 class="anchored" data-anchor-id="basic_repr"><code>basic_repr</code></h3>
+<blockquote class="blockquote"><strong><code>basic_repr(flds=None)</code></strong></blockquote>
+<pre><code>    Minimal `__repr__`</code></pre>
+</section>
+<section id="camel2snake" class="level3">
+<h3 class="anchored" data-anchor-id="camel2snake"><code>camel2snake</code></h3>
+<blockquote class="blockquote"><strong><code>camel2snake(name)</code></strong></blockquote>
+<pre><code>    Convert CamelCase to snake_case</code></pre>
+</section>
+<section id="camel2words" class="level3">
+<h3 class="anchored" data-anchor-id="camel2words"><code>camel2words</code></h3>
+<blockquote class="blockquote"><strong><code>camel2words(s, space=' ')</code></strong></blockquote>
+<pre><code>    Convert CamelCase to 'spaced words'</code></pre>
+</section>
+<section id="chunked" class="level3">
+<h3 class="anchored" data-anchor-id="chunked"><code>chunked</code></h3>
+<blockquote class="blockquote"><strong><code>chunked(it, chunk_sz=None, drop_last=False, n_chunks=None)</code></strong></blockquote>
+<pre><code>    Return batches from iterator `it` of size `chunk_sz` (or return `n_chunks` total)</code></pre>
+</section>
+<section id="class2attr" class="level3">
+<h3 class="anchored" data-anchor-id="class2attr"><code>class2attr</code></h3>
+<blockquote class="blockquote"><strong><code>class2attr(self, cls_name)</code></strong></blockquote>
+<pre><code>    Return the snake-cased name of the class; strip ending `cls_name` if it exists.</code></pre>
+</section>
+<section id="compile_re" class="level3">
+<h3 class="anchored" data-anchor-id="compile_re"><code>compile_re</code></h3>
+<blockquote class="blockquote"><strong><code>compile_re(pat)</code></strong></blockquote>
+<pre><code>    Compile `pat` if it's not None</code></pre>
+</section>
+<section id="compose" class="level3">
+<h3 class="anchored" data-anchor-id="compose"><code>compose</code></h3>
+<blockquote class="blockquote"><strong><code>compose(*funcs, order=None)</code></strong></blockquote>
+<pre><code>    Create a function that composes all functions in `funcs`, passing along remaining `*args` and `**kwargs` to all</code></pre>
+</section>
+<section id="concat" class="level3">
+<h3 class="anchored" data-anchor-id="concat"><code>concat</code></h3>
+<blockquote class="blockquote"><strong><code>concat(colls) -&gt; list</code></strong></blockquote>
+<pre><code>    Concatenate all collections and items as a list</code></pre>
+</section>
+<section id="copy_func" class="level3">
+<h3 class="anchored" data-anchor-id="copy_func"><code>copy_func</code></h3>
+<blockquote class="blockquote"><strong><code>copy_func(f)</code></strong></blockquote>
+<pre><code>    Copy a non-builtin function (NB `copy.copy` does not work for this)</code></pre>
+</section>
+<section id="custom_dir" class="level3">
+<h3 class="anchored" data-anchor-id="custom_dir"><code>custom_dir</code></h3>
+<blockquote class="blockquote"><strong><code>custom_dir(c, add)</code></strong></blockquote>
+<pre><code>    Implement custom `__dir__`, adding `add` to `cls`</code></pre>
+</section>
+<section id="cycle" class="level3">
+<h3 class="anchored" data-anchor-id="cycle"><code>cycle</code></h3>
+<blockquote class="blockquote"><strong><code>cycle(o)</code></strong></blockquote>
+<pre><code>    Like `itertools.cycle` except creates list of `None`s if `o` is empty</code></pre>
+</section>
+<section id="delegate_attr" class="level3">
+<h3 class="anchored" data-anchor-id="delegate_attr"><code>delegate_attr</code></h3>
+<blockquote class="blockquote"><strong><code>delegate_attr(self, k, to)</code></strong></blockquote>
+<pre><code>    Use in `__getattr__` to delegate to attr `to` without inheriting from `GetAttr`</code></pre>
+</section>
+<section id="detuplify" class="level3">
+<h3 class="anchored" data-anchor-id="detuplify"><code>detuplify</code></h3>
+<blockquote class="blockquote"><strong><code>detuplify(x)</code></strong></blockquote>
+<pre><code>    If `x` is a tuple with one thing, extract it</code></pre>
+</section>
+<section id="eq" class="level3">
+<h3 class="anchored" data-anchor-id="eq"><code>eq</code></h3>
+<blockquote class="blockquote"><strong><code>eq(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.eq`, or returns partial if 1 arg</code></pre>
+
+<section id="eval_type" class="level3">
+<h3 class="anchored" data-anchor-id="eval_type"><code>eval_type</code></h3>
+<blockquote class="blockquote"><strong><code>eval_type(t, glb, loc)</code></strong></blockquote>
+<pre><code>    `eval` a type or collection of types, if needed, for annotations in py3.10+</code></pre>
+</section>
+<section id="even_mults" class="level3">
+<h3 class="anchored" data-anchor-id="even_mults"><code>even_mults</code></h3>
+<blockquote class="blockquote"><strong><code>even_mults(start, stop, n)</code></strong></blockquote>
+<pre><code>    Build log-stepped array from `start` to `stop` in `n` steps.</code></pre>
+</section>
+<section id="exec_import" class="level3">
+<h3 class="anchored" data-anchor-id="exec_import"><code>exec_import</code></h3>
+<blockquote class="blockquote"><strong><code>exec_import(mod, sym)</code></strong></blockquote>
+<pre><code>    Import `sym` from `mod` in a new environment</code></pre>
+</section>
+<section id="exec_local" class="level3">
+<h3 class="anchored" data-anchor-id="exec_local"><code>exec_local</code></h3>
+<blockquote class="blockquote"><strong><code>exec_local(code, var_name)</code></strong></blockquote>
+<pre><code>    Call `exec` on `code` and return the var `var_name</code></pre>
+</section>
+<section id="exec_new" class="level3">
+<h3 class="anchored" data-anchor-id="exec_new"><code>exec_new</code></h3>
+<blockquote class="blockquote"><strong><code>exec_new(code)</code></strong></blockquote>
+<pre><code>    Execute `code` in a new environment and return it</code></pre>
+</section>
+<section id="filter_dict" class="level3">
+<h3 class="anchored" data-anchor-id="filter_dict"><code>filter_dict</code></h3>
+<blockquote class="blockquote"><strong><code>filter_dict(d, func)</code></strong></blockquote>
+<pre><code>    Filter a `dict` using `func`, applied to keys and values</code></pre>
+</section>
+<section id="filter_ex" class="level3">
+<h3 class="anchored" data-anchor-id="filter_ex"><code>filter_ex</code></h3>
+<blockquote class="blockquote"><strong><code>filter_ex(iterable, f=<function noop="" at="" 0x10c634ee0="">, negate=False, gen=False, **kwargs)</function></code></strong></blockquote>
+<pre><code>    Like `filter`, but passing `kwargs` to `f`, defaulting `f` to `noop`, and adding `negate` and `gen`</code></pre>
+</section>
+<section id="filter_keys" class="level3">
+<h3 class="anchored" data-anchor-id="filter_keys"><code>filter_keys</code></h3>
+<blockquote class="blockquote"><strong><code>filter_keys(d, func)</code></strong></blockquote>
+<pre><code>    Filter a `dict` using `func`, applied to keys</code></pre>
+</section>
+<section id="filter_values" class="level3">
+<h3 class="anchored" data-anchor-id="filter_values"><code>filter_values</code></h3>
+<blockquote class="blockquote"><strong><code>filter_values(d, func)</code></strong></blockquote>
+<pre><code>    Filter a `dict` using `func`, applied to values</code></pre>
+</section>
+<section id="first" class="level3">
+<h3 class="anchored" data-anchor-id="first"><code>first</code></h3>
+<blockquote class="blockquote"><strong><code>first(x, f=None, negate=False, **kwargs)</code></strong></blockquote>
+<pre><code>    First element of `x`, optionally filtered by `f`, or None if missing</code></pre>
+</section>
+<section id="flatten" class="level3">
+<h3 class="anchored" data-anchor-id="flatten"><code>flatten</code></h3>
+<blockquote class="blockquote"><strong><code>flatten(o)</code></strong></blockquote>
+<pre><code>    Concatenate all collections and items as a generator</code></pre>
+</section>
+<section id="ge" class="level3">
+<h3 class="anchored" data-anchor-id="ge"><code>ge</code></h3>
+<blockquote class="blockquote"><strong><code>ge(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.ge`, or returns partial if 1 arg</code></pre>
+
+<section id="gen" class="level3">
+<h3 class="anchored" data-anchor-id="gen"><code>gen</code></h3>
+<blockquote class="blockquote"><strong><code>gen(func, seq, cond=<function ret_true="" at="" 0x10c66d700="">)</function></code></strong></blockquote>
+<pre><code>    Like `(func(o) for o in seq if cond(func(o)))` but handles `StopIteration`</code></pre>
+</section>
+<section id="get_annotations_ex" class="level3">
+<h3 class="anchored" data-anchor-id="get_annotations_ex"><code>get_annotations_ex</code></h3>
+<blockquote class="blockquote"><strong><code>get_annotations_ex(obj, *, globals=None, locals=None)</code></strong></blockquote>
+<pre><code>    Backport of py3.10 `get_annotations` that returns globals/locals</code></pre>
+</section>
+<section id="get_class" class="level3">
+<h3 class="anchored" data-anchor-id="get_class"><code>get_class</code></h3>
+<blockquote class="blockquote"><strong><code>get_class(nm, *fld_names, sup=None, doc=None, funcs=None, **flds)</code></strong></blockquote>
+<pre><code>    Dynamically create a class, optionally inheriting from `sup`, containing `fld_names`</code></pre>
+</section>
+<section id="getattrs" class="level3">
+<h3 class="anchored" data-anchor-id="getattrs"><code>getattrs</code></h3>
+<blockquote class="blockquote"><strong><code>getattrs(o, *attrs, default=None)</code></strong></blockquote>
+<pre><code>    List of all `attrs` in `o`</code></pre>
+</section>
+<section id="getcallable" class="level3">
+<h3 class="anchored" data-anchor-id="getcallable"><code>getcallable</code></h3>
+<blockquote class="blockquote"><strong><code>getcallable(o, attr)</code></strong></blockquote>
+<pre><code>    Calls `getattr` with a default of `noop`</code></pre>
+</section>
+<section id="groupby" class="level3">
+<h3 class="anchored" data-anchor-id="groupby"><code>groupby</code></h3>
+<blockquote class="blockquote"><strong><code>groupby(x, key, val=<function noop="" at="" 0x10c634ee0="">)</function></code></strong></blockquote>
+<pre><code>    Like `itertools.groupby` but doesn't need to be sorted, and isn't lazy, plus some extensions</code></pre>
+</section>
+<section id="gt" class="level3">
+<h3 class="anchored" data-anchor-id="gt"><code>gt</code></h3>
+<blockquote class="blockquote"><strong><code>gt(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.gt`, or returns partial if 1 arg</code></pre>
+
+<section id="hasattrs" class="level3">
+<h3 class="anchored" data-anchor-id="hasattrs"><code>hasattrs</code></h3>
+<blockquote class="blockquote"><strong><code>hasattrs(o, attrs)</code></strong></blockquote>
+<pre><code>    Test whether `o` contains all `attrs`</code></pre>
+</section>
+<section id="ifnone" class="level3">
+<h3 class="anchored" data-anchor-id="ifnone"><code>ifnone</code></h3>
+<blockquote class="blockquote"><strong><code>ifnone(a, b)</code></strong></blockquote>
+<pre><code>    `b` if `a` is None else `a`</code></pre>
+</section>
+<section id="in_" class="level3">
+<h3 class="anchored" data-anchor-id="in_"><code>in_</code></h3>
+<blockquote class="blockquote"><strong><code>in_(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.in_`, or returns partial if 1 arg</code></pre>
+
+<section id="instantiate" class="level3">
+<h3 class="anchored" data-anchor-id="instantiate"><code>instantiate</code></h3>
+<blockquote class="blockquote"><strong><code>instantiate(t)</code></strong></blockquote>
+<pre><code>    Instantiate `t` if it's a type, otherwise do nothing</code></pre>
+</section>
+<section id="is_" class="level3">
+<h3 class="anchored" data-anchor-id="is_"><code>is_</code></h3>
+<blockquote class="blockquote"><strong><code>is_(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.is_`, or returns partial if 1 arg</code></pre>
+
+<section id="is_array" class="level3">
+<h3 class="anchored" data-anchor-id="is_array"><code>is_array</code></h3>
+<blockquote class="blockquote"><strong><code>is_array(x)</code></strong></blockquote>
+<pre><code>    `True` if `x` supports `__array__` or `iloc`</code></pre>
+</section>
+<section id="is_not" class="level3">
+<h3 class="anchored" data-anchor-id="is_not"><code>is_not</code></h3>
+<blockquote class="blockquote"><strong><code>is_not(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.is_not`, or returns partial if 1 arg</code></pre>
+
+<section id="last_index" class="level3">
+<h3 class="anchored" data-anchor-id="last_index"><code>last_index</code></h3>
+<blockquote class="blockquote"><strong><code>last_index(x, o)</code></strong></blockquote>
+<pre><code>    Finds the last index of occurence of `x` in `o` (returns -1 if no occurence)</code></pre>
+</section>
+<section id="le" class="level3">
+<h3 class="anchored" data-anchor-id="le"><code>le</code></h3>
+<blockquote class="blockquote"><strong><code>le(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.le`, or returns partial if 1 arg</code></pre>
+
+<section id="listify" class="level3">
+<h3 class="anchored" data-anchor-id="listify"><code>listify</code></h3>
+<blockquote class="blockquote"><strong><code>listify(o=None, *rest, use_list=False, match=None)</code></strong></blockquote>
+<pre><code>    Convert `o` to a `list`</code></pre>
+</section>
+<section id="loop_first" class="level3">
+<h3 class="anchored" data-anchor-id="loop_first"><code>loop_first</code></h3>
+<blockquote class="blockquote"><strong><code>loop_first(values)</code></strong></blockquote>
+<pre><code>    Iterate and generate a tuple with a flag for first value.</code></pre>
+</section>
+<section id="loop_first_last" class="level3">
+<h3 class="anchored" data-anchor-id="loop_first_last"><code>loop_first_last</code></h3>
+<blockquote class="blockquote"><strong><code>loop_first_last(values)</code></strong></blockquote>
+<pre><code>    Iterate and generate a tuple with a flag for first and last value.</code></pre>
+</section>
+<section id="loop_last" class="level3">
+<h3 class="anchored" data-anchor-id="loop_last"><code>loop_last</code></h3>
+<blockquote class="blockquote"><strong><code>loop_last(values)</code></strong></blockquote>
+<pre><code>    Iterate and generate a tuple with a flag for last value.</code></pre>
+</section>
+<section id="lt" class="level3">
+<h3 class="anchored" data-anchor-id="lt"><code>lt</code></h3>
+<blockquote class="blockquote"><strong><code>lt(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.lt`, or returns partial if 1 arg</code></pre>
+
+<section id="map_ex" class="level3">
+<h3 class="anchored" data-anchor-id="map_ex"><code>map_ex</code></h3>
+<blockquote class="blockquote"><strong><code>map_ex(iterable, f, *args, gen=False, **kwargs)</code></strong></blockquote>
+<pre><code>    Like `map`, but use `bind`, and supports `str` and indexing</code></pre>
+</section>
+<section id="maps" class="level3">
+<h3 class="anchored" data-anchor-id="maps"><code>maps</code></h3>
+<blockquote class="blockquote"><strong><code>maps(*args, retain=<function noop="" at="" 0x10c634ee0="">)</function></code></strong></blockquote>
+<pre><code>    Like `map`, except funcs are composed first</code></pre>
+</section>
+<section id="mapt" class="level3">
+<h3 class="anchored" data-anchor-id="mapt"><code>mapt</code></h3>
+<blockquote class="blockquote"><strong><code>mapt(func, *iterables)</code></strong></blockquote>
+<pre><code>    Tuplified `map`</code></pre>
+</section>
+<section id="maybe_attr" class="level3">
+<h3 class="anchored" data-anchor-id="maybe_attr"><code>maybe_attr</code></h3>
+<blockquote class="blockquote"><strong><code>maybe_attr(o, attr)</code></strong></blockquote>
+<pre><code>    `getattr(o,attr,o)`</code></pre>
+</section>
+<section id="merge" class="level3">
+<h3 class="anchored" data-anchor-id="merge"><code>merge</code></h3>
+<blockquote class="blockquote"><strong><code>merge(*ds)</code></strong></blockquote>
+<pre><code>    Merge all dictionaries in `ds`</code></pre>
+</section>
+<section id="mk_class" class="level3">
+<h3 class="anchored" data-anchor-id="mk_class"><code>mk_class</code></h3>
+<blockquote class="blockquote"><strong><code>mk_class(nm, *fld_names, sup=None, doc=None, funcs=None, mod=None, **flds)</code></strong></blockquote>
+<pre><code>    Create a class using `get_class` and add to the caller's module</code></pre>
+</section>
+<section id="mul" class="level3">
+<h3 class="anchored" data-anchor-id="mul"><code>mul</code></h3>
+<blockquote class="blockquote"><strong><code>mul(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.mul`, or returns partial if 1 arg</code></pre>
+
+<section id="ne" class="level3">
+<h3 class="anchored" data-anchor-id="ne"><code>ne</code></h3>
+<blockquote class="blockquote"><strong><code>ne(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.ne`, or returns partial if 1 arg</code></pre>
+
+<section id="nested_attr" class="level3">
+<h3 class="anchored" data-anchor-id="nested_attr"><code>nested_attr</code></h3>
+<blockquote class="blockquote"><strong><code>nested_attr(o, attr, default=None)</code></strong></blockquote>
+<pre><code>    Same as `getattr`, but if `attr` includes a `.`, then looks inside nested objects</code></pre>
+</section>
+<section id="nested_callable" class="level3">
+<h3 class="anchored" data-anchor-id="nested_callable"><code>nested_callable</code></h3>
+<blockquote class="blockquote"><strong><code>nested_callable(o, attr)</code></strong></blockquote>
+<pre><code>    Same as `nested_attr` but if not found will return `noop`</code></pre>
+</section>
+<section id="nested_idx" class="level3">
+<h3 class="anchored" data-anchor-id="nested_idx"><code>nested_idx</code></h3>
+<blockquote class="blockquote"><strong><code>nested_idx(coll, *idxs)</code></strong></blockquote>
+<pre><code>    Index into nested collections, dicts, etc, with `idxs`</code></pre>
+</section>
+<section id="nested_setdefault" class="level3">
+<h3 class="anchored" data-anchor-id="nested_setdefault"><code>nested_setdefault</code></h3>
+<blockquote class="blockquote"><strong><code>nested_setdefault(o, attr, default)</code></strong></blockquote>
+<pre><code>    Same as `setdefault`, but if `attr` includes a `.`, then looks inside nested objects</code></pre>
+</section>
+<section id="not_" class="level3">
+<h3 class="anchored" data-anchor-id="not_"><code>not_</code></h3>
+<blockquote class="blockquote"><strong><code>not_(f)</code></strong></blockquote>
+<pre><code>    Create new function that negates result of `f`</code></pre>
+</section>
+<section id="num_cpus" class="level3">
+<h3 class="anchored" data-anchor-id="num_cpus"><code>num_cpus</code></h3>
+<blockquote class="blockquote"><strong><code>num_cpus()</code></strong></blockquote>
+<pre><code>    Get number of cpus</code></pre>
+</section>
+<section id="only" class="level3">
+<h3 class="anchored" data-anchor-id="only"><code>only</code></h3>
+<blockquote class="blockquote"><strong><code>only(o)</code></strong></blockquote>
+<pre><code>    Return the only item of `o`, raise if `o` doesn't have exactly one item</code></pre>
+</section>
+<section id="otherwise" class="level3">
+<h3 class="anchored" data-anchor-id="otherwise"><code>otherwise</code></h3>
+<blockquote class="blockquote"><strong><code>otherwise(x, tst, y)</code></strong></blockquote>
+<pre><code>    `y if tst(x) else x`</code></pre>
+</section>
+<section id="partialler" class="level3">
+<h3 class="anchored" data-anchor-id="partialler"><code>partialler</code></h3>
+<blockquote class="blockquote"><strong><code>partialler(f, *args, order=None, **kwargs)</code></strong></blockquote>
+<pre><code>    Like `functools.partial` but also copies over docstring</code></pre>
+</section>
+<section id="patch" class="level3">
+<h3 class="anchored" data-anchor-id="patch"><code>patch</code></h3>
+<blockquote class="blockquote"><strong><code>patch(f=None, *, as_prop=False, cls_method=False)</code></strong></blockquote>
+<pre><code>    Decorator: add `f` to the first parameter's class (based on f's type annotations)</code></pre>
+</section>
+<section id="patch_property" class="level3">
+<h3 class="anchored" data-anchor-id="patch_property"><code>patch_property</code></h3>
+<blockquote class="blockquote"><strong><code>patch_property(f)</code></strong></blockquote>
+<pre><code>    Deprecated; use `patch(as_prop=True)` instead</code></pre>
+</section>
+<section id="patch_to" class="level3">
+<h3 class="anchored" data-anchor-id="patch_to"><code>patch_to</code></h3>
+<blockquote class="blockquote"><strong><code>patch_to(cls, as_prop=False, cls_method=False)</code></strong></blockquote>
+<pre><code>    Decorator: add `f` to `cls`</code></pre>
+</section>
+<section id="properties" class="level3">
+<h3 class="anchored" data-anchor-id="properties"><code>properties</code></h3>
+<blockquote class="blockquote"><strong><code>properties(cls, *ps)</code></strong></blockquote>
+<pre><code>    Change attrs in `cls` with names in `ps` to properties</code></pre>
+</section>
+<section id="range_of" class="level3">
+<h3 class="anchored" data-anchor-id="range_of"><code>range_of</code></h3>
+<blockquote class="blockquote"><strong><code>range_of(a, b=None, step=None)</code></strong></blockquote>
+<pre><code>    All indices of collection `a`, if `a` is a collection, otherwise `range`</code></pre>
+</section>
+<section id="renumerate" class="level3">
+<h3 class="anchored" data-anchor-id="renumerate"><code>renumerate</code></h3>
+<blockquote class="blockquote"><strong><code>renumerate(iterable, start=0)</code></strong></blockquote>
+<pre><code>    Same as `enumerate`, but returns index as 2nd element instead of 1st</code></pre>
+</section>
+<section id="replicate" class="level3">
+<h3 class="anchored" data-anchor-id="replicate"><code>replicate</code></h3>
+<blockquote class="blockquote"><strong><code>replicate(item, match)</code></strong></blockquote>
+<pre><code>    Create tuple of `item` copied `len(match)` times</code></pre>
+</section>
+<section id="ret_false" class="level3">
+<h3 class="anchored" data-anchor-id="ret_false"><code>ret_false</code></h3>
+<blockquote class="blockquote"><strong><code>ret_false(*args, **kwargs)</code></strong></blockquote>
+<pre><code>    Predicate: always `False`</code></pre>
+</section>
+<section id="ret_true" class="level3">
+<h3 class="anchored" data-anchor-id="ret_true"><code>ret_true</code></h3>
+<blockquote class="blockquote"><strong><code>ret_true(*args, **kwargs)</code></strong></blockquote>
+<pre><code>    Predicate: always `True`</code></pre>
+</section>
+<section id="risinstance" class="level3">
+<h3 class="anchored" data-anchor-id="risinstance"><code>risinstance</code></h3>
+<blockquote class="blockquote"><strong><code>risinstance(types, obj=None)</code></strong></blockquote>
+<pre><code>    Curried `isinstance` but with args reversed</code></pre>
+</section>
+<section id="set_nested_idx" class="level3">
+<h3 class="anchored" data-anchor-id="set_nested_idx"><code>set_nested_idx</code></h3>
+<blockquote class="blockquote"><strong><code>set_nested_idx(coll, value, *idxs)</code></strong></blockquote>
+<pre><code>    Set value indexed like `nested_idx</code></pre>
+</section>
+<section id="setattrs" class="level3">
+<h3 class="anchored" data-anchor-id="setattrs"><code>setattrs</code></h3>
+<blockquote class="blockquote"><strong><code>setattrs(dest, flds, src)</code></strong></blockquote>
+<pre><code>    # %% ../nbs/01_basics.ipynb 180</code></pre>
+</section>
+<section id="setify" class="level3">
+<h3 class="anchored" data-anchor-id="setify"><code>setify</code></h3>
+<blockquote class="blockquote"><strong><code>setify(o)</code></strong></blockquote>
+<pre><code>    Turn any list like-object into a set.</code></pre>
+</section>
+<section id="signature_ex" class="level3">
+<h3 class="anchored" data-anchor-id="signature_ex"><code>signature_ex</code></h3>
+<blockquote class="blockquote"><strong><code>signature_ex(obj, eval_str: bool = False)</code></strong></blockquote>
+<pre><code>    Backport of `inspect.signature(..., eval_str=True` to &lt;py310</code></pre>
+</section>
+<section id="snake2camel" class="level3">
+<h3 class="anchored" data-anchor-id="snake2camel"><code>snake2camel</code></h3>
+<blockquote class="blockquote"><strong><code>snake2camel(s)</code></strong></blockquote>
+<pre><code>    Convert snake_case to CamelCase</code></pre>
+</section>
+<section id="sorted_ex" class="level3">
+<h3 class="anchored" data-anchor-id="sorted_ex"><code>sorted_ex</code></h3>
+<blockquote class="blockquote"><strong><code>sorted_ex(iterable, key=None, reverse=False)</code></strong></blockquote>
+<pre><code>    Like `sorted`, but if key is str use `attrgetter`; if int use `itemgetter`</code></pre>
+</section>
+<section id="stop" class="level3">
+<h3 class="anchored" data-anchor-id="stop"><code>stop</code></h3>
+<blockquote class="blockquote"><strong><code>stop(e=<class 'stopiteration'="">)</class></code></strong></blockquote>
+<pre><code>    Raises exception `e` (by default `StopException`)</code></pre>
+</section>
+<section id="store_attr" class="level3">
+<h3 class="anchored" data-anchor-id="store_attr"><code>store_attr</code></h3>
+<blockquote class="blockquote"><strong><code>store_attr(names=None, self=None, but='', cast=False, store_args=None, **attrs)</code></strong></blockquote>
+<pre><code>    Store params named in comma-separated `names` from calling context into attrs in `self`</code></pre>
+</section>
+<section id="str2bool" class="level3">
+<h3 class="anchored" data-anchor-id="str2bool"><code>str2bool</code></h3>
+<blockquote class="blockquote"><strong><code>str2bool(s)</code></strong></blockquote>
+<pre><code>    Case-insensitive convert string `s` too a bool (`y`,`yes`,`t`,`true`,`on`,`1`-&gt;`True`)</code></pre>
+</section>
+<section id="str_enum" class="level3">
+<h3 class="anchored" data-anchor-id="str_enum"><code>str_enum</code></h3>
+<blockquote class="blockquote"><strong><code>str_enum(name, *vals)</code></strong></blockquote>
+<pre><code>    Simplified creation of `StrEnum` types</code></pre>
+</section>
+<section id="strcat" class="level3">
+<h3 class="anchored" data-anchor-id="strcat"><code>strcat</code></h3>
+<blockquote class="blockquote"><strong><code>strcat(its, sep: str = '') -&gt; str</code></strong></blockquote>
+<pre><code>    Concatenate stringified items `its`</code></pre>
+</section>
+<section id="sub" class="level3">
+<h3 class="anchored" data-anchor-id="sub"><code>sub</code></h3>
+<blockquote class="blockquote"><strong><code>sub(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.sub`, or returns partial if 1 arg</code></pre>
+
+<section id="true" class="level3">
+<h3 class="anchored" data-anchor-id="true"><code>true</code></h3>
+<blockquote class="blockquote"><strong><code>true(x)</code></strong></blockquote>
+<pre><code>    Test whether `x` is truthy; collections with &gt;0 elements are considered `True`</code></pre>
+</section>
+<section id="truediv" class="level3">
+<h3 class="anchored" data-anchor-id="truediv"><code>truediv</code></h3>
+<blockquote class="blockquote"><strong><code>truediv(a, b=<object object="" at="" 0x10bf0fdc0="">)
+<pre><code>    Same as `operator.truediv`, or returns partial if 1 arg</code></pre>
+
+<section id="try_attrs" class="level3">
+<h3 class="anchored" data-anchor-id="try_attrs"><code>try_attrs</code></h3>
+<blockquote class="blockquote"><strong><code>try_attrs(obj, *attrs)</code></strong></blockquote>
+<pre><code>    Return first attr that exists in `obj`</code></pre>
+</section>
+<section id="tuplify" class="level3">
+<h3 class="anchored" data-anchor-id="tuplify"><code>tuplify</code></h3>
+<blockquote class="blockquote"><strong><code>tuplify(o, use_list=False, match=None)</code></strong></blockquote>
+<pre><code>    Make `o` a tuple</code></pre>
+</section>
+<section id="type_hints" class="level3">
+<h3 class="anchored" data-anchor-id="type_hints"><code>type_hints</code></h3>
+<blockquote class="blockquote"><strong><code>type_hints(f)</code></strong></blockquote>
+<pre><code>    Like `typing.get_type_hints` but returns `{}` if not allowed type</code></pre>
+</section>
+<section id="typed" class="level3">
+<h3 class="anchored" data-anchor-id="typed"><code>typed</code></h3>
+<blockquote class="blockquote"><strong><code>typed(f)</code></strong></blockquote>
+<pre><code>    Decorator to check param and return types at runtime</code></pre>
+</section>
+<section id="union2tuple" class="level3">
+<h3 class="anchored" data-anchor-id="union2tuple"><code>union2tuple</code></h3>
+<blockquote class="blockquote"><strong><code>union2tuple(t)</code></strong></blockquote>
+<pre><code>    # %% ../nbs/01_basics.ipynb 124</code></pre>
+</section>
+<section id="uniqueify" class="level3">
+<h3 class="anchored" data-anchor-id="uniqueify"><code>uniqueify</code></h3>
+<blockquote class="blockquote"><strong><code>uniqueify(x, sort=False, bidir=False, start=None)</code></strong></blockquote>
+<pre><code>    Unique elements in `x`, optional `sort`, optional return reverse correspondence, optional prepend with elements.</code></pre>
+</section>
+<section id="using_attr" class="level3">
+<h3 class="anchored" data-anchor-id="using_attr"><code>using_attr</code></h3>
+<blockquote class="blockquote"><strong><code>using_attr(f, attr)</code></strong></blockquote>
+<pre><code>    Construct a function which applies `f` to the argument's attribute `attr`</code></pre>
+</section>
+<section id="val2idx" class="level3">
+<h3 class="anchored" data-anchor-id="val2idx"><code>val2idx</code></h3>
+<blockquote class="blockquote"><strong><code>val2idx(x)</code></strong></blockquote>
+<pre><code>    Dict from value to index</code></pre>
+</section>
+<section id="with_cast" class="level3">
+<h3 class="anchored" data-anchor-id="with_cast"><code>with_cast</code></h3>
+<blockquote class="blockquote"><strong><code>with_cast(f)</code></strong></blockquote>
+<pre><code>    Decorator which uses any parameter annotations as preprocessing functions</code></pre>
+</section>
+<section id="wrap_class" class="level3">
+<h3 class="anchored" data-anchor-id="wrap_class"><code>wrap_class</code></h3>
+<blockquote class="blockquote"><strong><code>wrap_class(nm, *fld_names, sup=None, doc=None, funcs=None, **flds)</code></strong></blockquote>
+<pre><code>    Decorator: makes function a method of a new class `nm` passing parameters to `mk_class`</code></pre>
+</section>
+<section id="zip_cycle" class="level3">
+<h3 class="anchored" data-anchor-id="zip_cycle"><code>zip_cycle</code></h3>
+<blockquote class="blockquote"><strong><code>zip_cycle(x, *args)</code></strong></blockquote>
+<pre><code>    Like `itertools.zip_longest` but `cycle`s through elements of all but first argument</code></pre>
+
+
+</section>
+
+
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+ <!-- /content -->
+
+
+
+</object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></object></code></strong></blockquote></section></section></main></div></body></html>

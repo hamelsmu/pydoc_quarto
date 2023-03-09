@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="module requests.models in requests">
+
+<title>pydoc_quarto - models</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="pydoc_quarto - models">
+<meta property="og:description" content="module requests.models in requests">
+<meta property="og:site-name" content="pydoc_quarto">
+<meta name="twitter:title" content="pydoc_quarto - models">
+<meta name="twitter:description" content="module requests.models in requests">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">pydoc_quarto</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/hamelsmu/pydoc_quarto"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">models</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">pydoc-quarto</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../core.html" class="sidebar-item-text sidebar-link">core</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">reference examples</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Fastcore</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/all.html" class="sidebar-item-text sidebar-link">all</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/basics.html" class="sidebar-item-text sidebar-link">basics</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/dispatch.html" class="sidebar-item-text sidebar-link">dispatch</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/docments.html" class="sidebar-item-text sidebar-link">docments</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/docscrape.html" class="sidebar-item-text sidebar-link">docscrape</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/foundation.html" class="sidebar-item-text sidebar-link">foundation</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/imports.html" class="sidebar-item-text sidebar-link">imports</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/meta.html" class="sidebar-item-text sidebar-link">meta</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/nb_imports.html" class="sidebar-item-text sidebar-link">nb_imports</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/net.html" class="sidebar-item-text sidebar-link">net</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/parallel.html" class="sidebar-item-text sidebar-link">parallel</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/script.html" class="sidebar-item-text sidebar-link">script</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/shutil.html" class="sidebar-item-text sidebar-link">shutil</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/style.html" class="sidebar-item-text sidebar-link">style</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/test.html" class="sidebar-item-text sidebar-link">test</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/transform.html" class="sidebar-item-text sidebar-link">transform</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/utils.html" class="sidebar-item-text sidebar-link">utils</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/xdg.html" class="sidebar-item-text sidebar-link">xdg</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/fastcore/xtras.html" class="sidebar-item-text sidebar-link">xtras</a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Requests</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/adapters.html" class="sidebar-item-text sidebar-link">adapters</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/api.html" class="sidebar-item-text sidebar-link">api</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/auth.html" class="sidebar-item-text sidebar-link">auth</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/certs.html" class="sidebar-item-text sidebar-link">certs</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/compat.html" class="sidebar-item-text sidebar-link">compat</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/cookies.html" class="sidebar-item-text sidebar-link">cookies</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/exceptions.html" class="sidebar-item-text sidebar-link">exceptions</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/help.html" class="sidebar-item-text sidebar-link">help</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/hooks.html" class="sidebar-item-text sidebar-link">hooks</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/models.html" class="sidebar-item-text sidebar-link active">models</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/packages.html" class="sidebar-item-text sidebar-link">packages</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/sessions.html" class="sidebar-item-text sidebar-link">sessions</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/status_codes.html" class="sidebar-item-text sidebar-link">status_codes</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/structures.html" class="sidebar-item-text sidebar-link">structures</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../examples/requests/utils.html" class="sidebar-item-text sidebar-link">utils</a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  <li><a href="#classes" id="toc-classes" class="nav-link" data-scroll-target="#classes">Classes</a>
+  <ul class="collapse">
+  <li><a href="#preparedrequest" id="toc-preparedrequest" class="nav-link" data-scroll-target="#preparedrequest">PreparedRequest</a></li>
+  <li><a href="#request" id="toc-request" class="nav-link" data-scroll-target="#request">Request</a></li>
+  <li><a href="#requestencodingmixin" id="toc-requestencodingmixin" class="nav-link" data-scroll-target="#requestencodingmixin">RequestEncodingMixin</a></li>
+  <li><a href="#requesthooksmixin" id="toc-requesthooksmixin" class="nav-link" data-scroll-target="#requesthooksmixin">RequestHooksMixin</a></li>
+  <li><a href="#response" id="toc-response" class="nav-link" data-scroll-target="#response">Response</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/hamelsmu/pydoc_quarto/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">models</h1>
+</div>
+
+<div>
+  <div class="description">
+    module requests.models in requests
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<pre><code>requests.models
+~~~~~~~~~~~~~~~
+
+This module contains the primary objects that power Requests.</code></pre>
+</section>
+<section id="classes" class="level2">
+<h2 class="anchored" data-anchor-id="classes">Classes</h2>
+<pre><code>builtins.object
+    RequestEncodingMixin
+        PreparedRequest(RequestEncodingMixin, RequestHooksMixin)
+    RequestHooksMixin
+        Request
+    Response</code></pre>
+<section id="preparedrequest" class="level3">
+<h3 class="anchored" data-anchor-id="preparedrequest">PreparedRequest</h3>
+<blockquote class="blockquote"><strong><code>class PreparedRequest(RequestEncodingMixin, RequestHooksMixin)</code></strong></blockquote>
+<pre><code> |  The fully mutable :class:`PreparedRequest &lt;PreparedRequest&gt;` object,
+ |  containing the exact bytes that will be sent to the server.
+ |  
+ |  Instances are generated from a :class:`Request &lt;Request&gt;` object, and
+ |  should not be instantiated manually; doing so may produce undesirable
+ |  effects.
+ |  
+ |  Usage::
+ |  
+ |    &gt;&gt;&gt; import requests
+ |    &gt;&gt;&gt; req = requests.Request('GET', 'https://httpbin.org/get')
+ |    &gt;&gt;&gt; r = req.prepare()
+ |    &gt;&gt;&gt; r
+ |    &lt;PreparedRequest [GET]&gt;
+ |  
+ |    &gt;&gt;&gt; s = requests.Session()
+ |    &gt;&gt;&gt; s.send(r)
+ |    &lt;Response [200]&gt;
+ |  
+ |  Method resolution order:
+ |      PreparedRequest
+ |      RequestEncodingMixin
+ |      RequestHooksMixin
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="preparedrequest.__init__" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.__init__"><code>PreparedRequest.__init__</code></h4>
+<pre><code> |  
+ |  __init__(self)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.__repr__" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.__repr__"><code>PreparedRequest.__repr__</code></h4>
+<pre><code> |  
+ |  __repr__(self)
+ |      Return repr(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.copy" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.copy"><code>PreparedRequest.copy</code></h4>
+<pre><code> |  
+ |  copy(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.prepare" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.prepare"><code>PreparedRequest.prepare</code></h4>
+<pre><code> |  
+ |  prepare(self, method=None, url=None, headers=None, files=None, data=None, params=None, auth=None, cookies=None, hooks=None, json=None)
+ |      Prepares the entire request with the given parameters.
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.prepare_auth" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.prepare_auth"><code>PreparedRequest.prepare_auth</code></h4>
+<pre><code> |  
+ |  prepare_auth(self, auth, url='')
+ |      Prepares the given HTTP auth data.
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.prepare_body" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.prepare_body"><code>PreparedRequest.prepare_body</code></h4>
+<pre><code> |  
+ |  prepare_body(self, data, files, json=None)
+ |      Prepares the given HTTP body data.
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.prepare_content_length" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.prepare_content_length"><code>PreparedRequest.prepare_content_length</code></h4>
+<pre><code> |  
+ |  prepare_content_length(self, body)
+ |      Prepare Content-Length header based on request method and body
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.prepare_cookies" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.prepare_cookies"><code>PreparedRequest.prepare_cookies</code></h4>
+<pre><code> |  
+ |  prepare_cookies(self, cookies)
+ |      Prepares the given HTTP cookie data.
+ |      
+ |      This function eventually generates a ``Cookie`` header from the
+ |      given cookies using cookielib. Due to cookielib's design, the header
+ |      will not be regenerated if it already exists, meaning this function
+ |      can only be called once for the life of the
+ |      :class:`PreparedRequest &lt;PreparedRequest&gt;` object. Any subsequent calls
+ |      to ``prepare_cookies`` will have no actual effect, unless the "Cookie"
+ |      header is removed beforehand.
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.prepare_headers" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.prepare_headers"><code>PreparedRequest.prepare_headers</code></h4>
+<pre><code> |  
+ |  prepare_headers(self, headers)
+ |      Prepares the given HTTP headers.
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.prepare_hooks" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.prepare_hooks"><code>PreparedRequest.prepare_hooks</code></h4>
+<pre><code> |  
+ |  prepare_hooks(self, hooks)
+ |      Prepares the given hooks.
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.prepare_method" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.prepare_method"><code>PreparedRequest.prepare_method</code></h4>
+<pre><code> |  
+ |  prepare_method(self, method)
+ |      Prepares the given HTTP method.
+ |  
+ |  </code></pre>
+</section>
+<section id="preparedrequest.prepare_url" class="level4">
+<h4 class="anchored" data-anchor-id="preparedrequest.prepare_url"><code>PreparedRequest.prepare_url</code></h4>
+<pre><code> |  
+ |  prepare_url(self, url, params)
+ |      Prepares the given HTTP URL.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Readonly properties inherited from RequestEncodingMixin:
+ |  
+ |  path_url
+ |      Build the path URL to use.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from RequestEncodingMixin:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from RequestHooksMixin:
+ |  
+ |  </code></pre>
+</section>
+<section id="requesthooksmixin.deregister_hook" class="level4">
+<h4 class="anchored" data-anchor-id="requesthooksmixin.deregister_hook"><code>RequestHooksMixin.deregister_hook</code></h4>
+<pre><code> |  
+ |  deregister_hook(self, event, hook)
+ |      Deregister a previously registered hook.
+ |      Returns True if the hook existed, False if not.
+ |  
+ |  </code></pre>
+</section>
+<section id="requesthooksmixin.register_hook" class="level4">
+<h4 class="anchored" data-anchor-id="requesthooksmixin.register_hook"><code>RequestHooksMixin.register_hook</code></h4>
+<pre><code> |  
+ |  register_hook(self, event, hook)
+ |      Properly register a hook.</code></pre>
+</section>
+</section>
+<section id="request" class="level3">
+<h3 class="anchored" data-anchor-id="request">Request</h3>
+<blockquote class="blockquote"><strong><code>class Request(RequestHooksMixin)</code></strong></blockquote>
+<pre><code> |  Request(method=None, url=None, headers=None, files=None, data=None, params=None, auth=None, cookies=None, hooks=None, json=None)
+ |  
+ |  A user-created :class:`Request &lt;Request&gt;` object.
+ |  
+ |  Used to prepare a :class:`PreparedRequest &lt;PreparedRequest&gt;`, which is sent to the server.
+ |  
+ |  :param method: HTTP method to use.
+ |  :param url: URL to send.
+ |  :param headers: dictionary of headers to send.
+ |  :param files: dictionary of {filename: fileobject} files to multipart upload.
+ |  :param data: the body to attach to the request. If a dictionary or
+ |      list of tuples ``[(key, value)]`` is provided, form-encoding will
+ |      take place.
+ |  :param json: json for the body to attach to the request (if files or data is not specified).
+ |  :param params: URL parameters to append to the URL. If a dictionary or
+ |      list of tuples ``[(key, value)]`` is provided, form-encoding will
+ |      take place.
+ |  :param auth: Auth handler or (user, pass) tuple.
+ |  :param cookies: dictionary or CookieJar of cookies to attach to this request.
+ |  :param hooks: dictionary of callback hooks, for internal usage.
+ |  
+ |  Usage::
+ |  
+ |    &gt;&gt;&gt; import requests
+ |    &gt;&gt;&gt; req = requests.Request('GET', 'https://httpbin.org/get')
+ |    &gt;&gt;&gt; req.prepare()
+ |    &lt;PreparedRequest [GET]&gt;
+ |  
+ |  Method resolution order:
+ |      Request
+ |      RequestHooksMixin
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="request.__init__" class="level4">
+<h4 class="anchored" data-anchor-id="request.__init__"><code>Request.__init__</code></h4>
+<pre><code> |  
+ |  __init__(self, method=None, url=None, headers=None, files=None, data=None, params=None, auth=None, cookies=None, hooks=None, json=None)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  </code></pre>
+</section>
+<section id="request.__repr__" class="level4">
+<h4 class="anchored" data-anchor-id="request.__repr__"><code>Request.__repr__</code></h4>
+<pre><code> |  
+ |  __repr__(self)
+ |      Return repr(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="request.prepare" class="level4">
+<h4 class="anchored" data-anchor-id="request.prepare"><code>Request.prepare</code></h4>
+<pre><code> |  
+ |  prepare(self)
+ |      Constructs a :class:`PreparedRequest &lt;PreparedRequest&gt;` for transmission and returns it.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from RequestHooksMixin:
+ |  
+ |  </code></pre>
+</section>
+<section id="requesthooksmixin.deregister_hook-1" class="level4">
+<h4 class="anchored" data-anchor-id="requesthooksmixin.deregister_hook-1"><code>RequestHooksMixin.deregister_hook</code></h4>
+<pre><code> |  
+ |  deregister_hook(self, event, hook)
+ |      Deregister a previously registered hook.
+ |      Returns True if the hook existed, False if not.
+ |  
+ |  </code></pre>
+</section>
+<section id="requesthooksmixin.register_hook-1" class="level4">
+<h4 class="anchored" data-anchor-id="requesthooksmixin.register_hook-1"><code>RequestHooksMixin.register_hook</code></h4>
+<pre><code> |  
+ |  register_hook(self, event, hook)
+ |      Properly register a hook.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from RequestHooksMixin:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+</section>
+<section id="requestencodingmixin" class="level3">
+<h3 class="anchored" data-anchor-id="requestencodingmixin">RequestEncodingMixin</h3>
+<blockquote class="blockquote"><strong><code>class RequestEncodingMixin(builtins.object)</code></strong></blockquote>
+<pre><code> |  Readonly properties defined here:
+ |  
+ |  path_url
+ |      Build the path URL to use.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+<section id="requesthooksmixin" class="level3">
+<h3 class="anchored" data-anchor-id="requesthooksmixin">RequestHooksMixin</h3>
+<blockquote class="blockquote"><strong><code>class RequestHooksMixin(builtins.object)</code></strong></blockquote>
+<pre><code> |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="requesthooksmixin.deregister_hook-2" class="level4">
+<h4 class="anchored" data-anchor-id="requesthooksmixin.deregister_hook-2"><code>RequestHooksMixin.deregister_hook</code></h4>
+<pre><code> |  
+ |  deregister_hook(self, event, hook)
+ |      Deregister a previously registered hook.
+ |      Returns True if the hook existed, False if not.
+ |  
+ |  </code></pre>
+</section>
+<section id="requesthooksmixin.register_hook-2" class="level4">
+<h4 class="anchored" data-anchor-id="requesthooksmixin.register_hook-2"><code>RequestHooksMixin.register_hook</code></h4>
+<pre><code> |  
+ |  register_hook(self, event, hook)
+ |      Properly register a hook.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)</code></pre>
+</section>
+</section>
+<section id="response" class="level3">
+<h3 class="anchored" data-anchor-id="response">Response</h3>
+<blockquote class="blockquote"><strong><code>class Response(builtins.object)</code></strong></blockquote>
+<pre><code> |  The :class:`Response &lt;Response&gt;` object, which contains a
+ |  server's response to an HTTP request.
+ |  
+ |  Methods defined here:
+ |  
+ |  </code></pre>
+<section id="response.__bool__" class="level4">
+<h4 class="anchored" data-anchor-id="response.__bool__"><code>Response.__bool__</code></h4>
+<pre><code> |  
+ |  __bool__(self)
+ |      Returns True if :attr:`status_code` is less than 400.
+ |      
+ |      This attribute checks if the status code of the response is between
+ |      400 and 600 to see if there was a client error or a server error. If
+ |      the status code, is between 200 and 400, this will return True. This
+ |      is **not** a check to see if the response code is ``200 OK``.
+ |  
+ |  </code></pre>
+</section>
+<section id="response.__enter__" class="level4">
+<h4 class="anchored" data-anchor-id="response.__enter__"><code>Response.__enter__</code></h4>
+<pre><code> |  
+ |  __enter__(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="response.__exit__" class="level4">
+<h4 class="anchored" data-anchor-id="response.__exit__"><code>Response.__exit__</code></h4>
+<pre><code> |  
+ |  __exit__(self, *args)
+ |  
+ |  </code></pre>
+</section>
+<section id="response.__getstate__" class="level4">
+<h4 class="anchored" data-anchor-id="response.__getstate__"><code>Response.__getstate__</code></h4>
+<pre><code> |  
+ |  __getstate__(self)
+ |  
+ |  </code></pre>
+</section>
+<section id="response.__init__" class="level4">
+<h4 class="anchored" data-anchor-id="response.__init__"><code>Response.__init__</code></h4>
+<pre><code> |  
+ |  __init__(self)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  </code></pre>
+</section>
+<section id="response.__iter__" class="level4">
+<h4 class="anchored" data-anchor-id="response.__iter__"><code>Response.__iter__</code></h4>
+<pre><code> |  
+ |  __iter__(self)
+ |      Allows you to use a response as an iterator.
+ |  
+ |  </code></pre>
+</section>
+<section id="response.__nonzero__" class="level4">
+<h4 class="anchored" data-anchor-id="response.__nonzero__"><code>Response.__nonzero__</code></h4>
+<pre><code> |  
+ |  __nonzero__(self)
+ |      Returns True if :attr:`status_code` is less than 400.
+ |      
+ |      This attribute checks if the status code of the response is between
+ |      400 and 600 to see if there was a client error or a server error. If
+ |      the status code, is between 200 and 400, this will return True. This
+ |      is **not** a check to see if the response code is ``200 OK``.
+ |  
+ |  </code></pre>
+</section>
+<section id="response.__repr__" class="level4">
+<h4 class="anchored" data-anchor-id="response.__repr__"><code>Response.__repr__</code></h4>
+<pre><code> |  
+ |  __repr__(self)
+ |      Return repr(self).
+ |  
+ |  </code></pre>
+</section>
+<section id="response.__setstate__" class="level4">
+<h4 class="anchored" data-anchor-id="response.__setstate__"><code>Response.__setstate__</code></h4>
+<pre><code> |  
+ |  __setstate__(self, state)
+ |  
+ |  </code></pre>
+</section>
+<section id="response.close" class="level4">
+<h4 class="anchored" data-anchor-id="response.close"><code>Response.close</code></h4>
+<pre><code> |  
+ |  close(self)
+ |      Releases the connection back to the pool. Once this method has been
+ |      called the underlying ``raw`` object must not be accessed again.
+ |      
+ |      *Note: Should not normally need to be called explicitly.*
+ |  
+ |  </code></pre>
+</section>
+<section id="response.iter_content" class="level4">
+<h4 class="anchored" data-anchor-id="response.iter_content"><code>Response.iter_content</code></h4>
+<pre><code> |  
+ |  iter_content(self, chunk_size=1, decode_unicode=False)
+ |      Iterates over the response data.  When stream=True is set on the
+ |      request, this avoids reading the content at once into memory for
+ |      large responses.  The chunk size is the number of bytes it should
+ |      read into memory.  This is not necessarily the length of each item
+ |      returned as decoding can take place.
+ |      
+ |      chunk_size must be of type int or None. A value of None will
+ |      function differently depending on the value of `stream`.
+ |      stream=True will read data as it arrives in whatever size the
+ |      chunks are received. If stream=False, data is returned as
+ |      a single chunk.
+ |      
+ |      If decode_unicode is True, content will be decoded using the best
+ |      available encoding based on the response.
+ |  
+ |  </code></pre>
+</section>
+<section id="response.iter_lines" class="level4">
+<h4 class="anchored" data-anchor-id="response.iter_lines"><code>Response.iter_lines</code></h4>
+<pre><code> |  
+ |  iter_lines(self, chunk_size=512, decode_unicode=False, delimiter=None)
+ |      Iterates over the response data, one line at a time.  When
+ |      stream=True is set on the request, this avoids reading the
+ |      content at once into memory for large responses.
+ |      
+ |      .. note:: This method is not reentrant safe.
+ |  
+ |  </code></pre>
+</section>
+<section id="response.json" class="level4">
+<h4 class="anchored" data-anchor-id="response.json"><code>Response.json</code></h4>
+<pre><code> |  
+ |  json(self, **kwargs)
+ |      Returns the json-encoded content of a response, if any.
+ |      
+ |      :param \*\*kwargs: Optional arguments that ``json.loads`` takes.
+ |      :raises requests.exceptions.JSONDecodeError: If the response body does not
+ |          contain valid json.
+ |  
+ |  </code></pre>
+</section>
+<section id="response.raise_for_status" class="level4">
+<h4 class="anchored" data-anchor-id="response.raise_for_status"><code>Response.raise_for_status</code></h4>
+<pre><code> |  
+ |  raise_for_status(self)
+ |      Raises :class:`HTTPError`, if one occurred.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Readonly properties defined here:
+ |  
+ |  apparent_encoding
+ |      The apparent encoding, provided by the charset_normalizer or chardet libraries.
+ |  
+ |  content
+ |      Content of the response, in bytes.
+ |  
+ |  is_permanent_redirect
+ |      True if this Response one of the permanent versions of redirect.
+ |  
+ |  is_redirect
+ |      True if this Response is a well-formed HTTP redirect that could have
+ |      been processed automatically (by :meth:`Session.resolve_redirects`).
+ |  
+ |  links
+ |      Returns the parsed header links of the response, if any.
+ |  
+ |  next
+ |      Returns a PreparedRequest for the next request in a redirect chain, if there is one.
+ |  
+ |  ok
+ |      Returns True if :attr:`status_code` is less than 400, False if not.
+ |      
+ |      This attribute checks if the status code of the response is between
+ |      400 and 600 to see if there was a client error or a server error. If
+ |      the status code is between 200 and 400, this will return True. This
+ |      is **not** a check to see if the response code is ``200 OK``.
+ |  
+ |  text
+ |      Content of the response, in unicode.
+ |      
+ |      If Response.encoding is None, encoding will be guessed using
+ |      ``charset_normalizer`` or ``chardet``.
+ |      
+ |      The encoding of the response content is determined based solely on HTTP
+ |      headers, following RFC 2616 to the letter. If you can take advantage of
+ |      non-HTTP knowledge to make a better guess at the encoding, you should
+ |      set ``r.encoding`` appropriately before accessing this property.
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |  
+ |  __attrs__ = ['_content', 'status_code', 'headers', 'url', 'history', '...</code></pre>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
