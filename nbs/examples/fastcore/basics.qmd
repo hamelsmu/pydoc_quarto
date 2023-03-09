@@ -2986,7 +2986,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>add(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>add(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3226,7 +3226,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>eq(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>eq(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3310,7 +3310,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>filter_ex(iterable, f=<function noop at 0x10bb5bee0>, negate=False, gen=False, **kwargs)</code></strong></blockquote>
+<blockquote><strong><code>filter_ex(iterable, f=<function noop at 0x10c634ee0>, negate=False, gen=False, **kwargs)</code></strong></blockquote>
 ```
 
 
@@ -3370,7 +3370,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>ge(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>ge(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3382,7 +3382,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>gen(func, seq, cond=<function ret_true at 0x10bb95700>)</code></strong></blockquote>
+<blockquote><strong><code>gen(func, seq, cond=<function ret_true at 0x10c66d700>)</code></strong></blockquote>
 ```
 
 
@@ -3442,7 +3442,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>groupby(x, key, val=<function noop at 0x10bb5bee0>)</code></strong></blockquote>
+<blockquote><strong><code>groupby(x, key, val=<function noop at 0x10c634ee0>)</code></strong></blockquote>
 ```
 
 
@@ -3454,7 +3454,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>gt(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>gt(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3490,7 +3490,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>in_(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>in_(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3514,7 +3514,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>is_(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>is_(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3538,7 +3538,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>is_not(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>is_not(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3562,7 +3562,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>le(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>le(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3622,7 +3622,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>lt(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>lt(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3646,7 +3646,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>maps(*args, retain=<function noop at 0x10bb5bee0>)</code></strong></blockquote>
+<blockquote><strong><code>maps(*args, retain=<function noop at 0x10c634ee0>)</code></strong></blockquote>
 ```
 
 
@@ -3706,7 +3706,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>mul(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>mul(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -3718,7 +3718,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>ne(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>ne(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -4090,7 +4090,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>sub(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>sub(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 
@@ -4114,7 +4114,7 @@ description: "module fastcore.basics in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>truediv(a, b=<object object at 0x10b438dc0>)</code></strong></blockquote>
+<blockquote><strong><code>truediv(a, b=<object object at 0x10bf0fdc0>)</code></strong></blockquote>
 ```
 
 

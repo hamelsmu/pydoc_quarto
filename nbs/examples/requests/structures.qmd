@@ -150,7 +150,7 @@ description: "module requests.structures in requests"
      |  
 #### `MutableMapping.pop`
      |  
-     |  pop(self, key, default=<object object at 0x10b6de160>)
+     |  pop(self, key, default=<object object at 0x10df02160>)
      |      D.pop(k[,d]) -> v, remove specified key and return the corresponding value.
      |      If key is not found, d is returned if given, otherwise KeyError is raised.
      |  

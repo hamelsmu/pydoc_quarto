@@ -103,7 +103,7 @@ description: "module fastcore.shutil in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>copytree(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x10b921430>, ignore_dangling_symlinks=False, dirs_exist_ok=False)</code></strong></blockquote>
+<blockquote><strong><code>copytree(src, dst, symlinks=False, ignore=None, copy_function=<function copy2 at 0x10c3f8430>, ignore_dangling_symlinks=False, dirs_exist_ok=False)</code></strong></blockquote>
 ```
 
 
@@ -163,7 +163,7 @@ description: "module fastcore.shutil in fastcore"
 
 
 ```{=html}
-<blockquote><strong><code>move(src, dst, copy_function=<function copy2 at 0x10b921430>)</code></strong></blockquote>
+<blockquote><strong><code>move(src, dst, copy_function=<function copy2 at 0x10c3f8430>)</code></strong></blockquote>
 ```
 
 

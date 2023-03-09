@@ -19,4 +19,5 @@ d = { 'settings': { 'branch': 'main',
                                    'pydoc_quarto.core.gen_md': ('core.html#gen_md', 'pydoc_quarto/core.py'),
                                    'pydoc_quarto.core.get_modules': ('core.html#get_modules', 'pydoc_quarto/core.py'),
                                    'pydoc_quarto.core.gethelp': ('core.html#gethelp', 'pydoc_quarto/core.py'),
-                                   'pydoc_quarto.core.render_quarto_md': ('core.html#render_quarto_md', 'pydoc_quarto/core.py')}}}
+                                   'pydoc_quarto.core.render_quarto_md': ('core.html#render_quarto_md', 'pydoc_quarto/core.py'),
+                                   'pydoc_quarto.core.write_md': ('core.html#write_md', 'pydoc_quarto/core.py')}}}
